@@ -1,0 +1,35 @@
+﻿l_braz_por:
+
+# Politics related JE
+
+je_imperialism:0 "Rumo ao Imperialismo"
+je_imperialism_reason:0 "Nossa grande Nação precisa de mais do que seu território pode oferecer. As colônias nos darão o que nos falta, ao mesmo tempo em que trarão a civilização para culturas estrangeiras, um dever prestigioso."
+
+je_cosmopolitan:0 "Acabar com a discriminação"
+je_cosmopolitan_reason:0 "É desumano discriminar pessoas com base em sua origem ou nacionalidade. O verdadeiro progresso tende a uma sociedade cosmopolita."
+
+je_full_democracy:0 "Sobre Democracia"
+je_full_democracy_reason:0 "Uma verdadeira democracia deveria permitir que todos votassem, não apenas uma minoria."
+
+je_reaction_PB:0 "Reação ao Socialismo"
+je_reaction_PB_reason:0 "Com a ascensão das ideias socialistas, cada vez mais pessoas começam a se sentir ameaçadas."
+
+je_abolish_serfdom:0 "Abolição da Servidão"
+je_abolish_serfdom_reason:0 "A servidão foi abolida recentemente, mas ainda existem pessoas influentes que desejam restabelecê-la. Será necessário algum tempo antes que desistam definitivamente."
+je_abolish_serfdom_goal:0 "Depois de 5 anos com a abolição da servidão, os proponentes da servidão admitirão o quão obsoleta ela era. As tentativas de restabelecê-la ou as guerras civis impedirão a progressão."
+
+je_abolish_theocracy:0 "O Fim da Teocracia"
+je_abolish_theocracy_reason:0 "Levará tempo para a Igreja esquecer a sensação de Poder Clerical."
+je_abolish_theocracy_goal:0 "Após 10 anos ininterruptos, a Igreja abandonará seu apoio ao Governo Teocrático."
+
+je_theocracy_mode:0 "Ascensão da Teocracia"
+je_theocracy_mode_reason:0 "Com a Nação adotando um Governo Teocrático, a Igreja está feliz em abraçá-lo."
+
+je_vanguardist_securitarian:0 "Assegurar a Revolução"
+je_vanguardist_securitarian_reason:0 "Devemos proteger a Revolução contra as forças Contrarrevolucionárias."
+
+je_AI_political_stability:0 "Estabilidade Política da IA"
+je_AI_political_stability_reason:0 "A IA não é dinâmica o suficiente para lidar com movimentos políticos fortes do mod Ultra Politics e provavelmente entrará em guerras civis em vez de aprovar leis. Portanto, a IA precisa de regras diferentes, já que está tão fraca."
+
+je_medium_democracy:0 "Consent of the Governed"
+je_medium_democracy_reason:0 "Now that our country has been exposed to Western ideas, more and more of our people want a say in government."

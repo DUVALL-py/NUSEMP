@@ -1,0 +1,219 @@
+﻿l_english:
+ # ================================================
+ # BUILDINGS
+ # ================================================
+ building_brewery:0 "Brewery"
+ building_brewery_desc:0 "A dedicated facility for brewing beer and ales, from regional craft ales to large-scale industrial lagers."
+ building_publishing_house:0 "Publishing House"
+ building_publishing_house_desc:0 "A printing and editorial facility that produces newspapers, journals, and books for mass consumption."
+ building_perfumery:0 "Perfumery"
+ building_perfumery_desc:0 "An artisanal workshop producing fine fragrances, cosmetics, and luxury scented products."
+ building_confectionery_factory:0 "Confectionery Factory"
+ building_confectionery_factory_desc:0 "A specialized factory producing sweets, chocolates, candies, and pastries for the consumer market."
+
+ # ================================================
+ # PRODUCTION METHOD GROUPS
+ # ================================================
+ pmg_base_building_brewery:0 "Brewing Process"
+ pmg_brewery_automation:0 "Brewery Automation"
+ pmg_base_building_publishing_house:0 "Printing Process"
+ pmg_publishing_automation:0 "Press Automation"
+ pmg_base_building_perfumery:0 "Perfume Production"
+ pmg_base_building_confectionery:0 "Confectionery Process"
+ pmg_confectionery_automation:0 "Confectionery Automation"
+
+ # ================================================
+ # PRODUCTION METHODS
+ # ================================================
+ # Brewery
+ pm_regional_breweries:0 "Regional Breweries"
+ pm_regional_breweries_desc:0 "Small-scale local brewing operations producing traditional ales and beers."
+ pm_industrial_breweries:0 "Industrial Breweries"
+ pm_industrial_breweries_desc:0 "Large-scale brewing with modern equipment, pasteurization, and bottling capabilities."
+ pm_modern_breweries:0 "Modern Breweries"
+ pm_modern_breweries_desc:0 "Electrically-powered brewing complexes with precision temperature control and mass distribution."
+ pm_no_brewery_automation:0 "No Automation"
+ pm_brewery_steam_automation:0 "Steam-Powered Brewing"
+ pm_brewery_steam_automation_desc:0 "Steam engines drive pumps, mash tuns, and bottling equipment."
+
+ # Publishing
+ pm_printing_presses_desc:0 "Hand-operated flatbed presses producing newspapers and pamphlets."
+ pm_rotary_presses:0 "Rotary Presses"
+ pm_rotary_presses_desc:0 "High-speed cylinder presses enabling mass production of daily newspapers."
+ pm_linotype_machines:0 "Linotype Machines"
+ pm_linotype_machines_desc:0 "Revolutionary typesetting machines that dramatically accelerate composition and printing."
+ pm_no_publishing_automation:0 "No Automation"
+ pm_publishing_steam_automation:0 "Steam-Powered Presses"
+ pm_publishing_steam_automation_desc:0 "Steam engines power the printing presses for faster output."
+
+ # Perfumery
+ pm_artisanal_perfumery:0 "Artisanal Distillation"
+ pm_artisanal_perfumery_desc:0 "Traditional flower-based perfume extraction using small copper stills."
+ pm_chemical_perfumery:0 "Chemical Perfumery"
+ pm_chemical_perfumery_desc:0 "Synthetic fragrance compounds created through organic chemistry techniques."
+ pm_synthetic_perfumery:0 "Synthetic Perfumery"
+ pm_synthetic_perfumery_desc:0 "Petroleum-derived synthetic musks and modern fragrance engineering."
+
+ # Confectionery
+ pm_sweet_confectionery:0 "Sweet Confectionery"
+ pm_sweet_confectionery_desc:0 "Traditional baking and candy-making using sugar, flour, and fruits."
+ pm_mechanized_confectionery:0 "Mechanized Confectionery"
+ pm_mechanized_confectionery_desc:0 "Machine-assisted candy production with standardized molds and wrapping."
+ pm_industrial_confectionery:0 "Industrial Confectionery"
+ pm_industrial_confectionery_desc:0 "Conveyor-belt chocolate and sweets factories with mass packaging."
+ pm_no_confectionery_automation:0 "No Automation"
+ pm_confectionery_steam_automation:0 "Steam-Powered Confectionery"
+ pm_confectionery_steam_automation_desc:0 "Steam engines drive mixing, molding, and packaging equipment."
+
+ # ================================================
+ # LAW GROUPS
+ # ================================================
+ lawgroup_press_freedom:0 "Press Freedom"
+ lawgroup_banking_regulation:0 "Banking Regulation"
+ lawgroup_higher_education:0 "Higher Education"
+
+ # ================================================
+ # LAWS - Press Freedom
+ # ================================================
+ law_state_censorship:0 "State Censorship"
+ law_state_censorship_desc:0 "The government maintains absolute control over all published material. All newspapers, books, and pamphlets must be approved by state censors before publication."
+ law_regulated_press:0 "Regulated Press"
+ law_regulated_press_desc:0 "The press operates under government oversight. Publishers must obtain licenses, and authorities may shut down publications deemed seditious."
+ law_free_press:0 "Free Press"
+ law_free_press_desc:0 "The press operates without government interference. Journalists and publishers are free to report on any topic, fostering public debate and accountability."
+ law_state_press:0 "State Press"
+ law_state_press_desc:0 "All major media outlets are owned and operated by the state. News serves as a tool for national unity and government messaging."
+
+ # ================================================
+ # LAWS - Banking Regulation
+ # ================================================
+ law_unregulated_banking:0 "Unregulated Banking"
+ law_unregulated_banking_desc:0 "Banks operate freely without government oversight. Private institutions set their own interest rates, issue currency, and manage deposits with no safeguards."
+ law_moderate_banking_regulation:0 "Moderate Banking Regulation"
+ law_moderate_banking_regulation_desc:0 "The government establishes basic banking standards, reserve requirements, and deposit protections while allowing private banking to flourish."
+ law_central_banking:0 "Central Banking"
+ law_central_banking_desc:0 "A state-controlled central bank manages monetary policy, sets interest rates, and acts as lender of last resort, providing maximum financial stability."
+
+ # ================================================
+ # LAWS - Higher Education
+ # ================================================
+ law_no_universities:0 "No Universities"
+ law_no_universities_desc:0 "The nation lacks any formal higher education institutions. Knowledge is passed through apprenticeships and informal schooling."
+ law_elite_universities:0 "Elite Universities"
+ law_elite_universities_desc:0 "Prestigious universities serve the aristocracy and wealthy elites, producing scholars, diplomats, and clergy for the upper echelons of society."
+ law_public_universities:0 "Public Universities"
+ law_public_universities_desc:0 "State-funded universities open their doors to all qualified citizens, dramatically expanding the educated class and fostering academic research."
+ law_polytechnic_universities:0 "Polytechnic Universities"
+ law_polytechnic_universities_desc:0 "Technical universities focused on engineering, applied sciences, and industrial skills, directly boosting manufacturing capacity and innovation."
+
+ # ================================================
+ # FLAVOR EVENTS
+ # ================================================
+ tyrone_flavor.1.t:0 "The First Photograph"
+ tyrone_flavor.1.d:0 "A remarkable new invention has emerged — the photograph! For the first time in human history, a moment can be captured with perfect fidelity. Our scientists and artists are debating whether this represents the dawn of a new era or merely a passing curiosity."
+ tyrone_flavor.1.f:0 "The camera obscura has been perfected into a practical device."
+ tyrone_flavor.1.a:0 "Remarkable! Fund this research."
+ tyrone_flavor.1.b:0 "A passing novelty, surely."
+
+ tyrone_flavor.2.t:0 "Archaeological Discovery"
+ tyrone_flavor.2.d:0 "Scholars from our universities have uncovered remarkable ancient artifacts during an excavation. The discovery has sparked tremendous public interest and academic debate about the history of civilizations."
+ tyrone_flavor.2.f:0 "The sands of time reveal their secrets."
+ tyrone_flavor.2.a:0 "Fund a grand expedition!"
+ tyrone_flavor.2.b:0 "Sell the artifacts to collectors."
+
+ tyrone_flavor.3.t:0 "Great Urban Fire"
+ tyrone_flavor.3.d:0 "A devastating fire has swept through one of our most populated cities, leaving thousands homeless and destroying countless buildings. The catastrophe demands immediate action — shall we use this tragedy as an opportunity for modern urban planning?"
+ tyrone_flavor.3.f:0 "Smoke and ash fill the skyline."
+ tyrone_flavor.3.a:0 "Rebuild and reform the city!"
+ tyrone_flavor.3.b:0 "Let the community handle it."
+
+ tyrone_flavor.4.t:0 "National Composer Acclaimed"
+ tyrone_flavor.4.d:0 "A brilliant composer from our nation has been acclaimed across Europe for a magnificent symphony that captures the spirit of our people. The cultural elite demands we commission a national anthem worthy of our greatness."
+ tyrone_flavor.4.f:0 "Music transcends borders, but patriotism fills concert halls."
+ tyrone_flavor.4.a:0 "Commission a national anthem!"
+
+ tyrone_flavor.5.t:0 "Corruption Scandal"
+ tyrone_flavor.5.d:0 "A massive corruption scandal has been exposed in our bureaucracy. Senior officials have been caught embezzling public funds and accepting bribes. The public demands accountability, but a purge could destabilize the administration."
+ tyrone_flavor.5.f:0 "The rot runs deep in the halls of power."
+ tyrone_flavor.5.a:0 "Purge the corrupt officials!"
+ tyrone_flavor.5.b:0 "Cover it up quietly."
+
+ tyrone_flavor.6.t:0 "Medical Breakthrough"
+ tyrone_flavor.6.d:0 "Our researchers have made a groundbreaking discovery in medicine — a new treatment that could dramatically reduce mortality from common diseases. The question is whether to make it freely available or patent it for profit."
+ tyrone_flavor.6.f:0 "Science advances one breakthrough at a time."
+ tyrone_flavor.6.a:0 "Fund public hospitals!"
+ tyrone_flavor.6.b:0 "Patent the discovery."
+
+ tyrone_flavor.7.t:0 "Regional Famine"
+ tyrone_flavor.7.d:0 "A devastating crop failure has struck one of our provinces. Thousands face starvation as food prices skyrocket. The government must decide whether to intervene with emergency food aid or trust the free market to resolve the crisis."
+ tyrone_flavor.7.f:0 "Empty fields, empty stomachs."
+ tyrone_flavor.7.a:0 "Send emergency food aid!"
+ tyrone_flavor.7.b:0 "Let the market adjust."
+
+ tyrone_flavor.8.t:0 "Naval Mutiny"
+ tyrone_flavor.8.d:0 "Sailors aboard our warships have risen in mutiny, protesting deplorable conditions, inadequate pay, and brutal officers. The admiralty demands harsh punishment, but some voices urge reform to prevent future unrest."
+ tyrone_flavor.8.f:0 "The red flag flies from the mast."
+ tyrone_flavor.8.a:0 "Court martial the mutineers!"
+ tyrone_flavor.8.b:0 "Address their grievances."
+
+ tyrone_flavor.9.t:0 "Grand Horse Show"
+ tyrone_flavor.9.d:0 "The aristocracy has organized a magnificent equestrian exhibition, drawing spectators and breeders from across the continent. It is an opportunity to display our nation's prestige and refined culture."
+ tyrone_flavor.9.f:0 "Thoroughbreds parade before an adoring crowd."
+ tyrone_flavor.9.a:0 "Sponsor the event!"
+
+ tyrone_flavor.10.t:0 "Historic Trade Treaty"
+ tyrone_flavor.10.d:0 "Our diplomats have negotiated a historic trade agreement that opens new markets for our goods. This treaty could transform our economy and establish us as a major commercial power."
+ tyrone_flavor.10.f:0 "The pen proves mightier than the tariff."
+ tyrone_flavor.10.a:0 "Celebrate the achievement!"
+ tyrone_flavor.10.b:0 "Push for even more deals."
+
+ # ================================================
+ # WORLD EXHIBITION
+ # ================================================
+ host_world_exhibition:0 "Host a World Exhibition"
+ host_world_exhibition_desc:0 "Organize a grand international exhibition to showcase our nation's industrial prowess, cultural achievements, and technological innovation to the world."
+ tyrone_exhibition.1.t:0 "Preparations for the World Exhibition"
+ tyrone_exhibition.1.d:0 "Our government has announced plans to host a grand World Exhibition. Engineers and architects are drawing up plans for magnificent exhibition halls. The question is how lavish this affair should be."
+ tyrone_exhibition.1.f:0 "The world shall marvel at our achievements."
+ tyrone_exhibition.1.a:0 "Spare no expense!"
+ tyrone_exhibition.1.b:0 "A modest affair will suffice."
+ tyrone_exhibition.2.t:0 "The World Exhibition Opens!"
+ tyrone_exhibition.2.d:0 "The doors of our grand exhibition have opened to the world! Thousands of visitors pour in daily to marvel at the latest inventions, industrial machinery, and artistic masterpieces. Foreign delegations express admiration for our nation's achievements."
+ tyrone_exhibition.2.f:0 "A triumph of civilization and progress!"
+ tyrone_exhibition.2.a:0 "A moment for the history books!"
+ tyrone_exhibition.3.t:0 "Foreign Delegation Impressed"
+ tyrone_exhibition.3.d:0 "A distinguished delegation of foreign dignitaries has expressed profound admiration for our exhibition. They speak of trade deals, cultural exchanges, and potential alliances."
+ tyrone_exhibition.3.f:0 "Diplomacy flourishes amid the pavilions."
+ tyrone_exhibition.3.a:0 "Welcome them warmly!"
+ tyrone_exhibition.4.t:0 "Revolutionary Invention Presented"
+ tyrone_exhibition.4.d:0 "A brilliant inventor has unveiled a revolutionary new device at our exhibition that captures the imagination of visitors and scientists alike. The press hails it as a glimpse into the future."
+ tyrone_exhibition.4.f:0 "Progress waits for no one."
+ tyrone_exhibition.4.a:0 "Fund further research!"
+
+ # ================================================
+ # MODIFIERS
+ # ================================================
+ modifier_photographic_innovation:0 "Photographic Innovation"
+ modifier_photographic_innovation_desc:0 "The invention of photography has sparked a wave of innovation and cultural documentation."
+ modifier_archaeological_prestige:0 "Archaeological Prestige"
+ modifier_archaeological_prestige_desc:0 "Our nation's archaeological discoveries bring international prestige and academic recognition."
+ modifier_urban_rebuilding:0 "Urban Rebuilding"
+ modifier_urban_rebuilding_desc:0 "Post-fire reconstruction efforts have modernized urban infrastructure."
+ modifier_anti_corruption_purge:0 "Anti-Corruption Purge"
+ modifier_anti_corruption_purge_desc:0 "A sweeping purge of corrupt officials has restored public confidence but reduced administrative capacity."
+ modifier_covered_scandal:0 "Covered Scandal"
+ modifier_covered_scandal_desc:0 "Whispers of a covered-up corruption scandal undermine public trust in the government."
+ modifier_medical_advancement:0 "Medical Advancement"
+ modifier_medical_advancement_desc:0 "Revolutionary medical discoveries have improved public health outcomes."
+ modifier_naval_discipline:0 "Naval Discipline Restored"
+ modifier_naval_discipline_desc:0 "Harsh punishment of mutineers has reinforced strict discipline across the fleet."
+ modifier_naval_reform:0 "Naval Reform"
+ modifier_naval_reform_desc:0 "Reforms addressing sailors' grievances have improved morale and reduced maintenance costs."
+ modifier_trade_hub_reputation:0 "Trade Hub Reputation"
+ modifier_trade_hub_reputation_desc:0 "Our reputation as a reliable trade partner opens new commercial opportunities."
+ modifier_aggressive_trade:0 "Aggressive Trade Policy"
+ modifier_aggressive_trade_desc:0 "An aggressive push for trade dominance opens markets but strains diplomatic relations."
+ modifier_world_exhibition_grand:0 "Grand World Exhibition"
+ modifier_world_exhibition_grand_desc:0 "Our magnificent World Exhibition has dazzled the world, drawing innovation, investment, and immigration."
+ modifier_world_exhibition_modest:0 "Modest World Exhibition"
+ modifier_world_exhibition_modest_desc:0 "Our World Exhibition, while modest, has nonetheless showcased our nation's capabilities."

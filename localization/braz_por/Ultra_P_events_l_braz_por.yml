@@ -1,0 +1,54 @@
+﻿l_braz_por:
+
+#Ideology change events
+
+ ideologies_change.1.t:0 "Imperialismo"
+ ideologies_change.1.d:0 "[ROOT.GetCountry.GetName] provou ser o ápice da Civilização. Cabe aos ombros de nossa grande nação irradiar a luz da modernidade em todos os cantos incivilizados do mundo, educar e incutir nos povos menos desenvolvidos os valores divinos de nossa gloriosa cultura."
+ ideologies_change.1.f:0 "\"Obviamente, pode haver alguns 'benefícios materiais', trazer a Civilização não é gratuito!"
+ ideologies_change.1.a:0 "Abraçar completamente o Imperialismo. Devemos ter nosso lugar ao sol."
+ ideologies_change.1.b:0 "Fique longe de tal absurdo."
+ 
+ ideologies_change.2.t:0 "Cosmopolitismo"
+ ideologies_change.2.d:0 "[ROOT.GetCountry.GetName] é um país aberto ao resto do mundo. Barreiras artificiais como 'Raça' e 'Nação' são apenas obstáculos para uma sociedade próspera e pacífica."
+ ideologies_change.2.f:0 "\"Você é bem-vindo, mas ainda precisa aprender nossa língua."
+ ideologies_change.2.a:0 "Eu tenho um sonho..."
+
+ ideologies_change.3.t:0 "Sob a Democracia"
+ ideologies_change.3.d:0 "As pessoas de [ROOT.GetCountry.GetName] precisam realmente importar na política. É uma injustiça fundamental que alguns tenham o direito de votar e outros não."
+ ideologies_change.3.f:0 "\"Nada de medidas pela metade, nosso povo merece decidir por si mesmo!"
+ ideologies_change.3.a:0 "Um homem, um voto!"
+ ideologies_change.3.b:0 "$ideologies_change.3.a$"
+
+ ideologies_change.4.t:0 "Reação à Ameaça Socialista"
+ ideologies_change.4.d:0 "As pessoas de  [ROOT.GetCountry.GetName] construíram uma democracia liberal funcional e moderada, mas com o surgimento de novas ideias socialistas, a Civilização está em perigo. Pelo menos é o que pensam os Burgueses"
+ ideologies_change.4.f:0 "\"Para a defesa de nossa sociedade, vale a pena renunciar a algumas liberdades em troca de mais segurança."
+ ideologies_change.4.a:0 "É melhor morto do que vermelho!"
+
+ ideologies_change.5.t:0 "A Servidão Foi Eliminada"
+ ideologies_change.5.d:0 "[ROOT.GetCountry.GetName] Aboliu a servidão durante anos. Isto levou a uma situação objectivamente melhor, mesmo para aqueles que a defenderam."
+ ideologies_change.5.f:0 "As relíquias da Idade das Trevas não são mais necessárias!"
+ ideologies_change.5.a:0 "Existe um meio melhor de preservar a Nobreza..."
+ 
+ ideologies_change.6.t:0 "O Fim da Teocracia" 
+ ideologies_change.6.d:0 "[ROOT.GetCountry.GetName] pôs fim à prática retrógrada da Teocracia; parece que a Igreja finalmente desistiu de exercer o poder governamental."
+ ideologies_change.6.f:0 "Nossa nação não é mais controlada por um clero corrupto!" 
+ ideologies_change.6.a:0 "A Igreja deve se adaptar." 
+ 
+ ideologies_change.7.t:0 "O Surgimento da Teocracia"
+ ideologies_change.7.d:0 "Com o surgimento do Governo Teocrático, o Clero recebeu com entusiasmo seu novo papel, proclamando o novo Governo como Sagrado e afirmando que os Fiéis têm a obrigação de defendê-lo."
+ ideologies_change.7.f:0 "Fé e Estado agora são a mesma coisa" 
+ ideologies_change.7.a:0 "Louvado seja Deus!" 
+ 
+ ideologies_change.8.t:0 "Em Defesa da Revolução" 
+ ideologies_change.8.d:0 "Forças Contrarrevolucionárias ameaçam a Revolução, especialmente dentro de  [ROOT.GetCountry.GetName], devemos adotar medidas para protegê-la." 
+ ideologies_change.8.f:0 "Para a defesa de nossa revolução, é importante que medidas protetivas sejam instituídas." 
+ ideologies_change.8.a:0 "Eu asseguro a você, comissário..." 
+
+ ideologies_change.9.t:0 "Consent of the Governed"
+ ideologies_change.9.d:0 "Enligntenment ideas have spread in [ROOT.GetCountry.GetName]. Rule by the few is increasingly questioned."
+ ideologies_change.9.f:0 "\"That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed. That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government..."
+ ideologies_change.9.a:0 "Perhaps it is time the people get a say in how to run the country..."
+
+
+ 
+

@@ -1,0 +1,220 @@
+﻿l_braz_por:
+ # ================================================
+ # PR�?DIOS
+ # ================================================
+ building_brewery:0 "Cervejaria"
+ building_brewery_desc:0 "Instalação dedicada à produção de cervejas e ales, desde cervejas artesanais regionais até lagers industriais em grande escala."
+ building_publishing_house:0 "Editora e Gráfica"
+ building_publishing_house_desc:0 "Instalação de impressão e editorial que produz jornais, revistas e livros para consumo de massa."
+ building_perfumery:0 "Perfumaria"
+ building_perfumery_desc:0 "Oficina artesanal que produz fragrâncias finas, cosméticos e produtos perfumados de luxo."
+ building_confectionery_factory:0 "Confeitaria Industrial"
+ building_confectionery_factory_desc:0 "Fábrica especializada na produção de doces, chocolates, balas e confeitaria para o mercado consumidor."
+
+ # ================================================
+ # GRUPOS DE M�?TODOS DE PRODU�?�fO
+ # ================================================
+ pmg_base_building_brewery:0 "Processo de Fermentação"
+ pmg_brewery_automation:0 "Automação da Cervejaria"
+ pmg_base_building_publishing_house:0 "Processo de Impressão"
+ pmg_publishing_automation:0 "Automação da Impressão"
+ pmg_base_building_perfumery:0 "Produção de Perfumes"
+ pmg_base_building_confectionery:0 "Processo de Confeitaria"
+ pmg_confectionery_automation:0 "Automação da Confeitaria"
+
+ # ================================================
+ # M�?TODOS DE PRODU�?�fO
+ # ================================================
+ # Cervejaria
+ pm_regional_breweries:0 "Cervejarias Regionais"
+ pm_regional_breweries_desc:0 "Operações cervejeiras locais em pequena escala produzindo ales e cervejas tradicionais."
+ pm_industrial_breweries:0 "Cervejarias Industriais"
+ pm_industrial_breweries_desc:0 "Produção cervejeira em grande escala com equipamentos modernos, pasteurização e engarrafamento."
+ pm_modern_breweries:0 "Cervejarias Modernas"
+ pm_modern_breweries_desc:0 "Complexos cervejeiros movidos a eletricidade com controle preciso de temperatura e distribuição em massa."
+ pm_no_brewery_automation:0 "Sem Automação"
+ pm_brewery_steam_automation:0 "Cervejaria a Vapor"
+ pm_brewery_steam_automation_desc:0 "Motores a vapor acionam bombas, tanques de mostura e equipamentos de engarrafamento."
+
+ # Editora
+ pm_printing_presses:0 "Prensas Manuais"
+ pm_printing_presses_desc:0 "Prensas planas operadas manualmente produzindo jornais e panfletos."
+ pm_rotary_presses:0 "Prensas Rotativas"
+ pm_rotary_presses_desc:0 "Prensas cilíndricas de alta velocidade permitindo produção em massa de jornais diários."
+ pm_linotype_machines:0 "Máquinas Linotipo"
+ pm_linotype_machines_desc:0 "Máquinas de composição tipográfica revolucionárias que aceleram dramaticamente a impressão."
+ pm_no_publishing_automation:0 "Sem Automação"
+ pm_publishing_steam_automation:0 "Prensas a Vapor"
+ pm_publishing_steam_automation_desc:0 "Motores a vapor alimentam as prensas para produção mais rápida."
+
+ # Perfumaria
+ pm_artisanal_perfumery:0 "Destilação Artesanal"
+ pm_artisanal_perfumery_desc:0 "Extração tradicional de perfumes à base de flores usando pequenos alambiques de cobre."
+ pm_chemical_perfumery:0 "Perfumaria Química"
+ pm_chemical_perfumery_desc:0 "Compostos aromáticos sintéticos criados através de técnicas de química orgânica."
+ pm_synthetic_perfumery:0 "Perfumaria Sintética"
+ pm_synthetic_perfumery_desc:0 "Almíscares sintéticos derivados de petróleo e engenharia moderna de fragrâncias."
+
+ # Confeitaria
+ pm_sweet_confectionery:0 "Confeitaria Doce"
+ pm_sweet_confectionery_desc:0 "Produção tradicional de doces e balas usando açúcar, farinha e frutas."
+ pm_mechanized_confectionery:0 "Confeitaria Mecanizada"
+ pm_mechanized_confectionery_desc:0 "Produção de doces com assistência mecânica, moldes padronizados e embalagem."
+ pm_industrial_confectionery:0 "Confeitaria Industrial"
+ pm_industrial_confectionery_desc:0 "Fábricas de chocolates e doces com esteiras rolantes e embalagem em massa."
+ pm_no_confectionery_automation:0 "Sem Automação"
+ pm_confectionery_steam_automation:0 "Confeitaria a Vapor"
+ pm_confectionery_steam_automation_desc:0 "Motores a vapor acionam equipamentos de mistura, moldagem e embalagem."
+
+ # ================================================
+ # GRUPOS DE LEIS
+ # ================================================
+ lawgroup_press_freedom:0 "Liberdade de Imprensa"
+ lawgroup_banking_regulation:0 "Regulação Bancária"
+ lawgroup_higher_education:0 "Educação Superior"
+
+ # ================================================
+ # LEIS - Liberdade de Imprensa
+ # ================================================
+ law_state_censorship:0 "Censura Estatal"
+ law_state_censorship_desc:0 "O governo mantém controle absoluto sobre todo material publicado. Todos os jornais, livros e panfletos devem ser aprovados por censores estatais antes da publicação."
+ law_regulated_press:0 "Imprensa Regulada"
+ law_regulated_press_desc:0 "A imprensa opera sob supervisão governamental. Editores devem obter licenças, e as autoridades podem fechar publicações consideradas sediciosas."
+ law_free_press:0 "Imprensa Livre"
+ law_free_press_desc:0 "A imprensa opera sem interferência do governo. Jornalistas e editores são livres para reportar qualquer assunto, promovendo debate público e prestação de contas."
+ law_state_press:0 "Imprensa Estatal"
+ law_state_press_desc:0 "Todos os principais meios de comunicação são de propriedade e operados pelo Estado. As notícias servem como ferramenta de unidade nacional e comunicação governamental."
+
+ # ================================================
+ # LEIS - Regulação Bancária
+ # ================================================
+ law_unregulated_banking:0 "Bancos Desregulados"
+ law_unregulated_banking_desc:0 "Os bancos operam livremente sem supervisão governamental. Instituições privadas definem suas próprias taxas de juros, emitem moeda e gerenciam depósitos sem salvaguardas."
+ law_moderate_banking_regulation:0 "Regulação Bancária Moderada"
+ law_moderate_banking_regulation_desc:0 "O governo estabelece padrões bancários básicos, exigências de reserva e proteção de depósitos enquanto permite que o setor bancário privado prospere."
+ law_central_banking:0 "Banco Central"
+ law_central_banking_desc:0 "Um banco central controlado pelo Estado gerencia a política monetária, define taxas de juros e atua como emprestador de última instância, proporcionando máxima estabilidade financeira."
+
+ # ================================================
+ # LEIS - Educação Superior
+ # ================================================
+ law_no_universities:0 "Sem Universidades"
+ law_no_universities_desc:0 "A nação carece de instituições formais de ensino superior. O conhecimento é transmitido através de aprendizados e escolaridade informal."
+ law_elite_universities:0 "Universidades de Elite"
+ law_elite_universities_desc:0 "Universidades prestigiosas servem a aristocracia e elites ricas, produzindo acadêmicos, diplomatas e clérigos para os escalões superiores da sociedade."
+ law_public_universities:0 "Universidades Públicas"
+ law_public_universities_desc:0 "Universidades financiadas pelo Estado abrem suas portas a todos os cidadãos qualificados, expandindo dramaticamente a classe educada e fomentando pesquisa acadêmica."
+ law_polytechnic_universities:0 "Universidades Politécnicas"
+ law_polytechnic_universities_desc:0 "Universidades técnicas focadas em engenharia, ciências aplicadas e habilidades industriais, impulsionando diretamente a capacidade manufatureira e inovação."
+
+ # ================================================
+ # EVENTOS DE SABOR
+ # ================================================
+ tyrone_flavor.1.t:0 "A Primeira Fotografia"
+ tyrone_flavor.1.d:0 "Uma invenção notável surgiu — a fotografia! Pela primeira vez na história, momentos no tempo podem ser perfeitamente preservados em placas de prata e vidro."
+ tyrone_flavor.1.f:0 "A câmara escura foi aperfeiçoada em um dispositivo prático."
+ tyrone_flavor.1.a:0 "Notável! Financie esta pesquisa."
+ tyrone_flavor.1.b:0 "Uma novidade passageira, certamente."
+
+ tyrone_flavor.2.t:0 "Descoberta Arqueológica"
+ tyrone_flavor.2.d:0 "Acadêmicos de nossas universidades descobriram artefatos antigos notáveis durante uma escavação. A descoberta despertou tremendo interesse público e debate acadêmico sobre a história das civilizações."
+ tyrone_flavor.2.f:0 "As areias do tempo revelam seus segredos."
+ tyrone_flavor.2.a:0 "Financie uma grande expedição!"
+ tyrone_flavor.2.b:0 "Venda os artefatos para colecionadores."
+
+ tyrone_flavor.3.t:0 "Grande Incêndio Urbano"
+ tyrone_flavor.3.d:0 "Um incêndio devastador varreu uma de nossas cidades mais populosas! Centenas de edifícios foram consumidos pelas chamas antes que os bombeiros conseguissem conter o fogo."
+ tyrone_flavor.3.f:0 "Fumaça e cinzas preenchem o horizonte."
+ tyrone_flavor.3.a:0 "Reconstrua e reforme a cidade!"
+ tyrone_flavor.3.b:0 "Deixe a comunidade cuidar disso."
+
+ tyrone_flavor.4.t:0 "Compositor Nacional Aclamado"
+ tyrone_flavor.4.d:0 "Um compositor brilhante de nossa nação foi aclamado por toda a Europa por uma magnífica sinfonia que captura o espírito do nosso povo. A elite cultural exige que encomendemos um hino nacional digno da nossa grandeza."
+ tyrone_flavor.4.f:0 "A música transcende fronteiras, mas o patriotismo enche salas de concerto."
+ tyrone_flavor.4.a:0 "Encomende um hino nacional!"
+
+ tyrone_flavor.5.t:0 "Escândalo de Corrupção"
+ tyrone_flavor.5.d:0 "Um enorme escândalo de corrupção foi exposto em nossa burocracia. Altos funcionários foram pegos desviando fundos públicos e aceitando subornos. O público exige prestação de contas, mas um expurgo poderia desestabilizar a administração."
+ tyrone_flavor.5.f:0 "A podridão é profunda nos corredores do poder."
+ tyrone_flavor.5.a:0 "Expurgue os funcionários corruptos!"
+ tyrone_flavor.5.b:0 "Encubra discretamente."
+
+ tyrone_flavor.6.t:0 "Avanço Médico"
+ tyrone_flavor.6.d:0 "Nossos pesquisadores fizeram uma descoberta revolucionária nos laboratórios nacionais! Esta nova técnica promete acelerar significativamente o desenvolvimento de pesquisas futuras."
+ tyrone_flavor.6.f:0 "A ciência avança um avanço de cada vez."
+ tyrone_flavor.6.a:0 "Financie hospitais públicos!"
+ tyrone_flavor.6.b:0 "Patenteie a descoberta."
+
+ tyrone_flavor.7.t:0 "Fome Regional"
+ tyrone_flavor.7.d:0 "Uma falha devastadora na colheita atingiu uma de nossas províncias. Milhares enfrentam a fome enquanto os preços dos alimentos disparam. O governo deve decidir se intervém com ajuda alimentar emergencial ou confia no mercado livre para resolver a crise."
+ tyrone_flavor.7.f:0 "Campos vazios, estômagos vazios."
+ tyrone_flavor.7.a:0 "Envie ajuda alimentar de emergência!"
+ tyrone_flavor.7.b:0 "Deixe o mercado se ajustar."
+
+ tyrone_flavor.8.t:0 "Motim Naval"
+ tyrone_flavor.8.d:0 "Marinheiros a bordo de nossos navios de guerra se amotinaram, protestando contra condições deploráveis, pagamento inadequado e oficiais brutais. O almirantado exige punição severa, mas algumas vozes pedem reformas para prevenir futuros distúrbios."
+ tyrone_flavor.8.f:0 "A bandeira vermelha tremula no mastro."
+ tyrone_flavor.8.a:0 "Tribunal marcial para os amotinados!"
+ tyrone_flavor.8.b:0 "Atenda suas reivindicações."
+
+ tyrone_flavor.9.t:0 "Grande Exposição Hípica"
+ tyrone_flavor.9.d:0 "A aristocracia organizou uma magnífica exposição equestre, atraindo espectadores e criadores de todo o continente. �? uma oportunidade para exibir o prestígio e a cultura refinada da nossa nação."
+ tyrone_flavor.9.f:0 "Puro-sangues desfilam diante de uma multidão admiradora."
+ tyrone_flavor.9.a:0 "Patrocine o evento!"
+
+ tyrone_flavor.10.t:0 "Tratado Comercial Histórico"
+ tyrone_flavor.10.d:0 "Nossos diplomatas negociaram um tratado comercial histórico que abre novos mercados para nossos produtos. Este tratado pode transformar nossa economia e nos estabelecer como uma grande potência comercial."
+ tyrone_flavor.10.f:0 "A caneta se mostra mais poderosa que a tarifa."
+ tyrone_flavor.10.a:0 "Celebre a conquista!"
+ tyrone_flavor.10.b:0 "Pressione por ainda mais acordos."
+
+ # ================================================
+ # EXPOSI�?�fO MUNDIAL
+ # ================================================
+ host_world_exhibition:0 "Sediar Exposição Mundial"
+ host_world_exhibition_desc:0 "Organize uma grande exposição internacional para exibir a potência industrial, conquistas culturais e inovação tecnológica de nossa nação ao mundo."
+ tyrone_exhibition.1.t:0 "Preparativos para a Exposição Mundial"
+ tyrone_exhibition.1.d:0 "Nosso governo anunciou planos para sediar uma grande Exposição Mundial. Engenheiros e arquitetos estão elaborando planos para magníficos salões de exposição. A questão é quão suntuoso este evento deve ser."
+ tyrone_exhibition.1.f:0 "O mundo se maravilhará com nossas conquistas."
+ tyrone_exhibition.1.a:0 "Não poupe despesas!"
+ tyrone_exhibition.1.b:0 "Um evento modesto será suficiente."
+ tyrone_exhibition.2.t:0 "A Exposição Mundial Está Aberta!"
+ tyrone_exhibition.2.d:0 "As portas de nossa grande exposição se abriram ao mundo! Milhares de visitantes chegam diariamente para admirar as últimas invenções, máquinas industriais e obras-primas artísticas. Delegações estrangeiras expressam admiração pelas conquistas de nossa nação."
+ tyrone_exhibition.2.f:0 "Um triunfo da civilização e do progresso!"
+ tyrone_exhibition.2.a:0 "Um momento para os livros de história!"
+ tyrone_exhibition.3.t:0 "Delegação Estrangeira Impressionada"
+ tyrone_exhibition.3.d:0 "Uma distinta delegação de dignitários estrangeiros expressou profunda admiração pela nossa exposição. Falam de acordos comerciais, intercâmbios culturais e potenciais alianças."
+ tyrone_exhibition.3.f:0 "A diplomacia floresce entre os pavilhões."
+ tyrone_exhibition.3.a:0 "Receba-os calorosamente!"
+ tyrone_exhibition.4.t:0 "Invenção Revolucionária Apresentada"
+ tyrone_exhibition.4.d:0 "Um brilhante inventor revelou um novo dispositivo revolucionário em nossa exposição que captura a imaginação de visitantes e cientistas. A imprensa o exalta como um vislumbre do futuro."
+ tyrone_exhibition.4.f:0 "O progresso não espera por ninguém."
+ tyrone_exhibition.4.a:0 "Financie mais pesquisas!"
+
+ # ================================================
+ # MODIFICADORES
+ # ================================================
+ modifier_photographic_innovation:0 "Inovação Fotográfica"
+ modifier_photographic_innovation_desc:0 "A invenção da fotografia desencadeou uma onda de inovação e documentação cultural."
+ modifier_archaeological_prestige:0 "Prestígio Arqueológico"
+ modifier_archaeological_prestige_desc:0 "As descobertas arqueológicas de nossa nação trazem prestígio internacional e reconhecimento acadêmico."
+ modifier_urban_rebuilding:0 "Reconstrução Urbana"
+ modifier_urban_rebuilding_desc:0 "Esforços de reconstrução pós-incêndio modernizaram a infraestrutura urbana."
+ modifier_anti_corruption_purge:0 "Expurgo Anticorrupção"
+ modifier_anti_corruption_purge_desc:0 "Um expurgo abrangente de funcionários corruptos restaurou a confiança pública, mas reduziu a capacidade administrativa."
+ modifier_covered_scandal:0 "Escândalo Encoberto"
+ modifier_covered_scandal_desc:0 "Sussurros de um escândalo de corrupção encoberto minam a confiança pública no governo."
+ modifier_medical_advancement:0 "Avanço Médico"
+ modifier_medical_advancement_desc:0 "Descobertas médicas revolucionárias melhoraram os resultados de saúde pública."
+ modifier_naval_discipline:0 "Disciplina Naval Restaurada"
+ modifier_naval_discipline_desc:0 "A punição severa dos amotinados reforçou a disciplina estrita em toda a frota."
+ modifier_naval_reform:0 "Reforma Naval"
+ modifier_naval_reform_desc:0 "Reformas que atendem às reivindicações dos marinheiros melhoraram o moral e reduziram custos de manutenção."
+ modifier_trade_hub_reputation:0 "Reputação de Centro Comercial"
+ modifier_trade_hub_reputation_desc:0 "Nossa reputação como parceiro comercial confiável abre novas oportunidades comerciais."
+ modifier_aggressive_trade:0 "Política Comercial Agressiva"
+ modifier_aggressive_trade_desc:0 "Uma pressão agressiva por dominância comercial abre mercados, mas tensiona relações diplomáticas."
+ modifier_world_exhibition_grand:0 "Grande Exposição Mundial"
+ modifier_world_exhibition_grand_desc:0 "Nossa magnífica Exposição Mundial deslumbrou o mundo, atraindo inovação, investimento e imigração."
+ modifier_world_exhibition_modest:0 "Exposição Mundial Modesta"
+ modifier_world_exhibition_modest_desc:0 "Nossa Exposição Mundial, embora modesta, mesmo assim demonstrou as capacidades de nossa nação."

@@ -1,0 +1,64 @@
+﻿namespace = tyrone_olympics
+
+# Bid for the Olympics
+tyrone_olympics.1 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_olympics.1.t
+	desc = tyrone_olympics.1.d
+	flavor = tyrone_olympics.1.f
+	event_image = { video = "unspecific_ruler_speaking_to_people" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		country_rank >= rank_value:major_power
+		has_technology_researched = labor_movement
+		NOT = { has_variable = olympics_hosted }
+		NOT = { has_variable = olympics_preparation }
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = tyrone_olympics.1.a
+		default_option = yes
+		add_treasury = -300000
+		set_variable = { name = olympics_preparation months = 48 }
+		trigger_event = { id = tyrone_olympics.2 months = 48 }
+	}
+
+	option = {
+		name = tyrone_olympics.1.b
+	}
+}
+
+# Opening Ceremony
+tyrone_olympics.2 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_olympics.2.t
+	desc = tyrone_olympics.2.d
+	flavor = tyrone_olympics.2.f
+	event_image = { video = "unspecific_ruler_speaking_to_people" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+		set_variable = olympics_hosted
+		remove_variable = olympics_preparation
+	}
+
+	option = {
+		name = tyrone_olympics.2.a
+		default_option = yes
+		add_modifier = { name = modifier_olympic_host months = 120 }
+	}
+}

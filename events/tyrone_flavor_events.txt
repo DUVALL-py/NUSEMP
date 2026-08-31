@@ -1,0 +1,378 @@
+namespace = tyrone_flavor
+
+tyrone_flavor.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.1.t
+	desc = tyrone_flavor.1.d
+	flavor = tyrone_flavor.1.f
+
+	event_image = {
+		video = "unspecific_world_fair"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		has_technology_researched = camera
+		is_player = yes
+		NOT = { has_variable = had_first_photograph }
+	}
+
+	immediate = {
+		set_variable = had_first_photograph
+	}
+
+	option = {
+		name = tyrone_flavor.1.a
+		default_option = yes
+		add_modifier = { name = modifier_photographic_innovation months = 120 }
+	}
+
+	option = {
+		name = tyrone_flavor.1.b
+		add_treasury = 25000
+	}
+}
+
+tyrone_flavor.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.2.t
+	desc = tyrone_flavor.2.d
+	flavor = tyrone_flavor.2.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_technology_researched = academia
+		NOT = { has_variable = had_archaeological_find }
+	}
+
+	immediate = {
+		set_variable = had_archaeological_find
+	}
+
+	option = {
+		name = tyrone_flavor.2.a
+		default_option = yes
+		add_modifier = { name = modifier_archaeological_prestige months = 240 }
+	}
+
+	option = {
+		name = tyrone_flavor.2.b
+		add_treasury = 50000
+	}
+}
+
+tyrone_flavor.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.3.t
+	desc = tyrone_flavor.3.d
+	flavor = tyrone_flavor.3.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_technology_researched = urbanization
+		NOT = { has_variable = had_urban_rebuilding }
+	}
+
+	immediate = {
+		set_variable = had_urban_rebuilding
+	}
+
+	option = {
+		name = tyrone_flavor.3.a
+		default_option = yes
+		add_modifier = { name = modifier_urban_rebuilding months = 120 }
+		add_treasury = -20000
+	}
+
+	option = {
+		name = tyrone_flavor.3.b
+		add_radicals = { value = 0.05 pop_type = laborers }
+	}
+}
+
+tyrone_flavor.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.4.t
+	desc = tyrone_flavor.4.d
+	flavor = tyrone_flavor.4.f
+
+	event_image = {
+		video = "unspecific_ballroom"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		any_scope_state = { has_building = building_art_academy }
+		NOT = { has_variable = had_national_composer }
+	}
+
+	immediate = {
+		set_variable = had_national_composer
+	}
+
+	option = {
+		name = tyrone_flavor.4.a
+		default_option = yes
+		add_loyalists = { value = 0.02 strata = rich }
+	}
+}
+
+tyrone_flavor.5 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.5.t
+	desc = tyrone_flavor.5.d
+	flavor = tyrone_flavor.5.f
+
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		bureaucracy < -50
+		NOT = { has_variable = had_corruption_scandal }
+	}
+
+	immediate = {
+		set_variable = had_corruption_scandal
+	}
+
+	option = {
+		name = tyrone_flavor.5.a
+		default_option = yes
+		add_modifier = { name = modifier_anti_corruption_purge months = 60 }
+	}
+
+	option = {
+		name = tyrone_flavor.5.b
+		add_modifier = { name = modifier_covered_scandal months = 120 }
+	}
+}
+
+tyrone_flavor.6 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.6.t
+	desc = tyrone_flavor.6.d
+	flavor = tyrone_flavor.6.f
+
+	event_image = {
+		video = "unspecific_science"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_technology_researched = quinine
+		NOT = { has_variable = had_medical_breakthrough }
+	}
+
+	immediate = {
+		set_variable = had_medical_breakthrough
+	}
+
+	option = {
+		name = tyrone_flavor.6.a
+		default_option = yes
+		add_modifier = { name = modifier_medical_advancement }
+	}
+
+	option = {
+		name = tyrone_flavor.6.b
+		trigger = {
+			country_rank >= rank_value:major_power
+		}
+		add_treasury = 500000
+		add_modifier = { name = modifier_patent_royalties months = 60 }
+		trigger_event = { id = patent_events.500 days = 1825 }
+	}
+}
+
+tyrone_flavor.7 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.7.t
+	desc = tyrone_flavor.7.d
+	flavor = tyrone_flavor.7.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_technology_researched = naval_cadets
+		NOT = { has_variable = had_naval_maneuvers }
+	}
+
+	immediate = {
+		set_variable = had_naval_maneuvers
+	}
+
+	option = {
+		name = tyrone_flavor.7.a
+		default_option = yes
+		add_modifier = { name = modifier_naval_discipline months = 120 }
+	}
+
+	option = {
+		name = tyrone_flavor.7.b
+		add_modifier = { name = modifier_naval_reform months = 120 }
+	}
+}
+
+tyrone_flavor.8 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.8.t
+	desc = tyrone_flavor.8.d
+	flavor = tyrone_flavor.8.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		any_scope_state = { has_building = building_port }
+		NOT = { has_variable = had_merchant_fleet }
+	}
+
+	immediate = {
+		set_variable = had_merchant_fleet
+	}
+
+	option = {
+		name = tyrone_flavor.8.a
+		default_option = yes
+		add_modifier = { name = modifier_trade_hub_reputation months = 120 }
+	}
+
+	option = {
+		name = tyrone_flavor.8.b
+		add_modifier = { name = modifier_aggressive_trade months = 120 }
+	}
+}
+
+tyrone_flavor.9 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.9.t
+	desc = tyrone_flavor.9.d
+	flavor = tyrone_flavor.9.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		GDP_per_capita > 20
+		any_scope_state = { has_building = building_manor_house }
+		NOT = { has_variable = had_horse_show }
+	}
+
+	immediate = {
+		set_variable = had_horse_show
+	}
+
+	option = {
+		name = tyrone_flavor.9.a
+		default_option = yes
+		add_loyalists = { value = 0.01 strata = rich }
+	}
+}
+
+tyrone_flavor.10 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_flavor.10.t
+	desc = tyrone_flavor.10.d
+	flavor = tyrone_flavor.10.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		num_trade_routes >= 15
+		NOT = { has_variable = had_trade_treaty }
+	}
+
+	immediate = {
+		set_variable = had_trade_treaty
+	}
+
+	option = {
+		name = tyrone_flavor.10.a
+		default_option = yes
+		add_modifier = { name = modifier_trade_hub_reputation months = 240 }
+	}
+
+	option = {
+		name = tyrone_flavor.10.b
+		add_modifier = { name = modifier_aggressive_trade months = 120 }
+	}
+}

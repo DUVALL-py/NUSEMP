@@ -1,0 +1,308 @@
+﻿@zoom_step_flatmap_far = 	17 							# the furthest zoom out
+@zoom_step_flatmap = 		10 							# zoom step where the paper map kicks in
+@zoom_step_mid = 			9 							# introduce some colour
+@zoom_step_near = 			6							# close zoom
+@zoom_step_ultra_near = 	5							# absolutely closest zoom
+@zoom_step_2 = 				2							# absolutely closest zoom
+
+@color_multi = 	0.4										# Color brightness
+@grad_color_multi = 	.875							# Color brightness
+
+# The default map mode, filled paper map, terrain + gradient borders zoomed in
+default = {
+	gradient_water_borders_zoom = @zoom_step_flatmap
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_ultra_near
+
+		gradient_alpha_inside = 	0
+		gradient_alpha_outside = 	0
+		gradient_width = 			0
+		gradient_color_mult =		@grad_color_multi
+		edge_width = 				.01
+		edge_sharpness = 			0.02
+		edge_alpha = 				.64
+		edge_color_mult = 			.72
+		before_lighting_blend =		1
+		after_lighting_blend =		0
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_near
+
+		gradient_alpha_inside = 	.01
+		gradient_alpha_outside = 	.32
+		gradient_width = 			.02
+		gradient_color_mult =		@grad_color_multi
+		edge_width = 				0.01
+		edge_sharpness = 			0.025
+		edge_alpha = 				.84
+		edge_color_mult = 			1
+		before_lighting_blend =	 	1
+		after_lighting_blend =		.5
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_mid
+
+		gradient_alpha_inside = 	.02
+		gradient_alpha_outside = 	.16
+		gradient_width = 			.06
+		gradient_color_mult =		.4
+		edge_width = 				0
+		edge_sharpness = 			0.04
+		edge_alpha = 				.84
+		edge_color_mult = 			1
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap
+
+		gradient_alpha_inside = 	.85
+		gradient_alpha_outside = 	0.875
+		gradient_width = 			0.03
+		gradient_color_mult =		.775
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			0.33
+		before_lighting_blend =		.05
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap_far
+
+		gradient_alpha_inside = 	0.8
+		gradient_alpha_outside = 	0.825
+		gradient_width = 			.6
+		gradient_color_mult =		0.65
+		edge_width = 				0.0
+		edge_sharpness = 			0.01
+		edge_alpha = 				1
+		edge_color_mult = 			0.7
+		before_lighting_blend =		0.025
+		after_lighting_blend =		1
+	}
+}
+
+# States view gradient [Select Mapmodes > states to see]
+states = {
+gradient_water_borders_zoom = @zoom_step_flatmap
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_ultra_near
+
+		gradient_alpha_inside = 	0
+		gradient_alpha_outside = 	0
+		gradient_width = 			0
+		gradient_color_mult =		@color_multi
+		edge_width = 				0
+		edge_sharpness = 			0.05
+		edge_alpha = 				0
+		edge_color_mult = 			@color_multi
+		before_lighting_blend =		1
+		after_lighting_blend =		0
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_near
+
+		gradient_alpha_inside = 	.6
+		gradient_alpha_outside = 	1
+		gradient_width = 			0.05
+		gradient_color_mult =		@color_multi
+		edge_width = 				0.01
+		edge_sharpness = 			0.04
+		edge_alpha = 				0.8
+		edge_color_mult = 			@color_multi
+		before_lighting_blend =	 	0
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_mid
+
+		gradient_alpha_inside = 	.8
+		gradient_alpha_outside = 	.85
+		gradient_width = 			0.03
+		gradient_color_mult =		.6
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			1
+		before_lighting_blend =		0
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap
+
+		gradient_alpha_inside = 	0.8
+		gradient_alpha_outside = 	0.825
+		gradient_width = 			0.02
+		gradient_color_mult =		.55
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			0
+		before_lighting_blend =		0
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap_far
+
+		gradient_alpha_inside = 	0.775
+		gradient_alpha_outside = 	0.8
+		gradient_width = 			0.03
+		gradient_color_mult =		.6
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			0
+		before_lighting_blend =		1
+		after_lighting_blend =		0
+	}
+}
+
+# Heat maps, show "spread" etc, uses the alpha from the actual color to indicate strength of "spread"
+# Tweak the values in here to tweak the look of this map mode.
+heatmap = {
+	gradient_water_borders_zoom = @zoom_step_flatmap
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap
+
+		gradient_alpha_inside = 	0.45
+		gradient_alpha_outside = 	0.475
+		gradient_width = 			0.0325
+		gradient_color_mult =		.45
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			0
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+}
+
+# Interactive map modes where you click on the Map
+interactive = {
+	gradient_water_borders_zoom = 0
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_mid
+
+		gradient_alpha_inside = 	0.9
+		gradient_alpha_outside = 	0.9
+		gradient_width = 			0
+		gradient_color_mult =		1
+		edge_width = 				0.03
+		edge_sharpness = 			0
+		edge_alpha = 				0.9
+		edge_color_mult = 			0.7
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap
+
+		gradient_alpha_inside = 	.75
+		gradient_alpha_outside = 	.85
+		gradient_width = 			0.075
+		gradient_color_mult =		0.5
+		edge_width = 				0.025
+		edge_sharpness = 			0.01
+		edge_alpha = 				1
+		edge_color_mult = 			0.5
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+}
+
+# Standard mapmodes [?]
+mapmode = {
+	gradient_water_borders_zoom = 0
+
+	gradient_parameters = {
+		gradient_alpha_inside = 	.7
+		gradient_alpha_outside = 	.8
+		gradient_width = 			0
+		gradient_color_mult =		0
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				1
+		edge_color_mult = 			1
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+}
+
+# Standard mapmodes [Diplo]
+mapmode_extra = {
+	gradient_water_borders_zoom = 0
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_2
+
+		gradient_alpha_inside = 	0.0
+		gradient_alpha_outside = 	0.0
+		gradient_width = 			0
+		gradient_color_mult =		1
+		edge_width = 				0.03
+		edge_sharpness = 			0
+		edge_alpha = 				0.0
+		edge_color_mult = 			0.7
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_near
+
+		gradient_alpha_inside = 	0.65
+		gradient_alpha_outside = 	0.65
+		gradient_width = 			0
+		gradient_color_mult =		1
+		edge_width = 				0.03
+		edge_sharpness = 			0
+		edge_alpha = 				0.75
+		edge_color_mult = 			0.65
+		before_lighting_blend =		0
+		after_lighting_blend =		1
+	}
+
+	gradient_parameters = {
+		zoom_step = @zoom_step_mid
+
+		gradient_alpha_inside = 	0.4
+		gradient_alpha_outside = 	1
+		gradient_width = 			0.05
+		gradient_color_mult =		.8
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			1
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+	
+	gradient_parameters = {
+		zoom_step = @zoom_step_flatmap
+
+		gradient_alpha_inside = 	0.5
+		gradient_alpha_outside = 	0.55
+		gradient_width = 			0.1
+		gradient_color_mult =		.525
+		edge_width = 				0
+		edge_sharpness = 			0
+		edge_alpha = 				0
+		edge_color_mult = 			1
+		before_lighting_blend =		1
+		after_lighting_blend =		1
+	}
+}

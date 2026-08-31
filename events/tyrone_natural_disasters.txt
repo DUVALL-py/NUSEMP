@@ -1,0 +1,200 @@
+﻿namespace = tyrone_disaster
+
+# Earthquake
+tyrone_disaster.1 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_disaster.1.t
+	desc = tyrone_disaster.1.d
+	flavor = tyrone_disaster.1.f
+	event_image = { video = "unspecific_devastation" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1840.1.1
+		NOT = { has_variable = recent_disaster }
+	}
+
+	immediate = {
+		set_variable = { name = recent_disaster months = 120 }
+		random_scope_state = {
+			limit = { is_incorporated = yes }
+			save_scope_as = disaster_state
+			add_modifier = { name = modifier_earthquake_devastation months = 36 }
+		}
+	}
+
+	option = {
+		name = tyrone_disaster.1.a
+		default_option = yes
+		add_treasury = -100000
+		scope:disaster_state = {
+			add_modifier = { name = modifier_disaster_relief_fund months = 24 }
+		}
+	}
+	option = {
+		name = tyrone_disaster.1.b
+	}
+}
+
+# Great Flood
+tyrone_disaster.2 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_disaster.2.t
+	desc = tyrone_disaster.2.d
+	flavor = tyrone_disaster.2.f
+	event_image = { video = "unspecific_devastation" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1840.1.1
+		NOT = { has_variable = recent_disaster }
+	}
+
+	immediate = {
+		set_variable = { name = recent_disaster months = 120 }
+		random_scope_state = {
+			limit = { is_incorporated = yes }
+			save_scope_as = disaster_state
+			add_modifier = { name = modifier_great_flood months = 24 }
+		}
+	}
+
+	option = {
+		name = tyrone_disaster.2.a
+		default_option = yes
+		add_treasury = -80000
+		scope:disaster_state = {
+			add_modifier = { name = modifier_disaster_relief_fund months = 18 }
+		}
+	}
+	option = {
+		name = tyrone_disaster.2.b
+	}
+}
+
+# Severe Drought
+tyrone_disaster.3 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_disaster.3.t
+	desc = tyrone_disaster.3.d
+	flavor = tyrone_disaster.3.f
+	event_image = { video = "unspecific_devastation" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1840.1.1
+		NOT = { has_variable = recent_disaster }
+	}
+
+	immediate = {
+		set_variable = { name = recent_disaster months = 120 }
+		random_scope_state = {
+			limit = { is_incorporated = yes }
+			save_scope_as = disaster_state
+			add_modifier = { name = modifier_severe_drought months = 36 }
+		}
+	}
+
+	option = {
+		name = tyrone_disaster.3.a
+		default_option = yes
+		add_treasury = -120000
+		scope:disaster_state = {
+			add_modifier = { name = modifier_disaster_relief_fund months = 24 }
+		}
+	}
+	option = {
+		name = tyrone_disaster.3.b
+	}
+}
+
+# Volcanic Eruption
+tyrone_disaster.4 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_disaster.4.t
+	desc = tyrone_disaster.4.d
+	flavor = tyrone_disaster.4.f
+	event_image = { video = "unspecific_devastation" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1840.1.1
+		NOT = { has_variable = recent_disaster }
+	}
+
+	immediate = {
+		set_variable = { name = recent_disaster months = 120 }
+		random_scope_state = {
+			limit = { is_incorporated = yes }
+			save_scope_as = disaster_state
+			add_modifier = { name = modifier_volcanic_eruption months = 48 }
+		}
+	}
+
+	option = {
+		name = tyrone_disaster.4.a
+		default_option = yes
+		add_treasury = -150000
+		scope:disaster_state = {
+			add_modifier = { name = modifier_disaster_relief_fund months = 36 }
+		}
+	}
+	option = {
+		name = tyrone_disaster.4.b
+	}
+}
+
+# National Reconstruction Complete
+tyrone_disaster.5 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_disaster.5.t
+	desc = tyrone_disaster.5.d
+	flavor = tyrone_disaster.5.f
+	event_image = { video = "unspecific_signed_contract" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_variable = recent_disaster
+		NOT = {
+			any_scope_state = {
+				OR = {
+					has_modifier = modifier_earthquake_devastation
+					has_modifier = modifier_great_flood
+					has_modifier = modifier_severe_drought
+					has_modifier = modifier_volcanic_eruption
+				}
+			}
+		}
+		NOT = { has_variable = reconstruction_complete }
+	}
+
+	immediate = {
+		set_variable = { name = reconstruction_complete months = 60 }
+	}
+
+	option = {
+		name = tyrone_disaster.5.a
+		default_option = yes
+		add_modifier = { name = modifier_national_reconstruction months = 60 }
+	}
+}

@@ -1,0 +1,170 @@
+﻿l_braz_por:
+ # ================================================
+ # EDIFÍCIOS - Fase 3 Cívica
+ # ================================================
+ building_public_hospital:0 "Hospital Público"
+ building_public_hospital_desc:0 "Instalação médica moderna que oferece cuidados de saúde, pesquisa de saneamento e prevenção de epidemias à população."
+ building_stadium:0 "Estádio e Arena Esportiva"
+ building_stadium_desc:0 "Local para esportes organizados, competições atléticas e entretenimento público, elevando o moral dos trabalhadores e o padrão de vida."
+ building_national_museum:0 "Museu Nacional"
+ building_national_museum_desc:0 "Instituição grandiosa que preserva o patrimônio cultural, artefatos históricos e tesouros científicos, atraindo prestígio global."
+
+ # ================================================
+ # GRUPOS DE PM - Fase 3 Cívica
+ # ================================================
+ pmg_base_building_public_hospital:0 "Administração Hospitalar"
+ pmg_base_building_stadium:0 "Instalações do Estádio"
+ pmg_base_building_national_museum:0 "Sistema Curatorial"
+
+ # ================================================
+ # MÉTODOS DE PRODUÇÃO - Fase 3 Cívica
+ # ================================================
+ pm_charity_hospital:0 "Enfermaria de Caridade"
+ pm_charity_hospital_desc:0 "Cuidados hospitalares básicos financiados por doações filantrópicas e ordens religiosas."
+ pm_modern_hospital:0 "Hospital Público Moderno"
+ pm_modern_hospital_desc:0 "Cuidados médicos financiados pelo Estado utilizando cirurgia antisséptica, enfermeiros treinados e enfermarias dedicadas."
+ pm_research_hospital:0 "Hospital Universitário"
+ pm_research_hospital_desc:0 "Hospital de pesquisa clínica avançada impulsionando inovações médicas e ciência da saúde pública."
+
+ pm_local_sports_ground:0 "Campo Esportivo Local"
+ pm_local_sports_ground_desc:0 "Campos abertos e arquibancadas simples para partidas atléticas locais."
+ pm_organized_stadium:0 "Estádio de Esportes Organizados"
+ pm_organized_stadium_desc:0 "Arena dedicada para esportes de liga, atraindo multidões entusiastas de trabalhadores e fãs da classe média."
+ pm_modern_arena:0 "Arena Elétrica Moderna"
+ pm_modern_arena_desc:0 "Estádio com iluminação elétrica sediando eventos atléticos nacionais e espetáculos."
+
+ pm_cabinet_curiosities:0 "Gabinete de Curiosidades"
+ pm_cabinet_curiosities_desc:0 "Uma coleção privada de antiguidades raras e espécimes naturais exibidos para acadêmicos."
+ pm_national_museum_gallery:0 "Museu e Galeria Nacional"
+ pm_national_museum_gallery_desc:0 "Museu estatal exibindo obras de arte nacionais, tesouros históricos e descobertas arqueológicas."
+ pm_universal_museum:0 "Museu Universal"
+ pm_universal_museum_desc:0 "Instituição mundialmente renomada que abriga obras-primas de todas as civilizações humanas."
+
+ # ================================================
+ # DIÁRIOS DE BORDO (JOURNAL ENTRIES)
+ # ================================================
+ je_contain_epidemic:0 "Conter a Epidemia"
+ je_contain_epidemic_reason:0 "Implemente medidas de saúde pública, quarentenas e ajuda médica para deter a propagação de contágios."
+ je_railway_era:0 "A Era das Ferrovias"
+ je_railway_era_reason:0 "Expanda nossa rede ferroviária nacional para conectar províncias, portos e centros industriais."
+ je_great_industrialization:0 "A Grande Industrialização"
+ je_great_industrialization_reason:0 "Transforme nossa economia nacional em uma potência industrial dominante."
+ je_migration_wave:0 "Farol de Esperança"
+ je_migration_wave_reason:0 "Atraia ondas de imigrantes estrangeiros em busca de oportunidades econômicas e liberdade."
+ je_arms_race:0 "Hegemonia Naval e Militar"
+ je_arms_race_reason:0 "Construa um exército e uma frota inigualáveis para garantir nosso lugar entre as Grandes Potências."
+ je_speculative_bubble:0 "Navegando a Crise Financeira"
+ je_speculative_bubble_reason:0 "Estabilize o setor financeiro após um colapso especulativo de mercado."
+
+ # ================================================
+ # DECISÕES
+ # ================================================
+ decree_port_quarantine:0 "Impor Quarentena Portuária"
+ decree_port_quarantine_desc:0 "Imponha inspeções médicas estritas e quarentenas nos principais portos para conter a transmissão de doenças."
+ sign_non_aggression_pact:0 "Assinar Acordo Diplomático"
+ sign_non_aggression_pact_desc:0 "Firme um pacto de não agressão para garantir a estabilidade regional e promover a confiança."
+ fund_veteran_relief:0 "Financiar Pensões de Veteranos"
+ fund_veteran_relief_desc:0 "Proporcione pensões financeiras, cuidados médicos e subsídios de moradia para veteranos de guerra."
+ bank_bailout_package:0 "Autorizar Resgate Bancário"
+ bank_bailout_package_desc:0 "Injete capital estatal em bancos em dificuldades para prevenir um colapso financeiro sistêmico."
+
+ # ================================================
+ # EVENTOS
+ # ================================================
+ tyrone_mechanics.1.t:0 "Surto de Cólera"
+ tyrone_mechanics.1.d:0 "Fontes de água contaminadas desencadearam um surto mortal de cólera. O pânico se espalha conforme as baixas aumentam."
+ tyrone_mechanics.1.f:0 "As bombas de água da capital cheiram a contágio."
+ tyrone_mechanics.1.a:0 "Imponha quarentenas estritas!"
+ tyrone_mechanics.1.b:0 "Confie nos médicos locais."
+
+ tyrone_mechanics.2.t:0 "Pânico no Mercado de Ações!"
+ tyrone_mechanics.2.d:0 "A febre especulativa se transformou em horror com a queda dos mercados de ações. Casas financeiras enfrentam a ruína enquanto investidores lutam por liquidez."
+ tyrone_mechanics.2.f:0 "Pânico no pregão enquanto fortunas evaporam em horas."
+ tyrone_mechanics.2.a:0 "Resgate as principais instituições!"
+ tyrone_mechanics.2.b:0 "Deixe o mercado expurgar a ineficiência."
+
+ tyrone_mechanics.3.t:0 "Escalação da Corrida Armamentista Naval"
+ tyrone_mechanics.3.d:0 "Potências rivais estão expandindo suas frotas de guerra, ameaçando nossa segurança marítima. Estrategistas navais exigem expansão imediata."
+ tyrone_mechanics.3.f:0 "Cascos de aço alinham os estaleiros enquanto a guerra se projeta nas sombras."
+ tyrone_mechanics.3.a:0 "Construa mais encouraçados!"
+ tyrone_mechanics.3.b:0 "Proponha um tratado de desarmamento."
+
+ tyrone_mechanics.4.t:0 "Insurgência Regional"
+ tyrone_mechanics.4.d:0 "Populações locais descontentes pegaram em armas em resistência de guerrilha contra a autoridade central."
+ tyrone_mechanics.4.f:0 "Tiros ecoam nas colinas enquanto insurgentes atacam guarnições estatais."
+ tyrone_mechanics.4.a:0 "Enviar forças de pacificação!"
+ tyrone_mechanics.4.b:0 "Ofereça concessões políticas."
+
+ # ================================================
+ # MODIFICADORES
+ # ================================================
+ modifier_epidemic_conquered:0 "Epidemia Conquistada"
+ modifier_epidemic_conquered_desc:0 "Intervenções bem-sucedidas de saúde pública eliminaram grandes surtos de doenças."
+ modifier_railway_boom:0 "Boom de Expansão Ferroviária"
+ modifier_railway_boom_desc:0 "Uma rede ferroviária florescente impulsiona a infraestrutura e o acesso ao mercado."
+ modifier_industrial_powerhouse:0 "Potência Industrial"
+ modifier_industrial_powerhouse_desc:0 "Nossa nação é reconhecida como líder industrial global."
+ modifier_beacon_of_hope:0 "Farol de Oportunidade"
+ modifier_beacon_of_hope_desc:0 "Altos padrões de vida e liberdade atraem imigrantes de todo o mundo."
+ modifier_military_hegemony:0 "Hegemonia Militar"
+ modifier_military_hegemony_desc:0 "Nossas formidáveis forças armadas projetam poder por todo o globo."
+ modifier_economic_recovery:0 "Estabilização Econômica"
+ modifier_economic_recovery_desc:0 "Uma gestão estatal prudente restaurou o crescimento econômico."
+ modifier_diplomatic_pact:0 "Confiança Diplomática"
+ modifier_diplomatic_pact_desc:0 "Acordos de não agressão aumentam a estabilidade regional."
+ modifier_veteran_welfare:0 "Programas de Bem-Estar para Veteranos"
+ modifier_veteran_welfare_desc:0 "Pensões para veteranos de guerra melhoram a estabilidade social e o bem-estar das classes baixas."
+ modifier_stabilized_banks:0 "Estabilidade Bancária"
+ modifier_stabilized_banks_desc:0 "A intervenção estatal restaurou a confiança nos bancos comerciais."
+ modifier_local_quarantine:0 "Quarentena Portuária"
+ modifier_local_quarantine_desc:0 "Protocolos de quarentena restringem viagens para conter doenças."
+ modifier_naval_build_up:0 "Rearmamento Naval"
+ modifier_naval_build_up_desc:0 "Estaleiros expandidos aceleram a produção de armamentos navais."
+ modifier_military_pacification:0 "Ordem Militar"
+ modifier_military_pacification_desc:0 "Forças de segurança mantêm a ordem em províncias turbulentas."
+
+ # ================================================
+ # NOVOS BENS, DECRETOS E EVENTOS
+ # ================================================
+ chocolate:0 "Chocolates e Doces Finos"
+ chocolate_desc:0 "Chocolates finos, cacau e confeitos apreciados por todas as camadas da sociedade."
+ cacao:0 "Cacau"
+ cacao_desc:0 "Grãos de cacau colhidos em plantações tropicais para a produção de chocolate."
+ building_cocoa_plantation:0 "Plantação de Cacau"
+ building_cocoa_plantation_desc:0 "Plantação agrícola cultivando árvores de cacau para a manufatura de chocolate."
+ pmg_base_building_cocoa_plantation:0 "Sistema de Cultivo de Cacau"
+ pm_manual_cocoa_harvesting:0 "Colheita Manual de Cacau"
+ pm_manual_cocoa_harvesting_desc:0 "Frutos de cacau colhidos manualmente por trabalhadores rurais."
+ pm_mechanized_cocoa_harvesting:0 "Processamento Mecanizado de Cacau"
+ pm_mechanized_cocoa_harvesting_desc:0 "Trituradores e secadores a vapor acelerando a produção de cacau."
+ pm_chocolate_chocolatier:0 "Chocolataria Artesanal"
+ pm_chocolate_chocolatier_desc:0 "Produção dedicada de chocolates utilizando cacau, açúcar e leite importados."
+
+ decree_pro_natalist_incentives:0 "Incentivos Pró-Natalistas"
+ decree_pro_natalist_incentives_desc:0 "Concede subsídios estatais, auxílio de saúde familiar e alívio fiscal para elevar as taxas de natalidade."
+ decree_industrial_workforce_efficiency:0 "Incentivo de Eficiência Industrial"
+ decree_industrial_workforce_efficiency_desc:0 "Incentiva a automação de fábricas e a otimização do trabalho para maximizar a produção."
+ decree_open_immigration_hub:0 "Polo de Imigração Aberta"
+ decree_open_immigration_hub_desc:0 "Oferece concessões de terras e políticas de portos abertos para atrair ondas de imigrantes."
+
+ tyrone_curse.1.t:0 "Maldição da Nação"
+ tyrone_curse.1.d:0 "Uma série de reveses misteriosos, colheitas fracassadas e tensões sociais abateu-se sobre nossa terra. O povo sussurra sobre uma maldição nacional."
+ tyrone_curse.1.f:0 "Sombras pairam pesadas sobre a capital."
+ tyrone_curse.1.a:0 "Nós superaremos a tempestade!"
+ tyrone_curse.1.b:0 "Investir pesadamente para mitigar as dificuldades."
+ tyrone_curse.2.t:0 "Triunfo Sobre a Maldição"
+ tyrone_curse.2.d:0 "Os anos sombrios passaram! Com resiliência e união nacional, nossa nação quebrou a maldição e emergiu mais forte do que nunca."
+ tyrone_curse.2.f:0 "A luz do sol rompe as nuvens mais uma vez."
+ tyrone_curse.2.a:0 "Uma nova e gloriosa era começa!"
+
+ modifier_curse_of_the_nation:0 "Maldição da Nação"
+ modifier_curse_of_the_nation_desc:0 "Dificuldades generalizadas e tensões sociais prejudicam a estabilidade nacional."
+ modifier_curse_of_the_nation_mild:0 "Infortúnio Nacional Persistente"
+ modifier_curse_of_the_nation_mild_desc:0 "Leve descontentamento social persiste pelo país."
+ modifier_triumph_over_curse:0 "Renascimento Nacional"
+ modifier_triumph_over_curse_desc:0 "O orgulho nacional e o padrão de vida disparam após superar adversidades históricas."
+ modifier_patent_royalties:0 "Royalties de Patentes e Monopólios Comerciais"
+ modifier_patent_royalties_desc:0 "Lucrativas taxas de licenciamento de patentes entram no tesouro a partir de inovações pioneiras."
+
+ company_stollwerck:0 "Stollwerck AG"
+ company_stollwerck_desc:0 "Famosa fabricante alemã de chocolates e confeitos fundada em Colônia em 1839, pioneira na produção de chocolate na Europa Central."

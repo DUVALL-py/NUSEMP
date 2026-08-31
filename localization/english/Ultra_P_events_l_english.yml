@@ -1,0 +1,54 @@
+﻿l_english:
+
+#Ideology change events
+
+ ideologies_change.1.t:0 "Imperialism"
+ ideologies_change.1.d:0 "[ROOT.GetCountry.GetName] has proved to be the pinacle of Civilization. It falls on our great nation's shoulders to shine the light of modernity into every uncivilized corner of the world, to educate and instill in the less developed peoples the divine values of our glorious culture."
+ ideologies_change.1.f:0 "\"Obviously there might be some "material benefits", bringing Civilization is not free!"
+ ideologies_change.1.a:0 "Fully embrace Imperialism. We shall have our place in the sun."
+ ideologies_change.1.b:0 "Stay away from such non-sense."
+ 
+ ideologies_change.2.t:0 "Cosmopolitism"
+ ideologies_change.2.d:0 "[ROOT.GetCountry.GetName] is a country open to the rest of the World. Artificial barriers like "Race" and "Nation" are just obstacles to a prosperous, peaceful society."
+ ideologies_change.2.f:0 "\"You are welcome but you still need to learn our language."
+ ideologies_change.2.a:0 "I have a dream..."
+
+ ideologies_change.3.t:0 "On Democracy"
+ ideologies_change.3.d:0 "People of [ROOT.GetCountry.GetName] need to really matter in politics. It is a fundamental injustice that some get to vote and others do not."
+ ideologies_change.3.f:0 "\"No more half-backed measures, our people deserve to decide for themselves!"
+ ideologies_change.3.a:0 "One Man, one Vote!"
+ ideologies_change.3.b:0 "$ideologies_change.3.a$"
+
+ ideologies_change.4.t:0 "Reaction to the Socialist threat"
+ ideologies_change.4.d:0 "People of [ROOT.GetCountry.GetName] have built a functional and moderate liberal democracy, but with the rise of new socialist ideas, Civilization is in danger. At least, that's what the Petite Bourgeoise think."
+ ideologies_change.4.f:0 "\"For the defense of our society, it is worth giving up some liberties for more security."
+ ideologies_change.4.a:0 "Better dead than Red!"
+
+ ideologies_change.5.t:0 "Serfdom stamped out"
+ ideologies_change.5.d:0 "[ROOT.GetCountry.GetName] has abolished Serfdom for years. This has lead to an objectively better situation even for those who defended it."
+ ideologies_change.5.f:0 "Relics of the Dark Ages are no longer needed!"
+ ideologies_change.5.a:0 "There is a better means to preserve Nobility..."
+ 
+ ideologies_change.6.t:0 "The End of Theocracy" 
+ ideologies_change.6.d:0 "[ROOT.GetCountry.GetName] has brought an end to the backwards practice of Theocracy, it seems the Church has finally given up on wielding governmental power."
+ ideologies_change.6.f:0 "No longer is our nation controlled by a corrupt clergy!" 
+ ideologies_change.6.a:0 "The Church must adapt." 
+ 
+ ideologies_change.7.t:0 "The Rise of Theocracy"
+ ideologies_change.7.d:0 "With the Rise of Theocratic Governance, the Clergy has welcomed their new role, proclaiming the new Government Holy, and that the Faithful are obligated to defend it."
+ ideologies_change.7.f:0 "Faith and State are now one and the same." 
+ ideologies_change.7.a:0 "Praise God!" 
+ 
+ ideologies_change.8.t:0 "In Defense of the Revolution" 
+ ideologies_change.8.d:0 "Counter-Revolutionary forces threaten the Revolution, especially within [ROOT.GetCountry.GetName], we must adopt measures to protect it." 
+ ideologies_change.8.f:0 "For the defense of our revolution, it is important that protective measures are instated." 
+ ideologies_change.8.a:0 "I assure you commissar..." 
+
+ ideologies_change.9.t:0 "Consent of the Governed"
+ ideologies_change.9.d:0 "Enligntenment ideas have spread in [ROOT.GetCountry.GetName]. Rule by the few is increasingly questioned."
+ ideologies_change.9.f:0 "\"That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed. That whenever any Form of Government becomes destructive of these ends, it is the Right of the People to alter or to abolish it, and to institute new Government..."
+ ideologies_change.9.a:0 "Perhaps it is time the people get a say in how to run the country..."
+
+
+ 
+

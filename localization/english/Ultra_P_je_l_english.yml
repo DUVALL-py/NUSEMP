@@ -1,0 +1,38 @@
+﻿l_english:
+
+# Politics related JE
+
+ je_imperialism:0 "Toward Imperialism"
+ je_imperialism_reason:0 "Our great Nation needs more than its territory can provide. Colonies will give us what we lack while bringing Civilization to foreign cultures is a prestigious duty."
+ 
+ je_cosmopolitan:0 "Ending Discrimination"
+ je_cosmopolitan_reason:0 "It is inhuman to discriminate people based on their origin or nationality. Real progress leans toward a cosmopolitan society."
+
+ je_full_democracy:0 "On Democracy"
+ je_full_democracy_reason:0 "A real Democracy should allow everyone to vote and not only a minority."
+
+ je_reaction_PB:0 "Reaction to Socialism"
+ je_reaction_PB_reason:0 "With the rise of Socialist ideas, more and more people start to feel threatened."
+
+ je_abolish_serfdom:0 "Abolition of Serfdom"
+ je_abolish_serfdom_reason:0 "Serfdom has been abolished recently, but there are still influencial people wishing to re-establish it. Some time will be needed before they definitively give up on it."
+ je_abolish_serfdom_goal:0 "After 5 years with Serfdom abolished, Serfdom proponents will admit how obsolete it was. Attempts to reinstate it or civil wars will stop the progression."
+ 
+ je_abolish_theocracy:0 "The End of Theocracy" 
+ je_abolish_theocracy_reason:0 "It will take time for the Church to forget the feeling of Clerical Power." 
+ je_abolish_theocracy_goal:0 "After an uninterrupted 10 years, the Church will abandon its support for Theocratic Government." 
+
+ 
+ je_theocracy_mode:0 "Rise of the Theocracy"
+ je_theocracy_mode_reason:0 "With the Nation adopting a Theocratic Government, the Church is happy to embrace it." 
+ 
+ je_vanguardist_securitarian:0 "Secure the Revolution" 
+ je_vanguardist_securitarian_reason:0 "We must protect the Revolution from Counter-revolutionary forces." 
+
+ je_AI_political_stability:0 "AI political stability"
+ je_AI_political_stability_reason:0 "The AI is not dynamic enough to deal with strong political movements the Ultra Politics mod and is likely to fall into civil wars instead of passing laws. Thus, the AI needs different rules as long as it is that bad."
+
+ je_medium_democracy:0 "Consent of the Governed"
+ je_medium_democracy_reason:0 "Now that our country has been exposed to Western ideas, more and more of our people want a say in government."
+
+ 

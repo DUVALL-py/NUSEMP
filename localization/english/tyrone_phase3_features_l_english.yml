@@ -1,0 +1,172 @@
+﻿l_english:
+ # ================================================
+ # BUILDINGS - Phase 3 Civic
+ # ================================================
+ building_public_hospital:0 "Public Hospital"
+ building_public_hospital_desc:0 "A modern medical facility providing healthcare, sanitation research, and epidemic prevention to the population."
+ building_stadium:0 "Stadium & Sports Arena"
+ building_stadium_desc:0 "A venue for organized sports, athletic competitions, and public entertainment, elevating worker morale and standard of living."
+ building_national_museum:0 "National Museum"
+ building_national_museum_desc:0 "A grand institution preserving cultural heritage, historical artifacts, and scientific treasures, attracting global prestige."
+
+ # ================================================
+ # PM GROUPS - Phase 3 Civic
+ # ================================================
+ pmg_base_building_public_hospital:0 "Hospital Administration"
+ pmg_base_building_stadium:0 "Stadium Facilities"
+ pmg_base_building_national_museum:0 "Curatorial System"
+
+ # ================================================
+ # PRODUCTION METHODS - Phase 3 Civic
+ # ================================================
+ pm_charity_hospital:0 "Charitable Wards"
+ pm_charity_hospital_desc:0 "Basic hospital care funded by philanthropic donations and religious orders."
+ pm_modern_hospital:0 "Modern Public Hospital"
+ pm_modern_hospital_desc:0 "State-funded medical care utilizing antiseptic surgery, trained nurses, and dedicated wards."
+ pm_research_hospital:0 "University Teaching Hospital"
+ pm_research_hospital_desc:0 "Advanced clinical research hospital driving medical innovations and public health science."
+
+ pm_local_sports_ground:0 "Local Sports Ground"
+ pm_local_sports_ground_desc:0 "Open fields and simple stands for local athletic matches."
+ pm_organized_stadium:0 "Organized Sports Stadium"
+ pm_organized_stadium_desc:0 "Dedicated arena for league sports, attracting enthusiastic crowds of workers and middle-class fans."
+ pm_modern_arena:0 "Modern Electric Arena"
+ pm_modern_arena_desc:0 "Electrically lit stadium hosting national athletic events and spectacles."
+
+ pm_cabinet_curiosities:0 "Cabinet of Curiosities"
+ pm_cabinet_curiosities_desc:0 "A private collection of rare antiquities and natural specimens displayed for scholars."
+ pm_national_museum_gallery:0 "National Museum & Gallery"
+ pm_national_museum_gallery_desc:0 "State museum displaying national artwork, historical treasures, and archaeological finds."
+ pm_universal_museum:0 "Universal Museum"
+ pm_universal_museum_desc:0 "World-renowned institution housing masterworks from all human civilizations."
+
+ # ================================================
+ # JOURNAL ENTRIES
+ # ================================================
+ je_contain_epidemic:0 "Contain the Epidemic"
+ je_contain_epidemic_reason:0 "Deploy public health measures, quarantines, and medical aid to halt the spread of contagion."
+ je_railway_era:0 "The Era of Railways"
+ je_railway_era_reason:0 "Expand our national rail network to connect provinces, ports, and industrial centers."
+ je_great_industrialization:0 "The Great Industrialization"
+ je_great_industrialization_reason:0 "Transform our national economy into a dominant industrial powerhouse."
+ je_migration_wave:0 "Beacon of Hope"
+ je_migration_wave_reason:0 "Attract waves of foreign immigrants seeking economic opportunity and freedom."
+ je_arms_race:0 "Naval & Military Hegemony"
+ je_arms_race_reason:0 "Build up an unrivaled army and fleet to secure our place among the Great Powers."
+ je_speculative_bubble:0 "Navigating Financial Crisis"
+ je_speculative_bubble_reason:0 "Stabilize the financial sector following a speculative market crash."
+
+ # ================================================
+ # DECISIONS
+ # ================================================
+ decree_port_quarantine:0 "Enforce Port Quarantine"
+ decree_port_quarantine_desc:0 "Impose strict medical inspections and quarantines at major ports to halt disease transmission."
+ sign_non_aggression_pact:0 "Sign Diplomatic Accord"
+ sign_non_aggression_pact_desc:0 "Enter into a non-aggression pact to guarantee regional stability and foster trust."
+ fund_veteran_relief:0 "Fund Veteran Relief Pensions"
+ fund_veteran_relief_desc:0 "Provide financial pensions, medical care, and housing grants to war veterans."
+ bank_bailout_package:0 "Authorize Banking Bailout"
+ bank_bailout_package_desc:0 "Inject state capital into distressed banks to prevent systemic financial collapse."
+
+ # ================================================
+ # EVENTS
+ # ================================================
+ tyrone_mechanics.1.t:0 "Outbreak of Cholera"
+ tyrone_mechanics.1.d:0 "Contaminated water supplies have triggered a deadly outbreak of cholera. Panic spreads as casualties mount."
+ tyrone_mechanics.1.f:0 "The water pumps of the capital reek of contagion."
+ tyrone_mechanics.1.a:0 "Impose strict quarantines!"
+ tyrone_mechanics.1.b:0 "Rely on local physicians."
+
+ tyrone_mechanics.2.t:0 "Stock Market Panic!"
+ tyrone_mechanics.2.d:0 "Speculative fever has turned to horror as stock markets crash. Financial houses face ruin as investors scramble for liquidity."
+ tyrone_mechanics.2.f:0 "Panic on the exchange floor as fortunes evaporate in hours."
+ tyrone_mechanics.2.a:0 "Bail out major institutions!"
+ tyrone_mechanics.2.b:0 "Let the market purge inefficiency."
+
+ tyrone_mechanics.3.t:0 "Naval Arms Race Escalation"
+ tyrone_mechanics.3.d:0 "Rival powers are expanding their battlefleets, threatening our maritime security. Naval strategists demand immediate naval expansion."
+ tyrone_mechanics.3.f:0 "Steel hulls line the drydocks as war looms in the shadows."
+ tyrone_mechanics.3.a:0 "Build more dreadnoughts!"
+ tyrone_mechanics.3.b:0 "Propose a disarmament treaty."
+
+ tyrone_mechanics.4.t:0 "Regional Insurgency"
+ tyrone_mechanics.4.d:0 "Discontented local populations have taken up arms in guerrilla resistance against central authority."
+ tyrone_mechanics.4.f:0 "Shots echo in the hills as insurgents attack state garrisons."
+ tyrone_mechanics.4.a:0 "Deploy pacification forces!"
+ tyrone_mechanics.4.b:0 "Offer political concessions."
+
+ # ================================================
+ # MODIFIERS
+ # ================================================
+ modifier_epidemic_conquered:0 "Epidemic Conquered"
+ modifier_epidemic_conquered_desc:0 "Successful public health interventions have eliminated major disease outbreaks."
+ modifier_railway_boom:0 "Railway Expansion Boom"
+ modifier_railway_boom_desc:0 "A flourishing railway network boosts infrastructure and market access."
+ modifier_industrial_powerhouse:0 "Industrial Powerhouse"
+ modifier_industrial_powerhouse_desc:0 "Our nation is recognized as a global industrial leader."
+ modifier_beacon_of_hope:0 "Beacon of Opportunity"
+ modifier_beacon_of_hope_desc:0 "High living standards and liberty attract immigrants from across the world."
+ modifier_military_hegemony:0 "Military Hegemony"
+ modifier_military_hegemony_desc:0 "Our formidable armed forces project power across the globe."
+ modifier_economic_recovery:0 "Economic Stabilization"
+ modifier_economic_recovery_desc:0 "Prudent state management has restored economic growth."
+ modifier_diplomatic_pact:0 "Diplomatic Trust"
+ modifier_diplomatic_pact_desc:0 "Non-aggression agreements enhance regional stability."
+ modifier_veteran_welfare:0 "Veteran Welfare Programs"
+ modifier_veteran_welfare_desc:0 "Pensions for war veterans improve social stability and lower-strata well-being."
+ modifier_stabilized_banks:0 "Banking Stability"
+ modifier_stabilized_banks_desc:0 "State intervention has restored confidence in commercial banks."
+ modifier_local_quarantine:0 "Port Quarantine"
+ modifier_local_quarantine_desc:0 "Quarantine protocols restrict travel to contain disease."
+ modifier_naval_build_up:0 "Naval Rearmament"
+ modifier_naval_build_up_desc:0 "Expanded shipyards accelerate naval armaments production."
+ modifier_military_pacification:0 "Military Order"
+ modifier_military_pacification_desc:0 "Security forces maintain order in turbulent provinces."
+
+ # ================================================
+ # NEW CONSUMER GOODS & DECREES & EVENTS
+ # ================================================
+ chocolate:0 "Chocolate & Confectionery"
+ chocolate_desc:0 "Rich chocolate, cocoa, and fine sweets enjoyed by all strata of society."
+ cacao:0 "Cocoa"
+ cacao_desc:0 "Raw cocoa beans harvested from tropical plantations for chocolate production."
+ building_cocoa_plantation:0 "Cocoa Plantation"
+ building_cocoa_plantation_desc:0 "Agricultural plantation cultivating cocoa trees for chocolate manufacturing."
+ pmg_base_building_cocoa_plantation:0 "Cocoa Cultivation System"
+ pm_manual_cocoa_harvesting:0 "Manual Cocoa Harvesting"
+ pm_manual_cocoa_harvesting_desc:0 "Hand-picked cocoa pods harvested by plantation workers."
+ pm_mechanized_cocoa_harvesting:0 "Mechanized Cocoa Processing"
+ pm_mechanized_cocoa_harvesting_desc:0 "Steam-powered pod crushers and drying equipment accelerating cocoa output."
+ pm_chocolate_chocolatier:0 "Artisanal Chocolatier"
+ pm_chocolate_chocolatier_desc:0 "Dedicated chocolate production utilizing imported cocoa, sugar, and milk."
+
+ decree_pro_natalist_incentives:0 "Pro-Natalist Incentives"
+ decree_pro_natalist_incentives_desc:0 "Provide state subsidies, family healthcare grants, and tax relief to boost national birth rates."
+ decree_industrial_workforce_efficiency:0 "Workforce Efficiency Incentive"
+ decree_industrial_workforce_efficiency_desc:0 "Incentivize factory automation and labor optimization to maximize industrial output per worker."
+ decree_open_immigration_hub:0 "Open Immigration Hub"
+ decree_open_immigration_hub_desc:0 "Provide land grants, settlement subsidies, and open port policies to attract waves of international immigrants."
+
+ tyrone_curse.1.t:0 "Curse of the Nation"
+ tyrone_curse.1.d:0 "A series of mysterious setbacks, harvest failures, and social turmoil has fallen upon our land. The populace speaks in whispers of a national curse."
+ tyrone_curse.1.f:0 "Shadows hang heavy over the capital."
+ tyrone_curse.1.a:0 "We shall weather the storm!"
+ tyrone_curse.1.b:0 "Invest heavily to mitigate the hardship."
+ tyrone_curse.2.t:0 "Triumph Over the Curse"
+ tyrone_curse.2.d:0 "The dark years have passed! Through resilience and national unity, our nation has broken the curse and emerged stronger than ever."
+ tyrone_curse.2.f:0 "Sunlight breaks through the clouds once more."
+ tyrone_curse.2.a:0 "A glorious new era begins!"
+
+ modifier_curse_of_the_nation:0 "Curse of the Nation"
+ modifier_curse_of_the_nation_desc:0 "Widespread hardship and social tension strain national stability."
+ modifier_curse_of_the_nation_mild:0 "Lingering National Misfortune"
+ modifier_curse_of_the_nation_mild_desc:0 "Mild social discontent lingers across the country."
+ modifier_triumph_over_curse:0 "National Renaissance"
+ modifier_triumph_over_curse_desc:0 "National pride and living standards surge after overcoming historical adversity."
+ modifier_patent_royalties:0 "Patent Royalties & Commercial Monopolies"
+ modifier_patent_royalties_desc:0 "Lucrative patent licensing fees flow into the treasury from groundbreaking innovations."
+
+ company_stollwerck:0 "Stollwerck AG"
+ company_stollwerck_desc:0 "Famous German chocolate and confectionery manufacturer founded in Cologne in 1839, pioneering chocolate production across Central Europe."
+
+

@@ -1,0 +1,87 @@
+﻿namespace = tyrone_curse
+
+# Curse of the Nation Strikes (5 to 10 years challenge)
+tyrone_curse.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_curse.1.t
+	desc = tyrone_curse.1.d
+	flavor = tyrone_curse.1.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1845.1.1
+		NOT = { has_variable = had_national_curse }
+	}
+
+	immediate = {
+		set_variable = { name = had_national_curse months = 60 }
+		set_variable = { name = national_curse_active months = 60 }
+	}
+
+	option = {
+		name = tyrone_curse.1.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_curse_of_the_nation
+			months = 60
+		}
+	}
+
+	option = {
+		name = tyrone_curse.1.b
+		add_treasury = -200000
+		add_modifier = {
+			name = modifier_curse_of_the_nation_mild
+			months = 120
+		}
+	}
+}
+
+# Triumph Over the Curse (Resolution Event)
+tyrone_curse.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_curse.2.t
+	desc = tyrone_curse.2.d
+	flavor = tyrone_curse.2.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_variable = had_national_curse
+		NOT = { has_modifier = modifier_curse_of_the_nation }
+		NOT = { has_modifier = modifier_curse_of_the_nation_mild }
+		NOT = { has_variable = curse_resolved }
+	}
+
+	immediate = {
+		set_variable = curse_resolved
+	}
+
+	option = {
+		name = tyrone_curse.2.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_triumph_over_curse
+			months = 120
+		}
+	}
+}

@@ -1,0 +1,8 @@
+﻿INJECT:amendment_is_valid_for_promise_quest_degree = {
+    trigger_if = {
+        limit = {
+            country_has_primary_culture = cu:north_german
+       }
+        this = amendment_type:amendment_3_class_franchise
+    }
+}

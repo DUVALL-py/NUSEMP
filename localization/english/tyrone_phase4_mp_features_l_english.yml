@@ -1,0 +1,70 @@
+﻿l_english:
+ # Espionage
+ espionage_steal_research:0 "Launch Espionage Operation"
+ espionage_steal_research_desc:0 "Deploy covert agents to steal technological secrets from a rival power. Risky, costly, and will generate infamy."
+ tyrone_espionage.1.t:0 "Intelligence Operation Proposed"
+ tyrone_espionage.1.d:0 "Our intelligence services propose a daring covert operation to infiltrate a rival nation and steal their technological secrets. The operation carries significant diplomatic risks."
+ tyrone_espionage.1.f:0 "Shadows within shadows."
+ tyrone_espionage.1.a:0 "Proceed with the operation."
+ tyrone_espionage.1.b:0 "Too risky. Stand down."
+ tyrone_espionage.2.t:0 "Espionage Report"
+ tyrone_espionage.2.d:0 "Our agents have returned from their covert mission. They carry stolen blueprints and research notes, but their activities may have been detected."
+ tyrone_espionage.2.f:0 "The secrets of our rivals lay bare."
+ tyrone_espionage.2.a:0 "Exploit the stolen blueprints fully."
+ tyrone_espionage.2.b:0 "Bury the evidence to minimize scandal."
+ modifier_espionage_operation:0 "Active Espionage Operation"
+ modifier_espionage_operation_desc:0 "Covert agents are conducting a risky intelligence operation abroad."
+ modifier_stolen_blueprints:0 "Stolen Industrial Blueprints"
+ modifier_stolen_blueprints_desc:0 "Stolen technological secrets accelerate our own research programs."
+ modifier_espionage_scandal:0 "Espionage Scandal"
+ modifier_espionage_scandal_desc:0 "Our espionage activities were exposed, damaging national prestige and legitimacy."
+
+ # Trade Treaties
+ propose_trade_treaty:0 "Propose Bilateral Trade Treaty"
+ propose_trade_treaty_desc:0 "Negotiate a formal trade agreement com a partner nation, increasing commerce and trade route capacity for both parties."
+ modifier_trade_treaty_active:0 "Bilateral Trade Treaty"
+ modifier_trade_treaty_active_desc:0 "A formal trade agreement boosts commercial exchange and market access."
+
+ # Royal Marriage
+ propose_royal_marriage:0 "Propose Royal Marriage"
+ propose_royal_marriage_desc:0 "Arrange a dynastic marriage between our royal house and another monarchy, forging a powerful political alliance."
+ modifier_dynastic_alliance:0 "Dynastic Alliance"
+ modifier_dynastic_alliance_desc:0 "A royal marriage binds two crowns together, boosting legitimacy and international prestige."
+
+ # Peace Conference
+ convene_peace_conference:0 "Convene Peace Conference"
+ convene_peace_conference_desc:0 "As a victorious great power, host a grand diplomatic conference to reshape the post-war order and cement our influence."
+ modifier_peace_conference_prestige:0 "Architect of Peace"
+ modifier_peace_conference_prestige_desc:0 "Hosting a historic peace conference elevates our nation's diplomatic standing and global influence."
+
+ # Economic Cycles
+ tyrone_economy.1.t:0 "Global Economic Boom!"
+ tyrone_economy.1.d:0 "International trade is booming, factories are running at full capacity, and optimism fills the markets. A golden age of prosperity dawns across the industrialized world."
+ tyrone_economy.1.f:0 "The markets soar ever higher."
+ tyrone_economy.1.a:0 "Ride the wave of prosperity!"
+ tyrone_economy.2.t:0 "Global Economic Recession"
+ tyrone_economy.2.d:0 "The bubble has burst. Markets crash, factories close, and unemployment soars. The great recession sweeps across all nations, sparing none."
+ tyrone_economy.2.f:0 "Dark clouds gather over the markets."
+ tyrone_economy.2.a:0 "Weather the storm."
+ tyrone_economy.2.b:0 "Massive fiscal stimulus to shorten the recession."
+ modifier_global_economic_boom:0 "Global Economic Boom"
+ modifier_global_economic_boom_desc:0 "A period of unprecedented global prosperity boosts manufacturing and living standards."
+ modifier_global_economic_recession:0 "Global Economic Recession"
+ modifier_global_economic_recession_desc:0 "A worldwide economic downturn depresses manufacturing and increases social unrest."
+
+ # Naval Race
+ tyrone_economy.3.t:0 "Naval Arms Race!"
+ tyrone_economy.3.d:0 "Rival great powers are building warships at an alarming rate. Our admirals urge an immediate expansion of our naval capabilities to maintain strategic parity."
+ tyrone_economy.3.f:0 "The dreadnought era has begun."
+ tyrone_economy.3.a:0 "Accelerate naval construction!"
+ tyrone_economy.3.b:0 "We cannot match their spending."
+ modifier_naval_arms_race:0 "Naval Arms Race"
+ modifier_naval_arms_race_desc:0 "Intensive naval buildup projects power but drains the treasury."
+
+ # War Humiliation
+ tyrone_economy.4.t:0 "National Humiliation"
+ tyrone_economy.4.d:0 "Our defeat in the recent war has shaken the nation to its core. The terms imposed upon us are harsh, and our people seethe with resentment and shame."
+ tyrone_economy.4.f:0 "A bitter pill to swallow."
+ tyrone_economy.4.a:0 "We shall remember this humiliation."
+ modifier_war_humiliation:0 "National Humiliation"
+ modifier_war_humiliation_desc:0 "Military defeat has brought shame, unrest, and loss of international prestige."

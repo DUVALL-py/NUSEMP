@@ -1,0 +1,68 @@
+﻿namespace = tyrone_espionage
+
+# Espionage Decision Trigger - Steal Research
+tyrone_espionage.1 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_espionage.1.t
+	desc = tyrone_espionage.1.d
+	flavor = tyrone_espionage.1.f
+	event_image = { video = "unspecific_politicians_arguing" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		country_rank >= rank_value:major_power
+		has_technology_researched = identification_documents
+		NOT = { has_variable = espionage_cooldown }
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = tyrone_espionage.1.a
+		default_option = yes
+		set_variable = { name = espionage_cooldown months = 120 }
+		add_modifier = { name = modifier_espionage_operation months = 12 }
+		trigger_event = { id = tyrone_espionage.2 months = 6 }
+	}
+
+	option = {
+		name = tyrone_espionage.1.b
+	}
+}
+
+# Espionage Result - Success
+tyrone_espionage.2 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_espionage.2.t
+	desc = tyrone_espionage.2.d
+	flavor = tyrone_espionage.2.f
+	event_image = { video = "unspecific_signed_contract" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = tyrone_espionage.2.a
+		default_option = yes
+		add_modifier = { name = modifier_stolen_blueprints months = 60 }
+		change_infamy = 10
+	}
+
+	option = {
+		name = tyrone_espionage.2.b
+		add_modifier = { name = modifier_espionage_scandal months = 60 }
+		change_infamy = 5
+	}
+}

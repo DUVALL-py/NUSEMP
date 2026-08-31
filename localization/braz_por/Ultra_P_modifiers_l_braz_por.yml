@@ -1,0 +1,78 @@
+﻿l_braz_por:
+ # Modifiers
+ land_redistribution_modifier:0 "Redistribuição de Terras"
+
+ restricted_slave_trade_ig_modifier2:0 "Suppressing the Slave Trade"
+
+ modifier_state_unincorporated_pop_qualifications_mult:0 "[concept_pop_qualifications] in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+ modifier_state_unincorporated_pop_qualifications_mult_desc:0 "A bonus or penalty to [concept_pop_qualifications] in [Concept('concept_unincorporated_state', '$concept_unincorporated_states$')]"
+
+ american_two_party_system_modifier:0 "American Two Party System"
+ american_two_party_system_modifier_desc:0 "America's first-past-the-post system encourages two big tent parties. The people are used to their infighting."
+
+ outmoded_bureaucracy_ultra:0 "$Outmoded Bureaucracy$"
+
+ country_landed_aristocracy_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $landed_aristocracy$ [concept_social_class]"
+ country_landed_aristocracy_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $landed_aristocracy$ [concept_social_class]"
+
+ country_haute_bourgeoisie_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $haute_bourgeoisie$ [concept_social_class]"
+ country_haute_bourgeoisie_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $haute_bourgeoisie$ [concept_social_class]"
+
+ country_clergy_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $clergy$ [concept_social_class]"
+ country_clergy_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $clergy$ [concept_social_class]"
+
+ country_petite_bourgeoisie_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $petite_bourgeoisie$ [concept_social_class]"
+ country_petite_bourgeoisie_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $petite_bourgeoisie$ [concept_social_class]"
+
+ country_intellectual_classes_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $intellectual_classes$ [concept_social_class]"
+ country_intellectual_classes_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $intellectual_classes$ [concept_social_class]"
+
+ country_officer_class_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $officer_class$ [concept_social_class]"
+ country_officer_class_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $officer_class$ [concept_social_class]"
+
+ country_proletariat_cultural_acceptance_add:0 "Cultural [concept_acceptance] for the $proletariat$ [concept_social_class]"
+ country_proletariat_cultural_acceptance_add_desc:0 "A flat increase or decrease to cultural [concept_acceptance] for the $proletariat$ [concept_social_class]"
+
+ country_landed_aristocracy_acceptance_max_add:0 "Maximum [concept_acceptance] for the $landed_aristocracy$ [concept_social_class]"
+ country_landed_aristocracy_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $landed_aristocracy$ [concept_social_class] won't be able to exceed"
+
+ country_haute_bourgeoisie_acceptance_max_add:0 "Maximum [concept_acceptance] for the $haute_bourgeoisie$ [concept_social_class]"
+ country_haute_bourgeoisie_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $haute_bourgeoisie$ [concept_social_class] won't be able to exceed"
+
+ country_clergy_acceptance_max_add:0 "Maximum [concept_acceptance] for the $clergy$ [concept_social_class]"
+ country_clergy_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $clergy$ [concept_social_class] won't be able to exceed"
+
+ country_petite_bourgeoisie_acceptance_max_add:0 "Maximum [concept_acceptance] for the $petite_bourgeoisie$ [concept_social_class]"
+ country_petite_bourgeoisie_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $petite_bourgeoisie$ [concept_social_class] won't be able to exceed"
+
+ country_intellectual_classes_acceptance_max_add:0 "Maximum [concept_acceptance] for the $intellectual_classes$ [concept_social_class]"
+ country_intellectual_classes_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $intellectual_classes$ [concept_social_class] won't be able to exceed"
+
+ country_officer_class_acceptance_max_add:0 "Maximum [concept_acceptance] for the $officer_class$ [concept_social_class]"
+ country_officer_class_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $officer_class$ [concept_social_class] won't be able to exceed"
+
+ country_proletariat_acceptance_max_add:0 "Maximum [concept_acceptance] for the $proletariat$ [concept_social_class]"
+ country_proletariat_acceptance_max_add_desc:0 "A threshold describing the [concept_acceptance] value that [Concept('concept_pop', '$concept_pops$')] in the $proletariat$ [concept_social_class] won't be able to exceed"
+
+ country_landed_aristocracy_qualification_growth_other_class_mult:0 "Qualification Growth outside the $landed_aristocracy$ [concept_social_class] for the $landed_aristocracy$"
+ country_landed_aristocracy_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $landed_aristocracy$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+
+ country_haute_bourgeoisie_qualification_growth_other_class_mult:0 "Qualification Growth outside the $haute_bourgeoisie$ [concept_social_class] for the $haute_bourgeoisie$"
+ country_haute_bourgeoisie_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $haute_bourgeoisie$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+
+ country_clergy_qualification_growth_other_class_mult:0 "Qualification Growth outside the $clergy$ [concept_social_class] for the $clergy$"
+ country_clergy_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $clergy$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+
+ country_petite_bourgeoisie_qualification_growth_other_class_mult:0 "Qualification Growth outside the $petite_bourgeoisie$ [concept_social_class] for the $petite_bourgeoisie$"
+ country_petite_bourgeoisie_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $petite_bourgeoisie$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+
+ country_intellectual_classes_qualification_growth_other_class_mult:0 "Qualification Growth outside the $intellectual_classes$ [concept_social_class] for $intellectual_classes$"
+ country_intellectual_classes_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $intellectual_classes$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+
+ country_officer_class_qualification_growth_other_class_mult:0 "Qualification Growth outside the $officer_class$ [concept_social_class] for the $officer_class$"
+ country_officer_class_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $officer_class$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+
+ country_proletariat_qualification_growth_other_class_mult:0 "Qualification Growth outside the $proletariat$ [concept_social_class] for the $proletariat$"
+ country_proletariat_qualification_growth_other_class_mult_desc:0 "A percentage increase or decrease to Qualification Growth for the $proletariat$ towards [Concept('concept_profession', '$concept_professions$')] in other [Concept('concept_social_class', '$concept_social_classes$')]"
+ rigged_elections_positive_modifier:0 "Eleições Manipuladas a Nosso Favor"
+ rigged_elections_negative_modifier:0 "Eleições Manipuladas Contra Nós"

@@ -1,0 +1,85 @@
+﻿
+REPLACE:can_have_radical_leader = { # interest_group scope
+	leader = {
+		NOR = {
+			has_ideology = ideology:ideology_radical
+			has_ideology = ideology:ideology_orleanist
+			has_ideology = ideology:ideology_bonapartist
+			has_ideology = ideology:ideology_legitimist
+		}
+	}
+	OR = {
+		is_interest_group_type = ig_rural_folk
+		is_interest_group_type = ig_intelligentsia
+		is_interest_group_type = ig_trade_unions
+		is_interest_group_type = ig_petty_bourgeoisie
+		is_interest_group_type = ig_industrialists
+	}
+}
+
+REPLACE:has_paternalist_ideology = {
+	OR = {
+		has_ideology = ideology:ideology_paternalistic
+		has_ideology = ideology:ideology_magnatial
+		has_ideology = ideology:ideology_moderantist
+		ig_has_carlist_ideology = yes
+		has_ideology = ideology:ideology_scholar_paternalistic
+		has_ideology = ideology:ideology_junker_paternalistic
+		has_ideology = ideology:ideology_papal_paternalistic
+		has_ideology = ideology:ideology_japan_paternalistic
+		has_ideology = ideology:ideology_ottoman_paternalistic
+	}
+}
+
+REPLACE:coa_autocracy_trigger = {
+	OR = {
+		has_law = law_type:law_autocracy
+		has_law = law_type:law_single_party_state
+		AND = {
+			has_law = law_type:law_oligarchy
+			NOR = {
+				c:SWE ?= this
+				c:DEN ?= this
+				c:SPA ?= this
+				c:POR ?= this
+			}
+			OR = {
+				coa_monarchy_trigger = yes
+				c:HAI ?= this
+				c:BOL ?= this
+				c:PRG ?= this
+			}
+		}
+	}
+}
+
+employed_in_military_industry = {
+	OR = {
+		pop_employment_building_group = bg_military_industry
+		AND = {
+			pop_employment_building = building_automotive_industry
+			workplace = {
+				OR = {
+					has_active_production_method = pm_aeroplane_production
+					has_active_production_method = pm_tank_production
+				}
+			}
+		}
+	}
+}
+
+rural_employment = {
+	OR = {
+		pop_employment_building_group = bg_agriculture
+		pop_employment_building_group = bg_ranching
+		pop_employment_building_group = bg_plantations
+		pop_employment_building_group = bg_logging
+		pop_employment_building_group = bg_rubber
+		pop_employment_building_group = bg_whaling
+		pop_employment_building_group = bg_fishing	
+		pop_employment_building_group = bg_subsistence_agriculture
+		pop_employment_building_group = bg_subsistence_ranching	
+		pop_employment_building_group = bg_manor_houses	
+		is_pop_type = peasants
+	}
+}

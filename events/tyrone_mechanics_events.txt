@@ -1,0 +1,176 @@
+﻿namespace = tyrone_mechanics
+
+tyrone_mechanics.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_mechanics.1.t
+	desc = tyrone_mechanics.1.d
+	flavor = tyrone_mechanics.1.f
+
+	event_image = {
+		video = "unspecific_devastation"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1840.1.1
+		NOT = { has_variable = had_cholera }
+	}
+
+	immediate = {
+		set_variable = had_cholera
+		set_variable = active_epidemic
+	}
+
+	option = {
+		name = tyrone_mechanics.1.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_local_quarantine
+			months = 36
+		}
+	}
+
+	option = {
+		name = tyrone_mechanics.1.b
+		add_radicals = {
+			value = 0.05
+			strata = poor
+		}
+	}
+}
+
+tyrone_mechanics.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_mechanics.2.t
+	desc = tyrone_mechanics.2.d
+	flavor = tyrone_mechanics.2.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		gdp >= 20000000
+		NOT = { has_variable = had_stock_panic }
+	}
+
+	immediate = {
+		set_variable = had_stock_panic
+		set_variable = bubble_burst
+	}
+
+	option = {
+		name = tyrone_mechanics.2.a
+		default_option = yes
+		add_treasury = -150000
+	}
+
+	option = {
+		name = tyrone_mechanics.2.b
+		add_radicals = {
+			value = 0.08
+			strata = middle
+		}
+	}
+}
+
+tyrone_mechanics.3 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_mechanics.3.t
+	desc = tyrone_mechanics.3.d
+	flavor = tyrone_mechanics.3.f
+
+	event_image = {
+		video = "unspecific_naval_battle"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		country_rank >= rank_value:great_power
+		NOT = { has_variable = had_arms_race_event }
+	}
+
+	immediate = {
+		set_variable = had_arms_race_event
+	}
+
+	option = {
+		name = tyrone_mechanics.3.a
+		default_option = yes
+		add_treasury = -200000
+		add_modifier = {
+			name = modifier_naval_build_up
+			months = 60
+		}
+	}
+
+	option = {
+		name = tyrone_mechanics.3.b
+		add_treasury = 25000
+	}
+}
+
+tyrone_mechanics.4 = {
+	type = country_event
+	placement = ROOT
+
+	title = tyrone_mechanics.4.t
+	desc = tyrone_mechanics.4.d
+	flavor = tyrone_mechanics.4.f
+
+	event_image = {
+		video = "unspecific_politicians_arguing"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		any_scope_state = {
+			turmoil >= 0.3
+		}
+		NOT = { has_variable = had_insurgency }
+	}
+
+	immediate = {
+		set_variable = had_insurgency
+	}
+
+	option = {
+		name = tyrone_mechanics.4.a
+		default_option = yes
+		add_modifier = {
+			name = modifier_military_pacification
+			months = 60
+		}
+	}
+
+	option = {
+		name = tyrone_mechanics.4.b
+		add_loyalists = {
+			value = 0.05
+			strata = poor
+		}
+	}
+}

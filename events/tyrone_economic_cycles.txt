@@ -1,0 +1,130 @@
+﻿namespace = tyrone_economy
+
+# Global Economic Boom
+tyrone_economy.1 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_economy.1.t
+	desc = tyrone_economy.1.d
+	flavor = tyrone_economy.1.f
+	event_image = { video = "unspecific_signed_contract" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1840.1.1
+		NOT = { has_modifier = modifier_global_economic_boom }
+		NOT = { has_modifier = modifier_global_economic_recession }
+		NOT = { has_variable = economic_cycle_cooldown }
+	}
+
+	immediate = {
+		set_variable = { name = economic_cycle_cooldown months = 72 }
+	}
+
+	option = {
+		name = tyrone_economy.1.a
+		default_option = yes
+		add_modifier = { name = modifier_global_economic_boom months = 60 }
+		trigger_event = { id = tyrone_economy.2 months = 60 }
+	}
+}
+
+# Global Economic Recession
+tyrone_economy.2 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_economy.2.t
+	desc = tyrone_economy.2.d
+	flavor = tyrone_economy.2.f
+	event_image = { video = "unspecific_devastation" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+	}
+
+	immediate = {
+	}
+
+	option = {
+		name = tyrone_economy.2.a
+		default_option = yes
+		add_modifier = { name = modifier_global_economic_recession months = 36 }
+	}
+
+	option = {
+		name = tyrone_economy.2.b
+		add_treasury = -300000
+		add_modifier = { name = modifier_global_economic_recession months = 18 }
+	}
+}
+
+# Naval Arms Race Detected
+tyrone_economy.3 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_economy.3.t
+	desc = tyrone_economy.3.d
+	flavor = tyrone_economy.3.f
+	event_image = { video = "unspecific_naval_battle" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		country_rank >= rank_value:major_power
+		navy_size >= 50
+		has_technology_researched = ironclads
+		NOT = { has_variable = naval_race_active }
+	}
+
+	immediate = {
+		set_variable = { name = naval_race_active months = 120 }
+	}
+
+	option = {
+		name = tyrone_economy.3.a
+		default_option = yes
+		add_treasury = -200000
+		add_modifier = { name = modifier_naval_arms_race months = 120 }
+	}
+
+	option = {
+		name = tyrone_economy.3.b
+	}
+}
+
+# Post-War Humiliation
+tyrone_economy.4 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_economy.4.t
+	desc = tyrone_economy.4.d
+	flavor = tyrone_economy.4.f
+	event_image = { video = "unspecific_devastation" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		is_at_war = no
+		has_variable = lost_recent_war
+		NOT = { has_modifier = modifier_war_humiliation }
+	}
+
+	immediate = {
+		remove_variable = lost_recent_war
+	}
+
+	option = {
+		name = tyrone_economy.4.a
+		default_option = yes
+		add_modifier = { name = modifier_war_humiliation months = 120 }
+	}
+}

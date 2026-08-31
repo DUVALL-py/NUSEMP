@@ -1,0 +1,146 @@
+﻿je_contain_epidemic = {
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = yes
+
+	possible = {
+		is_player = yes
+		has_variable = active_epidemic
+	}
+
+	complete = {
+		NOT = { has_variable = active_epidemic }
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_epidemic_conquered
+			months = 120
+		}
+	}
+}
+
+je_railway_era = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	group = je_group_industrialization
+
+	is_shown_when_inactive = yes
+
+	possible = {
+		is_player = yes
+		has_technology = railways
+	}
+
+	complete = {
+		num_buildings = {
+			type = building_railway
+			value >= 20
+		}
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_railway_boom
+			months = 240
+		}
+		add_prestige = 100
+	}
+}
+
+je_great_industrialization = {
+	icon = "gfx/interface/icons/event_icons/event_industry.dds"
+	group = je_group_industrialization
+
+	is_shown_when_inactive = yes
+
+	possible = {
+		is_player = yes
+		has_technology = industrial_revolution
+	}
+
+	complete = {
+		gdp >= 10000000
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_industrial_powerhouse
+			months = permanent
+		}
+		add_prestige = 250
+	}
+}
+
+je_migration_wave = {
+	icon = "gfx/interface/icons/event_icons/event_map.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = yes
+
+	possible = {
+		is_player = yes
+		country_rank >= rank_value:major_power
+	}
+
+	complete = {
+		migration_pull >= 50
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_beacon_of_hope
+			months = 360
+		}
+		add_prestige = 150
+	}
+}
+
+je_arms_race = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+	group = je_group_diplomacy
+
+	is_shown_when_inactive = yes
+
+	possible = {
+		is_player = yes
+		is_at_war = no
+		country_rank >= rank_value:great_power
+	}
+
+	complete = {
+		army_size >= 100
+		navy_size >= 50
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_military_hegemony
+			months = 240
+		}
+		add_prestige = 200
+	}
+}
+
+je_speculative_bubble = {
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+	group = je_group_economy
+
+	is_shown_when_inactive = yes
+
+	possible = {
+		is_player = yes
+		gdp >= 50000000
+	}
+
+	complete = {
+		has_variable = bubble_burst
+	}
+
+	on_complete = {
+		add_modifier = {
+			name = modifier_economic_recovery
+			months = 120
+		}
+	}
+}

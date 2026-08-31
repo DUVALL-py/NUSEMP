@@ -1,0 +1,148 @@
+﻿namespace = tyrone_milestone
+
+# First Railway Built
+tyrone_milestone.1 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_milestone.1.t
+	desc = tyrone_milestone.1.d
+	flavor = tyrone_milestone.1.f
+	event_image = { video = "unspecific_science" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_technology_researched = railways
+		any_scope_building = { is_building_type = building_railway }
+		NOT = { has_variable = milestone_first_railway }
+	}
+
+	immediate = {
+		set_variable = milestone_first_railway
+	}
+
+	option = {
+		name = tyrone_milestone.1.a
+		default_option = yes
+		add_modifier = { name = modifier_railway_pioneer }
+	}
+}
+
+# Industrial Powerhouse (100+ factories)
+tyrone_milestone.2 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_milestone.2.t
+	desc = tyrone_milestone.2.d
+	flavor = tyrone_milestone.2.f
+	event_image = { video = "unspecific_science" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		has_technology_researched = atmospheric_engine
+		NOT = { has_variable = milestone_industrial_powerhouse }
+	}
+
+	immediate = {
+		set_variable = milestone_industrial_powerhouse
+	}
+
+	option = {
+		name = tyrone_milestone.2.a
+		default_option = yes
+		add_modifier = { name = modifier_industrial_powerhouse }
+	}
+}
+
+# Naval Supremacy
+tyrone_milestone.3 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_milestone.3.t
+	desc = tyrone_milestone.3.d
+	flavor = tyrone_milestone.3.f
+	event_image = { video = "unspecific_naval_battle" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		navy_size >= 100
+		NOT = { has_variable = milestone_naval_supremacy }
+	}
+
+	immediate = {
+		set_variable = milestone_naval_supremacy
+	}
+
+	option = {
+		name = tyrone_milestone.3.a
+		default_option = yes
+		add_modifier = { name = modifier_naval_supremacy }
+	}
+}
+
+# Modern Nation (literacy > 80%)
+tyrone_milestone.4 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_milestone.4.t
+	desc = tyrone_milestone.4.d
+	flavor = tyrone_milestone.4.f
+	event_image = { video = "unspecific_signed_contract" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		literacy_rate >= 0.80
+		NOT = { has_variable = milestone_modern_nation }
+	}
+
+	immediate = {
+		set_variable = milestone_modern_nation
+	}
+
+	option = {
+		name = tyrone_milestone.4.a
+		default_option = yes
+		add_modifier = { name = modifier_modern_nation }
+	}
+}
+
+# Economic Titan (highest GDP)
+tyrone_milestone.5 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_milestone.5.t
+	desc = tyrone_milestone.5.d
+	flavor = tyrone_milestone.5.f
+	event_image = { video = "unspecific_signed_contract" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		country_rank = rank_value:great_power
+		gdp >= 500000000
+		NOT = { has_variable = milestone_economic_titan }
+	}
+
+	immediate = {
+		set_variable = milestone_economic_titan
+	}
+
+	option = {
+		name = tyrone_milestone.5.a
+		default_option = yes
+		add_modifier = { name = modifier_economic_titan }
+	}
+}

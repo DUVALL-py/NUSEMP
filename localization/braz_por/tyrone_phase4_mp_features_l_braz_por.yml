@@ -1,0 +1,70 @@
+﻿l_braz_por:
+ # Espionagem
+ espionage_steal_research:0 "Lançar Operação de Espionagem"
+ espionage_steal_research_desc:0 "Enviar agentes secretos para roubar segredos tecnológicos de uma potência rival. Arriscado, custoso e gerará infâmia."
+ tyrone_espionage.1.t:0 "Operação de Inteligência Proposta"
+ tyrone_espionage.1.d:0 "Nossos serviços de inteligência propõem uma audaciosa operação secreta para infiltrar uma nação rival e roubar seus segredos tecnológicos. A operação carrega riscos diplomáticos significativos."
+ tyrone_espionage.1.f:0 "Sombras dentro de sombras."
+ tyrone_espionage.1.a:0 "Prosseguir com a operação."
+ tyrone_espionage.1.b:0 "Muito arriscado. Recuar."
+ tyrone_espionage.2.t:0 "Relatório de Espionagem"
+ tyrone_espionage.2.d:0 "Nossos agentes retornaram de sua missão secreta. Carregam plantas e anotações de pesquisa roubadas, mas suas atividades podem ter sido detectadas."
+ tyrone_espionage.2.f:0 "Os segredos de nossos rivais expostos."
+ tyrone_espionage.2.a:0 "Explorar completamente as plantas roubadas."
+ tyrone_espionage.2.b:0 "Enterrar as evidências para minimizar o escândalo."
+ modifier_espionage_operation:0 "Operação de Espionagem Ativa"
+ modifier_espionage_operation_desc:0 "Agentes secretos conduzem uma arriscada operação de inteligência no exterior."
+ modifier_stolen_blueprints:0 "Plantas Industriais Roubadas"
+ modifier_stolen_blueprints_desc:0 "Segredos tecnológicos roubados aceleram nossos próprios programas de pesquisa."
+ modifier_espionage_scandal:0 "Escândalo de Espionagem"
+ modifier_espionage_scandal_desc:0 "Nossas atividades de espionagem foram expostas, danificando o prestígio e a legitimidade nacional."
+
+ # Tratados Comerciais
+ propose_trade_treaty:0 "Propor Tratado Comercial Bilateral"
+ propose_trade_treaty_desc:0 "Negociar um acordo comercial formal com uma nação parceira, aumentando o comércio e a capacidade de rotas comerciais."
+ modifier_trade_treaty_active:0 "Tratado Comercial Bilateral"
+ modifier_trade_treaty_active_desc:0 "Um acordo comercial formal impulsiona a troca comercial e o acesso ao mercado."
+
+ # Casamento Real
+ propose_royal_marriage:0 "Propor Casamento Real"
+ propose_royal_marriage_desc:0 "Arranjar um casamento dinástico entre nossa casa real e outra monarquia, forjando uma poderosa aliança política."
+ modifier_dynastic_alliance:0 "Aliança Dinástica"
+ modifier_dynastic_alliance_desc:0 "Um casamento real une duas coroas, impulsionando a legitimidade e o prestígio internacional."
+
+ # Conferência de Paz
+ convene_peace_conference:0 "Convocar Conferência de Paz"
+ convene_peace_conference_desc:0 "Como grande potência vitoriosa, sediar uma conferência diplomática para remodelar a ordem pós-guerra e cimentar nossa influência."
+ modifier_peace_conference_prestige:0 "Arquiteto da Paz"
+ modifier_peace_conference_prestige_desc:0 "Sediar uma conferência de paz histórica eleva a posição diplomática e a influência global de nossa nação."
+
+ # Ciclos Econômicos
+ tyrone_economy.1.t:0 "Boom Econômico Global!"
+ tyrone_economy.1.d:0 "O comércio internacional está em expansão, as fábricas operam a plena capacidade e o otimismo toma os mercados. Uma era dourada de prosperidade amanhece no mundo industrializado."
+ tyrone_economy.1.f:0 "Os mercados sobem cada vez mais."
+ tyrone_economy.1.a:0 "Surfar a onda de prosperidade!"
+ tyrone_economy.2.t:0 "Recessão Econômica Global"
+ tyrone_economy.2.d:0 "A bolha estourou. Mercados desabam, fábricas fecham e o desemprego dispara. A grande recessão varre todas as nações, sem poupar ninguém."
+ tyrone_economy.2.f:0 "Nuvens escuras se formam sobre os mercados."
+ tyrone_economy.2.a:0 "Enfrentar a tempestade."
+ tyrone_economy.2.b:0 "Estímulo fiscal massivo para encurtar a recessão."
+ modifier_global_economic_boom:0 "Boom Econômico Global"
+ modifier_global_economic_boom_desc:0 "Um período de prosperidade global sem precedentes impulsiona a manufatura e o padrão de vida."
+ modifier_global_economic_recession:0 "Recessão Econômica Global"
+ modifier_global_economic_recession_desc:0 "Uma recessão econômica mundial deprime a manufatura e aumenta a agitação social."
+
+ # Corrida Naval
+ tyrone_economy.3.t:0 "Corrida Armamentista Naval!"
+ tyrone_economy.3.d:0 "Grandes potências rivais estão construindo navios de guerra em ritmo alarmante. Nossos almirantes urgem uma expansão imediata de nossas capacidades navais."
+ tyrone_economy.3.f:0 "A era dos dreadnoughts começou."
+ tyrone_economy.3.a:0 "Acelerar a construção naval!"
+ tyrone_economy.3.b:0 "Não podemos igualar seus gastos."
+ modifier_naval_arms_race:0 "Corrida Armamentista Naval"
+ modifier_naval_arms_race_desc:0 "Construção naval intensiva projeta poder mas drena o tesouro."
+
+ # Humilhação de Guerra
+ tyrone_economy.4.t:0 "Humilhação Nacional"
+ tyrone_economy.4.d:0 "Nossa derrota na guerra recente abalou a nação até seu âmago. Os termos impostos são duros e nosso povo ferve de ressentimento e vergonha."
+ tyrone_economy.4.f:0 "Uma pílula amarga de engolir."
+ tyrone_economy.4.a:0 "Lembraremos desta humilhação."
+ modifier_war_humiliation:0 "Humilhação Nacional"
+ modifier_war_humiliation_desc:0 "Derrota militar trouxe vergonha, agitação e perda de prestígio internacional."

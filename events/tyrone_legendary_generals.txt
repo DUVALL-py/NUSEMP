@@ -1,0 +1,66 @@
+﻿namespace = tyrone_generals
+
+# A General Becomes a National Hero
+tyrone_generals.1 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_generals.1.t
+	desc = tyrone_generals.1.d
+	flavor = tyrone_generals.1.f
+	event_image = { video = "unspecific_military_parade" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		is_at_war = no
+		has_variable = recent_war_victory
+		NOT = { has_variable = promoted_hero_recently }
+	}
+
+	immediate = {
+		set_variable = { name = promoted_hero_recently months = 240 }
+		remove_variable = recent_war_victory
+	}
+
+	option = {
+		name = tyrone_generals.1.a
+		default_option = yes
+		add_modifier = { name = modifier_national_hero_celebration months = 60 }
+	}
+
+	option = {
+		name = tyrone_generals.1.b
+	}
+}
+
+# Military Genius Emerges (Rare)
+tyrone_generals.2 = {
+	type = country_event
+	placement = ROOT
+	title = tyrone_generals.2.t
+	desc = tyrone_generals.2.d
+	flavor = tyrone_generals.2.f
+	event_image = { video = "unspecific_military_parade" }
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		country_rank >= rank_value:great_power
+		has_technology_researched = napoleonic_warfare
+		NOT = { has_variable = had_military_genius }
+	}
+
+	immediate = {
+		set_variable = had_military_genius
+	}
+
+	option = {
+		name = tyrone_generals.2.a
+		default_option = yes
+		add_modifier = { name = modifier_military_genius_legacy }
+	}
+}
