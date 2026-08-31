@@ -1,0 +1,28 @@
+﻿# Trekker's Victoria: Long Century
+# Ultra-Capitalism Modifiers — High reward, high risk
+
+# ═══════════════════════════════════════════════════════════════
+# ULTRA-CAPITALISM — Extreme free market with real consequences
+# Benefits: investment, construction, industry
+# Costs: inequality, radicalization, worker rights
+# ═══════════════════════════════════════════════════════════════
+
+tlc_ultra_capitalism_benefits = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Economic benefits
+	country_private_construction_allocation_mult = 0.30
+	country_max_weekly_construction_progress_add = 3
+	state_building_throughput_mult = 0.10
+	country_minting_mult = 0.15
+}
+
+tlc_ultra_capitalism_costs = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Social costs
+	state_radicals_from_sol_change_mult = 0.30
+	state_political_strength_from_wealth_mult = 0.25
+	country_authority_mult = -0.10
+	state_welfare_payments_mult = -0.20
+}

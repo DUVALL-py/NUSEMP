@@ -1,0 +1,27 @@
+# Trekker's Victoria: Long Century
+# Git Ignore
+
+# Tools and scripts (not part of the mod)
+tools/
+
+# Source images (converted versions are in gfx/)
+# pics/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp

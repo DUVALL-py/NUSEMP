@@ -1,0 +1,17 @@
+{
+    "name": "Trekker's Victoria: Long Century",
+    "id": "com.trekker.victoria.longcentury",
+    "version": "0.1.0",
+    "supported_game_version": "1.13.*",
+    "short_description": "A lightweight MP overhaul — 1836–1945. Performance-first design with Microstate AI Dormancy, reworked workforce, balanced Germany, and historical content for long campaigns.",
+    "tags": [
+        "Gameplay",
+        "Historical",
+        "Multiplayer",
+        "Balance"
+    ],
+    "relationships": [],
+    "game_custom_data": {
+        "multiplayer_synchronized": true
+    }
+}

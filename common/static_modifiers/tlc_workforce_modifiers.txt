@@ -1,0 +1,46 @@
+﻿# Trekker's Victoria: Long Century
+# Workforce Era Modifiers — Prevent late-game workforce bottleneck
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 1: 1836-1870 — No modifier (baseline)
+# Workforce is naturally restricted in the early game
+# ═══════════════════════════════════════════════════════════════
+
+# No modifier needed — this is the baseline
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 2: 1870-1900 — Industrialization begins
+# Urbanization and early factory work increase available workforce
+# ═══════════════════════════════════════════════════════════════
+
+tlc_workforce_era_2 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	state_working_adult_ratio_add = 0.02
+	state_birth_rate_mult = 0.05
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 3: 1900-1925 — Full industrialization
+# Education, urbanization, and mechanization expand workforce
+# ═══════════════════════════════════════════════════════════════
+
+tlc_workforce_era_3 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	state_working_adult_ratio_add = 0.04
+	state_birth_rate_mult = 0.03
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 4: 1925-1945 — Late industrial era
+# Prevents industrialized countries from economic paralysis
+# Population still matters, but bottleneck doesn't kill the game
+# ═══════════════════════════════════════════════════════════════
+
+tlc_workforce_era_4 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	state_working_adult_ratio_add = 0.06
+	state_birth_rate_mult = 0.02
+}

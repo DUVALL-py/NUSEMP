@@ -1,0 +1,112 @@
+﻿# Trekker's Victoria: Long Century
+# LGBT Events — Small, condition-driven event set
+
+namespace = tlc_lgbt
+
+# ═══════════════════════════════════════════════════════════════
+# LGBT RIGHTS MOVEMENT — Triggers when conditions are right
+# ═══════════════════════════════════════════════════════════════
+
+tlc_lgbt.1 = {
+	type = country_event
+	placement = root
+	
+	title = tlc_lgbt.1.t
+	desc = tlc_lgbt.1.d
+	flavor = tlc_lgbt.1.f
+	
+	event_image = {
+		texture = "gfx/event_pictures/politics_social_reform.dds"
+	}
+	
+	trigger = {
+		is_player = yes
+		has_law = law_type:law_tlc_lgbt_criminalized
+		has_technology_researched = empiricism
+		any_scope_pop = {
+			literacy_rate >= 0.4
+		}
+		NOT = { has_variable = tlc_lgbt_movement_fired }
+	}
+	
+	immediate = {
+		set_variable = tlc_lgbt_movement_fired
+	}
+	
+	# Support the movement
+	option = {
+		name = tlc_lgbt.1.a
+		add_modifier = {
+			name = tlc_lgbt_movement_support
+			months = 24
+		}
+		add_radicals = {
+			value = small_radicals
+			strata = rich
+		}
+	}
+	
+	# Suppress the movement
+	option = {
+		name = tlc_lgbt.1.b
+		default_option = yes
+		add_modifier = {
+			name = tlc_lgbt_movement_suppressed
+			months = 24
+		}
+		add_loyalists = {
+			value = small_loyalists
+			strata = rich
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# CONSERVATIVE BACKLASH — When moving to tolerance
+# ═══════════════════════════════════════════════════════════════
+
+tlc_lgbt.2 = {
+	type = country_event
+	placement = root
+	
+	title = tlc_lgbt.2.t
+	desc = tlc_lgbt.2.d
+	flavor = tlc_lgbt.2.f
+	
+	event_image = {
+		texture = "gfx/event_pictures/politics_political_agitation.dds"
+	}
+	
+	trigger = {
+		is_player = yes
+		has_law = law_type:law_tlc_lgbt_tolerated
+		NOT = { has_variable = tlc_lgbt_backlash_fired }
+	}
+	
+	immediate = {
+		set_variable = tlc_lgbt_backlash_fired
+	}
+	
+	# Maintain the reform
+	option = {
+		name = tlc_lgbt.2.a
+		default_option = yes
+		add_radicals = {
+			value = medium_radicals
+			ig:ig_devout = {
+				is_powerful = yes
+			}
+		}
+	}
+	
+	# Make concessions to conservatives
+	option = {
+		name = tlc_lgbt.2.b
+		add_loyalists = {
+			value = small_loyalists
+			ig:ig_devout = {
+				is_powerful = yes
+			}
+		}
+	}
+}

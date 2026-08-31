@@ -1,0 +1,59 @@
+﻿# Trekker's Victoria: Long Century
+# German Unification Fatigue — Prevents snowball after forming Germany
+
+# ═══════════════════════════════════════════════════════════════
+# FULL FATIGUE — Applied immediately after unification
+# Duration: ~3 years (then transitions to reduced)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_german_unification_fatigue = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Administrative costs
+	country_bureaucracy_mult = -0.15
+	
+	# Political turbulence
+	country_authority_mult = -0.10
+	state_radicals_from_sol_change_mult = 0.25
+	
+	# Prestige hit (integration struggles)
+	country_prestige_mult = -0.10
+	
+	# Economic integration costs
+	country_tax_income_mult = -0.05
+	
+	# Slight construction penalty (reorganization)
+	country_max_weekly_construction_progress_add = -2
+}
+
+# ═══════════════════════════════════════════════════════════════
+# REDUCED FATIGUE — Applied after first recovery phase
+# Duration: ~4 more years (then removed entirely)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_german_unification_fatigue_reduced = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Halved penalties
+	country_bureaucracy_mult = -0.07
+	country_authority_mult = -0.05
+	state_radicals_from_sol_change_mult = 0.10
+	country_prestige_mult = -0.05
+}
+
+# ═══════════════════════════════════════════════════════════════
+# EARLY UNIFICATION PENALTY — Extra cost for pre-1860 unification
+# Stacks with regular fatigue
+# ═══════════════════════════════════════════════════════════════
+
+tlc_german_early_unification_penalty = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Severe additional penalties for forcing unification early
+	country_bureaucracy_mult = -0.20
+	country_authority_mult = -0.15
+	state_radicals_from_sol_change_mult = 0.40
+	country_prestige_mult = -0.15
+	country_tax_income_mult = -0.10
+	country_max_weekly_construction_progress_add = -3
+}

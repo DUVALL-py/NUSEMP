@@ -1,0 +1,357 @@
+﻿# Trekker's Victoria: Long Century
+# Government Types — All 13 new government types
+# Economic + Political + Alternative categories
+
+# ═══════════════════════════════════════════════════════════════
+# ECONOMIC GOVERNMENT TYPES
+# ═══════════════════════════════════════════════════════════════
+
+# ——— LAISSEZ-FAIRE CAPITALISM ———
+gov_tlc_laissez_faire = {
+	transfer_of_power = election
+	
+	male_ruler = "President"
+	female_ruler = "President"
+	
+	possible = {
+		has_law = law_type:law_presidential_republic
+		OR = {
+			has_law = law_type:law_laissez_faire
+			has_law = law_type:law_free_trade
+		}
+		NOT = { has_law = law_type:law_command_economy }
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_laissez_faire_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— ULTRA-CAPITALIST STATE ———
+gov_tlc_ultra_capitalism = {
+	transfer_of_power = election
+	
+	male_ruler = "Chairman"
+	female_ruler = "Chairwoman"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_presidential_republic
+			has_law = law_type:law_parliamentary_republic
+		}
+		has_law = law_type:law_laissez_faire
+		has_law = law_type:law_free_trade
+		NOT = { has_law = law_type:law_command_economy }
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_ultra_capitalism_benefits
+				months = -1
+			}
+			add_modifier = {
+				name = tlc_ultra_capitalism_costs
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— STATE CAPITALISM ———
+gov_tlc_state_capitalism = {
+	transfer_of_power = dictator
+	
+	male_ruler = "Director"
+	female_ruler = "Director"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_oligarchy
+			has_law = law_type:law_presidential_republic
+		}
+		has_law = law_type:law_interventionism
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_state_capitalism_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— PLANNED ECONOMY ———
+gov_tlc_planned_economy = {
+	transfer_of_power = dictator
+	
+	male_ruler = "General Secretary"
+	female_ruler = "General Secretary"
+	
+	possible = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_command_economy
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_planned_economy_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— COOPERATIVE ECONOMY ———
+gov_tlc_cooperative_economy = {
+	transfer_of_power = election
+	
+	male_ruler = "Coordinator"
+	female_ruler = "Coordinator"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_council_republic
+			has_law = law_type:law_parliamentary_republic
+		}
+		has_law = law_type:law_cooperatives
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_cooperative_economy_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# POLITICAL GOVERNMENT TYPES
+# ═══════════════════════════════════════════════════════════════
+
+# ——— LIBERAL DEMOCRACY ———
+gov_tlc_liberal_democracy = {
+	transfer_of_power = election
+	
+	male_ruler = "President"
+	female_ruler = "President"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_presidential_republic
+			has_law = law_type:law_parliamentary_republic
+		}
+		OR = {
+			has_law = law_type:law_census_voting
+			has_law = law_type:law_universal_suffrage
+		}
+		has_law = law_type:law_guaranteed_liberties
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_liberal_democracy_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— AUTHORITARIAN DEMOCRACY ———
+gov_tlc_authoritarian_democracy = {
+	transfer_of_power = election
+	
+	male_ruler = "President"
+	female_ruler = "President"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_presidential_republic
+			has_law = law_type:law_oligarchy
+		}
+		has_law = law_type:law_landed_voting
+		OR = {
+			has_law = law_type:law_censorship
+			has_law = law_type:law_outlawed_dissent
+		}
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_authoritarian_democracy_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— ONE-PARTY STATE ———
+gov_tlc_one_party_state = {
+	transfer_of_power = dictator
+	
+	male_ruler = "Party Leader"
+	female_ruler = "Party Leader"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_autocracy
+			has_law = law_type:law_single_party_state
+		}
+		has_law = law_type:law_outlawed_dissent
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_one_party_state_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— TECHNOCRACY ———
+gov_tlc_technocracy = {
+	transfer_of_power = dictator
+	
+	male_ruler = "Director-General"
+	female_ruler = "Director-General"
+	
+	possible = {
+		OR = {
+			has_law = law_type:law_oligarchy
+			has_law = law_type:law_presidential_republic
+		}
+		has_law = law_type:law_technocracy
+		has_technology_researched = empiricism
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_technocracy_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— MILITARY JUNTA ———
+gov_tlc_military_junta = {
+	transfer_of_power = dictator
+	
+	male_ruler = "Generalissimo"
+	female_ruler = "Generalissima"
+	
+	possible = {
+		has_law = law_type:law_autocracy
+		OR = {
+			has_law = law_type:law_professional_army
+			has_law = law_type:law_mass_conscription
+		}
+		# Armed forces IG must be powerful
+		ig:ig_armed_forces = {
+			is_powerful = yes
+		}
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_military_junta_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ALTERNATIVE/UTOPIAN GOVERNMENT TYPES
+# ═══════════════════════════════════════════════════════════════
+
+# ——— CORPORATE STATE ———
+gov_tlc_corporate_state = {
+	transfer_of_power = dictator
+	
+	male_ruler = "Chief Executive"
+	female_ruler = "Chief Executive"
+	
+	possible = {
+		has_law = law_type:law_oligarchy
+		has_law = law_type:law_laissez_faire
+		ig:ig_industrialists = {
+			is_powerful = yes
+		}
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_corporate_state_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— WORKERS' COMMONWEALTH ———
+gov_tlc_workers_commonwealth = {
+	transfer_of_power = election
+	
+	male_ruler = "People's Commissioner"
+	female_ruler = "People's Commissioner"
+	
+	possible = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_universal_suffrage
+		ig:ig_trade_unions = {
+			is_powerful = yes
+		}
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_workers_commonwealth_bonus
+				months = -1
+			}
+		}
+	}
+}
+
+# ——— ANARCHIST FEDERATION ———
+gov_tlc_anarchist_federation = {
+	transfer_of_power = election
+	
+	male_ruler = "Delegate"
+	female_ruler = "Delegate"
+	
+	possible = {
+		has_law = law_type:law_council_republic
+		has_law = law_type:law_universal_suffrage
+		has_law = law_type:law_guaranteed_liberties
+		NOT = { has_law = law_type:law_professional_army }
+	}
+	
+	on_government_type_change = {
+		effect = {
+			add_modifier = {
+				name = tlc_anarchist_federation_bonus
+				months = -1
+			}
+		}
+	}
+}

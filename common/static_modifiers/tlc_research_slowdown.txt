@@ -1,0 +1,49 @@
+﻿# Trekker's Victoria: Long Century
+# Research Slowdown Modifiers — Progressive technology cost increase
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 1: 1836-1860 — No slowdown (baseline)
+# ═══════════════════════════════════════════════════════════════
+
+# No modifier needed — ×1.00
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 2: 1860-1880 — Slight slowdown (×1.10)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_research_slowdown_era_2 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	country_tech_research_speed_mult = -0.10
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 3: 1880-1900 — Moderate slowdown (×1.20)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_research_slowdown_era_3 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	country_tech_research_speed_mult = -0.20
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 4: 1900-1920 — Significant slowdown (×1.30)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_research_slowdown_era_4 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	country_tech_research_speed_mult = -0.30
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ERA 5: 1920-1945 — Heavy slowdown (×1.40)
+# Military tech may receive separate treatment
+# ═══════════════════════════════════════════════════════════════
+
+tlc_research_slowdown_era_5 = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	country_tech_research_speed_mult = -0.40
+}

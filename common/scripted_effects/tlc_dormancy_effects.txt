@@ -1,0 +1,123 @@
+﻿# Trekker's Victoria: Long Century
+# Dormancy Effects — Apply/remove dormancy states
+# ABSOLUTE RULE: Player countries are ALWAYS ACTIVE
+
+# ═══════════════════════════════════════════════════════════════
+# SET DORMANCY STATES
+# ═══════════════════════════════════════════════════════════════
+
+# Set country to DORMANT — maximum CPU savings
+tlc_set_dormant = {
+	# SAFETY: Never apply to player
+	if = {
+		limit = { is_player = yes }
+		tlc_set_active = yes
+	}
+	else = {
+		# Remove other states first
+		remove_modifier = tlc_ai_limited
+		remove_modifier = tlc_ai_active
+		
+		# Apply dormant modifier
+		if = {
+			limit = { NOT = { has_modifier = tlc_ai_dormant } }
+			add_modifier = {
+				name = tlc_ai_dormant
+				months = -1
+			}
+		}
+		
+		# Set tracking variable
+		set_variable = {
+			name = tlc_dormancy_state
+			value = 0
+		}
+	}
+}
+
+# Set country to LIMITED — reduced activity
+tlc_set_limited = {
+	# SAFETY: Never apply to player
+	if = {
+		limit = { is_player = yes }
+		tlc_set_active = yes
+	}
+	else = {
+		# Remove other states first
+		remove_modifier = tlc_ai_dormant
+		remove_modifier = tlc_ai_active
+		
+		# Apply limited modifier
+		if = {
+			limit = { NOT = { has_modifier = tlc_ai_limited } }
+			add_modifier = {
+				name = tlc_ai_limited
+				months = -1
+			}
+		}
+		
+		# Set tracking variable
+		set_variable = {
+			name = tlc_dormancy_state
+			value = 1
+		}
+	}
+}
+
+# Set country to ACTIVE — full normal behavior
+tlc_set_active = {
+	# Remove all dormancy modifiers
+	remove_modifier = tlc_ai_dormant
+	remove_modifier = tlc_ai_limited
+	
+	# Set tracking variable
+	set_variable = {
+		name = tlc_dormancy_state
+		value = 2
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# MASTER EVALUATION — Run yearly for all AI countries
+# ═══════════════════════════════════════════════════════════════
+
+tlc_evaluate_dormancy = {
+	# RULE 1: Player countries are ALWAYS active
+	if = {
+		limit = { is_player = yes }
+		tlc_set_active = yes
+	}
+	# RULE 2: Countries that should wake up
+	else_if = {
+		limit = { tlc_should_wake = yes }
+		tlc_set_active = yes
+	}
+	# RULE 3: Strategically important countries stay active
+	else_if = {
+		limit = { tlc_has_strategic_importance = yes }
+		tlc_set_active = yes
+	}
+	# RULE 4: Microstates at peace go dormant
+	else_if = {
+		limit = { tlc_should_be_dormant = yes }
+		tlc_set_dormant = yes
+	}
+	# RULE 5: Small countries go limited
+	else_if = {
+		limit = { tlc_should_be_limited = yes }
+		tlc_set_limited = yes
+	}
+	# DEFAULT: Active
+	else = {
+		tlc_set_active = yes
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# EMERGENCY WAKE — For crisis events
+# ═══════════════════════════════════════════════════════════════
+
+tlc_wake_country = {
+	# Immediately set to active regardless of current state
+	tlc_set_active = yes
+}

@@ -1,0 +1,37 @@
+﻿# Trekker's Victoria: Long Century
+# Configurable threshold values for Microstate AI Dormancy
+# All values can be adjusted for balancing
+
+# Population threshold — countries below this are microstate candidates
+tlc_microstate_pop_threshold = 500000
+
+# GDP rank threshold — countries ranked below this in GDP are candidates
+tlc_microstate_gdp_rank_threshold = 50
+
+# Military size threshold — countries with fewer battalions than this
+tlc_microstate_military_threshold = 10
+
+# Number of states threshold — countries with fewer incorporated states
+tlc_microstate_states_threshold = 3
+
+# Years of peace required before a country can go dormant
+tlc_dormancy_peace_years_threshold = 5
+
+# Workforce era modifiers
+tlc_workforce_era_1_bonus = 0      # 1836-1870
+tlc_workforce_era_2_bonus = 0.10   # 1870-1900
+tlc_workforce_era_3_bonus = 0.20   # 1900-1925
+tlc_workforce_era_4_bonus = 0.30   # 1925-1945
+
+# Research slowdown multipliers (cost increase)
+tlc_research_slowdown_era_1 = 0      # 1836-1860
+tlc_research_slowdown_era_2 = 0.10   # 1860-1880
+tlc_research_slowdown_era_3 = 0.20   # 1880-1900
+tlc_research_slowdown_era_4 = 0.30   # 1900-1920
+tlc_research_slowdown_era_5 = 0.40   # 1920-1945
+
+# German unification — earliest possible date (year)
+tlc_germany_earliest_unification = 1850
+
+# German unification fatigue duration (years)
+tlc_germany_fatigue_duration = 10

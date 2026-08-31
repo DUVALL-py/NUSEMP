@@ -1,0 +1,47 @@
+﻿# Trekker's Victoria: Long Century
+# Dormancy Modifiers — Applied to AI countries based on dormancy state
+
+# ═══════════════════════════════════════════════════════════════
+# DORMANT — Maximum CPU savings for irrelevant microstates
+# Applied to: tiny AI countries at peace with no strategic importance
+# NEVER applied to player countries
+# ═══════════════════════════════════════════════════════════════
+
+tlc_ai_dormant = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Drastically reduce military expansion
+	country_max_weekly_construction_progress_add = -3
+	
+	# Reduce political activity
+	country_law_enactment_time_mult = 0.5
+	
+	# Reduce military desire
+	country_army_power_projection_mult = -0.75
+	country_navy_power_projection_mult = -0.75
+}
+
+# ═══════════════════════════════════════════════════════════════
+# LIMITED — Reduced activity for medium countries
+# Applied to: small-to-medium AI countries at peace
+# NEVER applied to player countries
+# ═══════════════════════════════════════════════════════════════
+
+tlc_ai_limited = {
+	icon = "gfx/interface/icons/modifiers/modifier_placeholder.dds"
+	
+	# Slightly reduce construction
+	country_max_weekly_construction_progress_add = -1
+	
+	# Slightly reduce military ambition
+	country_army_power_projection_mult = -0.30
+	country_navy_power_projection_mult = -0.30
+}
+
+# ═══════════════════════════════════════════════════════════════
+# ACTIVE — No modifiers (placeholder for completeness)
+# All countries start in this state
+# Players are ALWAYS in this state
+# ═══════════════════════════════════════════════════════════════
+
+# No modifier needed — active is the default state

@@ -1,0 +1,102 @@
+﻿# Trekker's Victoria: Long Century
+# On Actions — Event-driven triggers for dormancy and era transitions
+# PERFORMANCE: All evaluations are YEARLY, never daily/weekly/monthly
+
+# ═══════════════════════════════════════════════════════════════
+# YEARLY PULSE — Main evaluation cycle
+# ═══════════════════════════════════════════════════════════════
+
+on_year_pulse = {
+	effect = {
+		# Evaluate dormancy state for ALL countries
+		every_country = {
+			limit = {
+				is_player = no  # Skip players immediately — saves CPU
+			}
+			tlc_evaluate_dormancy = yes
+		}
+		
+		# Apply era-based modifiers to ALL countries
+		every_country = {
+			tlc_apply_workforce_era = yes
+			tlc_apply_research_era = yes
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# WAR EVENTS — Wake dormant countries involved in wars
+# ═══════════════════════════════════════════════════════════════
+
+on_war_declared = {
+	effect = {
+		# Wake the aggressor
+		scope:war.aggressor = {
+			if = {
+				limit = { has_modifier = tlc_ai_dormant }
+				tlc_wake_country = yes
+			}
+		}
+		# Wake the defender
+		scope:war.defender = {
+			if = {
+				limit = { has_modifier = tlc_ai_dormant }
+				tlc_wake_country = yes
+			}
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# DIPLOMATIC PLAY — Wake involved dormant countries
+# ═══════════════════════════════════════════════════════════════
+
+on_diplomatic_play_started = {
+	effect = {
+		scope:diplomatic_play.initiator = {
+			if = {
+				limit = { has_modifier = tlc_ai_dormant }
+				tlc_wake_country = yes
+			}
+		}
+		scope:diplomatic_play.target = {
+			if = {
+				limit = { has_modifier = tlc_ai_dormant }
+				tlc_wake_country = yes
+			}
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# REVOLUTION/CIVIL WAR — Wake affected country
+# ═══════════════════════════════════════════════════════════════
+
+on_revolution_start = {
+	effect = {
+		ROOT = {
+			if = {
+				limit = { has_modifier = tlc_ai_dormant }
+				tlc_wake_country = yes
+			}
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# GAME START — Initialize all countries
+# ═══════════════════════════════════════════════════════════════
+
+on_game_start = {
+	effect = {
+		# Initial dormancy evaluation
+		every_country = {
+			limit = {
+				is_player = no
+			}
+			tlc_evaluate_dormancy = yes
+		}
+		
+		# Apply initial era modifiers (era 1 = baseline, no modifiers needed)
+	}
+}

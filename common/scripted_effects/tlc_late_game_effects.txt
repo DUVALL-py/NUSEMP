@@ -1,0 +1,49 @@
+﻿# Trekker's Victoria: Long Century
+# Late Game Scripted Effects
+
+# ═══════════════════════════════════════════════════════════════
+# LATE GAME OPTIMIZATION
+# ═══════════════════════════════════════════════════════════════
+
+# Applied on yearly pulse — scales down non-essential processing
+tlc_optimize_late_game = {
+	# After 1900: More aggressive dormancy thresholds
+	if = {
+		limit = { game_date >= 1900.1.1 }
+		# Countries below 1M pop that aren't at war get pushed to dormant
+		every_country = {
+			limit = {
+				is_player = no
+				NOT = { country_rank = rank_value:great_power }
+				NOT = { country_rank = rank_value:major_power }
+				is_at_war = no
+				country_population < 1000000
+			}
+			if = {
+				limit = { NOT = { has_modifier = tlc_ai_dormant } }
+				tlc_set_dormant = yes
+			}
+		}
+	}
+	
+	# After 1925: Push more countries into limited/dormant
+	if = {
+		limit = { game_date >= 1925.1.1 }
+		every_country = {
+			limit = {
+				is_player = no
+				NOT = { country_rank = rank_value:great_power }
+				is_at_war = no
+				country_population < 2000000
+				number_of_states < 5
+			}
+			if = {
+				limit = {
+					NOT = { has_modifier = tlc_ai_dormant }
+					NOT = { has_modifier = tlc_ai_limited }
+				}
+				tlc_set_limited = yes
+			}
+		}
+	}
+}

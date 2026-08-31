@@ -1,0 +1,113 @@
+﻿# Trekker's Victoria: Long Century
+# Dormancy Triggers — Multi-factor evaluation for AI dormancy system
+# RULE: A player-controlled country can NEVER be dormant
+
+# ═══════════════════════════════════════════════════════════════
+# PLAYER CHECK — Most important trigger
+# ═══════════════════════════════════════════════════════════════
+
+tlc_is_player_country = {
+	is_player = yes
+}
+
+# ═══════════════════════════════════════════════════════════════
+# MICROSTATE EVALUATION — Multi-factor assessment
+# ═══════════════════════════════════════════════════════════════
+
+# A country qualifies as a microstate if it meets MOST of these criteria
+tlc_is_microstate = {
+	# Must NOT be a player
+	is_player = no
+	
+	# Must NOT be a great power or major power
+	NOT = { country_rank = rank_value:great_power }
+	NOT = { country_rank = rank_value:major_power }
+	
+	# Population check
+	country_population < 500000
+	
+	# Must have few states
+	number_of_states < 4
+}
+
+# Broader check — country is small but not necessarily micro
+tlc_is_small_country = {
+	is_player = no
+	NOT = { country_rank = rank_value:great_power }
+	NOT = { country_rank = rank_value:major_power }
+	country_population < 2000000
+	number_of_states < 8
+}
+
+# ═══════════════════════════════════════════════════════════════
+# DORMANCY CONDITIONS
+# ═══════════════════════════════════════════════════════════════
+
+# Full dormancy — country is a microstate, at peace, no crises
+tlc_should_be_dormant = {
+	tlc_is_microstate = yes
+	is_at_war = no
+	NOT = { is_in_revolution = yes }
+	NOT = { is_in_civil_war = yes }
+	NOT = { is_subject = yes }  # subjects follow overlord
+	NOT = {
+		any_diplomatic_play = {
+			is_initiator = ROOT
+		}
+	}
+	# No active important journal entries
+	NOT = {
+		any_scope_active_journal_entry = {
+			OR = {
+				is_goal_completion_journal_entry = yes
+			}
+		}
+	}
+}
+
+# Limited mode — medium country, not critical
+tlc_should_be_limited = {
+	tlc_is_small_country = yes
+	NOT = { tlc_is_microstate = yes }
+	is_at_war = no
+	NOT = { is_in_revolution = yes }
+	NOT = { is_in_civil_war = yes }
+}
+
+# ═══════════════════════════════════════════════════════════════
+# WAKE CONDITIONS — When a dormant country must wake up
+# ═══════════════════════════════════════════════════════════════
+
+tlc_should_wake = {
+	OR = {
+		is_at_war = yes
+		is_in_revolution = yes
+		is_in_civil_war = yes
+		is_player = yes
+		# Diplomatic play involvement
+		any_diplomatic_play = {
+			OR = {
+				is_initiator = ROOT
+				is_target = ROOT
+			}
+		}
+	}
+}
+
+# Check if country has strategic importance (should not be dormant)
+tlc_has_strategic_importance = {
+	OR = {
+		# Is a recognized power
+		country_rank = rank_value:great_power
+		country_rank = rank_value:major_power
+		# Has significant population
+		country_population >= 2000000
+		# Is at war
+		is_at_war = yes
+		# Is in a crisis
+		is_in_revolution = yes
+		is_in_civil_war = yes
+		# Is a player
+		is_player = yes
+	}
+}

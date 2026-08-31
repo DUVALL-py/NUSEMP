@@ -1,0 +1,45 @@
+﻿# Trekker's Victoria: Long Century
+# Germany Scripted Effects — Unification fatigue and recovery
+
+# ═══════════════════════════════════════════════════════════════
+# APPLY GERMAN UNIFICATION FATIGUE
+# ═══════════════════════════════════════════════════════════════
+
+tlc_apply_german_fatigue = {
+	# Apply the fatigue modifier
+	add_modifier = {
+		name = tlc_german_unification_fatigue
+		months = 120   # 10 years
+	}
+	
+	# Set tracking variable
+	set_variable = {
+		name = tlc_german_unification_fatigue_active
+		value = 1
+	}
+	
+	# Trigger gradual recovery events
+	trigger_event = {
+		id = tlc_germany.10
+		months = 36    # First recovery check at 3 years
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# GRADUAL FATIGUE RECOVERY
+# ═══════════════════════════════════════════════════════════════
+
+# Phase 1: Partial recovery (3 years after unification)
+tlc_germany_partial_recovery = {
+	remove_modifier = tlc_german_unification_fatigue
+	add_modifier = {
+		name = tlc_german_unification_fatigue_reduced
+		months = 48    # 4 more years
+	}
+}
+
+# Phase 2: Full recovery (7 years after unification)
+tlc_germany_full_recovery = {
+	remove_modifier = tlc_german_unification_fatigue_reduced
+	remove_variable = tlc_german_unification_fatigue_active
+}

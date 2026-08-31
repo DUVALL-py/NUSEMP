@@ -1,0 +1,222 @@
+﻿l_braz_por:
+
+ # ═══════════════════════════════════════════════════════════════
+ # INFO DO MOD
+ # ═══════════════════════════════════════════════════════════════
+ 
+ tlc_mod_name:0 "Trekker's Victoria: Long Century"
+ tlc_mod_desc:0 "Uma revisão leve para MP — 1836–1945"
+
+ # ═══════════════════════════════════════════════════════════════
+ # MODIFICADORES DE DORMÊNCIA
+ # ═══════════════════════════════════════════════════════════════
+ 
+ modifier_tlc_ai_dormant:0 "Dormência da IA: Inativa"
+ modifier_tlc_ai_dormant_desc:0 "Esta nação menor está em estado dormente para preservar a performance do jogo. Ela acordará se for ameaçada ou se um jogador assumir o controle."
+ modifier_tlc_ai_limited:0 "Dormência da IA: Limitada"
+ modifier_tlc_ai_limited_desc:0 "Esta nação tem atividade de IA reduzida para preservar a performance do jogo."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # MODIFICADORES DE WORKFORCE
+ # ═══════════════════════════════════════════════════════════════
+ 
+ modifier_tlc_workforce_era_2:0 "Expansão da Força de Trabalho Industrial"
+ modifier_tlc_workforce_era_2_desc:0 "A industrialização e a urbanização estão disponibilizando mais trabalhadores."
+ modifier_tlc_workforce_era_3:0 "Força de Trabalho Moderna"
+ modifier_tlc_workforce_era_3_desc:0 "A educação e a mecanização expandiram a força de trabalho disponível."
+ modifier_tlc_workforce_era_4:0 "Força de Trabalho Industrial Tardia"
+ modifier_tlc_workforce_era_4_desc:0 "A economia moderna fornece uma força de trabalho expandida para nações industrializadas."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # MODIFICADORES DE PESQUISA
+ # ═══════════════════════════════════════════════════════════════
+ 
+ modifier_tlc_research_slowdown_era_2:0 "Complexidade Científica Crescente"
+ modifier_tlc_research_slowdown_era_2_desc:0 "As descobertas científicas estão ficando mais difíceis de alcançar."
+ modifier_tlc_research_slowdown_era_3:0 "Fronteira Científica Avançada"
+ modifier_tlc_research_slowdown_era_3_desc:0 "As fronteiras do conhecimento estão se expandindo, tornando avanços mais difíceis."
+ modifier_tlc_research_slowdown_era_4:0 "Pesquisa Científica Complexa"
+ modifier_tlc_research_slowdown_era_4_desc:0 "A pesquisa moderna requer investimento e especialização cada vez maiores."
+ modifier_tlc_research_slowdown_era_5:0 "Pesquisa de Ponta"
+ modifier_tlc_research_slowdown_era_5_desc:0 "Estamos no limite do conhecimento humano. Novas descobertas exigem esforço enorme."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # UNIFICAÇÃO ALEMÃ
+ # ═══════════════════════════════════════════════════════════════
+ 
+ modifier_tlc_german_unification_fatigue:0 "Fadiga da Unificação"
+ modifier_tlc_german_unification_fatigue_desc:0 "A unificação prematura da Alemanha criou enormes desafios administrativos, turbulência política e problemas de integração."
+ modifier_tlc_german_unification_fatigue_reduced:0 "Fadiga da Unificação (Diminuindo)"
+ modifier_tlc_german_unification_fatigue_reduced_desc:0 "A turbulência inicial da unificação está diminuindo, mas desafios permanecem."
+ modifier_tlc_german_early_unification_penalty:0 "Crise de Unificação Prematura"
+ modifier_tlc_german_early_unification_penalty_desc:0 "A Alemanha foi unificada antes que as bases políticas e institucionais estivessem prontas. As consequências são severas."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # ULTRA-CAPITALISMO
+ # ═══════════════════════════════════════════════════════════════
+ 
+ modifier_tlc_ultra_capitalism_benefits:0 "Boom Ultra-Capitalista"
+ modifier_tlc_ultra_capitalism_benefits_desc:0 "O capitalismo irrestrito impulsiona investimentos massivos e crescimento industrial."
+ modifier_tlc_ultra_capitalism_costs:0 "Desigualdade Ultra-Capitalista"
+ modifier_tlc_ultra_capitalism_costs_desc:0 "A concentração extrema de riqueza gera radicalismo e agitação social."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # TIPOS DE GOVERNO
+ # ═══════════════════════════════════════════════════════════════
+ 
+ gov_tlc_laissez_faire:0 "República Laissez-Faire"
+ gov_tlc_ultra_capitalism:0 "Estado Ultra-Capitalista"
+ gov_tlc_state_capitalism:0 "Regime Capitalista de Estado"
+ gov_tlc_planned_economy:0 "Estado de Economia Planificada"
+ gov_tlc_cooperative_economy:0 "República Cooperativa"
+ gov_tlc_liberal_democracy:0 "Democracia Liberal"
+ gov_tlc_authoritarian_democracy:0 "Democracia Autoritária"
+ gov_tlc_one_party_state:0 "Estado de Partido Único"
+ gov_tlc_technocracy:0 "Tecnocracia"
+ gov_tlc_military_junta:0 "Junta Militar"
+ gov_tlc_corporate_state:0 "Estado Corporativo"
+ gov_tlc_workers_commonwealth:0 "Comunidade dos Trabalhadores"
+ gov_tlc_anarchist_federation:0 "Federação Anarquista"
+ 
+ modifier_tlc_laissez_faire_bonus:0 "Economia Laissez-Faire"
+ modifier_tlc_laissez_faire_bonus_desc:0 "O livre mercado impulsiona investimentos privados mas limita a receita estatal."
+ modifier_tlc_state_capitalism_bonus:0 "Sistema Capitalista de Estado"
+ modifier_tlc_state_capitalism_bonus_desc:0 "O estado dirige o desenvolvimento econômico com planejamento centralizado."
+ modifier_tlc_planned_economy_bonus:0 "Economia Centralmente Planificada"
+ modifier_tlc_planned_economy_bonus_desc:0 "O estado controla todos os aspectos da produção econômica."
+ modifier_tlc_cooperative_economy_bonus:0 "Economia Cooperativa"
+ modifier_tlc_cooperative_economy_bonus_desc:0 "Cooperativas de trabalhadores formam a espinha dorsal da economia."
+ modifier_tlc_liberal_democracy_bonus:0 "Valores da Democracia Liberal"
+ modifier_tlc_liberal_democracy_bonus_desc:0 "Uma sociedade livre e aberta atrai imigrantes e conquista prestígio internacional."
+ modifier_tlc_authoritarian_democracy_bonus:0 "Democracia Guiada"
+ modifier_tlc_authoritarian_democracy_bonus_desc:0 "Um executivo forte guia o desenvolvimento da nação."
+ modifier_tlc_one_party_state_bonus:0 "Domínio de Partido Único"
+ modifier_tlc_one_party_state_bonus_desc:0 "O partido dominante mantém controle absoluto sobre a governança."
+ modifier_tlc_technocracy_bonus:0 "Governança Tecnocrática"
+ modifier_tlc_technocracy_bonus_desc:0 "Especialistas e técnicos guiam a política nacional para máxima eficiência."
+ modifier_tlc_military_junta_bonus:0 "Governo Militar"
+ modifier_tlc_military_junta_bonus_desc:0 "As forças armadas mantêm a ordem e projetam poder no exterior."
+ modifier_tlc_corporate_state_bonus:0 "Governança Corporativa"
+ modifier_tlc_corporate_state_bonus_desc:0 "Corporações e industriais efetivamente governam a nação."
+ modifier_tlc_workers_commonwealth_bonus:0 "Comunidade dos Trabalhadores"
+ modifier_tlc_workers_commonwealth_bonus_desc:0 "Uma sociedade organizada em torno dos direitos dos trabalhadores e propriedade coletiva."
+ modifier_tlc_anarchist_federation_bonus:0 "Federação Anarquista"
+ modifier_tlc_anarchist_federation_bonus_desc:0 "Uma sociedade descentralizada sem autoridade centralizada."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # LEIS LGBT
+ # ═══════════════════════════════════════════════════════════════
+ 
+ law_group_tlc_lgbt_rights:0 "Direitos LGBT"
+ law_tlc_lgbt_criminalized:0 "Criminalizado"
+ law_tlc_lgbt_criminalized_desc:0 "A homossexualidade e a não-conformidade de gênero são crimes previstos em lei."
+ law_tlc_lgbt_tolerated:0 "Tolerado"
+ law_tlc_lgbt_tolerated_desc:0 "Embora não explicitamente protegida, a homossexualidade não é mais criminalizada."
+ law_tlc_lgbt_equal:0 "Direitos Iguais"
+ law_tlc_lgbt_equal_desc:0 "Todos os cidadãos gozam de direitos iguais independentemente de orientação sexual ou identidade de gênero."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # LEIS DE INTERNAMENTO
+ # ═══════════════════════════════════════════════════════════════
+ 
+ law_group_tlc_internment_policy:0 "Política de Internamento"
+ law_tlc_no_internment:0 "Sem Internamento"
+ law_tlc_no_internment_desc:0 "O estado não opera campos de concentração ou internamento."
+ law_tlc_internment_camps:0 "Campos de Concentração"
+ law_tlc_internment_camps_desc:0 "O regime opera campos para prisioneiros políticos, indesejáveis e minorias étnicas. Uma instituição horrível."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # MODIFICADORES LGBT
+ # ═══════════════════════════════════════════════════════════════
+ 
+ modifier_tlc_lgbt_movement_support:0 "Movimento pelos Direitos LGBT Apoiado"
+ modifier_tlc_lgbt_movement_support_desc:0 "O apoio do governo ao movimento LGBT criou ondas políticas."
+ modifier_tlc_lgbt_movement_suppressed:0 "Movimento pelos Direitos LGBT Suprimido"
+ modifier_tlc_lgbt_movement_suppressed_desc:0 "O governo esmagou o nascente movimento pelos direitos LGBT."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # EVENTOS — WORKFORCE
+ # ═══════════════════════════════════════════════════════════════
+ 
+ tlc_workforce.1.t:0 "A Força de Trabalho Industrial"
+ tlc_workforce.1.d:0 "A urbanização e o crescimento das fábricas estão transformando o mercado de trabalho. Trabalhadores estão deixando o campo em busca de emprego industrial. A força de trabalho disponível está se expandindo."
+ tlc_workforce.1.f:0 "As cidades crescem cada vez mais..."
+ tlc_workforce.1.a:0 "A era da indústria começou."
+ 
+ tlc_workforce.2.t:0 "A Força de Trabalho Moderna"
+ tlc_workforce.2.d:0 "A educação, a urbanização e a mecanização mudaram fundamentalmente a natureza do trabalho. Uma parcela maior da população agora é economicamente ativa."
+ tlc_workforce.2.f:0 "Um novo século amanhece..."
+ tlc_workforce.2.a:0 "O progresso continua."
+ 
+ tlc_workforce.3.t:0 "A Economia Industrial Tardia"
+ tlc_workforce.3.d:0 "A economia moderna exige uma força de trabalho cada vez maior. Nações industrializadas agora podem sustentar operações econômicas maiores sem escassez paralisante de mão de obra."
+ tlc_workforce.3.f:0 "As máquinas nunca param..."
+ tlc_workforce.3.a:0 "Devemos acompanhar o ritmo."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # EVENTOS — ALEMANHA
+ # ═══════════════════════════════════════════════════════════════
+ 
+ tlc_germany.1.t:0 "Unificação Prematura"
+ tlc_germany.1.d:0 "A Alemanha foi unificada antes que as fundações políticas e institucionais estivessem verdadeiramente prontas. Embora uma conquista notável, os desafios administrativos de integrar tantos estados diversos serão enormes. Devemos esperar turbulência."
+ tlc_germany.1.f:0 "Foi cedo demais?"
+ tlc_germany.1.a:0 "Suportaremos as dores do crescimento."
+ 
+ tlc_germany.2.t:0 "Uma Alemanha Unida"
+ tlc_germany.2.d:0 "A Alemanha está unida! O longo processo de preparação política e manobras diplomáticas deu frutos. Nossa nação está pronta para seu lugar entre as grandes potências."
+ tlc_germany.2.f:0 "Deutschland über alles!"
+ tlc_germany.2.a:0 "A nação alemã se ergue!"
+ 
+ tlc_germany.10.a:0 "A recuperação prossegue."
+ 
+ tlc_germany.11.t:0 "Integração Completa"
+ tlc_germany.11.d:0 "Os desafios da unificação foram finalmente superados. A Alemanha agora funciona como uma entidade nacional coesa."
+ tlc_germany.11.a:0 "Uma nova era começa."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # EVENTOS — ECONOMIA
+ # ═══════════════════════════════════════════════════════════════
+ 
+ tlc_economy.1.t:0 "Complexidade Científica Crescente"
+ tlc_economy.1.d:0 "À medida que nossa compreensão do mundo se aprofunda, novas descobertas requerem conhecimento e equipamentos cada vez mais especializados. A pesquisa levará mais tempo."
+ tlc_economy.1.f:0 "As frutas mais fáceis já foram colhidas."
+ tlc_economy.1.a:0 "Devemos investir mais em pesquisa."
+ 
+ tlc_economy.2.t:0 "A Fronteira Científica se Expande"
+ tlc_economy.2.d:0 "Os limites do conhecimento humano continuam avançando, mas cada passo adiante exige maior esforço. Novas descobertas requerem instituições dedicadas e especialistas treinados."
+ tlc_economy.2.f:0 "Conhecimento sem limite, mas recursos com limite."
+ tlc_economy.2.a:0 "A busca pelo conhecimento continua."
+ 
+ tlc_economy.3.t:0 "A Era da Especialização"
+ tlc_economy.3.d:0 "A ciência moderna tornou-se altamente especializada. Projetos de pesquisa requerem equipes de especialistas, equipamentos caros e anos de trabalho dedicado."
+ tlc_economy.3.f:0 "Acabaram os dias dos gênios solitários."
+ tlc_economy.3.a:0 "Nos adaptamos à nova realidade."
+ 
+ tlc_economy.4.t:0 "Pesquisa de Ponta"
+ tlc_economy.4.d:0 "Estamos na fronteira do conhecimento humano. Cada nova descoberta exige recursos enormes e as mentes mais brilhantes de uma geração."
+ tlc_economy.4.f:0 "O limite do que é possível."
+ tlc_economy.4.a:0 "Seguimos em frente independentemente."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # EVENTOS — LGBT
+ # ═══════════════════════════════════════════════════════════════
+ 
+ tlc_lgbt.1.t:0 "Movimento pelos Direitos LGBT"
+ tlc_lgbt.1.d:0 "Um movimento pelos direitos de homossexuais e minorias de gênero surgiu em nossas cidades. Intelectuais e políticos progressistas estão debatendo se a lei deveria mudar."
+ tlc_lgbt.1.f:0 "Uma questão de direitos..."
+ tlc_lgbt.1.a:0 "Apoiar o movimento."
+ tlc_lgbt.1.b:0 "Manter o status quo."
+ 
+ tlc_lgbt.2.t:0 "Reação Conservadora"
+ tlc_lgbt.2.d:0 "A descriminalização da homossexualidade provocou uma reação furiosa de círculos religiosos e conservadores. Eles exigem que as reformas sejam revertidas."
+ tlc_lgbt.2.f:0 "Nem todos aceitam a mudança."
+ tlc_lgbt.2.a:0 "Mantemos a reforma."
+ tlc_lgbt.2.b:0 "Fazer concessões para acalmar a oposição."
+ 
+ # ═══════════════════════════════════════════════════════════════
+ # EVENTOS — DORMÊNCIA
+ # ═══════════════════════════════════════════════════════════════
+ 
+ tlc_dormancy.1.a:0 "OK"
+ tlc_dormancy.2.a:0 "OK"
+ tlc_dormancy.3.a:0 "OK"

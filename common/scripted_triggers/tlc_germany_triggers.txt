@@ -1,0 +1,92 @@
+﻿# Trekker's Victoria: Long Century
+# Germany Triggers — Unification requirements and conditions
+
+# ═══════════════════════════════════════════════════════════════
+# BASIC CHECKS
+# ═══════════════════════════════════════════════════════════════
+
+# Is this a German minor that could unify?
+tlc_is_german_unifier_candidate = {
+	OR = {
+		c:PRU ?= THIS    # Prussia
+		c:AUS ?= THIS    # Austria (can attempt)
+		c:BAV ?= THIS    # Bavaria (unlikely but possible)
+	}
+	has_technology_researched = nationalism
+}
+
+# ═══════════════════════════════════════════════════════════════
+# UNIFICATION TIMING — Option C (restriction → possible → debuff)
+# ═══════════════════════════════════════════════════════════════
+
+# Before 1850 — BLOCKED (hard restriction)
+tlc_germany_too_early = {
+	game_date < 1850.1.1
+}
+
+# 1850-1860 — Possible but extremely costly
+tlc_germany_early_window = {
+	game_date >= 1850.1.1
+	game_date < 1860.1.1
+}
+
+# 1860+ — Normal unification path
+tlc_germany_normal_window = {
+	game_date >= 1860.1.1
+}
+
+# ═══════════════════════════════════════════════════════════════
+# POLITICAL REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════
+
+# Must have sufficient political development
+tlc_germany_political_ready = {
+	# Must have nationalism tech
+	has_technology_researched = nationalism
+	
+	# Must not be in a revolution
+	NOT = { is_in_revolution = yes }
+	
+	# Must have some form of centralized government
+	OR = {
+		has_law = law_type:law_monarchy
+		has_law = law_type:law_presidential_republic
+		has_law = law_type:law_parliamentary_republic
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# MILITARY/DIPLOMATIC REQUIREMENTS
+# ═══════════════════════════════════════════════════════════════
+
+tlc_germany_military_ready = {
+	# Must be at peace
+	is_at_war = no
+	
+	# Must be a significant power
+	OR = {
+		country_rank = rank_value:great_power
+		country_rank = rank_value:major_power
+	}
+	
+	# Must have prestige
+	country_prestige >= 100
+}
+
+# ═══════════════════════════════════════════════════════════════
+# COMBINED — Can unify Germany?
+# ═══════════════════════════════════════════════════════════════
+
+tlc_can_unify_germany = {
+	tlc_is_german_unifier_candidate = yes
+	NOT = { tlc_germany_too_early = yes }
+	tlc_germany_political_ready = yes
+	tlc_germany_military_ready = yes
+}
+
+# Has the unification fatigue expired?
+tlc_germany_fatigue_expired = {
+	NOT = {
+		has_variable = tlc_german_unification_fatigue_active
+	}
+}

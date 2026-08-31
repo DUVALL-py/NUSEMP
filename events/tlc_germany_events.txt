@@ -1,0 +1,154 @@
+﻿# Trekker's Victoria: Long Century
+# Germany Events — Unification fatigue and recovery
+# DESIGN: Pre-1850 unification = harsh debuff, Post-1850 = no penalty
+# Does NOT modify vanilla German Question JE
+
+namespace = tlc_germany
+
+# ═══════════════════════════════════════════════════════════════
+# EARLY UNIFICATION PENALTY — Triggered when Germany forms before 1850
+# ═══════════════════════════════════════════════════════════════
+
+tlc_germany.1 = {
+	type = country_event
+	placement = root
+	
+	title = tlc_germany.1.t
+	desc = tlc_germany.1.d
+	flavor = tlc_germany.1.f
+	
+	event_image = {
+		texture = "gfx/event_pictures/politics_government_reform.dds"
+	}
+	
+	trigger = {
+		exists = c:GER
+		c:GER = THIS
+		game_date < 1850.1.1
+		NOT = { has_variable = tlc_early_unification_penalty_applied }
+	}
+	
+	immediate = {
+		set_variable = tlc_early_unification_penalty_applied
+	}
+	
+	option = {
+		name = tlc_germany.1.a
+		default_option = yes
+		
+		# Apply harsh early unification fatigue
+		add_modifier = {
+			name = tlc_german_unification_fatigue
+			months = 120   # 10 years
+		}
+		
+		# Extra penalty for rushing
+		add_modifier = {
+			name = tlc_german_early_unification_penalty
+			months = 60    # 5 extra years of pain
+		}
+		
+		set_variable = {
+			name = tlc_german_unification_fatigue_active
+			value = 1
+		}
+		
+		# Schedule recovery
+		trigger_event = {
+			id = tlc_germany.10
+			months = 36
+		}
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# NORMAL UNIFICATION — Post-1850, no penalty (just notification)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_germany.2 = {
+	type = country_event
+	placement = root
+	
+	title = tlc_germany.2.t
+	desc = tlc_germany.2.d
+	flavor = tlc_germany.2.f
+	
+	event_image = {
+		texture = "gfx/event_pictures/politics_government_reform.dds"
+	}
+	
+	trigger = {
+		exists = c:GER
+		c:GER = THIS
+		game_date >= 1850.1.1
+		NOT = { has_variable = tlc_normal_unification_notified }
+	}
+	
+	immediate = {
+		set_variable = tlc_normal_unification_notified
+	}
+	
+	option = {
+		name = tlc_germany.2.a
+		default_option = yes
+		# No penalty — earned through legitimate gameplay
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# FATIGUE RECOVERY PHASE 1 — 3 years after early unification
+# ═══════════════════════════════════════════════════════════════
+
+tlc_germany.10 = {
+	type = country_event
+	placement = root
+	hidden = yes
+	
+	trigger = {
+		has_variable = tlc_german_unification_fatigue_active
+	}
+	
+	immediate = {
+		# Transition from full fatigue to reduced
+		tlc_germany_partial_recovery = yes
+		
+		# Schedule full recovery
+		trigger_event = {
+			id = tlc_germany.11
+			months = 48
+		}
+	}
+	
+	option = {
+		name = tlc_germany.10.a
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# FATIGUE RECOVERY PHASE 2 — Full recovery
+# ═══════════════════════════════════════════════════════════════
+
+tlc_germany.11 = {
+	type = country_event
+	placement = root
+	
+	title = tlc_germany.11.t
+	desc = tlc_germany.11.d
+	
+	event_image = {
+		texture = "gfx/event_pictures/politics_government_reform.dds"
+	}
+	
+	trigger = {
+		has_variable = tlc_german_unification_fatigue_active
+	}
+	
+	immediate = {
+		tlc_germany_full_recovery = yes
+	}
+	
+	option = {
+		name = tlc_germany.11.a
+		default_option = yes
+	}
+}

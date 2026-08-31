@@ -1,0 +1,74 @@
+﻿# Trekker's Victoria: Long Century
+# Dormancy Events — Notifications and state transitions
+
+namespace = tlc_dormancy
+
+# ═══════════════════════════════════════════════════════════════
+# INITIAL DORMANCY ASSIGNMENT (game start, silent)
+# ═══════════════════════════════════════════════════════════════
+
+tlc_dormancy.1 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		is_player = no
+		tlc_is_microstate = yes
+		is_at_war = no
+	}
+	
+	immediate = {
+		tlc_set_dormant = yes
+	}
+	
+	option = {
+		name = tlc_dormancy.1.a
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# WAKE UP EVENT — When a dormant country needs to become active
+# ═══════════════════════════════════════════════════════════════
+
+tlc_dormancy.2 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		has_modifier = tlc_ai_dormant
+		tlc_should_wake = yes
+	}
+	
+	immediate = {
+		tlc_wake_country = yes
+	}
+	
+	option = {
+		name = tlc_dormancy.2.a
+	}
+}
+
+# ═══════════════════════════════════════════════════════════════
+# PLAYER TAKES CONTROL — Immediate wake
+# ═══════════════════════════════════════════════════════════════
+
+tlc_dormancy.3 = {
+	type = country_event
+	hidden = yes
+	
+	trigger = {
+		is_player = yes
+		OR = {
+			has_modifier = tlc_ai_dormant
+			has_modifier = tlc_ai_limited
+		}
+	}
+	
+	immediate = {
+		tlc_set_active = yes
+	}
+	
+	option = {
+		name = tlc_dormancy.3.a
+	}
+}
