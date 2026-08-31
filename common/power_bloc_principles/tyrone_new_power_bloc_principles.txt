@@ -1,0 +1,193 @@
+﻿# New Power Bloc Principles for Trekking MP
+
+### TRANSPORT UNION ###
+
+principle_transport_union_1 = {
+	icon = "gfx/interface/icons/principles_icons/transport.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		state_infrastructure_mult = 0.1
+	}
+
+	ai_weight = {
+		value = 100
+	}
+}
+
+principle_transport_union_2 = {
+	icon = "gfx/interface/icons/principles_icons/transport.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		state_infrastructure_mult = 0.1
+		building_port_throughput_add = 0.1
+	}
+
+	ai_weight = {
+		value = 500
+	}
+}
+
+principle_transport_union_3 = {
+	icon = "gfx/interface/icons/principles_icons/transport.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		state_infrastructure_mult = 0.1
+		building_port_throughput_add = 0.1
+		building_group_bg_infrastructure_construction_efficiency_add = 0.2
+	}
+
+	ai_weight = {
+		value = 1000
+	}
+}
+
+### INDUSTRIAL STANDARDIZATION ###
+
+principle_industrial_standardization_1 = {
+	icon = "gfx/interface/icons/principles_icons/construction.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.05
+	}
+
+	ai_weight = {
+		value = 100
+	}
+}
+
+principle_industrial_standardization_2 = {
+	icon = "gfx/interface/icons/principles_icons/construction.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.05
+		country_construction_goods_cost_mult = -0.1
+	}
+
+	ai_weight = {
+		value = 500
+	}
+}
+
+principle_industrial_standardization_3 = {
+	icon = "gfx/interface/icons/principles_icons/construction.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.05
+		country_construction_goods_cost_mult = -0.1
+		country_production_tech_spread_mult = 0.15
+	}
+
+	ai_weight = {
+		value = 1000
+	}
+}
+
+### JOINT LOGISTICS ###
+
+principle_joint_logistics_1 = {
+	icon = "gfx/interface/icons/principles_icons/military_industry.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		unit_defense_mult = 0.05
+	}
+
+	ai_weight = {
+		value = 100
+	}
+}
+
+principle_joint_logistics_2 = {
+	icon = "gfx/interface/icons/principles_icons/military_industry.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		unit_defense_mult = 0.05
+		country_military_goods_cost_mult = -0.1
+	}
+
+	ai_weight = {
+		value = 500
+	}
+}
+
+principle_joint_logistics_3 = {
+	icon = "gfx/interface/icons/principles_icons/military_industry.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		unit_defense_mult = 0.05
+		country_military_goods_cost_mult = -0.1
+		building_group_bg_military_industry_throughput_add = 0.15
+	}
+
+	ai_weight = {
+		value = 1000
+	}
+}
+
+### IDEOLOGICAL HARMONY ###
+
+principle_ideological_harmony_1 = {
+	icon = "gfx/interface/icons/principles_icons/ideological_truth.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = power_bloc_features
+	}
+
+	member_modifier = {
+		state_radicals_and_loyalists_from_sol_change_mult = -0.1
+	}
+
+	ai_weight = {
+		value = 100
+	}
+}
+
+principle_ideological_harmony_2 = {
+	icon = "gfx/interface/icons/principles_icons/ideological_truth.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_2.dds"
+
+	member_modifier = {
+		state_radicals_and_loyalists_from_sol_change_mult = -0.1
+		country_legitimacy_base_add = 10
+	}
+
+	ai_weight = {
+		value = 500
+	}
+}
+
+principle_ideological_harmony_3 = {
+	icon = "gfx/interface/icons/principles_icons/ideological_truth.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_3.dds"
+
+	member_modifier = {
+		state_radicals_and_loyalists_from_sol_change_mult = -0.1
+		country_legitimacy_base_add = 10
+		country_law_enactment_success_add = 0.1
+	}
+
+	ai_weight = {
+		value = 1000
+	}
+}

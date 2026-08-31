@@ -1,0 +1,42 @@
+﻿# New Power Bloc Principle Groups for Trekking MP
+
+principle_group_transport_union = {
+	primary_for_identity = identity_trade_league
+	unlocking_identity = identity_trade_league
+
+	levels = {
+		principle_transport_union_1
+		principle_transport_union_2
+		principle_transport_union_3
+	}
+}
+
+principle_group_industrial_standardization = {
+	levels = {
+		principle_industrial_standardization_1
+		principle_industrial_standardization_2
+		principle_industrial_standardization_3
+	}
+}
+
+principle_group_joint_logistics = {
+	primary_for_identity = identity_military_treaty_organization
+	unlocking_identity = identity_military_treaty_organization
+
+	levels = {
+		principle_joint_logistics_1
+		principle_joint_logistics_2
+		principle_joint_logistics_3
+	}
+}
+
+principle_group_ideological_harmony = {
+	primary_for_identity = identity_ideological_union
+	unlocking_identity = identity_ideological_union
+
+	levels = {
+		principle_ideological_harmony_1
+		principle_ideological_harmony_2
+		principle_ideological_harmony_3
+	}
+}
