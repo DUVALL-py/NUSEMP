@@ -1,0 +1,64 @@
+﻿GAC = {
+	geographic_region = geographic_region_anglo_america
+
+	is_major_formation = yes
+
+	unification_play = dp_unify_anglo_america
+
+	required_states_fraction = 0.9
+
+	ai_will_do = { always = no }
+
+	possible = {
+		NOT = { exists = c:GAC  }
+		is_ai = no
+		has_technology_researched = pan-nationalism
+        NOT = {
+            c:GBR ?= this
+        }
+	}
+
+	max_num_formation_candidates = 1
+	can_be_formation_candidate = {
+		country_rank >= rank_value:great_power
+	}
+
+	can_be_unification_target = {
+	}
+}
+
+GOGU = {
+	states = {
+		STATE_SEOUL STATE_YANGHO STATE_SHENGJING STATE_SOUTHERN_MANCHURIA STATE_BUSAN STATE_YANGHO STATE_SARIWON STATE_PYONGYANG STATE_NORTHERN_MANCHURIA
+	}
+		
+	required_states_fraction = 1.0
+
+	ai_will_do = { always = no }
+
+	possible = {
+		NOT = { exists = c:GOGU  }
+		is_ai = no
+	}
+}
+UNSA = {
+	states = {
+		STATE_RIO_DE_JANEIRO STATE_MINAS_GERAIS STATE_BAHIA STATE_PERNAMBUCO STATE_PARAIBA STATE_RIO_GRANDE_DO_NORTE STATE_SAO_PAULO STATE_PARANA STATE_SANTA_CATARINA
+		STATE_RIO_GRANDE_DO_SUL STATE_URUGUAY STATE_CEARA STATE_PIAUI STATE_MARANHAO STATE_GOIAS STATE_MATO_GROSSO STATE_PARA STATE_AMAZONAS STATE_GUAYANA
+		STATE_BAJO_PARAGUAY STATE_CORRIENTES STATE_ALTO_PARAGUAY STATE_CHACO STATE_SANTA_FE STATE_BUENOS_AIRES STATE_ACRE STATE_LA_PAZ STATE_SANTA_CRUZ STATE_JUJUY
+		STATE_SANTIAGO STATE_LOS_RIOS STATE_ARAUCANIA STATE_PATAGONIA STATE_ANTOFAGASTA STATE_POTOSI STATE_TARAPACA
+		STATE_AREQUIPA STATE_ICA STATE_LIMA STATE_CAJAMARCA STATE_PASTAZA STATE_ECUADOR
+		STATE_GUAVIARE STATE_CAUCA STATE_CUNDINAMARCA STATE_ANTIOQUIA
+		STATE_ZULIA STATE_MIRANDA STATE_BOLIVAR
+	}
+
+		
+	required_states_fraction = 0.90
+
+	ai_will_do = { always = no }
+
+	possible = {
+		NOT = { exists = c:UNSA  }
+		is_ai = no
+	}
+}

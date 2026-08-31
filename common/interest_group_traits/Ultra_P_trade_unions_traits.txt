@@ -1,0 +1,11 @@
+﻿INJECT:ig_trait_industrial_organizers = {
+	modifier = {
+		building_group_bg_mining_throughput_add = 0.1
+	}
+}
+
+INJECT:ig_trait_work_to_rule = {
+	modifier = {
+		state_construction_mult = -0.05
+	}
+}

@@ -1,0 +1,19 @@
+﻿INJECT:ig_trait_job_creators = {
+	modifier = {
+		state_capitalists_investment_pool_contribution_add = 0.05
+		state_capitalists_investment_pool_efficiency_mult = -0.05
+	}
+}
+
+INJECT:ig_trait_tax_avoidance = {
+	modifier = {
+		state_capitalists_investment_pool_contribution_add = -0.1
+	}
+}
+
+INJECT:ig_trait_kommerskollegium = {
+	modifier = {
+		state_capitalists_investment_pool_contribution_add = 0.025
+		state_capitalists_investment_pool_efficiency_mult = -0.025
+	}
+}

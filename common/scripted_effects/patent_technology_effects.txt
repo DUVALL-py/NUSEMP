@@ -1,0 +1,3048 @@
+﻿patent_initialize_known_technologies_effect = {
+	if = {
+		limit = { has_technology_researched = sericulture }
+		set_variable = patent_known_sericulture
+	}
+	if = {
+		limit = { has_technology_researched = enclosure }
+		set_variable = patent_known_enclosure
+	}
+	if = {
+		limit = { has_technology_researched = manufacturies }
+		set_variable = patent_known_manufacturies
+	}
+	if = {
+		limit = { has_technology_researched = shaft_mining }
+		set_variable = patent_known_shaft_mining
+	}
+	if = {
+		limit = { has_technology_researched = cotton_gin }
+		set_variable = patent_known_cotton_gin
+	}
+	if = {
+		limit = { has_technology_researched = lathe }
+		set_variable = patent_known_lathe
+	}
+	if = {
+		limit = { has_technology_researched = distillation }
+		set_variable = patent_known_distillation
+	}
+	if = {
+		limit = { has_technology_researched = steelworking }
+		set_variable = patent_known_steelworking
+	}
+	if = {
+		limit = { has_technology_researched = prospecting }
+		set_variable = patent_known_prospecting
+	}
+	if = {
+		limit = { has_technology_researched = crystal_glass }
+		set_variable = patent_known_crystal_glass
+	}
+	if = {
+		limit = { has_technology_researched = intensive_agriculture }
+		set_variable = patent_known_intensive_agriculture
+	}
+	if = {
+		limit = { has_technology_researched = fractional_distillation }
+		set_variable = patent_known_fractional_distillation
+	}
+	if = {
+		limit = { has_technology_researched = canneries }
+		set_variable = patent_known_canneries
+	}
+	if = {
+		limit = { has_technology_researched = watertube_boiler }
+		set_variable = patent_known_watertube_boiler
+	}
+	if = {
+		limit = { has_technology_researched = atmospheric_engine }
+		set_variable = patent_known_atmospheric_engine
+	}
+	if = {
+		limit = { has_technology_researched = railways }
+		set_variable = patent_known_railways
+	}
+	if = {
+		limit = { has_technology_researched = chemical_bleaching }
+		set_variable = patent_known_chemical_bleaching
+	}
+	if = {
+		limit = { has_technology_researched = nitroglycerin }
+		set_variable = patent_known_nitroglycerin
+	}
+	if = {
+		limit = { has_technology_researched = bessemer_process }
+		set_variable = patent_known_bessemer_process
+	}
+	if = {
+		limit = { has_technology_researched = baking_powder }
+		set_variable = patent_known_baking_powder
+	}
+	if = {
+		limit = { has_technology_researched = mechanized_workshops }
+		set_variable = patent_known_mechanized_workshops
+	}
+	if = {
+		limit = { has_technology_researched = mechanical_tools }
+		set_variable = patent_known_mechanical_tools
+	}
+	if = {
+		limit = { has_technology_researched = improved_fertilizer }
+		set_variable = patent_known_improved_fertilizer
+	}
+	if = {
+		limit = { has_technology_researched = steam_donkey }
+		set_variable = patent_known_steam_donkey
+	}
+	if = {
+		limit = { has_technology_researched = dynamite }
+		set_variable = patent_known_dynamite
+	}
+	if = {
+		limit = { has_technology_researched = rubber_mastication }
+		set_variable = patent_known_rubber_mastication
+	}
+	if = {
+		limit = { has_technology_researched = rotary_valve_engine }
+		set_variable = patent_known_rotary_valve_engine
+	}
+	if = {
+		limit = { has_technology_researched = reinforced_concrete }
+		set_variable = patent_known_reinforced_concrete
+	}
+	if = {
+		limit = { has_technology_researched = threshing_machine }
+		set_variable = patent_known_threshing_machine
+	}
+	if = {
+		limit = { has_technology_researched = pumpjacks }
+		set_variable = patent_known_pumpjacks
+	}
+	if = {
+		limit = { has_technology_researched = aniline }
+		set_variable = patent_known_aniline
+	}
+	if = {
+		limit = { has_technology_researched = open_hearth_process }
+		set_variable = patent_known_open_hearth_process
+	}
+	if = {
+		limit = { has_technology_researched = vulcanization }
+		set_variable = patent_known_vulcanization
+	}
+	if = {
+		limit = { has_technology_researched = vacuum_canning }
+		set_variable = patent_known_vacuum_canning
+	}
+	if = {
+		limit = { has_technology_researched = shift_work }
+		set_variable = patent_known_shift_work
+	}
+	if = {
+		limit = { has_technology_researched = steel_railway_cars }
+		set_variable = patent_known_steel_railway_cars
+	}
+	if = {
+		limit = { has_technology_researched = electrical_generation }
+		set_variable = patent_known_electrical_generation
+	}
+	if = {
+		limit = { has_technology_researched = mechanized_farming }
+		set_variable = patent_known_mechanized_farming
+	}
+	if = {
+		limit = { has_technology_researched = art_silk }
+		set_variable = patent_known_art_silk
+	}
+	if = {
+		limit = { has_technology_researched = automatic_bottle_blowers }
+		set_variable = patent_known_automatic_bottle_blowers
+	}
+	if = {
+		limit = { has_technology_researched = conveyors }
+		set_variable = patent_known_conveyors
+	}
+	if = {
+		limit = { has_technology_researched = pasteurization }
+		set_variable = patent_known_pasteurization
+	}
+	if = {
+		limit = { has_technology_researched = electric_railway }
+		set_variable = patent_known_electric_railway
+	}
+	if = {
+		limit = { has_technology_researched = combustion_engine }
+		set_variable = patent_known_combustion_engine
+	}
+	if = {
+		limit = { has_technology_researched = pneumatic_tools }
+		set_variable = patent_known_pneumatic_tools
+	}
+	if = {
+		limit = { has_technology_researched = nitrogen_fixation }
+		set_variable = patent_known_nitrogen_fixation
+	}
+	if = {
+		limit = { has_technology_researched = electric_arc_process }
+		set_variable = patent_known_electric_arc_process
+	}
+	if = {
+		limit = { has_technology_researched = steam_turbine }
+		set_variable = patent_known_steam_turbine
+	}
+	if = {
+		limit = { has_technology_researched = plastics }
+		set_variable = patent_known_plastics
+	}
+	if = {
+		limit = { has_technology_researched = electrical_capacitors }
+		set_variable = patent_known_electrical_capacitors
+	}
+	if = {
+		limit = { has_technology_researched = radio }
+		set_variable = patent_known_radio
+	}
+	if = {
+		limit = { has_technology_researched = telephone }
+		set_variable = patent_known_telephone
+	}
+	if = {
+		limit = { has_technology_researched = dough_rollers }
+		set_variable = patent_known_dough_rollers
+	}
+	if = {
+		limit = { has_technology_researched = flash_freezing }
+		set_variable = patent_known_flash_freezing
+	}
+	if = {
+		limit = { has_technology_researched = oil_turbine }
+		set_variable = patent_known_oil_turbine
+	}
+	if = {
+		limit = { has_technology_researched = arc_welding }
+		set_variable = patent_known_arc_welding
+	}
+	if = {
+		limit = { has_technology_researched = compression_ignition }
+		set_variable = patent_known_compression_ignition
+	}
+	if = {
+		limit = { has_technology_researched = standing_army }
+		set_variable = patent_known_standing_army
+	}
+	if = {
+		limit = { has_technology_researched = navigation }
+		set_variable = patent_known_navigation
+	}
+	if = {
+		limit = { has_technology_researched = drydocks }
+		set_variable = patent_known_drydocks
+	}
+	if = {
+		limit = { has_technology_researched = mandatory_service }
+		set_variable = patent_known_mandatory_service
+	}
+	if = {
+		limit = { has_technology_researched = gunsmithing }
+		set_variable = patent_known_gunsmithing
+	}
+	if = {
+		limit = { has_technology_researched = artillery }
+		set_variable = patent_known_artillery
+	}
+	if = {
+		limit = { has_technology_researched = military_drill }
+		set_variable = patent_known_military_drill
+	}
+	if = {
+		limit = { has_technology_researched = napoleonic_warfare }
+		set_variable = patent_known_napoleonic_warfare
+	}
+	if = {
+		limit = { has_technology_researched = admiralty }
+		set_variable = patent_known_admiralty
+	}
+	if = {
+		limit = { has_technology_researched = army_reserves }
+		set_variable = patent_known_army_reserves
+	}
+	if = {
+		limit = { has_technology_researched = line_infantry }
+		set_variable = patent_known_line_infantry
+	}
+	if = {
+		limit = { has_technology_researched = paddle_steamer }
+		set_variable = patent_known_paddle_steamer
+	}
+	if = {
+		limit = { has_technology_researched = field_works }
+		set_variable = patent_known_field_works
+	}
+	if = {
+		limit = { has_technology_researched = logistics }
+		set_variable = patent_known_logistics
+	}
+	if = {
+		limit = { has_technology_researched = triage }
+		set_variable = patent_known_triage
+	}
+	if = {
+		limit = { has_technology_researched = shell_gun }
+		set_variable = patent_known_shell_gun
+	}
+	if = {
+		limit = { has_technology_researched = percussion_cap }
+		set_variable = patent_known_percussion_cap
+	}
+	if = {
+		limit = { has_technology_researched = rifling }
+		set_variable = patent_known_rifling
+	}
+	if = {
+		limit = { has_technology_researched = general_staff }
+		set_variable = patent_known_general_staff
+	}
+	if = {
+		limit = { has_technology_researched = screw_frigate }
+		set_variable = patent_known_screw_frigate
+	}
+	if = {
+		limit = { has_technology_researched = power_of_the_purse }
+		set_variable = patent_known_power_of_the_purse
+	}
+	if = {
+		limit = { has_technology_researched = hydraulic_cranes }
+		set_variable = patent_known_hydraulic_cranes
+	}
+	if = {
+		limit = { has_technology_researched = modern_nursing }
+		set_variable = patent_known_modern_nursing
+	}
+	if = {
+		limit = { has_technology_researched = enlistment_offices }
+		set_variable = patent_known_enlistment_offices
+	}
+	if = {
+		limit = { has_technology_researched = electric_telegraph }
+		set_variable = patent_known_electric_telegraph
+	}
+	if = {
+		limit = { has_technology_researched = military_statistics }
+		set_variable = patent_known_military_statistics
+	}
+	if = {
+		limit = { has_technology_researched = repeaters }
+		set_variable = patent_known_repeaters
+	}
+	if = {
+		limit = { has_technology_researched = breech_loading_artillery }
+		set_variable = patent_known_breech_loading_artillery
+	}
+	if = {
+		limit = { has_technology_researched = handcranked_machine_gun }
+		set_variable = patent_known_handcranked_machine_gun
+	}
+	if = {
+		limit = { has_technology_researched = self_propelled_torpedoes }
+		set_variable = patent_known_self_propelled_torpedoes
+	}
+	if = {
+		limit = { has_technology_researched = monitor_tech }
+		set_variable = patent_known_monitor_tech
+	}
+	if = {
+		limit = { has_technology_researched = ironclad_tech }
+		set_variable = patent_known_ironclad_tech
+	}
+	if = {
+		limit = { has_technology_researched = jeune_ecole }
+		set_variable = patent_known_jeune_ecole
+	}
+	if = {
+		limit = { has_technology_researched = floating_harbor }
+		set_variable = patent_known_floating_harbor
+	}
+	if = {
+		limit = { has_technology_researched = gantry_cranes }
+		set_variable = patent_known_gantry_cranes
+	}
+	if = {
+		limit = { has_technology_researched = trench_works }
+		set_variable = patent_known_trench_works
+	}
+	if = {
+		limit = { has_technology_researched = war_propaganda }
+		set_variable = patent_known_war_propaganda
+	}
+	if = {
+		limit = { has_technology_researched = wargaming }
+		set_variable = patent_known_wargaming
+	}
+	if = {
+		limit = { has_technology_researched = defense_in_depth }
+		set_variable = patent_known_defense_in_depth
+	}
+	if = {
+		limit = { has_technology_researched = bolt_action_rifles }
+		set_variable = patent_known_bolt_action_rifles
+	}
+	if = {
+		limit = { has_technology_researched = automatic_machine_guns }
+		set_variable = patent_known_automatic_machine_guns
+	}
+	if = {
+		limit = { has_technology_researched = submarine }
+		set_variable = patent_known_submarine
+	}
+	if = {
+		limit = { has_technology_researched = destroyer }
+		set_variable = patent_known_destroyer
+	}
+	if = {
+		limit = { has_technology_researched = pre_dreadnought_tech }
+		set_variable = patent_known_pre_dreadnought_tech
+	}
+	if = {
+		limit = { has_technology_researched = dreadnought_tech }
+		set_variable = patent_known_dreadnought_tech
+	}
+	if = {
+		limit = { has_technology_researched = sea_lane_strategies }
+		set_variable = patent_known_sea_lane_strategies
+	}
+	if = {
+		limit = { has_technology_researched = landing_craft }
+		set_variable = patent_known_landing_craft
+	}
+	if = {
+		limit = { has_technology_researched = concrete_dockyards }
+		set_variable = patent_known_concrete_dockyards
+	}
+	if = {
+		limit = { has_technology_researched = nco_training }
+		set_variable = patent_known_nco_training
+	}
+	if = {
+		limit = { has_technology_researched = chemical_warfare }
+		set_variable = patent_known_chemical_warfare
+	}
+	if = {
+		limit = { has_technology_researched = stormtroopers }
+		set_variable = patent_known_stormtroopers
+	}
+	if = {
+		limit = { has_technology_researched = concrete_fortifications }
+		set_variable = patent_known_concrete_fortifications
+	}
+	if = {
+		limit = { has_technology_researched = mobile_armor }
+		set_variable = patent_known_mobile_armor
+	}
+	if = {
+		limit = { has_technology_researched = military_aviation }
+		set_variable = patent_known_military_aviation
+	}
+	if = {
+		limit = { has_technology_researched = flamethrowers }
+		set_variable = patent_known_flamethrowers
+	}
+	if = {
+		limit = { has_technology_researched = carrier_tech }
+		set_variable = patent_known_carrier_tech
+	}
+	if = {
+		limit = { has_technology_researched = battleship_tech }
+		set_variable = patent_known_battleship_tech
+	}
+	if = {
+		limit = { has_technology_researched = battlefleet_tactics }
+		set_variable = patent_known_battlefleet_tactics
+	}
+	if = {
+		limit = { has_technology_researched = urbanization }
+		set_variable = patent_known_urbanization
+	}
+	if = {
+		limit = { has_technology_researched = urban_planning }
+		set_variable = patent_known_urban_planning
+	}
+	if = {
+		limit = { has_technology_researched = rationalism }
+		set_variable = patent_known_rationalism
+	}
+	if = {
+		limit = { has_technology_researched = tech_bureaucracy }
+		set_variable = patent_known_tech_bureaucracy
+	}
+	if = {
+		limit = { has_technology_researched = currency_standards }
+		set_variable = patent_known_currency_standards
+	}
+	if = {
+		limit = { has_technology_researched = democracy }
+		set_variable = patent_known_democracy
+	}
+	if = {
+		limit = { has_technology_researched = romanticism }
+		set_variable = patent_known_romanticism
+	}
+	if = {
+		limit = { has_technology_researched = international_trade }
+		set_variable = patent_known_international_trade
+	}
+	if = {
+		limit = { has_technology_researched = centralization }
+		set_variable = patent_known_centralization
+	}
+	if = {
+		limit = { has_technology_researched = corporate_charters }
+		set_variable = patent_known_corporate_charters
+	}
+	if = {
+		limit = { has_technology_researched = banking }
+		set_variable = patent_known_banking
+	}
+	if = {
+		limit = { has_technology_researched = academia }
+		set_variable = patent_known_academia
+	}
+	if = {
+		limit = { has_technology_researched = colonization }
+		set_variable = patent_known_colonization
+	}
+	if = {
+		limit = { has_technology_researched = international_relations }
+		set_variable = patent_known_international_relations
+	}
+	if = {
+		limit = { has_technology_researched = law_enforcement }
+		set_variable = patent_known_law_enforcement
+	}
+	if = {
+		limit = { has_technology_researched = stock_exchange }
+		set_variable = patent_known_stock_exchange
+	}
+	if = {
+		limit = { has_technology_researched = medical_degrees }
+		set_variable = patent_known_medical_degrees
+	}
+	if = {
+		limit = { has_technology_researched = mass_communication }
+		set_variable = patent_known_mass_communication
+	}
+	if = {
+		limit = { has_technology_researched = empiricism }
+		set_variable = patent_known_empiricism
+	}
+	if = {
+		limit = { has_technology_researched = egalitarianism }
+		set_variable = patent_known_egalitarianism
+	}
+	if = {
+		limit = { has_technology_researched = pharmaceuticals }
+		set_variable = patent_known_pharmaceuticals
+	}
+	if = {
+		limit = { has_technology_researched = modern_sewerage }
+		set_variable = patent_known_modern_sewerage
+	}
+	if = {
+		limit = { has_technology_researched = quinine }
+		set_variable = patent_known_quinine
+	}
+	if = {
+		limit = { has_technology_researched = organized_sports }
+		set_variable = patent_known_organized_sports
+	}
+	if = {
+		limit = { has_technology_researched = central_archives }
+		set_variable = patent_known_central_archives
+	}
+	if = {
+		limit = { has_technology_researched = central_banking }
+		set_variable = patent_known_central_banking
+	}
+	if = {
+		limit = { has_technology_researched = joint_stock_companies }
+		set_variable = patent_known_joint_stock_companies
+	}
+	if = {
+		limit = { has_technology_researched = dialectics }
+		set_variable = patent_known_dialectics
+	}
+	if = {
+		limit = { has_technology_researched = psychiatry }
+		set_variable = patent_known_psychiatry
+	}
+	if = {
+		limit = { has_technology_researched = realism }
+		set_variable = patent_known_realism
+	}
+	if = {
+		limit = { has_technology_researched = nationalism }
+		set_variable = patent_known_nationalism
+	}
+	if = {
+		limit = { has_technology_researched = labor_movement }
+		set_variable = patent_known_labor_movement
+	}
+	if = {
+		limit = { has_technology_researched = postal_savings }
+		set_variable = patent_known_postal_savings
+	}
+	if = {
+		limit = { has_technology_researched = human_rights }
+		set_variable = patent_known_human_rights
+	}
+	if = {
+		limit = { has_technology_researched = feminism }
+		set_variable = patent_known_feminism
+	}
+	if = {
+		limit = { has_technology_researched = steel_frame_buildings }
+		set_variable = patent_known_steel_frame_buildings
+	}
+	if = {
+		limit = { has_technology_researched = civilizing_mission }
+		set_variable = patent_known_civilizing_mission
+	}
+	if = {
+		limit = { has_technology_researched = anarchism }
+		set_variable = patent_known_anarchism
+	}
+	if = {
+		limit = { has_technology_researched = socialism }
+		set_variable = patent_known_socialism
+	}
+	if = {
+		limit = { has_technology_researched = corporatism }
+		set_variable = patent_known_corporatism
+	}
+	if = {
+		limit = { has_technology_researched = pan-nationalism }
+		set_variable = patent_known_pan-nationalism
+	}
+	if = {
+		limit = { has_technology_researched = mutual_funds }
+		set_variable = patent_known_mutual_funds
+	}
+	if = {
+		limit = { has_technology_researched = investment_banks }
+		set_variable = patent_known_investment_banks
+	}
+	if = {
+		limit = { has_technology_researched = camera }
+		set_variable = patent_known_camera
+	}
+	if = {
+		limit = { has_technology_researched = philosophical_pragmatism }
+		set_variable = patent_known_philosophical_pragmatism
+	}
+	if = {
+		limit = { has_technology_researched = identification_documents }
+		set_variable = patent_known_identification_documents
+	}
+	if = {
+		limit = { has_technology_researched = elevator }
+		set_variable = patent_known_elevator
+	}
+	if = {
+		limit = { has_technology_researched = zeppelins }
+		set_variable = patent_known_zeppelins
+	}
+	if = {
+		limit = { has_technology_researched = malaria_prevention }
+		set_variable = patent_known_malaria_prevention
+	}
+	if = {
+		limit = { has_technology_researched = central_planning }
+		set_variable = patent_known_central_planning
+	}
+	if = {
+		limit = { has_technology_researched = political_agitation }
+		set_variable = patent_known_political_agitation
+	}
+	if = {
+		limit = { has_technology_researched = international_exchange_standards }
+		set_variable = patent_known_international_exchange_standards
+	}
+	if = {
+		limit = { has_technology_researched = corporate_management }
+		set_variable = patent_known_corporate_management
+	}
+	if = {
+		limit = { has_technology_researched = psychoanalysis }
+		set_variable = patent_known_psychoanalysis
+	}
+	if = {
+		limit = { has_technology_researched = film }
+		set_variable = patent_known_film
+	}
+	if = {
+		limit = { has_technology_researched = multilateral_alliances }
+		set_variable = patent_known_multilateral_alliances
+	}
+	if = {
+		limit = { has_technology_researched = mass_surveillance }
+		set_variable = patent_known_mass_surveillance
+	}
+	if = {
+		limit = { has_technology_researched = antibiotics }
+		set_variable = patent_known_antibiotics
+	}
+	if = {
+		limit = { has_technology_researched = mass_propaganda }
+		set_variable = patent_known_mass_propaganda
+	}
+	if = {
+		limit = { has_technology_researched = modern_financial_instruments }
+		set_variable = patent_known_modern_financial_instruments
+	}
+	if = {
+		limit = { has_technology_researched = macroeconomics }
+		set_variable = patent_known_macroeconomics
+	}
+	if = {
+		limit = { has_technology_researched = behaviorism }
+		set_variable = patent_known_behaviorism
+	}
+	if = {
+		limit = { has_technology_researched = analytical_philosophy }
+		set_variable = patent_known_analytical_philosophy
+	}
+	if = {
+		limit = { has_technology_researched = paved_roads }
+		set_variable = patent_known_paved_roads
+	}
+}
+
+patent_process_newly_acquired_technology_effect = {
+	if = {
+		limit = {
+			has_technology_researched = sericulture
+			NOT = { has_variable = patent_known_sericulture }
+		}
+		set_variable = patent_known_sericulture
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = sericulture } }
+			}
+			trigger_event = { id = patent_events.300 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = enclosure
+			NOT = { has_variable = patent_known_enclosure }
+		}
+		set_variable = patent_known_enclosure
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = enclosure } }
+			}
+			trigger_event = { id = patent_events.301 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = manufacturies
+			NOT = { has_variable = patent_known_manufacturies }
+		}
+		set_variable = patent_known_manufacturies
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = manufacturies } }
+			}
+			trigger_event = { id = patent_events.302 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = shaft_mining
+			NOT = { has_variable = patent_known_shaft_mining }
+		}
+		set_variable = patent_known_shaft_mining
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = shaft_mining } }
+			}
+			trigger_event = { id = patent_events.303 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = cotton_gin
+			NOT = { has_variable = patent_known_cotton_gin }
+		}
+		set_variable = patent_known_cotton_gin
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = cotton_gin } }
+			}
+			trigger_event = { id = patent_events.304 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = lathe
+			NOT = { has_variable = patent_known_lathe }
+		}
+		set_variable = patent_known_lathe
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = lathe } }
+			}
+			trigger_event = { id = patent_events.305 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = distillation
+			NOT = { has_variable = patent_known_distillation }
+		}
+		set_variable = patent_known_distillation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = distillation } }
+			}
+			trigger_event = { id = patent_events.306 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = steelworking
+			NOT = { has_variable = patent_known_steelworking }
+		}
+		set_variable = patent_known_steelworking
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = steelworking } }
+			}
+			trigger_event = { id = patent_events.307 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = prospecting
+			NOT = { has_variable = patent_known_prospecting }
+		}
+		set_variable = patent_known_prospecting
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = prospecting } }
+			}
+			trigger_event = { id = patent_events.308 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = crystal_glass
+			NOT = { has_variable = patent_known_crystal_glass }
+		}
+		set_variable = patent_known_crystal_glass
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = crystal_glass } }
+			}
+			trigger_event = { id = patent_events.309 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = intensive_agriculture
+			NOT = { has_variable = patent_known_intensive_agriculture }
+		}
+		set_variable = patent_known_intensive_agriculture
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = intensive_agriculture } }
+			}
+			trigger_event = { id = patent_events.310 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = fractional_distillation
+			NOT = { has_variable = patent_known_fractional_distillation }
+		}
+		set_variable = patent_known_fractional_distillation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = fractional_distillation } }
+			}
+			trigger_event = { id = patent_events.311 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = canneries
+			NOT = { has_variable = patent_known_canneries }
+		}
+		set_variable = patent_known_canneries
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = canneries } }
+			}
+			trigger_event = { id = patent_events.312 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = watertube_boiler
+			NOT = { has_variable = patent_known_watertube_boiler }
+		}
+		set_variable = patent_known_watertube_boiler
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = watertube_boiler } }
+			}
+			trigger_event = { id = patent_events.313 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = atmospheric_engine
+			NOT = { has_variable = patent_known_atmospheric_engine }
+		}
+		set_variable = patent_known_atmospheric_engine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = atmospheric_engine } }
+			}
+			trigger_event = { id = patent_events.314 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = railways
+			NOT = { has_variable = patent_known_railways }
+		}
+		set_variable = patent_known_railways
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = railways } }
+			}
+			trigger_event = { id = patent_events.315 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = chemical_bleaching
+			NOT = { has_variable = patent_known_chemical_bleaching }
+		}
+		set_variable = patent_known_chemical_bleaching
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = chemical_bleaching } }
+			}
+			trigger_event = { id = patent_events.316 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = nitroglycerin
+			NOT = { has_variable = patent_known_nitroglycerin }
+		}
+		set_variable = patent_known_nitroglycerin
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = nitroglycerin } }
+			}
+			trigger_event = { id = patent_events.317 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = bessemer_process
+			NOT = { has_variable = patent_known_bessemer_process }
+		}
+		set_variable = patent_known_bessemer_process
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = bessemer_process } }
+			}
+			trigger_event = { id = patent_events.318 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = baking_powder
+			NOT = { has_variable = patent_known_baking_powder }
+		}
+		set_variable = patent_known_baking_powder
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = baking_powder } }
+			}
+			trigger_event = { id = patent_events.319 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mechanized_workshops
+			NOT = { has_variable = patent_known_mechanized_workshops }
+		}
+		set_variable = patent_known_mechanized_workshops
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mechanized_workshops } }
+			}
+			trigger_event = { id = patent_events.320 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mechanical_tools
+			NOT = { has_variable = patent_known_mechanical_tools }
+		}
+		set_variable = patent_known_mechanical_tools
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mechanical_tools } }
+			}
+			trigger_event = { id = patent_events.321 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = improved_fertilizer
+			NOT = { has_variable = patent_known_improved_fertilizer }
+		}
+		set_variable = patent_known_improved_fertilizer
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = improved_fertilizer } }
+			}
+			trigger_event = { id = patent_events.322 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = steam_donkey
+			NOT = { has_variable = patent_known_steam_donkey }
+		}
+		set_variable = patent_known_steam_donkey
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = steam_donkey } }
+			}
+			trigger_event = { id = patent_events.323 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = dynamite
+			NOT = { has_variable = patent_known_dynamite }
+		}
+		set_variable = patent_known_dynamite
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = dynamite } }
+			}
+			trigger_event = { id = patent_events.324 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = rubber_mastication
+			NOT = { has_variable = patent_known_rubber_mastication }
+		}
+		set_variable = patent_known_rubber_mastication
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = rubber_mastication } }
+			}
+			trigger_event = { id = patent_events.325 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = rotary_valve_engine
+			NOT = { has_variable = patent_known_rotary_valve_engine }
+		}
+		set_variable = patent_known_rotary_valve_engine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = rotary_valve_engine } }
+			}
+			trigger_event = { id = patent_events.326 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = reinforced_concrete
+			NOT = { has_variable = patent_known_reinforced_concrete }
+		}
+		set_variable = patent_known_reinforced_concrete
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = reinforced_concrete } }
+			}
+			trigger_event = { id = patent_events.327 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = threshing_machine
+			NOT = { has_variable = patent_known_threshing_machine }
+		}
+		set_variable = patent_known_threshing_machine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = threshing_machine } }
+			}
+			trigger_event = { id = patent_events.328 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = pumpjacks
+			NOT = { has_variable = patent_known_pumpjacks }
+		}
+		set_variable = patent_known_pumpjacks
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = pumpjacks } }
+			}
+			trigger_event = { id = patent_events.329 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = aniline
+			NOT = { has_variable = patent_known_aniline }
+		}
+		set_variable = patent_known_aniline
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = aniline } }
+			}
+			trigger_event = { id = patent_events.330 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = open_hearth_process
+			NOT = { has_variable = patent_known_open_hearth_process }
+		}
+		set_variable = patent_known_open_hearth_process
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = open_hearth_process } }
+			}
+			trigger_event = { id = patent_events.331 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = vulcanization
+			NOT = { has_variable = patent_known_vulcanization }
+		}
+		set_variable = patent_known_vulcanization
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = vulcanization } }
+			}
+			trigger_event = { id = patent_events.332 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = vacuum_canning
+			NOT = { has_variable = patent_known_vacuum_canning }
+		}
+		set_variable = patent_known_vacuum_canning
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = vacuum_canning } }
+			}
+			trigger_event = { id = patent_events.333 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = shift_work
+			NOT = { has_variable = patent_known_shift_work }
+		}
+		set_variable = patent_known_shift_work
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = shift_work } }
+			}
+			trigger_event = { id = patent_events.334 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = steel_railway_cars
+			NOT = { has_variable = patent_known_steel_railway_cars }
+		}
+		set_variable = patent_known_steel_railway_cars
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = steel_railway_cars } }
+			}
+			trigger_event = { id = patent_events.335 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = electrical_generation
+			NOT = { has_variable = patent_known_electrical_generation }
+		}
+		set_variable = patent_known_electrical_generation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = electrical_generation } }
+			}
+			trigger_event = { id = patent_events.336 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mechanized_farming
+			NOT = { has_variable = patent_known_mechanized_farming }
+		}
+		set_variable = patent_known_mechanized_farming
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mechanized_farming } }
+			}
+			trigger_event = { id = patent_events.337 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = art_silk
+			NOT = { has_variable = patent_known_art_silk }
+		}
+		set_variable = patent_known_art_silk
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = art_silk } }
+			}
+			trigger_event = { id = patent_events.338 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = automatic_bottle_blowers
+			NOT = { has_variable = patent_known_automatic_bottle_blowers }
+		}
+		set_variable = patent_known_automatic_bottle_blowers
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = automatic_bottle_blowers } }
+			}
+			trigger_event = { id = patent_events.339 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = conveyors
+			NOT = { has_variable = patent_known_conveyors }
+		}
+		set_variable = patent_known_conveyors
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = conveyors } }
+			}
+			trigger_event = { id = patent_events.340 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = pasteurization
+			NOT = { has_variable = patent_known_pasteurization }
+		}
+		set_variable = patent_known_pasteurization
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = pasteurization } }
+			}
+			trigger_event = { id = patent_events.341 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = electric_railway
+			NOT = { has_variable = patent_known_electric_railway }
+		}
+		set_variable = patent_known_electric_railway
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = electric_railway } }
+			}
+			trigger_event = { id = patent_events.342 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = combustion_engine
+			NOT = { has_variable = patent_known_combustion_engine }
+		}
+		set_variable = patent_known_combustion_engine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = combustion_engine } }
+			}
+			trigger_event = { id = patent_events.343 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = pneumatic_tools
+			NOT = { has_variable = patent_known_pneumatic_tools }
+		}
+		set_variable = patent_known_pneumatic_tools
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = pneumatic_tools } }
+			}
+			trigger_event = { id = patent_events.344 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = nitrogen_fixation
+			NOT = { has_variable = patent_known_nitrogen_fixation }
+		}
+		set_variable = patent_known_nitrogen_fixation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = nitrogen_fixation } }
+			}
+			trigger_event = { id = patent_events.345 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = electric_arc_process
+			NOT = { has_variable = patent_known_electric_arc_process }
+		}
+		set_variable = patent_known_electric_arc_process
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = electric_arc_process } }
+			}
+			trigger_event = { id = patent_events.346 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = steam_turbine
+			NOT = { has_variable = patent_known_steam_turbine }
+		}
+		set_variable = patent_known_steam_turbine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = steam_turbine } }
+			}
+			trigger_event = { id = patent_events.347 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = plastics
+			NOT = { has_variable = patent_known_plastics }
+		}
+		set_variable = patent_known_plastics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = plastics } }
+			}
+			trigger_event = { id = patent_events.348 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = electrical_capacitors
+			NOT = { has_variable = patent_known_electrical_capacitors }
+		}
+		set_variable = patent_known_electrical_capacitors
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = electrical_capacitors } }
+			}
+			trigger_event = { id = patent_events.349 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = radio
+			NOT = { has_variable = patent_known_radio }
+		}
+		set_variable = patent_known_radio
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = radio } }
+			}
+			trigger_event = { id = patent_events.350 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = telephone
+			NOT = { has_variable = patent_known_telephone }
+		}
+		set_variable = patent_known_telephone
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = telephone } }
+			}
+			trigger_event = { id = patent_events.351 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = dough_rollers
+			NOT = { has_variable = patent_known_dough_rollers }
+		}
+		set_variable = patent_known_dough_rollers
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = dough_rollers } }
+			}
+			trigger_event = { id = patent_events.352 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = flash_freezing
+			NOT = { has_variable = patent_known_flash_freezing }
+		}
+		set_variable = patent_known_flash_freezing
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = flash_freezing } }
+			}
+			trigger_event = { id = patent_events.353 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = oil_turbine
+			NOT = { has_variable = patent_known_oil_turbine }
+		}
+		set_variable = patent_known_oil_turbine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = oil_turbine } }
+			}
+			trigger_event = { id = patent_events.354 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = arc_welding
+			NOT = { has_variable = patent_known_arc_welding }
+		}
+		set_variable = patent_known_arc_welding
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = arc_welding } }
+			}
+			trigger_event = { id = patent_events.355 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = compression_ignition
+			NOT = { has_variable = patent_known_compression_ignition }
+		}
+		set_variable = patent_known_compression_ignition
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = compression_ignition } }
+			}
+			trigger_event = { id = patent_events.356 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = standing_army
+			NOT = { has_variable = patent_known_standing_army }
+		}
+		set_variable = patent_known_standing_army
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = standing_army } }
+			}
+			trigger_event = { id = patent_events.357 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = navigation
+			NOT = { has_variable = patent_known_navigation }
+		}
+		set_variable = patent_known_navigation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = navigation } }
+			}
+			trigger_event = { id = patent_events.358 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = drydocks
+			NOT = { has_variable = patent_known_drydocks }
+		}
+		set_variable = patent_known_drydocks
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = drydocks } }
+			}
+			trigger_event = { id = patent_events.359 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mandatory_service
+			NOT = { has_variable = patent_known_mandatory_service }
+		}
+		set_variable = patent_known_mandatory_service
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mandatory_service } }
+			}
+			trigger_event = { id = patent_events.360 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = gunsmithing
+			NOT = { has_variable = patent_known_gunsmithing }
+		}
+		set_variable = patent_known_gunsmithing
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = gunsmithing } }
+			}
+			trigger_event = { id = patent_events.361 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = artillery
+			NOT = { has_variable = patent_known_artillery }
+		}
+		set_variable = patent_known_artillery
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = artillery } }
+			}
+			trigger_event = { id = patent_events.362 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = military_drill
+			NOT = { has_variable = patent_known_military_drill }
+		}
+		set_variable = patent_known_military_drill
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = military_drill } }
+			}
+			trigger_event = { id = patent_events.363 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = napoleonic_warfare
+			NOT = { has_variable = patent_known_napoleonic_warfare }
+		}
+		set_variable = patent_known_napoleonic_warfare
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = napoleonic_warfare } }
+			}
+			trigger_event = { id = patent_events.364 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = admiralty
+			NOT = { has_variable = patent_known_admiralty }
+		}
+		set_variable = patent_known_admiralty
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = admiralty } }
+			}
+			trigger_event = { id = patent_events.365 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = army_reserves
+			NOT = { has_variable = patent_known_army_reserves }
+		}
+		set_variable = patent_known_army_reserves
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = army_reserves } }
+			}
+			trigger_event = { id = patent_events.366 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = line_infantry
+			NOT = { has_variable = patent_known_line_infantry }
+		}
+		set_variable = patent_known_line_infantry
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = line_infantry } }
+			}
+			trigger_event = { id = patent_events.367 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = paddle_steamer
+			NOT = { has_variable = patent_known_paddle_steamer }
+		}
+		set_variable = patent_known_paddle_steamer
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = paddle_steamer } }
+			}
+			trigger_event = { id = patent_events.368 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = field_works
+			NOT = { has_variable = patent_known_field_works }
+		}
+		set_variable = patent_known_field_works
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = field_works } }
+			}
+			trigger_event = { id = patent_events.369 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = logistics
+			NOT = { has_variable = patent_known_logistics }
+		}
+		set_variable = patent_known_logistics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = logistics } }
+			}
+			trigger_event = { id = patent_events.370 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = triage
+			NOT = { has_variable = patent_known_triage }
+		}
+		set_variable = patent_known_triage
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = triage } }
+			}
+			trigger_event = { id = patent_events.371 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = shell_gun
+			NOT = { has_variable = patent_known_shell_gun }
+		}
+		set_variable = patent_known_shell_gun
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = shell_gun } }
+			}
+			trigger_event = { id = patent_events.372 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = percussion_cap
+			NOT = { has_variable = patent_known_percussion_cap }
+		}
+		set_variable = patent_known_percussion_cap
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = percussion_cap } }
+			}
+			trigger_event = { id = patent_events.373 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = rifling
+			NOT = { has_variable = patent_known_rifling }
+		}
+		set_variable = patent_known_rifling
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = rifling } }
+			}
+			trigger_event = { id = patent_events.374 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = general_staff
+			NOT = { has_variable = patent_known_general_staff }
+		}
+		set_variable = patent_known_general_staff
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = general_staff } }
+			}
+			trigger_event = { id = patent_events.375 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = screw_frigate
+			NOT = { has_variable = patent_known_screw_frigate }
+		}
+		set_variable = patent_known_screw_frigate
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = screw_frigate } }
+			}
+			trigger_event = { id = patent_events.376 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = power_of_the_purse
+			NOT = { has_variable = patent_known_power_of_the_purse }
+		}
+		set_variable = patent_known_power_of_the_purse
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = power_of_the_purse } }
+			}
+			trigger_event = { id = patent_events.377 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = hydraulic_cranes
+			NOT = { has_variable = patent_known_hydraulic_cranes }
+		}
+		set_variable = patent_known_hydraulic_cranes
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = hydraulic_cranes } }
+			}
+			trigger_event = { id = patent_events.378 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = modern_nursing
+			NOT = { has_variable = patent_known_modern_nursing }
+		}
+		set_variable = patent_known_modern_nursing
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = modern_nursing } }
+			}
+			trigger_event = { id = patent_events.379 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = enlistment_offices
+			NOT = { has_variable = patent_known_enlistment_offices }
+		}
+		set_variable = patent_known_enlistment_offices
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = enlistment_offices } }
+			}
+			trigger_event = { id = patent_events.380 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = electric_telegraph
+			NOT = { has_variable = patent_known_electric_telegraph }
+		}
+		set_variable = patent_known_electric_telegraph
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = electric_telegraph } }
+			}
+			trigger_event = { id = patent_events.381 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = military_statistics
+			NOT = { has_variable = patent_known_military_statistics }
+		}
+		set_variable = patent_known_military_statistics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = military_statistics } }
+			}
+			trigger_event = { id = patent_events.382 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = repeaters
+			NOT = { has_variable = patent_known_repeaters }
+		}
+		set_variable = patent_known_repeaters
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = repeaters } }
+			}
+			trigger_event = { id = patent_events.383 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = breech_loading_artillery
+			NOT = { has_variable = patent_known_breech_loading_artillery }
+		}
+		set_variable = patent_known_breech_loading_artillery
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = breech_loading_artillery } }
+			}
+			trigger_event = { id = patent_events.384 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = handcranked_machine_gun
+			NOT = { has_variable = patent_known_handcranked_machine_gun }
+		}
+		set_variable = patent_known_handcranked_machine_gun
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = handcranked_machine_gun } }
+			}
+			trigger_event = { id = patent_events.385 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = self_propelled_torpedoes
+			NOT = { has_variable = patent_known_self_propelled_torpedoes }
+		}
+		set_variable = patent_known_self_propelled_torpedoes
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = self_propelled_torpedoes } }
+			}
+			trigger_event = { id = patent_events.386 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = monitor_tech
+			NOT = { has_variable = patent_known_monitor_tech }
+		}
+		set_variable = patent_known_monitor_tech
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = monitor_tech } }
+			}
+			trigger_event = { id = patent_events.387 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = ironclad_tech
+			NOT = { has_variable = patent_known_ironclad_tech }
+		}
+		set_variable = patent_known_ironclad_tech
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = ironclad_tech } }
+			}
+			trigger_event = { id = patent_events.388 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = jeune_ecole
+			NOT = { has_variable = patent_known_jeune_ecole }
+		}
+		set_variable = patent_known_jeune_ecole
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = jeune_ecole } }
+			}
+			trigger_event = { id = patent_events.389 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = floating_harbor
+			NOT = { has_variable = patent_known_floating_harbor }
+		}
+		set_variable = patent_known_floating_harbor
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = floating_harbor } }
+			}
+			trigger_event = { id = patent_events.390 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = gantry_cranes
+			NOT = { has_variable = patent_known_gantry_cranes }
+		}
+		set_variable = patent_known_gantry_cranes
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = gantry_cranes } }
+			}
+			trigger_event = { id = patent_events.391 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = trench_works
+			NOT = { has_variable = patent_known_trench_works }
+		}
+		set_variable = patent_known_trench_works
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = trench_works } }
+			}
+			trigger_event = { id = patent_events.392 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = war_propaganda
+			NOT = { has_variable = patent_known_war_propaganda }
+		}
+		set_variable = patent_known_war_propaganda
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = war_propaganda } }
+			}
+			trigger_event = { id = patent_events.393 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = wargaming
+			NOT = { has_variable = patent_known_wargaming }
+		}
+		set_variable = patent_known_wargaming
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = wargaming } }
+			}
+			trigger_event = { id = patent_events.394 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = defense_in_depth
+			NOT = { has_variable = patent_known_defense_in_depth }
+		}
+		set_variable = patent_known_defense_in_depth
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = defense_in_depth } }
+			}
+			trigger_event = { id = patent_events.395 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = bolt_action_rifles
+			NOT = { has_variable = patent_known_bolt_action_rifles }
+		}
+		set_variable = patent_known_bolt_action_rifles
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = bolt_action_rifles } }
+			}
+			trigger_event = { id = patent_events.396 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = automatic_machine_guns
+			NOT = { has_variable = patent_known_automatic_machine_guns }
+		}
+		set_variable = patent_known_automatic_machine_guns
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = automatic_machine_guns } }
+			}
+			trigger_event = { id = patent_events.397 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = submarine
+			NOT = { has_variable = patent_known_submarine }
+		}
+		set_variable = patent_known_submarine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = submarine } }
+			}
+			trigger_event = { id = patent_events.398 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = destroyer
+			NOT = { has_variable = patent_known_destroyer }
+		}
+		set_variable = patent_known_destroyer
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = destroyer } }
+			}
+			trigger_event = { id = patent_events.399 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = pre_dreadnought_tech
+			NOT = { has_variable = patent_known_pre_dreadnought_tech }
+		}
+		set_variable = patent_known_pre_dreadnought_tech
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = pre_dreadnought_tech } }
+			}
+			trigger_event = { id = patent_events.400 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = dreadnought_tech
+			NOT = { has_variable = patent_known_dreadnought_tech }
+		}
+		set_variable = patent_known_dreadnought_tech
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = dreadnought_tech } }
+			}
+			trigger_event = { id = patent_events.401 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = sea_lane_strategies
+			NOT = { has_variable = patent_known_sea_lane_strategies }
+		}
+		set_variable = patent_known_sea_lane_strategies
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = sea_lane_strategies } }
+			}
+			trigger_event = { id = patent_events.402 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = landing_craft
+			NOT = { has_variable = patent_known_landing_craft }
+		}
+		set_variable = patent_known_landing_craft
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = landing_craft } }
+			}
+			trigger_event = { id = patent_events.403 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = concrete_dockyards
+			NOT = { has_variable = patent_known_concrete_dockyards }
+		}
+		set_variable = patent_known_concrete_dockyards
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = concrete_dockyards } }
+			}
+			trigger_event = { id = patent_events.404 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = nco_training
+			NOT = { has_variable = patent_known_nco_training }
+		}
+		set_variable = patent_known_nco_training
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = nco_training } }
+			}
+			trigger_event = { id = patent_events.405 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = chemical_warfare
+			NOT = { has_variable = patent_known_chemical_warfare }
+		}
+		set_variable = patent_known_chemical_warfare
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = chemical_warfare } }
+			}
+			trigger_event = { id = patent_events.406 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = stormtroopers
+			NOT = { has_variable = patent_known_stormtroopers }
+		}
+		set_variable = patent_known_stormtroopers
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = stormtroopers } }
+			}
+			trigger_event = { id = patent_events.407 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = concrete_fortifications
+			NOT = { has_variable = patent_known_concrete_fortifications }
+		}
+		set_variable = patent_known_concrete_fortifications
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = concrete_fortifications } }
+			}
+			trigger_event = { id = patent_events.408 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mobile_armor
+			NOT = { has_variable = patent_known_mobile_armor }
+		}
+		set_variable = patent_known_mobile_armor
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mobile_armor } }
+			}
+			trigger_event = { id = patent_events.409 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = military_aviation
+			NOT = { has_variable = patent_known_military_aviation }
+		}
+		set_variable = patent_known_military_aviation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = military_aviation } }
+			}
+			trigger_event = { id = patent_events.410 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = flamethrowers
+			NOT = { has_variable = patent_known_flamethrowers }
+		}
+		set_variable = patent_known_flamethrowers
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = flamethrowers } }
+			}
+			trigger_event = { id = patent_events.411 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = carrier_tech
+			NOT = { has_variable = patent_known_carrier_tech }
+		}
+		set_variable = patent_known_carrier_tech
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = carrier_tech } }
+			}
+			trigger_event = { id = patent_events.412 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = battleship_tech
+			NOT = { has_variable = patent_known_battleship_tech }
+		}
+		set_variable = patent_known_battleship_tech
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = battleship_tech } }
+			}
+			trigger_event = { id = patent_events.413 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = battlefleet_tactics
+			NOT = { has_variable = patent_known_battlefleet_tactics }
+		}
+		set_variable = patent_known_battlefleet_tactics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = battlefleet_tactics } }
+			}
+			trigger_event = { id = patent_events.414 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = urbanization
+			NOT = { has_variable = patent_known_urbanization }
+		}
+		set_variable = patent_known_urbanization
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = urbanization } }
+			}
+			trigger_event = { id = patent_events.415 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = urban_planning
+			NOT = { has_variable = patent_known_urban_planning }
+		}
+		set_variable = patent_known_urban_planning
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = urban_planning } }
+			}
+			trigger_event = { id = patent_events.416 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = rationalism
+			NOT = { has_variable = patent_known_rationalism }
+		}
+		set_variable = patent_known_rationalism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = rationalism } }
+			}
+			trigger_event = { id = patent_events.417 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = tech_bureaucracy
+			NOT = { has_variable = patent_known_tech_bureaucracy }
+		}
+		set_variable = patent_known_tech_bureaucracy
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = tech_bureaucracy } }
+			}
+			trigger_event = { id = patent_events.418 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = currency_standards
+			NOT = { has_variable = patent_known_currency_standards }
+		}
+		set_variable = patent_known_currency_standards
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = currency_standards } }
+			}
+			trigger_event = { id = patent_events.419 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = democracy
+			NOT = { has_variable = patent_known_democracy }
+		}
+		set_variable = patent_known_democracy
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = democracy } }
+			}
+			trigger_event = { id = patent_events.420 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = romanticism
+			NOT = { has_variable = patent_known_romanticism }
+		}
+		set_variable = patent_known_romanticism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = romanticism } }
+			}
+			trigger_event = { id = patent_events.421 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = international_trade
+			NOT = { has_variable = patent_known_international_trade }
+		}
+		set_variable = patent_known_international_trade
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = international_trade } }
+			}
+			trigger_event = { id = patent_events.422 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = centralization
+			NOT = { has_variable = patent_known_centralization }
+		}
+		set_variable = patent_known_centralization
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = centralization } }
+			}
+			trigger_event = { id = patent_events.423 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = corporate_charters
+			NOT = { has_variable = patent_known_corporate_charters }
+		}
+		set_variable = patent_known_corporate_charters
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = corporate_charters } }
+			}
+			trigger_event = { id = patent_events.424 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = banking
+			NOT = { has_variable = patent_known_banking }
+		}
+		set_variable = patent_known_banking
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = banking } }
+			}
+			trigger_event = { id = patent_events.425 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = academia
+			NOT = { has_variable = patent_known_academia }
+		}
+		set_variable = patent_known_academia
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = academia } }
+			}
+			trigger_event = { id = patent_events.426 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = colonization
+			NOT = { has_variable = patent_known_colonization }
+		}
+		set_variable = patent_known_colonization
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = colonization } }
+			}
+			trigger_event = { id = patent_events.427 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = international_relations
+			NOT = { has_variable = patent_known_international_relations }
+		}
+		set_variable = patent_known_international_relations
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = international_relations } }
+			}
+			trigger_event = { id = patent_events.428 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = law_enforcement
+			NOT = { has_variable = patent_known_law_enforcement }
+		}
+		set_variable = patent_known_law_enforcement
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = law_enforcement } }
+			}
+			trigger_event = { id = patent_events.429 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = stock_exchange
+			NOT = { has_variable = patent_known_stock_exchange }
+		}
+		set_variable = patent_known_stock_exchange
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = stock_exchange } }
+			}
+			trigger_event = { id = patent_events.430 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = medical_degrees
+			NOT = { has_variable = patent_known_medical_degrees }
+		}
+		set_variable = patent_known_medical_degrees
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = medical_degrees } }
+			}
+			trigger_event = { id = patent_events.431 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mass_communication
+			NOT = { has_variable = patent_known_mass_communication }
+		}
+		set_variable = patent_known_mass_communication
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mass_communication } }
+			}
+			trigger_event = { id = patent_events.432 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = empiricism
+			NOT = { has_variable = patent_known_empiricism }
+		}
+		set_variable = patent_known_empiricism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = empiricism } }
+			}
+			trigger_event = { id = patent_events.433 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = egalitarianism
+			NOT = { has_variable = patent_known_egalitarianism }
+		}
+		set_variable = patent_known_egalitarianism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = egalitarianism } }
+			}
+			trigger_event = { id = patent_events.434 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = pharmaceuticals
+			NOT = { has_variable = patent_known_pharmaceuticals }
+		}
+		set_variable = patent_known_pharmaceuticals
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = pharmaceuticals } }
+			}
+			trigger_event = { id = patent_events.435 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = modern_sewerage
+			NOT = { has_variable = patent_known_modern_sewerage }
+		}
+		set_variable = patent_known_modern_sewerage
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = modern_sewerage } }
+			}
+			trigger_event = { id = patent_events.436 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = quinine
+			NOT = { has_variable = patent_known_quinine }
+		}
+		set_variable = patent_known_quinine
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = quinine } }
+			}
+			trigger_event = { id = patent_events.437 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = organized_sports
+			NOT = { has_variable = patent_known_organized_sports }
+		}
+		set_variable = patent_known_organized_sports
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = organized_sports } }
+			}
+			trigger_event = { id = patent_events.438 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = central_archives
+			NOT = { has_variable = patent_known_central_archives }
+		}
+		set_variable = patent_known_central_archives
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = central_archives } }
+			}
+			trigger_event = { id = patent_events.439 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = central_banking
+			NOT = { has_variable = patent_known_central_banking }
+		}
+		set_variable = patent_known_central_banking
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = central_banking } }
+			}
+			trigger_event = { id = patent_events.440 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = joint_stock_companies
+			NOT = { has_variable = patent_known_joint_stock_companies }
+		}
+		set_variable = patent_known_joint_stock_companies
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = joint_stock_companies } }
+			}
+			trigger_event = { id = patent_events.441 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = dialectics
+			NOT = { has_variable = patent_known_dialectics }
+		}
+		set_variable = patent_known_dialectics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = dialectics } }
+			}
+			trigger_event = { id = patent_events.442 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = psychiatry
+			NOT = { has_variable = patent_known_psychiatry }
+		}
+		set_variable = patent_known_psychiatry
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = psychiatry } }
+			}
+			trigger_event = { id = patent_events.443 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = realism
+			NOT = { has_variable = patent_known_realism }
+		}
+		set_variable = patent_known_realism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = realism } }
+			}
+			trigger_event = { id = patent_events.444 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = nationalism
+			NOT = { has_variable = patent_known_nationalism }
+		}
+		set_variable = patent_known_nationalism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = nationalism } }
+			}
+			trigger_event = { id = patent_events.445 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = labor_movement
+			NOT = { has_variable = patent_known_labor_movement }
+		}
+		set_variable = patent_known_labor_movement
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = labor_movement } }
+			}
+			trigger_event = { id = patent_events.446 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = postal_savings
+			NOT = { has_variable = patent_known_postal_savings }
+		}
+		set_variable = patent_known_postal_savings
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = postal_savings } }
+			}
+			trigger_event = { id = patent_events.447 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = human_rights
+			NOT = { has_variable = patent_known_human_rights }
+		}
+		set_variable = patent_known_human_rights
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = human_rights } }
+			}
+			trigger_event = { id = patent_events.448 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = feminism
+			NOT = { has_variable = patent_known_feminism }
+		}
+		set_variable = patent_known_feminism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = feminism } }
+			}
+			trigger_event = { id = patent_events.449 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = steel_frame_buildings
+			NOT = { has_variable = patent_known_steel_frame_buildings }
+		}
+		set_variable = patent_known_steel_frame_buildings
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = steel_frame_buildings } }
+			}
+			trigger_event = { id = patent_events.450 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = civilizing_mission
+			NOT = { has_variable = patent_known_civilizing_mission }
+		}
+		set_variable = patent_known_civilizing_mission
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = civilizing_mission } }
+			}
+			trigger_event = { id = patent_events.451 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = anarchism
+			NOT = { has_variable = patent_known_anarchism }
+		}
+		set_variable = patent_known_anarchism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = anarchism } }
+			}
+			trigger_event = { id = patent_events.452 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = socialism
+			NOT = { has_variable = patent_known_socialism }
+		}
+		set_variable = patent_known_socialism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = socialism } }
+			}
+			trigger_event = { id = patent_events.453 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = corporatism
+			NOT = { has_variable = patent_known_corporatism }
+		}
+		set_variable = patent_known_corporatism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = corporatism } }
+			}
+			trigger_event = { id = patent_events.454 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = pan-nationalism
+			NOT = { has_variable = patent_known_pan-nationalism }
+		}
+		set_variable = patent_known_pan-nationalism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = pan-nationalism } }
+			}
+			trigger_event = { id = patent_events.455 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mutual_funds
+			NOT = { has_variable = patent_known_mutual_funds }
+		}
+		set_variable = patent_known_mutual_funds
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mutual_funds } }
+			}
+			trigger_event = { id = patent_events.456 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = investment_banks
+			NOT = { has_variable = patent_known_investment_banks }
+		}
+		set_variable = patent_known_investment_banks
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = investment_banks } }
+			}
+			trigger_event = { id = patent_events.457 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = camera
+			NOT = { has_variable = patent_known_camera }
+		}
+		set_variable = patent_known_camera
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = camera } }
+			}
+			trigger_event = { id = patent_events.458 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = philosophical_pragmatism
+			NOT = { has_variable = patent_known_philosophical_pragmatism }
+		}
+		set_variable = patent_known_philosophical_pragmatism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = philosophical_pragmatism } }
+			}
+			trigger_event = { id = patent_events.459 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = identification_documents
+			NOT = { has_variable = patent_known_identification_documents }
+		}
+		set_variable = patent_known_identification_documents
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = identification_documents } }
+			}
+			trigger_event = { id = patent_events.460 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = elevator
+			NOT = { has_variable = patent_known_elevator }
+		}
+		set_variable = patent_known_elevator
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = elevator } }
+			}
+			trigger_event = { id = patent_events.461 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = zeppelins
+			NOT = { has_variable = patent_known_zeppelins }
+		}
+		set_variable = patent_known_zeppelins
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = zeppelins } }
+			}
+			trigger_event = { id = patent_events.462 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = malaria_prevention
+			NOT = { has_variable = patent_known_malaria_prevention }
+		}
+		set_variable = patent_known_malaria_prevention
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = malaria_prevention } }
+			}
+			trigger_event = { id = patent_events.463 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = central_planning
+			NOT = { has_variable = patent_known_central_planning }
+		}
+		set_variable = patent_known_central_planning
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = central_planning } }
+			}
+			trigger_event = { id = patent_events.464 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = political_agitation
+			NOT = { has_variable = patent_known_political_agitation }
+		}
+		set_variable = patent_known_political_agitation
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = political_agitation } }
+			}
+			trigger_event = { id = patent_events.465 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = international_exchange_standards
+			NOT = { has_variable = patent_known_international_exchange_standards }
+		}
+		set_variable = patent_known_international_exchange_standards
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = international_exchange_standards } }
+			}
+			trigger_event = { id = patent_events.466 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = corporate_management
+			NOT = { has_variable = patent_known_corporate_management }
+		}
+		set_variable = patent_known_corporate_management
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = corporate_management } }
+			}
+			trigger_event = { id = patent_events.467 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = psychoanalysis
+			NOT = { has_variable = patent_known_psychoanalysis }
+		}
+		set_variable = patent_known_psychoanalysis
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = psychoanalysis } }
+			}
+			trigger_event = { id = patent_events.468 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = film
+			NOT = { has_variable = patent_known_film }
+		}
+		set_variable = patent_known_film
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = film } }
+			}
+			trigger_event = { id = patent_events.469 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = multilateral_alliances
+			NOT = { has_variable = patent_known_multilateral_alliances }
+		}
+		set_variable = patent_known_multilateral_alliances
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = multilateral_alliances } }
+			}
+			trigger_event = { id = patent_events.470 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mass_surveillance
+			NOT = { has_variable = patent_known_mass_surveillance }
+		}
+		set_variable = patent_known_mass_surveillance
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mass_surveillance } }
+			}
+			trigger_event = { id = patent_events.471 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = antibiotics
+			NOT = { has_variable = patent_known_antibiotics }
+		}
+		set_variable = patent_known_antibiotics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = antibiotics } }
+			}
+			trigger_event = { id = patent_events.472 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = mass_propaganda
+			NOT = { has_variable = patent_known_mass_propaganda }
+		}
+		set_variable = patent_known_mass_propaganda
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = mass_propaganda } }
+			}
+			trigger_event = { id = patent_events.473 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = modern_financial_instruments
+			NOT = { has_variable = patent_known_modern_financial_instruments }
+		}
+		set_variable = patent_known_modern_financial_instruments
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = modern_financial_instruments } }
+			}
+			trigger_event = { id = patent_events.474 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = macroeconomics
+			NOT = { has_variable = patent_known_macroeconomics }
+		}
+		set_variable = patent_known_macroeconomics
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = macroeconomics } }
+			}
+			trigger_event = { id = patent_events.475 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = behaviorism
+			NOT = { has_variable = patent_known_behaviorism }
+		}
+		set_variable = patent_known_behaviorism
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = behaviorism } }
+			}
+			trigger_event = { id = patent_events.476 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = analytical_philosophy
+			NOT = { has_variable = patent_known_analytical_philosophy }
+		}
+		set_variable = patent_known_analytical_philosophy
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = analytical_philosophy } }
+			}
+			trigger_event = { id = patent_events.477 }
+		}
+	}
+	else_if = {
+		limit = {
+			has_technology_researched = paved_roads
+			NOT = { has_variable = patent_known_paved_roads }
+		}
+		set_variable = patent_known_paved_roads
+		if = {
+			limit = {
+				NOT = { any_country = { is_country_alive = yes NOT = { this = scope:patent_inventor } has_technology_researched = paved_roads } }
+			}
+			trigger_event = { id = patent_events.478 }
+		}
+	}
+}

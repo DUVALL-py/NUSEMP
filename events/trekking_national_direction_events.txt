@@ -1,0 +1,106 @@
+﻿namespace = national_direction
+
+national_direction.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = national_direction.1.t
+	desc = national_direction.1.d
+	flavor = national_direction.1.f
+
+	event_image = {
+		video = "unspecific_signed_contract"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	option = {
+		name = national_direction.1.a
+		trekking_clear_national_direction = yes
+		add_modifier = { name = trekking_focus_scientific_vanguard days = 3650 }
+		trekking_schedule_national_direction_renewal = yes
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = national_direction.1.b
+		trekking_clear_national_direction = yes
+		add_modifier = { name = trekking_focus_national_mobilization days = 3650 }
+		trekking_schedule_national_direction_renewal = yes
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = national_direction.1.c
+		trekking_clear_national_direction = yes
+		add_modifier = { name = trekking_focus_cultural_renaissance days = 3650 }
+		trekking_schedule_national_direction_renewal = yes
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = national_direction.1.e
+		trekking_clear_national_direction = yes
+		add_modifier = { name = trekking_focus_industrial_prosperity days = 3650 }
+		trekking_schedule_national_direction_renewal = yes
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = national_direction.1.g
+		trekking_clear_national_direction = yes
+		add_modifier = { name = trekking_focus_administrative_reform days = 3650 }
+		trekking_schedule_national_direction_renewal = yes
+		ai_chance = { factor = 1 }
+	}
+
+	option = {
+		name = national_direction.1.neutral
+		default_option = yes
+		trekking_clear_national_direction = yes
+		trekking_schedule_national_direction_renewal = yes
+		ai_chance = { factor = 1 }
+	}
+}
+
+national_direction.2 = {
+	type = country_event
+	placement = ROOT
+
+	title = national_direction.2.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { has_modifier = trekking_focus_scientific_vanguard }
+				desc = national_direction.2.science
+			}
+			triggered_desc = {
+				trigger = { has_modifier = trekking_focus_national_mobilization }
+				desc = national_direction.2.military
+			}
+			triggered_desc = {
+				trigger = { has_modifier = trekking_focus_cultural_renaissance }
+				desc = national_direction.2.culture
+			}
+			triggered_desc = {
+				trigger = { has_modifier = trekking_focus_industrial_prosperity }
+				desc = national_direction.2.industry
+			}
+			triggered_desc = {
+				trigger = { has_modifier = trekking_focus_administrative_reform }
+				desc = national_direction.2.administration
+			}
+		}
+	}
+
+	event_image = { video = "unspecific_signed_contract" }
+	icon = "gfx/interface/icons/event_icons/waving_flag.dds"
+	duration = 3
+
+	option = {
+		name = national_direction.2.a
+		default_option = yes
+	}
+}

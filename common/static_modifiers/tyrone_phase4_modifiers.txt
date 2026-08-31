@@ -1,0 +1,73 @@
+﻿modifier_espionage_operation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	country_prestige_add = -5
+}
+
+modifier_stolen_blueprints = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds"
+	country_weekly_innovation_mult = 0.15
+}
+
+modifier_espionage_scandal = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	country_prestige_add = -15
+	country_legitimacy_base_add = -5
+}
+
+modifier_trade_treaty_active = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	country_trade_route_quantity_mult = 0.15
+	building_group_bg_trade_throughput_add = 0.10
+}
+
+modifier_dynastic_alliance = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_legitimacy_base_add = 10
+	country_prestige_add = 15
+}
+
+modifier_peace_conference_prestige = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_prestige_add = 30
+	country_influence_add = 50
+}
+
+modifier_global_economic_boom = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	building_group_bg_manufacturing_throughput_add = 0.10
+	state_standard_of_living_add = 0.5
+	state_migration_pull_mult = 0.10
+}
+
+modifier_global_economic_recession = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds"
+	building_group_bg_manufacturing_throughput_add = -0.10
+	state_turmoil_mult = 0.10
+	state_migration_pull_mult = -0.10
+}
+
+modifier_naval_arms_race = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	country_navy_power_projection_mult = 0.10
+	country_prestige_add = 10
+}
+
+modifier_war_humiliation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	country_prestige_add = -30
+	state_turmoil_mult = 0.15
+}
+
+modifier_national_hero_celebration = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	unit_offense_mult = 0.05
+	unit_defense_mult = 0.05
+	country_prestige_add = 15
+}
+
+modifier_military_genius_legacy = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	unit_offense_mult = 0.03
+	country_prestige_add = 10
+}
+

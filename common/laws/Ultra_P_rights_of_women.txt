@@ -1,0 +1,106 @@
+﻿
+REPLACE:law_no_womens_rights = {
+	group = lawgroup_rights_of_women
+	icon = "gfx/interface/icons/law_icons/no_womens_rights.dds"
+
+	progressiveness = -100
+
+	on_enact = {
+		recalculate_pop_ig_support = yes
+	}
+
+	is_visible = {
+		NOR = {
+			has_law = law_type:law_women_in_the_fields
+			has_law = law_type:law_women_in_farms
+		}
+	}
+
+	modifier = {
+		state_birth_rate_mult = 0.05
+	}
+
+	ai_will_do = {
+		literacy_rate < 0.4
+		exists = ruler
+		ruler = {
+			OR = {
+				has_ideology = ideology:ideology_traditionalist
+				has_ideology = ideology:ideology_legitimist
+				has_ideology = ideology:ideology_orleanist
+				has_ideology = ideology:ideology_bonapartist
+			}		
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+INJECT:law_women_own_property = {
+	is_visible = {
+		NOT = {
+			has_law = law_type:law_women_in_farms
+		}
+	}
+}
+
+
+## variants
+
+#French
+
+law_women_in_farms = {
+	group = lawgroup_rights_of_women
+	parent = law_no_womens_rights # Inherits ideological stances from parent
+	
+	icon = "gfx/interface/icons/law_icons/women_in_the_fields.dds"
+
+	progressiveness = -50
+
+	is_visible = {
+		country_has_primary_culture = cu:french
+	}
+
+	can_enact = {
+		country_has_primary_culture = cu:french
+	}
+
+	on_enact = {
+		recalculate_pop_ig_support = yes
+	}
+
+	modifier = {
+		state_working_adult_ratio_add = 0.1
+		state_birth_rate_mult = -0.05
+		state_migration_pull_mult = -0.05
+	}
+
+	ai_will_do = {
+		literacy_rate < 0.4
+		exists = ruler
+		ruler = {
+			OR = {
+				has_ideology = ideology:ideology_traditionalist
+				has_ideology = ideology:ideology_legitimist
+				has_ideology = ideology:ideology_orleanist
+				has_ideology = ideology:ideology_bonapartist
+			}	
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}

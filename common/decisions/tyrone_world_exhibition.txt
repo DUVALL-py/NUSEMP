@@ -1,0 +1,19 @@
+﻿host_world_exhibition = {
+	is_shown = {
+		is_player = yes
+		NOT = { has_variable = recently_hosted_exhibition }
+	}
+
+	possible = {
+		prestige >= 100
+		country_rank >= rank_value:major_power
+	}
+
+	when_taken = {
+		trigger_event = { id = tyrone_exhibition.1 days = 30 }
+		set_variable = {
+			name = recently_hosted_exhibition
+			months = 3600
+		}
+	}
+}

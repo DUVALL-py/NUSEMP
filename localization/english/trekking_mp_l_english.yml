@@ -1,0 +1,56 @@
+﻿l_english:
+ trekking_news.1.t: "The Game is Starting!"
+ trekking_news.1.d: "Welcome to TREKKING MP! The official multiplayer match has begun. Leaders of every nation gather to compete for global hegemony, strategic alliances, and commercial empires. May the best strategist prevail!"
+ trekking_news.1.f: "OFFICIAL DISPATCH — Balance and fair-play rules are active. Assemble your cabinets, organize your economies, and let the negotiations begin!"
+ trekking_news.1.a: "Let the match begin!"
+
+ trekking_news.10.t: "The World Gazette: Proclamation of Germany"
+ trekking_news.10.d: "A unified German nation has been proclaimed in the heart of Europe! The global balance of power has shifted dramatically. What shall be our chancery's stance toward this new power?"
+ trekking_news.10.f: "EUROPE REDRAWN — Crowds celebrate under the imperial German banner while foreign ministries deliberate their response."
+ trekking_news.10.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.10.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.20.t: "The World Gazette: Unified Italy"
+ trekking_news.20.d: "The Italian peninsula has been united under a single government! A new great power rises in the Mediterranean, challenging the established European order."
+ trekking_news.20.f: "ITALIA RISORTA — Church bells ring from the Alps to Sicily as the peninsula's states unite under one banner."
+ trekking_news.20.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.20.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.40.t: "The World Gazette: Scandinavian Union"
+ trekking_news.40.d: "The Nordic realms have formally united under the Scandinavian crown! A formidable northern bloc now commands the Baltic and North Seas."
+ trekking_news.40.f: "UNION OF THE NORTH — Fraternal Nordic peoples march under one standard in Stockholm and Copenhagen."
+ trekking_news.40.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.40.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.50.t: "The World Gazette: Rebirth of Poland-Lithuania"
+ trekking_news.50.d: "The historic Polish-Lithuanian Commonwealth has risen from the ashes! The balance of power in Eastern Europe is utterly transformed by the restoration of this grand state."
+ trekking_news.50.f: "RETURN OF THE EAGLE — Belfries in Warsaw and Vilnius celebrate the resurrected Commonwealth."
+ trekking_news.50.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.50.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.60.t: "The World Gazette: Grandeur of Gran Colombia"
+ trekking_news.60.d: "Simón Bolívar's grand vision is fulfilled with the unification of Gran Colombia! A South American powerhouse now controls interoceanic trade routes."
+ trekking_news.60.f: "BOLIVARIAN UNION — Crowds hail the new federation across the streets of Bogotá and Caracas."
+ trekking_news.60.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.60.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.70.t: "The World Gazette: Proclamation of the Iberian Union"
+ trekking_news.70.d: "Spain and Portugal have united their destinies in the Iberian Union! Strategic control of Mediterranean gateways and vast overseas realms now stand under one leadership."
+ trekking_news.70.f: "PENINSULAR ALLIANCE — Lisbon and Madrid celebrate an unprecedented modern union."
+ trekking_news.70.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.70.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.80.t: "The World Gazette: The Arab Nation"
+ trekking_news.80.d: "The peoples of the Middle East and North Africa have united into the Grand Arab Nation! A new power commanding vital commercial crossroads and rich resources enters the world stage."
+ trekking_news.80.f: "AWAKENING OF THE ORIENT — Unification reverberates from Cairo to Baghdad and Mecca."
+ trekking_news.80.a: "Recognize and strengthen diplomatic ties."
+ trekking_news.80.b: "Exercise caution and restrict diplomatic ties."
+
+ trekking_news.30.t: "The World Gazette: The Berlin Conference"
+ trekking_news.30.d: "Representatives of the great powers have convened in Berlin to set rules for colonial expansion in Africa. Diplomacy may prevent immediate warfare, but intense rivalry brews underneath."
+ trekking_news.30.f: "FROM OUR CORRESPONDENT IN BERLIN — Maps cover conference tables as delegates carve out spheres of influence."
+ trekking_news.30.a: "The Scramble for Africa begins."
+
+ TREKKING_MARKET_SNAPSHOT: "Market Snapshot"
+ TREKKING_MARKET_DEFICITS: "Largest Deficits"
+ TREKKING_MARKET_SURPLUSES: "Largest Surpluses"

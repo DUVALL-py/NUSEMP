@@ -1,0 +1,251 @@
+﻿
+REPLACE:ideology_liberal_movement = {
+	icon = "gfx/interface/icons/ideology_icons/liberal.dds"
+	lawgroup_internal_security = {
+		law_national_guard = approve
+		law_guaranteed_liberties = approve
+		law_no_home_affairs = disapprove
+		law_secret_police = strongly_disapprove
+	}
+
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
+		law_censorship = disapprove
+		law_outlawed_dissent = strongly_disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = strongly_approve
+		law_census_voting = strongly_approve
+		law_wealth_voting = approve
+		law_landed_voting = neutral
+		law_single_party_state = disapprove
+		law_technocracy = disapprove
+		law_oligarchy = disapprove
+		law_autocracy = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+
+	lawgroup_bureaucracy = {
+		law_elected_bureaucrats = approve
+		law_appointed_bureaucrats = neutral
+		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_multicultural = strongly_disapprove
+		law_ethnostate = strongly_disapprove
+		law_national_supremacy = disapprove
+		law_racial_segregation = neutral
+		law_cultural_exclusion = approve
+		law_subjecthood = strongly_disapprove
+	}
+
+	lawgroup_land_reform = {
+		law_serfdom = disapprove
+		law_tenant_farmers = neutral
+		law_peasant_proprietorship = neutral
+		law_collectivized_agriculture = disapprove
+		law_commercialized_agriculture = approve
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = approve
+		law_legacy_slavery = neutral
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_liberal_republican_movement = {
+	lawgroup_slavery = {
+		law_slavery_banned = approve
+		law_legacy_slavery = neutral
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+REPLACE:ideology_national_liberal_movement = {
+	lawgroup_slavery = {
+		law_slavery_banned = approve
+		law_legacy_slavery = neutral
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+	
+	lawgroup_internal_security = {
+		law_national_guard = approve
+		law_guaranteed_liberties = approve
+		law_no_home_affairs = disapprove
+		law_secret_police = strongly_disapprove
+	}
+
+	lawgroup_free_speech = {
+		law_protected_speech = approve
+		law_right_of_assembly = neutral
+		law_censorship = disapprove
+		law_outlawed_dissent = disapprove
+	}
+
+	lawgroup_distribution_of_power = {
+		law_universal_suffrage = strongly_approve
+		law_census_voting = strongly_approve
+		law_wealth_voting = approve
+		law_landed_voting = neutral
+		law_single_party_state = disapprove
+		law_technocracy = disapprove
+		law_oligarchy = disapprove
+		law_autocracy = strongly_disapprove
+		law_anarchy = strongly_disapprove
+	}
+
+	lawgroup_education_system = {
+		law_public_schools = approve
+		law_private_schools = neutral
+		law_no_schools = disapprove
+		law_religious_schools = disapprove
+	}
+
+	lawgroup_labour_associations = { # Mostly just want to break the guilds
+		law_combination_acts = neutral
+		law_guild_system = disapprove
+		law_anti_strike_laws = neutral
+		law_corporatized_unions = neutral
+		law_right_to_associate = neutral
+		law_factory_councils = strongly_disapprove
+	}
+
+	lawgroup_citizenship = {
+		law_ethnostate = neutral
+		law_national_supremacy = approve
+		law_racial_segregation = neutral
+		law_cultural_exclusion = disapprove
+		law_multicultural = strongly_disapprove
+		law_subjecthood = strongly_disapprove
+	}
+}
+
+INJECT:ideology_proletarian_movement = {
+	lawgroup_childrens_rights = {
+		law_child_labor_allowed = strongly_disapprove
+		law_restricted_child_labor = disapprove
+		law_compulsory_primary_school = approve
+	}
+}
+
+INJECT:ideology_socialist_movement = {
+	lawgroup_childrens_rights = {
+		law_child_labor_allowed = strongly_disapprove
+		law_restricted_child_labor = disapprove
+		law_compulsory_primary_school = approve
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_approve
+		law_legacy_slavery = disapprove
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_communist_movement = {
+	lawgroup_childrens_rights = {
+		law_child_labor_allowed = strongly_disapprove
+		law_restricted_child_labor = disapprove
+		law_compulsory_primary_school = approve
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_approve
+		law_legacy_slavery = disapprove
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_anarchist_movement = {
+	lawgroup_army_model = {
+		law_national_militia = strongly_approve
+		law_professional_army = neutral
+		law_mass_conscription = disapprove
+		law_peasant_levies = strongly_disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_approve
+		law_legacy_slavery = disapprove
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_vanguardist_movement = {
+	lawgroup_army_model = {
+		law_mass_conscription = strongly_approve
+		law_professional_army = approve
+		law_national_militia = disapprove
+		law_peasant_levies = disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_approve
+		law_legacy_slavery = disapprove
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_radical_movement = {
+	lawgroup_army_model = {
+		law_mass_conscription = strongly_approve
+		law_professional_army = disapprove
+		law_national_militia = approve
+		law_peasant_levies = disapprove
+	}
+
+	lawgroup_slavery = {
+		law_slavery_banned = strongly_approve
+		law_legacy_slavery = disapprove
+		law_colonial_slavery = disapprove
+		law_debt_slavery = strongly_disapprove
+		law_slave_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_orleanist_movement = {
+	lawgroup_taxation = {
+		law_consumption_based_taxation = disapprove
+		law_per_capita_based_taxation = approve
+		law_proportional_taxation = disapprove
+		law_graduated_taxation = strongly_disapprove
+		law_land_based_taxation = neutral
+	}
+
+	lawgroup_land_reform = {
+		law_collectivized_agriculture = strongly_disapprove
+		law_serfdom = disapprove
+		law_tenant_farmers = neutral
+		law_peasant_proprietorship = neutral
+		law_commercialized_agriculture = approve
+	}
+}
+
+INJECT:ideology_bonapartist_movement = {
+
+	lawgroup_land_reform = {
+		law_collectivized_agriculture = strongly_disapprove
+		law_serfdom = strongly_disapprove
+		law_tenant_farmers = disapprove
+		law_peasant_proprietorship = strongly_approve
+		law_commercialized_agriculture = neutral
+	}
+}

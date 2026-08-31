@@ -1,0 +1,26 @@
+﻿trekking_clear_national_direction = {
+	if = {
+		limit = { has_modifier = trekking_focus_scientific_vanguard }
+		remove_modifier = trekking_focus_scientific_vanguard
+	}
+	if = {
+		limit = { has_modifier = trekking_focus_national_mobilization }
+		remove_modifier = trekking_focus_national_mobilization
+	}
+	if = {
+		limit = { has_modifier = trekking_focus_cultural_renaissance }
+		remove_modifier = trekking_focus_cultural_renaissance
+	}
+	if = {
+		limit = { has_modifier = trekking_focus_industrial_prosperity }
+		remove_modifier = trekking_focus_industrial_prosperity
+	}
+	if = {
+		limit = { has_modifier = trekking_focus_administrative_reform }
+		remove_modifier = trekking_focus_administrative_reform
+	}
+}
+
+trekking_schedule_national_direction_renewal = {
+	trigger_event = { id = national_direction.1 days = 3650 popup = yes }
+}

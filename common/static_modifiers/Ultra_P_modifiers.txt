@@ -1,0 +1,16 @@
+﻿
+american_two_party_system_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds
+	country_legitimacy_ideological_incoherence_mult = -0.1
+	country_legitimacy_govt_size_add = -1
+}
+rigged_elections_negative_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = -4
+}
+rigged_elections_positive_modifier = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
+	interest_group_approval_add = 4
+}
+
+

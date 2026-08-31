@@ -1,0 +1,101 @@
+﻿l_braz_por:
+
+## Interest Group Ideologies 
+
+ # Adições do Ultra
+ # Ultra's additions
+ 
+ ideology_moderate_democrat:0 "Democrata Moderado"
+ideology_moderate_democrat_desc:0 "#lore Este grupo acredita que os melhores líderes são eleitos por voto público e apoia uma forma de governo democrático.#!"
+
+ideology_nationalist:0 "Nationalistas"
+ideology_nationalist_desc:0 "#lore Este grupo considera o conceito de Nação como o fundamento fundamental de qualquer Estado organizado. Como consequência, qualquer elemento considerado estrangeiro é discriminatedo.#!"
+
+ideology_segregationist:0 "Segregacionista"
+ideology_segregationist_desc:0 "#lore Este grupo acredita no conceito de desigualdade racial e, portanto, discrimina pessoas ao longo dessas linhas.#!"
+
+ideology_imperialist:0 "Imperialistas"
+ideology_imperialist_desc:0 "#lore Este grupo acredita na superioridade de sua civilização e deseja exportá-la para todos os cantos do mundo.#!"
+
+ideology_cosmopolitan:0 "Cosmopolitas"
+ideology_cosmopolitan_desc:0 "#lore Este grupo acredita em uma sociedade ideal onde todos os seres humanos podem viver juntos. Na prática, ainda são necessários alguns pontos em comum, como a língua.#!"
+
+ideology_prussian_military:0 "Militares Prussianos"
+ideology_prussian_military_desc:0 "#lore O Exército Prussiano acredita que todo cidadão é um soldado em potencial e deve estar preparado para a guerra.#!"
+
+ideology_junker_stratocratic:0 "Estratocrático Moderno"
+ideology_junker_stratocratic_desc:0 "#lore Esse grupo favorece a manutenção de uma hierarquia na sociedade por meio de formas tradicionais de tributação e relações trabalhistas, embora não acreditem na servidão.#!"
+
+ideology_modern_stratocratic:0 "Estratocrático Moderno"
+ideology_modern_stratocratic_desc:0 "#lore Esse grupo favorece a manutenção de uma hierarquia na sociedade por meio de formas tradicionais de tributação e relações trabalhistas.#!"
+
+ideology_missionary_moralist:0 "Evangelismo Missionário"
+ideology_missionary_moralist_desc:0 "#lore Vindos do Exterior, os Missionários advogam contra a perseguição de estrangeiros, talvez apenas para seu próprio benefício.#!"
+
+ideology_moralist_theocratic:0 "Teocrático"
+ideology_moralist_theocratic_desc:0 "#lore Este grupo acredita que o estado deve ser governado por Instituições Religiosas.#!"
+
+ideology_japanese_imperialist:0 "Monarquista Japonês"
+ideology_japanese_imperialist_desc:0 "#lore Este grupo acredita que o Estado deve ser governado pelo imperador justo do Japão, sabiamente aconselhado por grandes homens da corte.#!"
+
+ideology_westernizer:0 "Ocidentalizador"
+ideology_westernizer_desc:0 "#lore Este grupo acredita que o Estado deve se modernizar, inspirado pelos países mais desenvolvidos da Civilização Ocidental.#!"
+
+ideology_evangelical_pious:0 "Evangelical"
+ideology_evangelical_pious_desc:0 "#lore Este grupo acredita que a educação estatal compulsória é necessária para que todos possam ler a Bíblia por si mesmos.#!"
+
+ideology_constitutional_monarchist:0 "Monarquista Constitucional"
+ideology_constitutional_monarchist_desc:0 "#lore Este grupo acredita que um governo constitucional que mantém o monarca como símbolo do estado é a forma ideal de democracia.#!"
+
+ideology_bismarckian:0 "Bismarckiano"
+ideology_bismarckian_desc:0 "#lore O pensamento político de Otto von Bismarck. Como Conservador, Bismarck está disposto a apaziguar as classes mais baixas ao promulgar leis de Seguridade Social, mas não é amigo das liberdades políticas.#!"
+
+ideology_ottoman_paternalistic:0 "$ideology_paternalistic$"
+ideology_ottoman_paternalistic_desc:0 "$ideology_paternalistic_desc$"
+
+ideology_american_school:0 "The American School" 
+ideology_american_school_desc:0 "#lore Following the tradition of Alexander Hamilton, this group supports Tariffs, Economic Intervention aswell as maintaing America's Republican Tradition.#!"
+
+ideology_king_cotton:0 "King Cotton"
+ideology_king_cotton_desc:0 "The Southern Planters favor a conservative republic based around the growing and free export of cotton."
+ 
+ideology_absolutist:0 "Autocratic Monarchist"
+ideology_absolutist_desc:0 "#lore This leader supports enshrining the Monarch with Total and Absolute Power.#!"
+
+ideology_american_patriotic:0 "Order and Liberty"
+ideology_american_patriotic_desc:0 "This group believes in the strong enforcement of laws and the freedom of speech, to a point."
+
+ideology_american_laissez_faire:0 "American System"
+ideology_american_laissez_faire_desc:0 "This group believes in minimal regulations on the economy with strong protection from foreign competition."
+
+
+ #Credit to Caesar15
+
+ideology_revolutionary_republican:0 "Republicano Revolucionário"
+ideology_revolutionary_republican_desc:0 "#lore Este grupo acredita que os melhores líderes são eleitos pelo público como um todo, não apenas por uma elite rica. Eles também são fervorosamente contra a monarquia.#!"
+
+ideology_american_republican:0 "Republicano Americano"
+ideology_american_republican_desc:0 "#lore Este grupo americano acredita que os melhores líderes são eleitos pelo público como um todo, não apenas por uma elite rica. Eles também são fervorosamente contra a monarquia.#!"
+
+ideology_prussian_anti_clerical:0 "Anti-Clerical Prussiano"
+ideology_prussian_anti_clerical_desc:1 "#lore Este grupo advoga pela total separação da religião organizada no sistema político e educacional. Eles acreditam que mentes racionais devem estar à frente do governo.#!"
+
+ideology_chartist_leader:0 "Chartista"
+ideology_chartist_leader_desc:0 "#lore Esse líder busca promulgar o sufrágio universal no Reino Unido.#!"
+
+ #Party modifiers
+
+from_nationalist:0 "Nacionalismo"
+from_bonapartist:0 "Bonapartismo"
+from_industrialists_in_party:0 "Partido com inclinação capitalista"
+from_trade_unions_in_party:0 "Partido com inclinação socialista"
+from_orleanism:0 "Orleanista"
+from_capitalists_social_security:0 "Lei de Seguridade Social"
+from_capitalists_worker_protections:0 "Lei de Proteção ao Trabalhador"
+from_industrialists_ig:0 "Industrialistas no Partido"
+from_rural_folk_ig:0 "Povo Rural no Partido"
+from_devout_in_party:0 "Devotos no Partido"
+from_landowner_ig:0 "Landowners in Party"
+
+ 
+ 

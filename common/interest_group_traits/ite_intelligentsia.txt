@@ -1,0 +1,44 @@
+﻿#USA 
+#From Hail, Columbia!
+usfp_ig_trait_american_exceptionalism = {
+	icon = "gfx/interface/icons/ig_trait_icons/american_exceptionalism.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_influence_mult = 0.10
+		country_prestige_mult = 0.10
+	}
+}
+
+usfp_ig_trait_democratic_experiment = {
+	icon = "gfx/interface/icons/ig_trait_icons/democratic_experiment.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_loyalists_from_legitimacy_mult = 0.10
+		country_radicals_from_legitimacy_mult = -0.10
+		country_society_tech_research_speed_mult = 0.05
+	}
+}
+
+#Japan
+#From Tripledot
+ite_ig_trait_rangaku = {
+	icon = "gfx/interface/icons/ig_trait_icons/rangaku.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_tech_spread_mult = 0.1
+	}
+}
+
+#China
+ite_ig_trait_imperial_examinations = {
+	icon = "gfx/interface/icons/ig_trait_icons/imperial_examinations.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_pop_qualifications_mult = 0.10
+		state_assimilation_mult = 0.10
+	}
+}

@@ -1,0 +1,5 @@
+﻿INJECT:pm_peasant_proprietorship_building_subsistence ={
+	unlocking_laws = {
+		law_equal_inheritance
+	}
+}

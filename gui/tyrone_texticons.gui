@@ -1,0 +1,59 @@
+texticon = {
+	icon = client_state
+	iconsize = {
+		texture = "gfx/interface/icons/diplomatic_action_icons/small_client_state.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 22
+	}
+}
+
+texticon = {
+	icon = cacao
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cacao.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = cocoa
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/cacao.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = chocolate
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/chocolate.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = prestige_good_belgian_chocolate
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/prestige_goods/belgian_chocolate.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = prestige_good_swiss_chocolate
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/prestige_goods/swiss_chocolate.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

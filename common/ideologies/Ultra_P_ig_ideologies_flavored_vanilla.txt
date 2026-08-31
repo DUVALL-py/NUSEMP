@@ -1,0 +1,98 @@
+﻿INJECT:ideology_republican_paternalistic = {
+	lawgroup_economic_system = {		
+		law_traditionalism = neutral
+		law_agrarianism = approve
+		law_interventionism = neutral
+		law_industry_banned = disapprove
+		law_extraction_economy = disapprove
+		law_laissez_faire = neutral
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+	}
+	
+	lawgroup_trade_policy = {		
+		law_isolationism = neutral
+		law_mercantilism = neutral
+		law_protectionism = neutral
+		law_free_trade = approve
+	}
+}
+
+INJECT:ideology_junker_paternalistic = {
+	lawgroup_trade_policy = {		
+		law_isolationism = strongly_disapprove
+		law_mercantilism = disapprove
+		law_protectionism = strongly_approve
+		law_free_trade = neutral
+	}
+	
+	lawgroup_economic_system = {
+		law_traditionalism = disapprove
+		law_agrarianism = disapprove
+		law_interventionism = approve
+		law_laissez_faire = neutral
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+		law_industry_banned = strongly_disapprove
+		law_extraction_economy = disapprove
+	}
+}
+
+INJECT:ideology_confucian = {
+	lawgroup_bureaucracy = {
+		law_appointed_bureaucrats = approve
+		law_elected_bureaucrats = disapprove
+		law_hereditary_bureaucrats = disapprove
+	}
+
+	lawgroup_church_and_state = {
+		law_state_religion = strongly_approve
+		law_freedom_of_conscience = approve
+		law_total_separation = strongly_disapprove
+		law_state_atheism = strongly_disapprove
+	}
+
+	lawgroup_trade_policy = {		
+		law_isolationism = strongly_approve
+		law_mercantilism = neutral
+		law_protectionism = disapprove
+		law_free_trade = strongly_disapprove
+	}
+}
+
+INJECT:ideology_caudillismo = {
+	lawgroup_economic_system = {		
+		law_traditionalism = strongly_approve
+		law_agrarianism = approve
+		law_interventionism = approve
+		law_laissez_faire = neutral
+		law_industry_banned = disapprove
+		law_extraction_economy = disapprove
+		law_cooperative_ownership = strongly_disapprove
+		law_command_economy = strongly_disapprove
+	}
+	
+	lawgroup_trade_policy = {		
+		law_isolationism = neutral
+		law_mercantilism = approve
+		law_protectionism = disapprove
+		law_free_trade = approve
+	}
+}
+
+INJECT:ideology_hindu_moralist = {
+	lawgroup_bureaucracy = {
+		law_hereditary_bureaucrats = strongly_approve
+		law_appointed_bureaucrats = disapprove
+		law_elected_bureaucrats = strongly_disapprove
+	}	
+}
+
+INJECT:ideology_sikh_moralist = {
+	lawgroup_rights_of_women = {
+		law_no_womens_rights = disapprove
+		law_women_own_property = neutral
+		law_women_in_the_workplace = approve
+		law_womens_suffrage = strongly_approve
+	}
+}

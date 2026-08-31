@@ -1,0 +1,58 @@
+﻿#USA: Yeoman Farmers
+#From Hail, Columbia!
+usfp_ig_trait_go_west = {
+	icon = "gfx/interface/icons/ig_trait_icons/go_west.dds"
+	min_approval = loyal
+	
+	modifier = {
+		state_migration_pull_mult = 0.15
+		country_resource_discovery_chance_mult = 0.10
+	}
+}
+usfp_ig_trait_republican_virtue = {
+	icon = "gfx/interface/icons/ig_trait_icons/honest_work.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_peasants_education_access_add = 0.10
+		state_farmers_education_access_add = 0.10
+	}
+}
+
+#Central Asia
+#from Tripledot
+ite_ig_trait_pashtunwali = {
+	icon = "gfx/interface/icons/ig_trait_icons/pashtunwali.dds"
+	min_approval = happy
+	modifier = {
+		battle_offense_owned_province_mult = 0.1
+		battle_defense_owned_province_mult = 0.1
+	}
+}
+
+ite_ig_trait_tribal_militias = {
+	icon = "gfx/interface/icons/ig_trait_icons/patriotic_fervor.dds"
+	min_approval = loyal
+	modifier = {
+		state_conscription_rate_mult = 0.15
+	}
+}
+
+ite_ig_trait_alienated_tribes = {
+	icon = "gfx/interface/icons/ig_trait_icons/feuds.dds"
+	max_approval = unhappy
+	modifier = {
+		country_authority_mult = -0.05
+		state_turmoil_effects_mult = 0.1
+	}
+}
+
+#Japan
+#from Tripledot
+ite_ig_trait_ikki = {
+	icon = "gfx/interface/icons/ig_trait_icons/materiel_waste.dds"
+	max_approval = unhappy
+	modifier = {
+		building_group_bg_agriculture_tax_mult = -0.15
+	}
+}

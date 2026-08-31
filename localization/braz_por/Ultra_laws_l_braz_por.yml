@@ -1,0 +1,107 @@
+﻿l_braz_por:
+
+  ## Distribution of power laws
+
+  law_weighted_universal_suffrage:0 "Sufrágio Universal Ponderado"
+  law_weighted_universal_suffrage_desc:0 "Todo homem adulto tem direito a voto. Os homens que possuem terras ou bens de capital recebem mais poder de votos."
+
+  law_weighted_wealth_voting:0 "Votação de Riqueza Ponderada"
+  law_weighted_wealth_voting_desc:0 "Os cidadãos ricos têm direito a voto. Os homens que possuem terras ou bens de capital recebem mais poder de votos."
+
+  ## Church and State laws
+
+  law_concordat:0 "Concordat"
+  law_concordat_desc:0 "$law_freedom_of_conscience_desc$"
+
+  law_laicite:0 "Laïcité"
+  law_laicite_desc:0 "$law_total_separation_desc$"
+
+  ## Economic System laws
+
+  law_mixed_economy:0 "Economia Mista"
+  law_mixed_economy_desc:0 "Um sistema económico onde o governo controla os setores públicos mais importantes, ao mesmo tempo que dá espaço e oportunidades suficientes para as empresas privadas prosperarem."
+
+  ## taxes ##
+
+  law_early_proportional_taxation:0 "Income Taxation"
+  law_early_proportional_taxation_desc:0 "Early form of modern taxation with implementation of income and capital taxes along capitation"
+
+  ## goverment types ##
+
+  gov_absolute_monarchy:0 "Monarquia Absoluta"
+  gov_absolute_monarchy_desc:1 "Isto é um [concept_government] forma onde o poder repousa completamente com o [Concept('concept_ruler','$RULER_TITLE_KING$')] ou [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]."
+  gov_monarchy:0 "Monarquia"
+  gov_monarchy_desc:1 "Isto é um [concept_government] forma onde o poder repousa principalmente com o [Concept('concept_ruler','$RULER_TITLE_KING$')] ou [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]."
+
+  ## citizenship laws"
+
+  law_UHP_religious_primacy:0 "Religious Primacy"
+  law_UHP_religious_primacy_desc:0 "Having the State's religion is the most important aspect to be accepted as citizen or subject. Though, very foreign cultures might be seen as suspicious."
+  EFFECTS_ON_ACCEPTANCE_law_UHP_religious_primacy: "$EFFECTS_ON_ACCEPTANCE_law_ethnostate$"
+
+  ## Migration laws
+
+  law_severe_migration_controls:0 "Severe Migration Controls"
+  law_severe_migration_controls_desc:0 "$law_migration_controls$"
+
+  ## Right of Women
+
+  law_women_in_farms:0 "Women in the Farms"
+  law_women_in_farms_desc:0 "In this culture, traditional women roles include working in the farms along their husbands or in some manufactures."
+
+  ## Land Reforms
+
+  law_equal_inheritance:0 "Equal Inheritance (Napoleonic Code)"
+  law_equal_inheritance_desc:0 "The Napoleonic Civil Code abolished primogeniture and required that all children inherit an equal share of their parents' land. This created a nation of smallholders, empowering peasants but also fragmenting farms into ever smaller plots, slowing agricultural modernization and encouraging lower fertility."
+
+  ## assimilation laws
+
+  lawgroup_assimilation_policy:0 "Assimilation Policy"
+  lawgroup_assimilation_policy_desc:0 "How the State is attempting to assimilate foreign people"
+
+  law_no_assimilation_policy:0 "No Assimilation Policy"
+  law_no_assimilation_policy_desc:0 "People of diverse cultural background are more or less left alone as long as their customs does not perturb the society."
+
+  law_forced_assimilation:0 "Forced Assimilation"
+  law_forced_assimilation_desc:0 "Foreign cultures within the National State are a threat and should not be allowed. Foreign languages and customs are actively suppressed while our language is the only one taught at schools and in various administrations, even in areas where foreign cultures are a majority. Those who refuses to adopt our culture faces harsh discriminations. Though, regional identities within our culture group are left alone."
+
+  law_cultural_unification:0 "Cultural Unification"
+  law_cultural_unification_desc:0 "Various regional identities are purposelessly divinding the Nation. Through meticulous educative efforts and mild discriminations at the administrative levels, our people should be incitated enough to adopt the official language and reject dialects within a few generations."
+
+  law_national_universalism:0 "National Universalism"
+  law_national_universalism_desc:0 "Our Nation aims to integrate every citizen into a culturaly unified people. Through meticulous educative efforts and light discriminations at the administrative levels, our people should be incitated enough to adopt the official language and the majority's customs."
+
+  ## Social Classes laws
+
+  lawgroup_social_classes:0 "Social Classes"
+  lawgroup_social_classes_desc:0 "The main social hierarchy in the country"
+
+  law_hereditary_noble_privileges:0 "Hereditary Privileges"
+  law_hereditary_noble_privileges_desc:0 "The society is organized through a strict social order where Nobility enjoys hereditary privileges, Clergy holds moral and economic powers while the "Tiers-Etat" are effectively second rate citizens."
+
+  law_flexible_noble_privileges:0 "Flexible Privileges"
+  law_flexible_noble_privileges_desc:0 "Most privileges of traditional order still exists, but they can be bought by sucessful entrepreneurs. Social discriminations are also somewhat less harsh for the common people."
+
+  law_privilege_abolished:0 "Meritocracy"
+  law_privilege_abolished_desc:0 "Social Hierarchy based on the concept of "Merit". Nobility and Clergy's privileges are fully abolished, so anyone brave, intelligent and lucky enough can reach the top of the social order, in theory at least."
+
+  law_classless_society:0 "Classless Society"
+  law_classless_society_desc:0 "After having seized the means of production, the social order based on wealth is no more. But is a society without social hierarchy even possible?"
+
+ lawgroup_school_curriculum: "Currículo Escolar"
+ lawgroup_school_curriculum_desc: "Determina o foco principal da educação ministrada em nossas escolas."
+ law_literacy_focus: "Foco em Alfabetização"
+ law_literacy_focus_desc: "O objetivo do nosso sistema educacional deve ser garantir que todos em nossa nação tenham acesso ao conhecimento fundamental e à alfabetização."
+ law_assimilation_focus: "Foco em Assimilação"
+ law_assimilation_focus_desc: "As escolas devem se concentrar na integração e assimilação cultural dos estudantes à nossa nação."
+ law_higher_education: "Foco no Ensino Superior"
+ law_higher_education_desc: "O objetivo do nosso sistema educacional deve ser preparar os estudantes para compreender e liderar as mais recentes descobertas científicas e acadêmicas."
+ law_religious_education: "Educação Religiosa"
+ law_religious_education_desc: "Nossas escolas não devem apenas transmitir conhecimentos seculares, mas também disseminar os ensinamentos e a moral de nossa fé."
+ law_patriotic_education: "Educação Patriótica"
+ law_patriotic_education_desc: "A educação deve focar na formação de cidadãos orgulhosos e leais, prontos para defender sua pátria."
+ law_ideological_education: "Educação Ideológica"
+ law_ideological_education_desc: "O objetivo de nossas escolas deve ser assegurar que todos compreendam seu papel no sistema e apoiem os ideais do Estado."
+ law_autonomous_education: "Educação Autônoma"
+ law_autonomous_education_desc: "Não devemos impor um currículo nacional rígido; em vez disso, deixamos as comunidades locais escolherem o ensino, salvaguardando os direitos das minorias."
+

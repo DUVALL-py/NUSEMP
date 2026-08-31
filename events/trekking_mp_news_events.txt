@@ -1,0 +1,473 @@
+﻿namespace = trekking_news
+
+# Campaign opening newspaper: "O Jogo Vai Começar / The Game is Starting"
+trekking_news.1 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.1.t
+	desc = trekking_news.1.d
+	flavor = trekking_news.1.f
+
+	event_image = {
+		video = "europenorthamerica_capitalists_meeting"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date < 1837.1.1
+		NOT = { has_variable = trekking_news_campaign_opened }
+	}
+
+	immediate = {
+		set_variable = trekking_news_campaign_opened
+	}
+
+	option = {
+		name = trekking_news.1.a
+		default_option = yes
+	}
+}
+
+# German unification world headline
+trekking_news.10 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.10.t
+	desc = trekking_news.10.d
+	flavor = trekking_news.10.f
+
+	event_image = {
+		video = "unspecific_military_parade"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:GER
+		NOT = { THIS = c:GER }
+		NOT = { has_variable = trekking_news_germany_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_germany_proclaimed
+	}
+
+	option = {
+		name = trekking_news.10.a
+		default_option = yes
+		c:GER ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.10.b
+		c:GER ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Italian unification world headline
+trekking_news.20 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.20.t
+	desc = trekking_news.20.d
+	flavor = trekking_news.20.f
+
+	event_image = {
+		video = "votp_garibaldi"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:ITA
+		NOT = { THIS = c:ITA }
+		NOT = { has_variable = trekking_news_italy_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_italy_proclaimed
+	}
+
+	option = {
+		name = trekking_news.20.a
+		default_option = yes
+		c:ITA ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.20.b
+		c:ITA ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Scandinavian unification world headline
+trekking_news.40 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.40.t
+	desc = trekking_news.40.d
+	flavor = trekking_news.40.f
+
+	event_image = {
+		video = "unspecific_ruler_speaking_to_people"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:SCA
+		NOT = { THIS = c:SCA }
+		NOT = { has_variable = trekking_news_scandinavia_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_scandinavia_proclaimed
+	}
+
+	option = {
+		name = trekking_news.40.a
+		default_option = yes
+		c:SCA ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.40.b
+		c:SCA ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Polish-Lithuanian Commonwealth world headline
+trekking_news.50 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.50.t
+	desc = trekking_news.50.d
+	flavor = trekking_news.50.f
+
+	event_image = {
+		video = "europenorthamerica_springtime_of_nations"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:PLC
+		NOT = { THIS = c:PLC }
+		NOT = { has_variable = trekking_news_poland_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_poland_proclaimed
+	}
+
+	option = {
+		name = trekking_news.50.a
+		default_option = yes
+		c:PLC ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.50.b
+		c:PLC ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Gran Colombia world headline
+trekking_news.60 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.60.t
+	desc = trekking_news.60.d
+	flavor = trekking_news.60.f
+
+	event_image = {
+		video = "southamerica_election"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:GCO
+		NOT = { THIS = c:GCO }
+		NOT = { has_variable = trekking_news_grancolombia_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_grancolombia_proclaimed
+	}
+
+	option = {
+		name = trekking_news.60.a
+		default_option = yes
+		c:GCO ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.60.b
+		c:GCO ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Iberia world headline
+trekking_news.70 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.70.t
+	desc = trekking_news.70.d
+	flavor = trekking_news.70.f
+
+	event_image = {
+		video = "votp_gunboat_diplomacy"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:IBE
+		NOT = { THIS = c:IBE }
+		NOT = { has_variable = trekking_news_iberia_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_iberia_proclaimed
+	}
+
+	option = {
+		name = trekking_news.70.a
+		default_option = yes
+		c:IBE ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.70.b
+		c:IBE ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Arabia world headline
+trekking_news.80 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.80.t
+	desc = trekking_news.80.d
+	flavor = trekking_news.80.f
+
+	event_image = {
+		video = "middleeast_islam"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		exists = c:ARA
+		NOT = { THIS = c:ARA }
+		NOT = { has_variable = trekking_news_arabia_proclaimed }
+	}
+
+	immediate = {
+		set_variable = trekking_news_arabia_proclaimed
+	}
+
+	option = {
+		name = trekking_news.80.a
+		default_option = yes
+		c:ARA ?= {
+			change_relations = {
+				country = ROOT
+				value = 15
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_warm_diplomatic_ties
+			months = 60
+		}
+	}
+
+	option = {
+		name = trekking_news.80.b
+		c:ARA ?= {
+			change_relations = {
+				country = ROOT
+				value = -20
+			}
+		}
+		add_modifier = {
+			name = modifier_formation_cold_diplomatic_ties
+			months = 60
+		}
+	}
+}
+
+# Berlin Conference world headline
+trekking_news.30 = {
+	type = country_event
+	placement = ROOT
+
+	title = trekking_news.30.t
+	desc = trekking_news.30.d
+	flavor = trekking_news.30.f
+
+	event_image = {
+		video = "africa_diplomats_negotiating"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
+	duration = 3
+
+	trigger = {
+		is_player = yes
+		game_date >= 1884.11.1
+		NOT = { has_variable = trekking_news_berlin_conference }
+	}
+
+	immediate = {
+		set_variable = trekking_news_berlin_conference
+	}
+
+	option = {
+		name = trekking_news.30.a
+		default_option = yes
+	}
+}

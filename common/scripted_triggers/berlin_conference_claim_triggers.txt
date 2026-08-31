@@ -1,0 +1,24 @@
+﻿# Berlin Conference claim eligibility triggers
+# Base = any country can claim; block treaty articles have been removed.
+
+can_claim_west_africa = { always = yes }
+can_claim_equatorial_africa = { always = yes }
+can_claim_liberia_africa = { always = yes }
+can_claim_morocco_africa = { always = yes }
+can_claim_togo_africa = { always = yes }
+can_claim_niger_africa = { always = yes }
+can_claim_gold_coast_africa = { always = yes }
+can_claim_congo_africa = { always = yes }
+can_claim_cameroon_africa = { always = yes }
+can_claim_gabon_africa = { always = yes }
+can_claim_south_africa = { always = yes }
+can_claim_angola_africa = { always = yes }
+can_claim_namibia_africa = { always = yes }
+can_claim_zambia_africa = { always = yes }
+can_claim_east_africa = { always = yes }
+can_claim_kenya_africa = { always = yes }
+can_claim_madagascar_africa = { always = yes }
+can_claim_ethiopia_africa = { always = yes }
+can_claim_zambezi_africa = { always = yes }
+can_claim_mozambique_africa = { always = yes }
+

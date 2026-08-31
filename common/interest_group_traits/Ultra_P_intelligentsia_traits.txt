@@ -1,0 +1,11 @@
+﻿INJECT:ig_trait_propagandists = {
+	modifier = {
+		country_infamy_decay_mult = 0.25
+	}
+}
+
+INJECT:ig_trait_social_criticism = {
+	modifier = {
+		country_infamy_decay_mult = -0.25
+	}
+}

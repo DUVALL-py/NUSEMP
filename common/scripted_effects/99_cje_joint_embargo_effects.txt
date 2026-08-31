@@ -1,0 +1,59 @@
+﻿# Root = an embargo diplomatic action or diplomatic pact.
+cje_propagate_embargo = {
+	first_country = { save_temporary_scope_as = cje_embargo_leader }
+	second_country = { save_temporary_scope_as = cje_embargo_target }
+
+	scope:cje_embargo_leader = {
+		every_country = {
+			limit = {
+				is_country_alive = yes
+				NOT = { this = scope:cje_embargo_leader }
+				NOT = { this = scope:cje_embargo_target }
+				OR = {
+					is_subject_of = scope:cje_embargo_leader
+					has_treaty_alliance_with = { TARGET = scope:cje_embargo_leader }
+				}
+			}
+
+			# Replace an existing normal embargo so the follower cannot end it independently.
+			if = {
+				limit = {
+					has_diplomatic_pact = {
+						who = scope:cje_embargo_target
+						type = embargo
+					}
+				}
+				remove_diplomatic_pact = {
+					country = scope:cje_embargo_target
+					type = embargo
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = {
+						has_diplomatic_pact = {
+							who = scope:cje_embargo_target
+							type = cje_joint_embargo
+						}
+					}
+				}
+				create_diplomatic_pact = {
+					country = scope:cje_embargo_target
+					type = cje_joint_embargo
+				}
+			}
+		}
+	}
+}
+
+# Root = a possible embargo leader.
+cje_sync_joint_embargoes = {
+	every_scope_diplomatic_pact = {
+		limit = {
+			is_diplomatic_action_type = cje_joint_embargo_action
+			first_country = prev
+		}
+		cje_propagate_embargo = yes
+	}
+}

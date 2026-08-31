@@ -1,0 +1,68 @@
+﻿decree_port_quarantine = {
+	is_shown = {
+		is_player = yes
+		has_variable = active_epidemic
+	}
+
+	possible = {
+		gold_reserves >= 10000
+	}
+
+	when_taken = {
+		add_treasury = -50000
+		set_variable = quarantine_active
+		remove_variable = active_epidemic
+	}
+
+	ai_weight = {
+		value = 100
+	}
+}
+
+fund_veteran_relief = {
+	is_shown = {
+		is_player = yes
+		has_variable = recent_major_war
+	}
+
+	possible = {
+		gold_reserves >= 20000
+	}
+
+	when_taken = {
+		add_treasury = -100000
+		add_modifier = {
+			name = modifier_veteran_welfare
+			months = 240
+		}
+		remove_variable = recent_major_war
+	}
+
+	ai_weight = {
+		value = 80
+	}
+}
+
+bank_bailout_package = {
+	is_shown = {
+		is_player = yes
+		has_variable = bubble_burst
+	}
+
+	possible = {
+		gold_reserves >= 50000
+	}
+
+	when_taken = {
+		add_treasury = -250000
+		remove_variable = bubble_burst
+		add_modifier = {
+			name = modifier_stabilized_banks
+			months = 120
+		}
+	}
+
+	ai_weight = {
+		value = 100
+	}
+}

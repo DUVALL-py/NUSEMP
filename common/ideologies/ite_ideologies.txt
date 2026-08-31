@@ -1,0 +1,119 @@
+﻿# #Rural Folk
+# #from Tripledot
+# ideology_tribal = {
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_tribal.dds"
+	
+# 	lawgroup_policing = {
+# 		law_militarized_police = strongly_disapprove
+# 		law_local_police = neutral
+# 		law_dedicated_police = disapprove
+# 		law_no_police = approve
+# 	}		
+
+# 	lawgroup_army_model = {
+# 		law_national_militia = approve
+# 		law_professional_army = disapprove
+# 		law_mass_conscription = strongly_disapprove
+# 		law_peasant_levies = strongly_approve
+# 	}
+
+# 	lawgroup_slavery = {
+# 		law_slavery_banned = disapprove
+# 		law_legacy_slavery = approve
+# 		law_debt_slavery = approve
+# 		law_slave_trade = approve
+# 	}
+
+# 	lawgroup_internal_security = {
+# 		law_secret_police = strongly_disapprove
+# 		law_national_guard = neutral
+# 		law_no_home_affairs = neutral
+# 		law_guaranteed_liberties = neutral
+# 	}	
+# }
+# #from Tripledot
+# ideology_pastoralist = {
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_pastoral.dds"
+	
+# 	lawgroup_economic_system = {		
+# 		law_agrarianism = approve
+# 		law_industry_banned = approve
+# 		law_traditionalism = strongly_approve
+# 		law_interventionism = neutral
+# 		law_cooperative_ownership = disapprove
+# 		law_laissez_faire = strongly_disapprove
+# 		law_command_economy = strongly_disapprove
+# 	}
+
+# 	lawgroup_land_reform = {
+# 		law_serfdom = strongly_disapprove
+# 		law_tenant_farmers = disapprove
+# 		law_commercialized_agriculture = neutral
+# 		law_collectivized_agriculture = strongly_disapprove
+# 		law_homesteading = approve
+# 	}		
+
+# 	lawgroup_taxation = {
+# 		law_consumption_based_taxation = approve
+# 		law_per_capita_based_taxation = neutral
+# 		law_proportional_taxation = neutral
+# 		law_graduated_taxation = neutral
+# 		law_land_based_taxation = disapprove
+# 	}
+# }
+
+# #Landowners
+# #from Tripledot
+# ideology_patrician = {
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_patrician.dds"
+	
+# 	lawgroup_governance_principles = {
+# 		law_monarchy = approve
+# 		law_theocracy = neutral			
+# 		law_presidential_republic = approve
+# 		law_parliamentary_republic = neutral
+# 		law_council_republic = strongly_disapprove
+# 	}
+	
+# 	lawgroup_distribution_of_power = {
+# 		law_single_party_state = neutral
+# 		law_landed_voting = strongly_approve
+# 		law_autocracy = approve
+# 		law_oligarchy = strongly_approve
+# 		law_wealth_voting = approve
+# 		law_census_voting = disapprove
+# 		law_universal_suffrage = strongly_disapprove
+# 		law_anarchy = strongly_disapprove
+# 		law_technocracy = neutral
+# 	}
+	
+# 	lawgroup_bureaucracy = {
+# 		law_hereditary_bureaucrats = approve
+# 		law_appointed_bureaucrats = neutral
+# 		law_elected_bureaucrats = neutral
+# 	}
+
+# 	lawgroup_policing = {
+# 		law_local_police = approve
+# 		law_dedicated_police = neutral
+# 		law_militarized_police = neutral
+# 		law_no_police = disapprove
+# 	}
+	
+# 	lawgroup_economic_system = {		
+# 		law_traditionalism = strongly_approve
+# 		law_agrarianism = approve
+# 		law_interventionism = neutral
+# 		law_industry_banned = strongly_disapprove
+# 		law_laissez_faire = disapprove
+# 		law_cooperative_ownership = strongly_disapprove
+# 		law_command_economy = disapprove
+# 	}
+	
+# 	lawgroup_trade_policy = {		
+# 		law_isolationism = disapprove
+# 		law_mercantilism = strongly_approve
+# 		law_protectionism = neutral
+# 		law_free_trade = approve
+# 	}	
+# }

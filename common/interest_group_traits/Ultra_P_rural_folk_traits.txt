@@ -1,0 +1,14 @@
+﻿INJECT:ig_trait_farmers_markets = {
+	modifier = {
+		state_infrastructure_mult = -0.1
+		state_infrastructure_from_population_add = 0.05
+		state_farmers_investment_pool_contribution_add = 0.025
+		state_farmers_investment_pool_efficiency_mult = 0.025
+	}
+}
+
+INJECT:ig_trait_old_ways = {
+	modifier = {
+		state_bureaucracy_population_base_cost_factor_mult = 0.2
+	}
+}

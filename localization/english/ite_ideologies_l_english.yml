@@ -1,0 +1,24 @@
+﻿l_english:
+#Rural Folk
+ideology_pastoralist: "Pastoralist"
+ideology_pastoralist_desc: "#lore This group opposes disruptions to the traditional pastoral economy.#!"
+ideology_tribal: "Tribal"
+ideology_tribal_desc: "#lore This group embraces a traditional way of life and opposes reforms that would weaken local clans.#!"
+
+#Landowners
+ideology_patrician: "Patrician"
+ideology_patrician_desc: "This group considers aristocratic merchant families to be the natural ruling class of society."
+
+#Devout
+ideology_catholic_moralist: "Catholic Moralist"
+ideology_catholic_moralist_desc: "The Catholic Church sees itself as the moral foundation of society, as laid out by the dictates of the Pope."
+
+#Leaders
+vtm_ideology_modernizer: "Centralizer"
+vtm_ideology_modernizer_desc: "This character advocates for a safe but firm course of centralization and reform to combat decay."
+ite_ideology_absolutist: "Absolutist"
+ite_ideology_absolutist_desc: "This character believes in the absolute rule of a rightfully ordained monarchy, unbeholden to any council or legislature."
+ite_ideology_oligarchic_leader: "Oligarchic"
+ite_ideology_oligarchic_leader_desc: "This character seeks to entrench the power of the ruling class against both autocratic and democratic interventions."
+ite_ideology_aristocratic_leader: "Aristocratic"
+ite_ideology_aristocratic_leader_desc: "This character's sympathies lie with the traditional landed elite. They stand against modernization efforts that would undermine the power base of the nobility."

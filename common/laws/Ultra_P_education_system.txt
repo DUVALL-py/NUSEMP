@@ -1,0 +1,39 @@
+﻿
+INJECT:law_religious_schools = {
+	modifier = {
+		country_institution_cost_institution_schools_mult = 0.2
+	}
+
+	institution = institution_schools
+	institution_modifier = {
+		state_assimilation_mult = 0.05 #was none
+		interest_group_ig_intelligentsia_pol_str_mult = 0.025 #was none
+	}
+}
+
+INJECT:law_private_schools = {
+	modifier = {
+		country_institution_cost_institution_schools_mult = 0.15
+	}
+
+	institution = institution_schools
+	institution_modifier = {
+		state_assimilation_mult = 0.075 #was none
+		state_conversion_mult = 0.05 #was none
+		interest_group_ig_devout_pol_str_mult = 0.025 #was none
+		interest_group_ig_intelligentsia_pol_str_mult = -0.075 #was 0.1
+		interest_group_ig_landowners_pol_str_mult = 0.025 #was none
+		interest_group_ig_industrialists_pol_str_mult = 0.025 #was none
+	}
+}
+
+INJECT:law_public_schools = {
+	modifier = {
+		country_institution_cost_institution_schools_mult = 0.5
+	}
+
+	institution = institution_schools
+	institution_modifier = {
+		interest_group_ig_intelligentsia_pol_str_mult = 0.05 #was none
+	}
+}

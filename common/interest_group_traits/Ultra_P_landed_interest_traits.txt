@@ -1,0 +1,15 @@
+﻿INJECT:ig_trait_noblesse_oblige = {
+	modifier = {
+		state_aristocrats_investment_pool_contribution_add = 0.025
+		state_aristocrats_investment_pool_efficiency_mult = -0.075
+	}
+}
+
+INJECT:ig_trait_noble_privileges = {
+	modifier = {
+		building_group_bg_agriculture_tax_mult = 0.1
+		building_group_bg_ranching_tax_mult = 0.1
+		building_group_bg_plantations_tax_mult = 0.1
+		state_aristocrats_investment_pool_contribution_add = -0.05
+	}
+}

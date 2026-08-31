@@ -1,0 +1,103 @@
+﻿ite_apply_traits = {
+	#Central Asian countries
+	if = {
+		limit = {
+			OR = {
+				country_has_primary_culture = cu:pashtun
+				country_has_primary_culture = cu:persian
+				country_has_primary_culture = cu:uzbek
+				country_has_primary_culture = cu:kirgiz
+				country_has_primary_culture = cu:kazak
+				country_has_primary_culture = cu:tajik
+				country_has_primary_culture = cu:turkmen
+			}
+		}
+		ite_central_asian_rural_folk_effect = yes
+	}
+	#Japan
+	if = {
+		limit = { country_has_primary_culture = cu:japanese }
+		ite_japanese_ig_traits_effect = yes
+	}
+	#USA
+	if = {
+		limit = {
+			OR = {
+				country_has_primary_culture = cu:dixie
+				country_has_primary_culture = cu:yankee
+				country_has_primary_culture = cu:afro_american
+			}
+			NOR = {
+				was_formed_from = TEX
+				was_formed_from = LIB
+				c:TEX ?= this
+				c:LIB ?= this
+			} 
+			is_usfp_active = no #USFP handles these itself
+		}
+		ite_usa_effect = yes
+	}
+	# #Patrician countries
+	# if = {
+	# 	limit = {
+	# 		OR = {
+	# 			c:OMA ?= this
+	# 			was_formed_from = OMA
+	# 			c:HAM ?= this
+	# 			was_formed_from = HAM
+	# 			c:VEN ?= this
+	# 			was_formed_from = VEN
+	# 			c:NET ?= this
+	# 			was_formed_from = NET
+	# 			c:BEL ?= this
+	# 			was_formed_from = BEL
+	# 			c:LUB ?= this
+	# 			was_formed_from = LUB
+	# 			c:BRE ?= this
+	# 			was_formed_from = BRE
+	# 		} 
+	# 	}
+	# 	ite_patrician_landowners_effect = yes
+	# }
+	# #Lanfang shouldn't be monarchist
+	# if = {
+	# 	limit = {
+	# 		OR = {
+	# 			this = c:LAN 
+	# 			was_formed_from = LAN
+	# 		} 
+	# 	}
+	# 	ig:ig_landowners = {
+	# 		remove_ideology = ideology_paternalistic
+	# 		add_ideology = ideology_republican_paternalistic	
+	# 	}
+	# }
+	#Chinese IGs
+	if = {
+		limit = {
+			OR = {
+				country_has_primary_culture = cu:han
+				c:CHI ?= this
+			} 
+		}
+		ite_chinese_igs_effect = yes
+	}
+	#Confucian countries
+	if = {
+		limit = { country_has_state_religion = rel:confucian }
+		ite_confucian_devout_effect = yes 
+	}
+	# #Prussia and Ottoman Constitutionalists
+	# if = {
+	# 	limit = {
+	# 		has_law = law_type:law_monarchy
+	# 		OR = {
+	# 			c:PRU ?= this
+	# 			was_formed_from = PRU
+	# 			c:TUR ?= this
+	# 			was_formed_from = TUR
+	# 		}
+	# 	}
+	# 	ite_constitutionalist_intelligentsia_effect = yes
+	# }
+}

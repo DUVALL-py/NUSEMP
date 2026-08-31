@@ -1,0 +1,587 @@
+﻿# #from VTM
+# vtm_ideology_modernizer = { # Centralizer
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_particularist.dds"
+
+# 	character_ideology = yes
+
+# 	lawgroup_bureaucracy = {
+# 		law_elected_bureaucrats = disapprove
+# 		law_appointed_bureaucrats = approve
+# 		law_hereditary_bureaucrats = neutral
+# 	}
+
+# 	lawgroup_army_model = {
+# 		law_mass_conscription = approve
+# 		law_professional_army = approve
+# 		law_national_militia = neutral
+# 		law_peasant_levies = disapprove
+# 	}
+
+# 	lawgroup_economic_system = {
+# 		law_cooperative_ownership = disapprove
+# 		law_command_economy = neutral
+# 		law_interventionism = approve
+# 		law_agrarianism = disapprove
+# 		law_traditionalism = strongly_disapprove
+# 		law_laissez_faire = neutral
+# 		law_industry_banned = strongly_disapprove
+# 	}
+
+# 	possible = {
+# 		# Agitators should be more ambitious
+# 		NOT = {
+# 			has_role = agitator
+# 		}
+# 		scope:interest_group = {
+# 			OR = {
+# 				is_interest_group_type = ig_landowners
+# 				is_interest_group_type = ig_intelligentsia
+# 				is_interest_group_type = ig_industrialists
+# 				is_interest_group_type = ig_armed_forces
+# 			}
+# 		}
+# 		scope:interest_group = {
+# 			NOR = {
+# 				has_variable = communist_ig_var
+# 				has_variable = chose_vanguardism
+# 				has_variable = chose_fascism
+# 				has_variable = chose_conservatism
+# 				has_variable = chose_ethno_nationalism
+# 			}
+# 		}
+# 	}
+
+# 	leader_weight = {
+# 		value = 0
+
+# 		# should mainly roll for ancien regime monarchies
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					has_law = law_type:law_monarchy
+# 				}
+# 			}
+# 			add = 25
+
+# 			# more likely if the crown has something to lose
+# 			add = {
+# 				value = 5
+# 				multiply = owner.country_rank # from x0 to x7 with Egypt for example being a 5
+# 			}
+
+# 			# lets be reasonable here
+# 			if = {
+# 				limit = {
+# 					owner = {
+# 						has_technology_researched = empiricism
+# 					}
+# 				}
+# 				multiply = 1.5
+# 			}
+# 		}
+# 		# more likely AS LONG AS issues are relevant
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					NAND = {
+# 						has_law = law_type:law_appointed_bureaucrats
+# 						OR = {
+# 							has_law = law_type:law_interventionism
+# 							has_law = law_type:law_laissez_faire
+# 						}
+# 						OR = {
+# 							has_law = law_type:law_per_capita_based_taxation
+# 							has_law = law_type:law_proportional_taxation
+# 							has_law = law_type:law_graduated_taxation
+# 						}
+# 					}
+# 				}
+# 			}
+# 			add = 25
+# 		}
+# 		# more likely for monarch if they belong to a liberal IG
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					has_law = law_type:law_monarchy
+# 				}			
+# 				OR = {
+# 					is_heir = yes
+# 					is_ruler = yes
+# 				}
+# 				scope:interest_group = {
+# 					NOR = {
+# 						is_interest_group_type = ig_landowners
+# 						is_interest_group_type = ig_devout
+# 					}
+# 				}
+# 			}
+# 			add = 75
+# 		}		
+# 		# more likely if monarch is liberal and we dont hate them
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					has_law = law_type:law_monarchy
+# 					ruler ?= {
+# 						NOR = { # by process of elimination
+# 							has_reactionary_ideology = yes
+# 							has_ideology = ideology:ideology_slaver
+# 							AND = {
+# 								has_ideology = ideology:ideology_moderate # Moderate is ok if the monarch doesnt belong to LO or Devout
+# 								interest_group = {
+# 									OR = {
+# 										is_interest_group_type = ig_landowners
+# 										is_interest_group_type = ig_devout
+# 									}
+# 								}
+# 							}
+# 						}
+# 					}
+# 				}
+# 				scope:interest_group = {
+# 					ig_approval >= 0
+# 				}
+# 				is_ruler = no
+# 			}
+# 			add = 25
+# 		}
+# 		# if we are in danger
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					OR = {
+# 						has_modifier = country_humiliated
+# 						has_modifier = forced_market_opening
+# 						has_modifier = forced_slavery_ban
+# 					}
+# 				}
+# 			}
+# 			add = 75
+
+# 			if = {
+# 				limit = {
+# 					interest_group = {
+# 						is_interest_group_type = ig_armed_forces
+# 					}
+# 				}
+# 				add = 25
+# 			}
+# 		}
+# 		# nice tanzimeet you! 
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					OR = {
+# 						has_journal_entry = je_sick_man_main
+# 						has_journal_entry = je_meiji_main
+# 					}
+# 				}
+# 			}
+# 			add = 25
+# 		}
+# 		# more likely if our IG is in government
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					is_in_government = yes
+# 				}
+# 			}
+# 			multiply = 1.25
+# 		}
+
+# 		# less likely for Landowners and Devout
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					OR = {
+# 						is_interest_group_type = ig_devout
+# 						is_interest_group_type = ig_landowners
+# 					}
+# 				}
+# 			}
+# 			add = -75
+# 		}
+# 		# angry IGs should roll obstructionist or revolutionary leaders
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					ig_approval < 5
+# 				}
+# 			}
+# 			add = -50
+# 		}
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					ig_approval < 0
+# 				}
+# 			}
+# 			add = -100
+# 		}
+# 		# France should roll Orleanists or Bonapartists instead
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					c:FRA ?= this
+# 				}
+# 			}
+# 			multiply = 0
+# 		}
+# 	}	
+# }
+
+# ite_ideology_oligarchic_leader = {
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_oligarchic_leader.dds"
+# 	character_ideology = yes
+
+# 	lawgroup_distribution_of_power = {
+# 		law_anarchy = strongly_disapprove
+# 		law_universal_suffrage = strongly_disapprove
+# 		law_census_voting = strongly_disapprove
+# 		law_wealth_voting = approve
+# 		law_landed_voting = approve
+# 		law_technocracy = neutral
+# 		law_oligarchy = strongly_approve
+# 		law_autocracy = neutral
+# 		law_single_party_state = approve
+# 	}
+
+# 	lawgroup_bureaucracy = {
+# 		law_elected_bureaucrats = disapprove
+# 		law_appointed_bureaucrats = approve
+# 		law_hereditary_bureaucrats = approve
+# 	}
+
+# 	possible = {
+# 		# Agitator ideologies should disapprove of a current law
+# 		NAND = {
+# 			has_role = agitator
+# 			owner = {
+# 				has_law = law_type:law_oligarchy
+# 			}
+# 		}
+# 		scope:interest_group = {
+# 			OR = {
+# 				is_interest_group_type = ig_landowners
+# 				is_interest_group_type = ig_industrialists
+# 				is_interest_group_type = ig_armed_forces
+# 				is_interest_group_type = ig_devout
+# 			}
+# 			is_powerful = yes #only the ruling class
+# 			NOR = {
+# 				has_variable = chose_vanguardism
+# 				has_variable = communist_ig_var
+# 				has_variable = chose_fascism
+# 				has_variable = chose_conservatism
+# 				has_variable = chose_ethno_nationalism
+# 			}
+# 		}
+# 		NAND = {
+# 			is_ruler = yes
+# 			owner = {
+# 				has_law = law_type:law_autocracy
+# 			}
+# 		}
+# 	}
+
+# 	leader_weight = {
+# 		value = 75 #not that interesting
+# 		# less likely if issues are not relevant
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					OR = {
+# 						has_law = law_type:law_single_party_state
+# 						has_law = law_type:law_wealth_voting
+# 						has_law = law_type:law_landed_voting
+# 						has_law = law_type:law_oligarchy
+# 					} 
+# 				}
+# 			}
+# 			add = -50
+# 		}
+# 		# more likely if not in government with an autocracy
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					is_in_government = no
+# 				}
+# 				owner = {
+# 					has_law = law_type:law_autocracy
+# 				}
+# 			}
+# 			add = 50
+# 		}
+# 		# less likely for loyal IG's
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					ig_approval > happy
+# 				}
+# 			}
+# 			add = -50
+# 		}
+# 		# less likely for conservative French IG's
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					exists = c:FRA
+# 					this = c:FRA
+# 					has_journal_entry = je_divided_monarchists
+# 				}
+# 				scope:interest_group = {
+# 					OR = {
+# 						is_interest_group_type = ig_landowners
+# 						is_interest_group_type = ig_petty_bourgeoisie
+# 						is_interest_group_type = ig_devout
+# 					}
+# 				}
+# 			}
+# 			add = -100
+# 		}
+# 		#less likely in the US or GBR
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					OR = {
+# 						c:USA ?= this
+# 						c:GBR ?= this
+# 					}
+# 				}
+# 			}
+# 			add = -100
+# 		}
+# 		# more likely against rulers of the wrong IG
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					NOT = {
+# 						any_scope_character = {
+# 							is_ruler = yes
+# 							this.interest_group = scope:interest_group
+# 						}
+# 					}
+# 				}
+# 			}
+# 			add = 50
+# 		}
+# 		#less likely in democracies
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					country_has_voting_franchise = yes
+# 				}
+# 			}
+# 			add = -25
+# 		}
+# 	}
+# }
+
+# ite_ideology_absolutist = {
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/ideology_leader_absolutist.dds"
+	
+# 	character_ideology = yes
+
+# 	lawgroup_governance_principles = {
+# 		law_monarchy = strongly_approve
+# 		law_presidential_republic = disapprove
+# 		law_parliamentary_republic = disapprove
+# 		law_theocracy = disapprove
+# 		law_council_republic = strongly_disapprove
+# 	}
+
+# 	lawgroup_church_and_state = {
+# 		law_state_religion = approve
+# 		law_freedom_of_conscience = approve
+# 		law_total_separation = disapprove
+# 		law_state_atheism = strongly_disapprove
+# 	}
+
+# 	lawgroup_distribution_of_power = {
+# 		law_anarchy = strongly_disapprove
+# 		law_universal_suffrage = strongly_disapprove
+# 		law_census_voting = strongly_disapprove
+# 		law_wealth_voting = disapprove
+# 		law_landed_voting = neutral
+# 		law_technocracy = approve
+# 		law_oligarchy = approve
+# 		law_autocracy = strongly_approve
+# 		law_single_party_state = disapprove
+# 	}
+	
+# 	possible = {
+# 		# Agitators should have an ideology at odds with current laws
+# 		NAND = {
+# 			has_role = agitator
+# 			owner = {
+# 				has_law = law_type:law_monarchy
+# 			}
+# 		}
+# 		# no monarchists in countries with strong republican tradition
+# 		# no generic monarchists in France
+# 		owner = {
+# 			NOR = {
+# 				AND = {
+# 					exists = c:FRA
+# 					c:FRA = this
+# 				}
+# 				AND = {
+# 					any_interest_group = {
+# 						has_ideology = ideology:ideology_republican_paternalistic
+# 					}
+# 					NOT = {
+# 						has_variable = brz_enduring_empire
+# 					}
+# 				}
+# 				has_variable = monarchy_stamped_out_var
+# 			}
+# 		}
+# 		#only possible for the monarch's IG
+# 		owner = {
+# 			has_law = law_type:law_monarchy
+# 			any_scope_character = {
+# 				is_ruler = yes
+# 				this.interest_group = scope:interest_group
+# 			}
+# 		}
+# 		scope:interest_group = {
+# 			NOR = {
+# 				has_variable = communist_ig_var
+# 				has_variable = chose_vanguardism
+# 				has_variable = chose_fascism
+# 				has_variable = chose_conservatism
+# 				has_variable = chose_ethno_nationalism
+# 			}
+# 		}
+# 	}
+	
+# 	leader_weight = {
+# 		value = 10 #not that interesting to spawn
+# 	}
+# }
+
+# ite_ideology_aristocratic_leader = {
+# 	icon = "gfx/interface/icons/ideology_icons/ideology_leader/unused/ideology_leader_stratocratic.dds"
+# 	character_ideology = yes
+
+# 	lawgroup_bureaucracy = {
+# 		law_elected_bureaucrats = strongly_disapprove
+# 		law_appointed_bureaucrats = disapprove
+# 		law_hereditary_bureaucrats = strongly_approve
+# 	}
+
+# 	lawgroup_rights_of_women = {
+# 		law_womens_suffrage = disapprove
+# 		law_women_in_the_workplace = disapprove
+# 		law_women_own_property = approve
+# 		law_no_womens_rights = neutral
+# 	}
+
+# 	lawgroup_land_reform = {
+# 		law_serfdom = approve
+# 		law_commercialized_agriculture = neutral
+# 		law_tenant_farmers = approve
+# 		law_homesteading = disapprove
+# 		law_collectivized_agriculture = strongly_disapprove
+# 	}
+
+# 	lawgroup_army_model = {
+# 		law_mass_conscription = disapprove
+# 		law_professional_army = neutral
+# 		law_national_militia = disapprove
+# 		law_peasant_levies = approve
+# 	}
+
+# 	possible = {
+# 		# Agitator ideologies should disapprove of a current law
+# 		NAND = {
+# 			has_role = agitator
+# 			owner = {
+# 				has_law = law_type:law_oligarchy
+# 			}
+# 		}
+# 		scope:interest_group = {
+# 			OR = {
+# 				#only in IGs that could be in support of aristocracy
+# 				#Landowners are already inherently this
+# 				is_interest_group_type = ig_armed_forces
+# 				is_interest_group_type = ig_devout
+# 				is_interest_group_type = ig_intelligentsia
+# 			}
+# 			NOR = {
+# 				has_variable = chose_vanguardism
+# 				has_variable = communist_ig_var
+# 				has_variable = chose_fascism
+# 				has_variable = chose_conservatism
+# 				has_variable = chose_ethno_nationalism
+# 			}
+# 		}
+# 		#only in countries with actual nobility
+# 		owner = {
+# 			OR = {
+# 				has_law = law_type:law_hereditary_bureaucrats
+# 				has_law = law_type:law_tenant_farmers
+# 				has_law = law_type:law_serfdom
+# 				has_law = law_type:law_peasant_levies
+# 			}
+# 			#goes away with Human Rights
+# 			NOT = {
+# 				has_technology_researched = human_rights
+# 			}
+# 		}
+# 	}
+
+# 	leader_weight = {
+# 		value = 75 #not that interesting
+# 		# more likely for loyal IGs in a monarchy
+# 		if = {
+# 			limit = {
+# 				scope:interest_group = {
+# 					ig_approval > happy
+# 				}
+# 				owner = {
+# 					has_law = law_type:law_hereditary_bureaucrats
+# 					has_law = law_type:law_monarchy
+# 				}
+# 			}
+# 			add = 50
+# 		}
+# 		# less likely for conservative French IG's
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					exists = c:FRA
+# 					this = c:FRA
+# 					has_journal_entry = je_divided_monarchists
+# 				}
+# 				scope:interest_group = {
+# 					OR = {
+# 						is_interest_group_type = ig_landowners
+# 						is_interest_group_type = ig_petty_bourgeoisie
+# 						is_interest_group_type = ig_devout
+# 					}
+# 				}
+# 			}
+# 			add = -100
+# 		}
+# 		#less likely in democracies
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					country_has_voting_franchise = yes
+# 				}
+# 			}
+# 			add = -25
+# 		}
+# 		#less likely with tenant farmers
+# 		if = {
+# 			limit = {
+# 				owner = {
+# 					has_law = law_type:law_tenant_farmers
+# 				}
+# 			}
+# 			add = -25
+# 		}
+# 	}
+# }

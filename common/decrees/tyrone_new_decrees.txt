@@ -1,0 +1,223 @@
+# New Decrees for Trekking MP with Unique Custom Icons
+
+decree_war_rationing = {
+	texture = "gfx/interface/icons/decree/decree_emergency_relief.dds"
+	cost = 150
+
+	modifier = {
+		state_turmoil_effects_mult = -0.15
+		state_mortality_mult = -0.02
+		state_standard_of_living_add = -0.25
+	}
+
+	unlocking_technologies = {
+		centralization
+	}
+
+	country_trigger = {
+		is_at_war = yes
+	}
+
+	ai_weight = {
+		value = 10
+
+		if = {
+			limit = {
+				owner = { is_at_war = yes }
+			}
+			add = 100
+		}
+	}
+}
+
+decree_workforce_mobilization = {
+	texture = "gfx/interface/icons/decree/enc_con.dds"
+	cost = 150
+
+	modifier = {
+		building_group_bg_manufacturing_throughput_add = 0.10
+		state_pop_qualifications_mult = 0.10
+		state_mortality_mult = 0.02
+	}
+
+	unlocking_technologies = {
+		labor_movement
+	}
+
+	ai_weight = {
+		value = 25
+	}
+}
+
+decree_trade_hub_incentive = {
+	texture = "gfx/interface/icons/decree/urban_services_decree.dds"
+	cost = 125
+
+	modifier = {
+		building_trade_center_throughput_add = 0.10
+		state_infrastructure_add = 10
+		state_migration_pull_mult = 0.05
+	}
+
+	unlocking_technologies = {
+		stock_exchange
+	}
+
+	ai_weight = {
+		value = 50
+	}
+}
+
+decree_crackdown_on_unrest = {
+	texture = "gfx/interface/icons/decree/violent_hostility_decree.dds"
+	cost = 150
+
+	modifier = {
+		state_turmoil_effects_mult = -0.35
+		state_migration_pull_mult = -0.10
+		state_mortality_mult = 0.01
+	}
+
+	unlocking_technologies = {
+		law_enforcement
+	}
+
+	state_trigger = {
+		turmoil >= 0.15
+	}
+
+	ai_weight = {
+		value = 10
+
+		if = {
+			limit = {
+				turmoil > 0.25
+			}
+			add = 100
+		}
+	}
+}
+
+decree_pro_natalist_incentives = {
+	texture = "gfx/interface/icons/decree/health.dds"
+	cost = 100
+
+	modifier = {
+		state_birth_rate_mult = 0.03
+		state_standard_of_living_add = 0.2
+		state_migration_pull_mult = -0.10
+	}
+
+	unlocking_technologies = {
+		pharmaceuticals
+	}
+
+	ai_weight = {
+		value = 30
+	}
+}
+
+decree_industrial_workforce_efficiency = {
+	texture = "gfx/interface/icons/decree/efficient_admin.dds"
+	cost = 100
+
+	modifier = {
+		state_pop_qualifications_mult = 0.15
+		building_group_bg_manufacturing_throughput_add = 0.10
+	}
+
+	unlocking_technologies = {
+		labor_movement
+	}
+
+	ai_weight = {
+		value = 40
+	}
+}
+
+decree_open_immigration_hub = {
+	texture = "gfx/interface/icons/decree/decree_colonial_migration.dds"
+	cost = 100
+
+	modifier = {
+		state_migration_pull_mult = 0.10
+		state_standard_of_living_add = 0.5
+	}
+
+	unlocking_technologies = {
+		centralization
+	}
+
+	ai_weight = {
+		value = 50
+	}
+}
+
+decree_propaganda_pamphlets = {
+	texture = "gfx/interface/icons/decree/learning.dds"
+	cost = 75
+
+	modifier = {
+		state_radicals_from_sol_change_mult = -0.15
+		state_turmoil_mult = -0.10
+	}
+
+	unlocking_technologies = {
+		centralization
+	}
+
+	ai_weight = {
+		value = 20
+	}
+}
+
+decree_state_controlled_press = {
+	texture = "gfx/interface/icons/decree/civic_suppression_decree.dds"
+	cost = 125
+
+	modifier = {
+		state_radicals_from_sol_change_mult = -0.25
+		state_turmoil_mult = -0.20
+	}
+
+	unlocking_technologies = {
+		identification_documents
+	}
+
+	country_trigger = {
+		OR = {
+			has_law = law_type:law_state_censorship
+			has_law = law_type:law_state_press
+		}
+	}
+
+	ai_weight = {
+		value = 40
+	}
+}
+
+decree_state_radio_broadcast = {
+	texture = "gfx/interface/icons/decree/culture_convert_decree.dds"
+	cost = 150
+
+	modifier = {
+		state_radicals_from_sol_change_mult = -0.35
+		state_turmoil_mult = -0.25
+		state_migration_pull_mult = 0.10
+	}
+
+	unlocking_technologies = {
+		telephone
+	}
+
+	country_trigger = {
+		OR = {
+			has_law = law_type:law_state_censorship
+			has_law = law_type:law_state_press
+		}
+	}
+
+	ai_weight = {
+		value = 50
+	}
+}

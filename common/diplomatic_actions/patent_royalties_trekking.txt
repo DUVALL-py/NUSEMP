@@ -1,0 +1,59 @@
+patent_royalties_10 = {
+    groups = { general }
+    requires_approval = no
+    should_notify_third_parties = no
+    show_in_lens = no
+    can_select_to_break = no
+    texture = "gfx/interface/icons/diplomatic_action_icons/knowledge_sharing.dds"
+
+    selectable = { always = no }
+    pact = {
+        is_two_sided_pact = no
+        income_transfer = 0.002
+        second_country_gets_income_transfer = yes
+        income_transfer_based_on_second_country = no
+        actor_can_break = { always = no }
+        target_can_break = { always = no }
+    }
+    ai = { will_break = { always = no } }
+}
+
+patent_royalties_20 = {
+    groups = { general }
+    requires_approval = no
+    should_notify_third_parties = no
+    show_in_lens = no
+    can_select_to_break = no
+    texture = "gfx/interface/icons/diplomatic_action_icons/knowledge_sharing.dds"
+
+    selectable = { always = no }
+    pact = {
+        is_two_sided_pact = no
+        income_transfer = 0.002
+        second_country_gets_income_transfer = yes
+        income_transfer_based_on_second_country = no
+        actor_can_break = { always = no }
+        target_can_break = { always = no }
+    }
+    ai = { will_break = { always = no } }
+}
+
+patent_royalties_30 = {
+    groups = { general }
+    requires_approval = no
+    should_notify_third_parties = no
+    show_in_lens = no
+    can_select_to_break = no
+    texture = "gfx/interface/icons/diplomatic_action_icons/knowledge_sharing.dds"
+
+    selectable = { always = no }
+    pact = {
+        is_two_sided_pact = no
+        income_transfer = 0.002
+        second_country_gets_income_transfer = yes
+        income_transfer_based_on_second_country = no
+        actor_can_break = { always = no }
+        target_can_break = { always = no }
+    }
+    ai = { will_break = { always = no } }
+}

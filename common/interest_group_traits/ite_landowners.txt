@@ -1,0 +1,25 @@
+﻿#China
+ite_ig_trait_junzi = {
+	icon = "gfx/interface/icons/ig_trait_icons/junzi.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_loyalists_from_legitimacy_mult = 0.20
+	}
+}
+ite_ig_trait_scholar_bureaucrats = {
+	icon = "gfx/interface/icons/ig_trait_icons/middle_managers.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_bureaucracy_mult = 0.15
+	}
+}
+ite_ig_trait_palace_intrigue = {
+	icon = "gfx/interface/icons/ig_trait_icons/xenophobia.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		country_law_enactment_speed_mult = -0.20
+	}
+}

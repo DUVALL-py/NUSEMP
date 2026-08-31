@@ -1,0 +1,20 @@
+﻿trekking_consult_national_direction = {
+	is_shown = {
+		is_player = yes
+		OR = {
+			has_modifier = trekking_focus_scientific_vanguard
+			has_modifier = trekking_focus_national_mobilization
+			has_modifier = trekking_focus_cultural_renaissance
+			has_modifier = trekking_focus_industrial_prosperity
+			has_modifier = trekking_focus_administrative_reform
+		}
+	}
+
+	possible = { always = yes }
+
+	when_taken = {
+		trigger_event = { id = national_direction.2 popup = yes }
+	}
+
+	ai_chance = { value = 0 }
+}

@@ -1,0 +1,70 @@
+﻿tyrone_military_tech_imbalance_5 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -0.25
+}
+
+tyrone_military_tech_imbalance_6 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -0.38
+}
+
+tyrone_military_tech_imbalance_7 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -0.56
+}
+
+tyrone_military_tech_imbalance_8 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -0.84
+}
+
+tyrone_military_tech_imbalance_9 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -1.27
+}
+
+tyrone_military_tech_imbalance_10 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -1.90
+}
+
+tyrone_military_tech_imbalance_11 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -2.85
+}
+
+tyrone_military_tech_imbalance_12 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -4.27
+}
+
+tyrone_military_tech_imbalance_13 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -6.41
+}
+
+tyrone_military_tech_imbalance_14 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -9.61
+}
+
+tyrone_military_tech_imbalance_15 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -14.42
+}
+
+tyrone_military_tech_imbalance_16 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -21.62
+}
+
+tyrone_military_tech_imbalance_17 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -32.44
+}
+
+tyrone_military_tech_imbalance_18 = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_negative.dds
+	country_military_tech_research_speed_mult = -48.65
+}
+

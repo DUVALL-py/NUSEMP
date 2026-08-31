@@ -1,0 +1,22 @@
+﻿INJECT:ig_trait_patriotic_fervor = {
+	modifier = {
+		unit_morale_recovery_mult = 0.15
+		state_conscription_rate_mult = 0.1	
+		battle_defense_owned_province_mult = 0.1
+	}
+}
+
+INJECT:ig_trait_materiel_waste = {
+	modifier = {
+		country_military_goods_cost_mult = 0.1
+		unit_supply_consumption_mult = 0.05
+		unit_morale_recovery_mult = -0.1
+	}
+}
+
+INJECT:ig_trait_elan_vital = {
+	modifier = {
+		unit_morale_recovery_mult = 0.15
+		state_conscription_rate_mult = 0.1
+	}
+}

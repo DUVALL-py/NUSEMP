@@ -1,0 +1,182 @@
+modifier_streamline_crown_lands = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_authority_add = 25
+	country_legitimacy_base_add = 5
+}
+
+modifier_dynastic_coup = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds"
+	country_legitimacy_base_add = 10
+	country_authority_add = 50
+}
+
+modifier_photographic_innovation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds"
+	country_weekly_innovation_mult = 0.05
+}
+
+modifier_archaeological_prestige = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_prestige_add = 10
+}
+
+modifier_urban_rebuilding = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	state_construction_mult = 0.1
+}
+
+modifier_anti_corruption_purge = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_tax_income_add = 0.1
+	country_authority_add = -5
+}
+
+modifier_covered_scandal = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_legitimacy_base_add = -5
+}
+
+modifier_medical_advancement = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds"
+	state_mortality_mult = -0.02
+}
+
+modifier_naval_discipline = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	unit_navy_offense_mult = 0.05
+}
+
+modifier_naval_reform = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	country_navy_power_projection_mult = 0.05
+}
+
+modifier_trade_hub_reputation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	country_trade_route_quantity_mult = 0.05
+}
+
+modifier_aggressive_trade = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	country_trade_route_quantity_mult = 0.1
+}
+
+modifier_world_exhibition_grand = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_prestige_add = 50
+	country_weekly_innovation_mult = 0.1
+	state_migration_pull_mult = 0.15
+}
+
+modifier_world_exhibition_modest = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_prestige_add = 20
+	country_weekly_innovation_mult = 0.05
+}
+
+modifier_curse_of_the_nation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	state_turmoil_mult = 0.15
+	building_group_bg_paper_manufacturing_throughput_add = -0.05
+}
+
+modifier_curse_of_the_nation_mild = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	state_turmoil_mult = 0.05
+}
+
+modifier_triumph_over_curse = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_prestige_add = 25
+	state_standard_of_living_add = 1.0
+}
+
+modifier_patent_royalties = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	country_tax_income_add = 0.002
+	country_weekly_innovation_mult = 0.1
+}
+
+modifier_patent_expired = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds"
+	country_prestige_add = 10
+	country_weekly_innovation_mult = 0.05
+}
+
+modifier_olympic_host = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds"
+	country_prestige_add = 50
+	state_migration_pull_mult = 0.25
+	state_standard_of_living_add = 1.5
+	country_weekly_innovation_mult = 0.05
+}
+
+modifier_railway_pioneer = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	state_infrastructure_add = 5
+}
+
+modifier_industrial_powerhouse = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	building_group_bg_manufacturing_throughput_add = 0.05
+}
+
+modifier_naval_supremacy = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_rifle_positive.dds"
+	unit_navy_offense_mult = 0.05
+	country_navy_power_projection_mult = 0.05
+}
+
+modifier_modern_nation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds"
+	country_weekly_innovation_mult = 0.05
+	country_prestige_add = 25
+}
+
+modifier_economic_titan = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	country_trade_route_quantity_mult = 0.10
+	country_prestige_add = 50
+}
+
+modifier_earthquake_devastation = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	state_construction_mult = -0.25
+	state_mortality_mult = 0.05
+	state_turmoil_mult = 0.15
+	state_infrastructure_add = -15
+}
+
+modifier_great_flood = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	building_group_bg_agriculture_throughput_add = -0.20
+	state_mortality_mult = 0.03
+	state_migration_pull_mult = -0.20
+}
+
+modifier_severe_drought = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	building_group_bg_agriculture_throughput_add = -0.30
+	state_mortality_mult = 0.04
+	state_turmoil_mult = 0.10
+}
+
+modifier_volcanic_eruption = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds"
+	state_construction_mult = -0.30
+	state_mortality_mult = 0.08
+	state_migration_pull_mult = -0.30
+	state_infrastructure_add = -20
+}
+
+modifier_national_reconstruction = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds"
+	state_construction_mult = 0.15
+	country_prestige_add = 10
+}
+
+modifier_disaster_relief_fund = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	state_construction_mult = 0.20
+	state_mortality_mult = -0.02
+}

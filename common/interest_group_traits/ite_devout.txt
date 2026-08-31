@@ -1,0 +1,49 @@
+﻿
+
+#USA: Evangelicals
+#From Hail, Columbia!
+usfp_ig_trait_postmillennialism = {
+	icon = "gfx/interface/icons/ig_trait_icons/postmillenialism.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		state_radicals_from_political_movements_mult = 0.10
+	}
+}
+
+usfp_ig_trait_revivalism = {
+	icon = "gfx/interface/icons/ig_trait_icons/revivalism.dds"
+	min_approval = happy
+	
+	modifier = {
+		state_conversion_mult = 0.25
+		country_society_tech_research_speed_mult = 0.05
+	}
+}
+
+#China: Confucians
+ite_ig_trait_mandate_of_heaven = {
+	icon = "gfx/interface/icons/ig_trait_icons/mandate_of_heaven.dds"
+	min_approval = loyal
+	
+	modifier = {
+		country_legitimacy_base_add = 10
+	}
+}
+ite_ig_trait_meritocracy = {
+	icon = "gfx/interface/icons/ig_trait_icons/veteran_consultation.dds"
+	min_approval = happy
+	
+	modifier = {
+		country_loyalism_increases_second_rate_citizen_mult = 0.1
+		country_loyalism_increases_full_acceptance_mult = 0.1
+	}
+}
+ite_ig_trait_right_of_rebellion = {
+	icon = "gfx/interface/icons/ig_trait_icons/feuds.dds"
+	max_approval = unhappy
+	
+	modifier = {
+		political_movement_radicalism_add = 0.1
+	}
+}

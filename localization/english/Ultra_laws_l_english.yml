@@ -1,0 +1,116 @@
+﻿l_english:
+
+  ## Distribution of power laws
+
+  law_weighted_universal_suffrage:0 "Three-class Franchise"
+  law_weighted_universal_suffrage_desc:0 "Every adult man is given a vote. Men who own land or capital property are granted more votes."
+
+  law_weighted_wealth_voting:0 "Weighted Wealth Voting"
+  law_weighted_wealth_voting_desc:0 "Wealthy citizens are given a vote. Men who own land or capital property are granted more votes."
+
+  ## Church and State laws
+
+  law_concordat:0 "Concordat"
+  law_concordat_desc:0 "$law_freedom_of_conscience_desc$"
+
+  law_laicite:0 "Laïcité"
+  law_laicite_desc:0 "$law_total_separation_desc$"
+
+  ## Economic System laws
+
+  law_mixed_economy:0 "Mixed Economy"
+  law_mixed_economy_desc:0 "An economic system where the government controls the most important public sectors while giving enough room and opportunities for private companies to prosper."
+
+  ## goverment types ##
+
+  gov_absolute_monarchy:0 "Absolute Monarchy"
+  gov_absolute_monarchy_desc:1 "This is a [concept_government] form where the power rests completely with the [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]."
+  gov_monarchy:0 "Monarchy"
+  gov_monarchy_desc:1 "This is a [concept_government] form where the power rests mainly with the [Concept('concept_ruler','$RULER_TITLE_KING$')] or [Concept('concept_ruler','$RULER_TITLE_QUEEN$')]."
+
+  ## taxes ##
+
+  law_early_proportional_taxation:0 "Income Taxation"
+  law_early_proportional_taxation_desc:0 "Early form of modern taxation with implementation of income and capital taxes along capitation"
+
+  ## citizenship laws
+
+  law_UHP_religious_primacy:0 "Religious Primacy"
+  law_UHP_religious_primacy_desc:0 "Having the State's religion is the most important aspect to be accepted as citizen or subject. Though, very foreign cultures might be seen as suspicious."
+  EFFECTS_ON_ACCEPTANCE_law_UHP_religious_primacy: "$EFFECTS_ON_ACCEPTANCE_law_ethnostate$"
+
+  ## Migration laws
+
+  law_severe_migration_controls:0 "Severe Migration Controls"
+  law_severe_migration_controls_desc:0 "$law_migration_controls$"
+
+  ## Right of Women
+
+  law_women_in_farms:0 "Women in the Farms"
+  law_women_in_farms_desc:0 "In this culture, traditional women roles include working in the farms along their husbands or in some manufactures."
+
+  ## Land Reforms
+
+  law_equal_inheritance:0 "Equal Inheritance (Napoleonic Code)"
+  law_equal_inheritance_desc:0 "The Napoleonic Civil Code abolished primogeniture and required that all children inherit an equal share of their parents' land. This created a nation of smallholders, empowering peasants but also fragmenting farms into ever smaller plots, slowing agricultural modernization and encouraging lower fertility."
+
+  ## assimilation laws
+
+  lawgroup_assimilation_policy:0 "Assimilation Policy"
+  lawgroup_assimilation_policy_desc:0 "How the State is attempting to assimilate foreign people"
+
+  law_no_assimilation_policy:0 "No Assimilation Policy"
+  law_no_assimilation_policy_desc:0 "People of diverse cultural background are more or less left alone as long as their customs does not perturb the society."
+
+  law_forced_assimilation:0 "Forced Assimilation"
+  law_forced_assimilation_desc:0 "Foreign cultures within the National State are a threat and should not be allowed. Foreign languages and customs are actively suppressed while our language is the only one taught at schools and in various administrations, even in areas where foreign cultures are a majority. Those who refuses to adopt our culture faces harsh discriminations. Though, regional identities within our culture group are left alone."
+
+  law_cultural_unification:0 "Cultural Unification"
+  law_cultural_unification_desc:0 "Various regional identities are purposelessly divinding the Nation. Through meticulous educative efforts and mild discriminations at the administrative levels, our people should be incitated enough to adopt the official language and reject dialects within a few generations."
+
+  law_national_universalism:0 "National Universalism"
+  law_national_universalism_desc:0 "Our Nation aims to integrate every citizen into a culturaly unified people. Through meticulous educative efforts and light discriminations at the administrative levels, our people should be incitated enough to adopt the official language and the majority's customs."
+
+  ## Social Classes laws
+
+  lawgroup_social_classes:0 "Social Classes"
+  lawgroup_social_classes_desc:0 "The main social hierarchy in the country"
+
+  law_hereditary_noble_privileges:0 "Hereditary Privileges"
+  law_hereditary_noble_privileges_desc:0 "The society is organized through a strict social order where Nobility enjoys hereditary privileges, Clergy holds moral and economic powers while the "Tiers-Etat" are effectively second rate citizens."
+
+  law_flexible_noble_privileges:0 "Flexible Privileges"
+  law_flexible_noble_privileges_desc:0 "Most privileges of traditional order still exists, but they can be bought by sucessful entrepreneurs. Social discriminations are also somewhat less harsh for the common people."
+
+  law_privilege_abolished:0 "Meritocracy"
+  law_privilege_abolished_desc:0 "Social Hierarchy based on the concept of "Merit". Nobility and Clergy's privileges are fully abolished, so anyone brave, intelligent and lucky enough can reach the top of the social order, in theory at least."
+
+  law_classless_society:0 "Classless Society"
+  law_classless_society_desc:0 "After having seized the means of production, the social order based on wealth is no more. But is a society without social hierarchy even possible?"
+  
+    ## School Curriculum
+
+    lawgroup_school_curriculum:0 "School Curriculum"
+    lawgroup_school_curriculum_desc:0 "Determines the goal of the education taught in our schools"
+    
+    law_higher_education:0 "Higher Education focus"
+    law_higher_education_desc:0 "The goal of our education system should be to ensure that students in our nation are taught and able to understand the most recent discoveries."
+    
+    law_literacy_focus:0 "Literacy Focus"
+    law_literacy_focus_desc:0 "The goal of our education system should be to ensure that everyone in our nation has access to the most basic knowledge."
+    
+    law_religious_education:0 "Religious Education"
+    law_religious_education_desc:0 "Our schools shouldn't only be about the transmision of knowledge but also spreading the teachings of our faith."
+    
+  law_patriotic_education:0 "Patriotic Education"
+  law_patriotic_education_desc:1 "Education shouldn't only be focused on the transmission of knowledge but also on forming proud citizens capable of standing and fighting for their country."    
+  
+  law_ideological_education:0 "Ideological Education"
+  law_ideological_education_desc:1 "The goal of our schools should be to make sure that everyone can find its place inside the system and support it."
+  
+  law_assimilation_focus:0 "Assimilation Focus"
+  law_assimilation_focus_desc:0 "Schools should focus on integrating students into our nation. "
+  
+  law_autonomous_education:0 "Autonomous Education"
+  law_autonomous_education_desc:1 "We shouldn't enforce a national curriculum and instead let the local community choose what needs to be taught as a way to safeguard minorities rights."
+ 

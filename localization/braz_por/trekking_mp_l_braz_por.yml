@@ -1,0 +1,56 @@
+﻿l_braz_por:
+ trekking_news.1.t: "O Jogo Vai Começar!"
+ trekking_news.1.d: "Bem-vindos ao TREKKING MP! A partida multiplayer oficial começou. Líderes de todas as nações reúnem-se para disputar a hegemonia global, alianças estratégicas e impérios comerciais. Que vença o melhor estrategista!"
+ trekking_news.1.f: "COMUNICADO OFICIAL — As regras de equilíbrio e boa conduta estão ativas. Preparem seus gabinetes, organizem suas economias e que comecem as negociações!"
+ trekking_news.1.a: "Que comece a partida!"
+
+ trekking_news.10.t: "A Gazeta Mundial: Proclamação da Alemanha"
+ trekking_news.10.d: "Uma nação alemã unificada foi proclamada no coração da Europa! O equilíbrio de poder mudou drasticamente. Qual será a postura da nossa chancelaria perante a nova potência?"
+ trekking_news.10.f: "EUROPA REDESENHADA — Multidões celebram sob a bandeira imperial alemã enquanto as chancelarias estrangeiras deliberam sua resposta."
+ trekking_news.10.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.10.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.20.t: "A Gazeta Mundial: Itália Unificada"
+ trekking_news.20.d: "A península italiana foi unificada sob um único governo! Uma nova grande potência surge no Mediterrâneo, desafiando a velha ordem europeia."
+ trekking_news.20.f: "ITALIA RISORTA — Os sinos tocam de norte a sul enquanto os Estados da península dão lugar a um reino unido."
+ trekking_news.20.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.20.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.40.t: "A Gazeta Mundial: União da Escandinávia"
+ trekking_news.40.d: "Os reinos nórdicos uniram-se formalmente sob a coroa da Escandinávia! Um poderoso bloco setentrional consolidou o controle sobre os mares Báltico e do Norte."
+ trekking_news.40.f: "UNIÃO DO NORTE — Povos irmãos nórdicos marcham sob um só estandarte em Estocolmo e Copenhague."
+ trekking_news.40.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.40.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.50.t: "A Gazeta Mundial: Renascimento da Polônia-Lituânia"
+ trekking_news.50.d: "A histórica Comunidade Polaco-Lituana renasceu das cinzas! O equilíbrio no Leste Europeu foi completamente transformado pela restauração desta grande potência."
+ trekking_news.50.f: "O RETORNO DA ÁGUIA — Campanários em Varsóvia e Vilnius celebram a ressurreição da Comunidade."
+ trekking_news.50.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.50.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.60.t: "A Gazeta Mundial: Grandeza da Grã-Colômbia"
+ trekking_news.60.d: "O sonho de Simón Bolívar concretizou-se com a unificação da Grã-Colômbia! Uma potência sul-americana ergueu-se para liderar o continente e controlar o comércio interoceânico."
+ trekking_news.60.f: "UNIÃO BOLIVARIANA — Multidões aclamam a nova federação pelas ruas de Bogotá e Caracas."
+ trekking_news.60.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.60.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.70.t: "A Gazeta Mundial: Proclamação da União Ibérica"
+ trekking_news.70.d: "Espanha e Portugal uniram os seus destinos na União Ibérica! O controle estratégico dos acessos ao Mediterrâneo e vastos impérios ultramarinos encontram-se agora sob uma só liderança."
+ trekking_news.70.f: "ALIANÇA PENINSULAR — Lisboa e Madrid celebram uma união sem precedentes na era moderna."
+ trekking_news.70.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.70.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.80.t: "A Gazeta Mundial: Formação da Nação Árabe"
+ trekking_news.80.d: "Os povos do Oriente Médio e do Norte de África uniram-se na Grande Nação Árabe! Uma nova potência com ricas rotas comerciais e vastos recursos entra em cena."
+ trekking_news.80.f: "DESPERTAR DO ORIENTE — A unificação reverbera de Cairo a Bagdá e Meca."
+ trekking_news.80.a: "Reconhecer e estreitar laços diplomáticos."
+ trekking_news.80.b: "Adotar cautela e restringir laços diplomáticos."
+
+ trekking_news.30.t: "A Gazeta Mundial: A Conferência de Berlim"
+ trekking_news.30.d: "Representantes das potências mundiais reuniram-se em Berlim para estabelecer regras sobre reivindicações coloniais e comércio em África. A diplomacia pode conter o conflito aberto por enquanto, mas cada acordo esconde uma disputa por influência."
+ trekking_news.30.f: "DO NOSSO CORRESPONDENTE EM BERLIM — Mapas cobrem as mesas de negociação enquanto os delegados discutem rios, portos e esferas de influência."
+ trekking_news.30.a: "Começa a corrida por África."
+
+ TREKKING_MARKET_SNAPSHOT: "Resumo do Mercado"
+ TREKKING_MARKET_DEFICITS: "Maiores défices"
+ TREKKING_MARKET_SURPLUSES: "Maiores excedentes"

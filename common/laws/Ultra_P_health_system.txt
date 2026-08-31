@@ -1,0 +1,18 @@
+﻿
+INJECT:law_charitable_health_system = {
+	modifier = {
+		country_institution_cost_institution_health_system_mult = 0.2 
+	}
+}
+
+INJECT:law_private_health_insurance = {
+	modifier = {
+		country_institution_cost_institution_health_system_mult = 0.15
+	}
+}
+
+INJECT:law_public_health_insurance = {
+	modifier = {
+		country_institution_cost_institution_health_system_mult = 0.25
+	}
+}

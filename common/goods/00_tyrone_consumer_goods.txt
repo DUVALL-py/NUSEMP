@@ -1,0 +1,22 @@
+﻿# Consumer Goods using 100% Vanilla Paradox Game Icon Textures
+
+chocolate = {
+	texture = "gfx/interface/icons/goods_icons/chocolate.dds"
+	cost = 40
+	category = luxury
+	obsession_chance = 1.5
+	prestige_factor = 5
+	traded_quantity = 5
+	convoy_cost_multiplier = 0.5
+	consumption_tax_cost = 200
+}
+
+cacao = {
+	texture = "gfx/interface/icons/goods_icons/cacao.dds"
+	cost = 30
+	category = staple
+	obsession_chance = 1.0
+	prestige_factor = 2
+	traded_quantity = 10
+	convoy_cost_multiplier = 0.5
+}

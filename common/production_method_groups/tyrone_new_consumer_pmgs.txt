@@ -1,0 +1,19 @@
+﻿pmg_base_building_chocolate_factory = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = { pm_artisan_chocolatier pm_industrial_chocolate_factory pm_confectionery_chocolate_mass_production }
+}
+
+pmg_chocolate_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = { pm_no_chocolate_automation pm_chocolate_steam_automation }
+}
+
+pmg_base_building_cacao_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = { pm_manual_cacao_harvesting pm_mechanized_cacao_harvesting }
+}
+
+pmg_cacao_automation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = { pm_no_cacao_automation pm_cacao_steam_automation }
+}

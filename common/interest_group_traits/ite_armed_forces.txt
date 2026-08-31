@@ -1,0 +1,17 @@
+﻿#Japan
+ite_ig_trait_interservice_rivalry = {
+	icon = "gfx/interface/icons/ig_trait_icons/interservice_rivalry.dds"
+	max_approval = unhappy
+	modifier = {
+		country_prestige_from_army_power_projection_mult = -0.1
+		country_prestige_from_navy_power_projection_mult = -0.1
+	}
+}
+#from Tripledot
+ite_ig_trait_ronin = {
+	icon = "gfx/interface/icons/ig_trait_icons/ronin.dds"
+	max_approval = unhappy
+	modifier = {
+		state_radicals_from_political_movements_mult = 0.1
+	}
+}

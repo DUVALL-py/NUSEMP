@@ -1,0 +1,6 @@
+﻿REPLACE:manifest_destiny = {
+	is_shown = {
+		always = no
+	}
+}
+

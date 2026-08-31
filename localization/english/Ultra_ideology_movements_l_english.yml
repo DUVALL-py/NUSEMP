@@ -1,0 +1,8 @@
+﻿l_english:
+
+#ideological movement modifiers
+
+AUTHORITARIAN:0 "Authoritarian government"
+DICTATORSHIP:0 "Dictatorship"
+ABSOLUTE_MONARCHY:0 "Absolute Monarchy"
+MASS_CONSCRIPTION_ABSOLUTE_MONARCHY:0 "Mass Conscription in an Absolute Monarchy"

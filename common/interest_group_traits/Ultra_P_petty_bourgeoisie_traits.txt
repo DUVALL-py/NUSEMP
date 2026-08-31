@@ -1,0 +1,17 @@
+﻿INJECT:ig_trait_treasury_bonds = {
+	modifier = {
+		country_minting_mult = 0.05
+	}
+}
+
+INJECT:ig_trait_middle_managers = {
+	modifier = {
+		state_tax_capacity_mult = 0.1
+	}
+}
+
+INJECT:ig_trait_xenophobia = {
+	modifier = {
+		state_migration_pull_mult = -0.25
+	}
+}
