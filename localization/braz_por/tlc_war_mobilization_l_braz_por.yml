@@ -1,0 +1,54 @@
+l_braz_por:
+ # ═══════════════════════════════════════════════════════════════
+ # TREKKER'S VICTORIA: LONG CENTURY — GUERRA & MOBILIZAÇÕES (PORTUGUÊS)
+ # ═══════════════════════════════════════════════════════════════
+
+ # Grupos de Opção de Mobilização
+ mog_tlc_transport_logistics:0 "Logística e Transporte de Formações"
+ mog_tlc_medical_support:0 "Atendimento Médico e Cuidados em Combate"
+ mog_tlc_tactical_aviation:0 "Apoio e Cobertura Aérea"
+ mog_tlc_heavy_firepower:0 "Poder de Fogo e Doutrinas Pesadas"
+
+ # Opções de Mobilização
+ mobilization_option_railway_logistics:0 "Transporte Ferroviário Estratégico"
+ mobilization_option_railway_logistics_desc:0 "Prioriza as ferrovias nacionais para deslocamento rápido de tropas e fluxo contínuo de suprimentos."
+ mobilization_option_motorized_supply_columns:0 "Colunas de Suprimento Motorizadas"
+ mobilization_option_motorized_supply_columns_desc:0 "Utiliza frotas de caminhões e depósitos de combustível para manter o ritmo ofensivo e o reabastecimento veloz."
+ mobilization_option_mechanized_spearhead:0 "Vanguarda Blindada Mecanizada"
+ mobilization_option_mechanized_spearhead_desc:0 "Emprega blindados concentrados e tropas de choque mecanizadas com comunicação tática por rádio."
+ mobilization_option_advanced_field_hospitals:0 "Hospitais de Campanha Avançados"
+ mobilization_option_advanced_field_hospitals_desc:0 "Tendas de triagem na linha de frente equipadas com antissépticos e material cirúrgico para salvar combatentes."
+ mobilization_option_combat_surgeons:0 "Equipes de Cirurgiões de Combate"
+ mobilization_option_combat_surgeons_desc:0 "Unidades médicas móveis de emergência capazes de realizar transfusões e reabilitação rápida."
+ mobilization_option_aerial_reconnaissance:0 "Reconhecimento Aéreo Tático"
+ mobilization_option_aerial_reconnaissance_desc:0 "Monoplanos de reconhecimento monitoram as concentrações inimigas e orientam a artilharia."
+ mobilization_option_close_air_support:0 "Alas de Apoio Aéreo Próximo"
+ mobilization_option_close_air_support_desc:0 "Aeronaves de ataque ao solo realizam bombardeios de mergulho contra posições fortificadas."
+ mobilization_option_rolling_barrage:0 "Barragem de Artilharia Rolante"
+ mobilization_option_rolling_barrage_desc:0 "Coordenação de artilharia pesada criando uma cortina contínua de fogo à frente da infantaria que avança."
+ mobilization_option_chemical_countermeasures:0 "Equipamentos Anti-Guerra Química"
+ mobilization_option_chemical_countermeasures_desc:0 "Distribuição de máscaras de borracha vulcanizada e kits de descontaminação contra agentes tóxicos."
+
+ # Decisões
+ tlc_declare_general_mobilization:0 "Decretar Mobilização Geral Nacional"
+ tlc_declare_general_mobilization_desc:0 "Mobiliza as reservas da nação e amplia o recrutamento para reforçar constantemente as frentes de batalha."
+ tlc_wartime_industrial_conversion:0 "Conversão Industrial de Guerra"
+ tlc_wartime_industrial_conversion_desc:0 "Redireciona fábricas civis para a manufatura acelerada de munições, armamentos e veículos de combate."
+ tlc_issue_war_bonds:0 "Emitir Títulos de Guerra"
+ tlc_issue_war_bonds_desc:0 "Lança títulos de dívida patriótica para injetar liquidez imediata no tesouro de guerra."
+ tlc_strategic_fuel_rationing:0 "Racionamento Estratégico de Combustível"
+ tlc_strategic_fuel_rationing_desc:0 "Raciona o petróleo para a população civil e prioriza as forças blindadas e as esquadras navais."
+ tlc_total_war_economy:0 "Proclamar Economia de Guerra Total"
+ tlc_total_war_economy_desc:0 "Canaliza toda a sociedade e infraestrutura nacional para o esforço supremo de vitória."
+
+ # Modificadores
+ tlc_general_mobilization_modifier:0 "Mobilização Geral Ativa"
+ tlc_general_mobilization_modifier_desc:0 "Conscrição massiva e aumento da produção de armamentos sustentam as operações militares."
+ tlc_wartime_industrial_conversion_modifier:0 "Indústria Convertida para Guerra"
+ tlc_wartime_industrial_conversion_modifier_desc:0 "Fábricas estão dedicadas à manufatura de munições e equipamentos militares."
+ tlc_war_bonds_modifier:0 "Financiamento por Títulos de Guerra"
+ tlc_war_bonds_modifier_desc:0 "Crédito patriótico garante liquidez ao tesouro ao custo de juros futuros."
+ tlc_strategic_fuel_rationing_modifier:0 "Racionamento Militar de Combustível"
+ tlc_strategic_fuel_rationing_modifier_desc:0 "Petróleo canalizado para a logística do exército, reduzindo o custo de suprimentos das tropas."
+ tlc_total_war_economy_modifier:0 "Economia de Guerra Total"
+ tlc_total_war_economy_modifier_desc:0 "Todos os recursos do país estão mobilizados para a vitória militar decisiva."

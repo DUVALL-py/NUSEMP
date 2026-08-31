@@ -1,0 +1,54 @@
+l_english:
+ # ═══════════════════════════════════════════════════════════════
+ # TREKKER'S VICTORIA: LONG CENTURY — WAR & MOBILIZATION (ENGLISH)
+ # ═══════════════════════════════════════════════════════════════
+
+ # Mobilization Option Groups
+ mog_tlc_transport_logistics:0 "Logistics & Formation Transport"
+ mog_tlc_medical_support:0 "Combat Medical & Casualty Care"
+ mog_tlc_tactical_aviation:0 "Aviation Support & Air Cover"
+ mog_tlc_heavy_firepower:0 "Firepower & Doctrine Enhancements"
+
+ # Mobilization Options
+ mobilization_option_railway_logistics:0 "Strategic Railway Transport"
+ mobilization_option_railway_logistics_desc:0 "Prioritizes national rail networks for rapid army deployment and streamlined supply flow."
+ mobilization_option_motorized_supply_columns:0 "Motorized Supply Columns"
+ mobilization_option_motorized_supply_columns_desc:0 "Utilizes military truck fleets and fuel depots to maintain offensive tempo and rapid replenishment."
+ mobilization_option_mechanized_spearhead:0 "Mechanized Vanguard Spearhead"
+ mobilization_option_mechanized_spearhead_desc:0 "Deploys concentrated armor and mechanized shock units with coordinated tactical radio networks."
+ mobilization_option_advanced_field_hospitals:0 "Advanced Field Hospitals"
+ mobilization_option_advanced_field_hospitals_desc:0 "Frontline triage tents equipped with modern antiseptics and surgical supplies to treat wounded soldiers."
+ mobilization_option_combat_surgeons:0 "Emergency Surgical Teams"
+ mobilization_option_combat_surgeons_desc:0 "Specialized mobile medical units providing emergency transfusions and rapid frontline rehabilitation."
+ mobilization_option_aerial_reconnaissance:0 "Tactical Aerial Reconnaissance"
+ mobilization_option_aerial_reconnaissance_desc:0 "Monoplane reconnaissance flights monitor enemy troop concentrations and coordinate counter-battery fire."
+ mobilization_option_close_air_support:0 "Close Air Support Strike Wings"
+ mobilization_option_close_air_support_desc:0 "Ground attack aircraft conduct strafing and dive-bombing runs on adversary defensive strongpoints."
+ mobilization_option_rolling_barrage:0 "Creeping Artillery Barrage"
+ mobilization_option_rolling_barrage_desc:0 "Massed artillery coordination laying a protective wall of bursting shells directly ahead of advancing infantry."
+ mobilization_option_chemical_countermeasures:0 "Chemical Warfare Protective Gear"
+ mobilization_option_chemical_countermeasures_desc:0 "Issues vulcanized rubber gas masks and decontamination kits to insulate battalions from toxic hazards."
+
+ # Decisions
+ tlc_declare_general_mobilization:0 "Enact National General Mobilization"
+ tlc_declare_general_mobilization_desc:0 "Mobilize national reserves and expand the draft to ensure frontline divisions are reinforced continuously."
+ tlc_wartime_industrial_conversion:0 "Wartime Industrial Conversion"
+ tlc_wartime_industrial_conversion_desc:0 "Reorient civilian manufacturing workshops toward ammunition, weapons, and military vehicle production."
+ tlc_issue_war_bonds:0 "Issue National War Bonds"
+ tlc_issue_war_bonds_desc:0 "Float emergency debt instruments to patriotic citizens to inject immediate liquidity into the war chest."
+ tlc_strategic_fuel_rationing:0 "Strategic Fuel & Oil Rationing"
+ tlc_strategic_fuel_rationing_desc:0 "Strictly ration civilian motor fuel and prioritize refineries for frontline mechanized armies and naval fleets."
+ tlc_total_war_economy:0 "Proclaim Total War Economy"
+ tlc_total_war_economy_desc:0 "Harness every facet of society and the economy toward total victory in modern industrialized warfare."
+
+ # Modifiers
+ tlc_general_mobilization_modifier:0 "General Mobilization Active"
+ tlc_general_mobilization_modifier_desc:0 "Massive conscription and expanded weapons throughput support active military operations."
+ tlc_wartime_industrial_conversion_modifier:0 "Converted Wartime Industry"
+ tlc_wartime_industrial_conversion_modifier_desc:0 "Factories are dedicated to munitions and armament manufacturing."
+ tlc_war_bonds_modifier:0 "War Bonds Financing"
+ tlc_war_bonds_modifier_desc:0 "Patriotic lending provides cash reserves at the cost of long-term debt servicing."
+ tlc_strategic_fuel_rationing_modifier:0 "Wartime Fuel Rationing"
+ tlc_strategic_fuel_rationing_modifier_desc:0 "Petroleum is prioritized for military logistics, reducing unit supply burdens."
+ tlc_total_war_economy_modifier:0 "Total War Economy"
+ tlc_total_war_economy_modifier_desc:0 "All national resources and industries are fully mobilized for supreme military effort."

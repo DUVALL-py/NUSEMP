@@ -1,0 +1,215 @@
+# Trekker's Victoria: Long Century — Mobilization Options
+
+mobilization_option_railway_logistics = {
+	group = mog_tlc_transport_logistics
+	texture = "gfx/interface/icons/invention_icons/railways.dds"
+
+	unlocking_technologies = {
+		railways
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 1.0
+			goods_input_coal_add = 0.5
+		}
+	}
+
+	unit_modifiers = {
+		military_formation_movement_speed_mult = 0.20
+		unit_recovery_rate_add = 0.10
+		unit_supply_consumption_mult = -0.05
+	}
+}
+
+mobilization_option_motorized_supply_columns = {
+	group = mog_tlc_transport_logistics
+	texture = "gfx/interface/icons/invention_icons/combustion_engine.dds"
+
+	unlocking_technologies = {
+		combustion_engine
+		total_war_logistics
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_automobiles_add = 0.5
+			goods_input_oil_add = 1.0
+			goods_input_rubber_add = 0.3
+		}
+	}
+
+	unit_modifiers = {
+		military_formation_movement_speed_mult = 0.35
+		unit_offense_mult = 0.10
+		unit_recovery_rate_add = 0.15
+		unit_morale_damage_mult = 0.10
+	}
+}
+
+mobilization_option_mechanized_spearhead = {
+	group = mog_tlc_transport_logistics
+	texture = "gfx/interface/icons/invention_icons/tanks.dds"
+
+	unlocking_technologies = {
+		mechanized_warfare
+		combined_arms_doctrine
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_tanks_add = 0.4
+			goods_input_automobiles_add = 0.4
+			goods_input_oil_add = 1.5
+			goods_input_rubber_add = 0.5
+			goods_input_radios_add = 0.2
+		}
+	}
+
+	unit_modifiers = {
+		unit_offense_mult = 0.25
+		unit_devastation_mult = 0.25
+		unit_kill_rate_mult = 0.20
+		unit_morale_damage_mult = 0.15
+	}
+}
+
+mobilization_option_advanced_field_hospitals = {
+	group = mog_tlc_medical_support
+	texture = "gfx/interface/icons/invention_icons/pharmaceuticals.dds"
+
+	unlocking_technologies = {
+		pharmaceuticals
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_opium_add = 0.5
+			goods_input_liquor_add = 0.5
+			goods_input_fabric_add = 0.5
+		}
+	}
+
+	unit_modifiers = {
+		unit_casualty_recovery_add = 0.25
+		unit_morale_loss_mult = -0.15
+	}
+}
+
+mobilization_option_combat_surgeons = {
+	group = mog_tlc_medical_support
+	texture = "gfx/interface/icons/invention_icons/modern_medicine.dds"
+
+	unlocking_technologies = {
+		advanced_civil_rights
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_opium_add = 0.8
+			goods_input_liquor_add = 0.5
+			goods_input_glass_add = 0.3
+			goods_input_tools_add = 0.2
+		}
+	}
+
+	unit_modifiers = {
+		unit_casualty_recovery_add = 0.40
+		unit_recovery_rate_add = 0.20
+		unit_morale_loss_mult = -0.25
+	}
+}
+
+mobilization_option_aerial_reconnaissance = {
+	group = mog_tlc_tactical_aviation
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+
+	unlocking_technologies = {
+		military_aviation
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_aeroplanes_add = 0.3
+			goods_input_oil_add = 0.5
+			goods_input_radios_add = 0.2
+		}
+	}
+
+	unit_modifiers = {
+		unit_offense_mult = 0.10
+		unit_defense_mult = 0.10
+		unit_kill_rate_mult = 0.15
+	}
+}
+
+mobilization_option_close_air_support = {
+	group = mog_tlc_tactical_aviation
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+
+	unlocking_technologies = {
+		interwar_air_doctrine
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_aeroplanes_add = 0.6
+			goods_input_oil_add = 1.0
+			goods_input_explosives_add = 0.8
+			goods_input_radios_add = 0.3
+		}
+	}
+
+	unit_modifiers = {
+		unit_offense_mult = 0.20
+		unit_devastation_mult = 0.30
+		unit_kill_rate_mult = 0.25
+		unit_morale_damage_mult = 0.20
+	}
+}
+
+mobilization_option_rolling_barrage = {
+	group = mog_tlc_heavy_firepower
+	texture = "gfx/interface/icons/invention_icons/breech_loading_artillery.dds"
+
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_artillery_add = 0.5
+			goods_input_ammunition_add = 1.0
+			goods_input_explosives_add = 0.5
+		}
+	}
+
+	unit_modifiers = {
+		unit_offense_mult = 0.15
+		unit_devastation_mult = 0.20
+		unit_kill_rate_mult = 0.15
+	}
+}
+
+mobilization_option_chemical_countermeasures = {
+	group = mog_tlc_heavy_firepower
+	texture = "gfx/interface/icons/invention_icons/chemical_warfare.dds"
+
+	unlocking_technologies = {
+		chemical_warfare
+		vulcanization
+	}
+
+	consumption_modifiers = {
+		workforce_scaled = {
+			goods_input_rubber_add = 0.3
+			goods_input_fabric_add = 0.5
+			goods_input_glass_add = 0.2
+		}
+	}
+
+	unit_modifiers = {
+		unit_defense_mult = 0.15
+		unit_morale_loss_mult = -0.15
+	}
+}

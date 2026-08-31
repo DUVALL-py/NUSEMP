@@ -1,0 +1,132 @@
+# Trekker's Victoria: Long Century — War Mobilization & Defense Decisions
+
+tlc_declare_general_mobilization = {
+	is_shown = {
+		is_at_war = yes
+		NOT = { has_modifier = tlc_general_mobilization_modifier }
+	}
+
+	possible = {
+		is_at_war = yes
+	}
+
+	when_taken = {
+		add_modifier = {
+			name = tlc_general_mobilization_modifier
+			months = 24
+		}
+		add_war_exhaustion = 5
+	}
+
+	ai_chance = {
+		base = 50
+		modifier = {
+			trigger = {
+				any_enemy_country = {
+					country_rank >= rank_value:major_power
+				}
+			}
+			add = 50
+		}
+	}
+}
+
+tlc_wartime_industrial_conversion = {
+	is_shown = {
+		is_at_war = yes
+		NOT = { has_modifier = tlc_wartime_industrial_conversion_modifier }
+	}
+
+	possible = {
+		is_at_war = yes
+		has_technology_researched = standing_army
+	}
+
+	when_taken = {
+		add_modifier = {
+			name = tlc_wartime_industrial_conversion_modifier
+			months = 36
+		}
+	}
+
+	ai_chance = {
+		base = 40
+	}
+}
+
+tlc_issue_war_bonds = {
+	is_shown = {
+		is_at_war = yes
+		NOT = { has_modifier = tlc_war_bonds_modifier }
+	}
+
+	possible = {
+		is_at_war = yes
+		has_technology_researched = central_banking
+	}
+
+	when_taken = {
+		add_modifier = {
+			name = tlc_war_bonds_modifier
+			months = 24
+		}
+		add_treasury = 50000
+	}
+
+	ai_chance = {
+		base = 30
+		modifier = {
+			trigger = {
+				gold_reserves <= 10000
+			}
+			add = 60
+		}
+	}
+}
+
+tlc_strategic_fuel_rationing = {
+	is_shown = {
+		is_at_war = yes
+		has_technology_researched = combustion_engine
+		NOT = { has_modifier = tlc_strategic_fuel_rationing_modifier }
+	}
+
+	possible = {
+		is_at_war = yes
+	}
+
+	when_taken = {
+		add_modifier = {
+			name = tlc_strategic_fuel_rationing_modifier
+			months = 24
+		}
+	}
+
+	ai_chance = {
+		base = 30
+	}
+}
+
+tlc_total_war_economy = {
+	is_shown = {
+		is_at_war = yes
+		has_technology_researched = total_war_logistics
+		NOT = { has_modifier = tlc_total_war_economy_modifier }
+	}
+
+	possible = {
+		is_at_war = yes
+	}
+
+	when_taken = {
+		add_modifier = {
+			name = tlc_total_war_economy_modifier
+			months = 48
+		}
+		add_war_exhaustion = 10
+	}
+
+	ai_chance = {
+		base = 50
+	}
+}

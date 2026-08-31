@@ -1,0 +1,13 @@
+# Trekker's Victoria: Long Century — Mobilization Option Groups
+
+mog_tlc_transport_logistics = {
+}
+
+mog_tlc_medical_support = {
+}
+
+mog_tlc_tactical_aviation = {
+}
+
+mog_tlc_heavy_firepower = {
+}

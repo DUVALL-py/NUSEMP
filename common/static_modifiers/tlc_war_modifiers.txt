@@ -1,0 +1,43 @@
+# Trekker's Victoria: Long Century — Wartime Static Modifiers
+
+tlc_general_mobilization_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_wrench_positive.dds"
+	conscription_rate_mult = 0.50
+	mobilization_speed_mult = 0.35
+	building_arms_industries_throughput_mult = 0.20
+	building_munitions_plants_throughput_mult = 0.25
+	country_war_support_depletion_speed_mult = -0.15
+}
+
+tlc_wartime_industrial_conversion_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_gears_positive.dds"
+	building_arms_industries_throughput_mult = 0.30
+	building_munitions_plants_throughput_mult = 0.30
+	building_military_shipyards_throughput_mult = 0.25
+	building_steel_mills_throughput_mult = 0.15
+	state_construction_mult = -0.20
+}
+
+tlc_war_bonds_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_coins_positive.dds"
+	country_loan_interest_rate_mult = 0.10
+	country_minting_mult = 0.20
+	country_war_support_base_add = 10
+}
+
+tlc_strategic_fuel_rationing_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_oil_positive.dds"
+	unit_supply_consumption_mult = -0.20
+	building_oil_rigs_throughput_mult = 0.15
+	country_pop_standard_of_living_add = -0.5
+}
+
+tlc_total_war_economy_modifier = {
+	icon = "gfx/interface/icons/timed_modifier_icons/modifier_flag_positive.dds"
+	conscription_rate_mult = 1.00
+	mobilization_speed_mult = 0.50
+	army_power_projection_mult = 0.25
+	state_bureaucracy_cost_mult = -0.15
+	country_subsidies_max_mult = 0.50
+	country_pop_radicalization_mult = 0.10
+}
