@@ -1,0 +1,5 @@
+﻿# Journal entry group for all British Empire flavour content
+je_group_british_empire_affairs = {
+	context = none
+}
+
