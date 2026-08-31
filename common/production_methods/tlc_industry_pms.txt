@@ -1,0 +1,150 @@
+# Trekker's Victoria: Long Century — Industrial & Automation Production Methods
+
+pm_tlc_conveyor_assembly_tools = {
+	texture = "gfx/interface/icons/production_method_icons/shift_work.dds"
+
+	unlocking_technologies = {
+		conveyor_belt_automation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_iron_add = 40
+			goods_input_steel_add = 30
+			goods_input_electricity_add = 30
+			goods_input_rubber_add = 10
+
+			goods_output_tools_add = 180
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_tlc_conveyor_assembly_motors = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+
+	unlocking_technologies = {
+		conveyor_belt_automation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 50
+			goods_input_electricity_add = 35
+			goods_input_rubber_add = 20
+			goods_input_tools_add = 15
+
+			goods_output_engines_add = 100
+			goods_output_automobiles_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2200
+			building_employment_engineers_add = 1200
+		}
+	}
+}
+
+pm_tlc_tractor_mechanization = {
+	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+
+	unlocking_technologies = {
+		mechanized_agro_tech
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5
+			goods_input_oil_add = 10
+			goods_input_tools_add = 5
+
+			goods_output_grain_add = 120
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_farmers_add = 500
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+pm_tlc_haber_bosch_fertilizer = {
+	texture = "gfx/interface/icons/production_method_icons/ammonium_nitrate_explosive.dds"
+
+	unlocking_technologies = {
+		synthetic_fertilizers_tech
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 30
+			goods_input_electricity_add = 25
+			goods_input_sulfur_add = 15
+
+			goods_output_fertilizer_add = 150
+			goods_output_explosives_add = 50
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_tlc_continuous_casting_steel = {
+	texture = "gfx/interface/icons/production_method_icons/open_hearth_process.dds"
+
+	unlocking_technologies = {
+		continuous_steel_casting
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_iron_add = 80
+			goods_input_coal_add = 60
+			goods_input_electricity_add = 40
+			goods_input_tools_add = 15
+
+			goods_output_steel_add = 220
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+pm_tlc_synthetic_fuel_liquefaction = {
+	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+
+	unlocking_technologies = {
+		synthetic_fuel_synthesis
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_coal_add = 60
+			goods_input_electricity_add = 30
+			goods_input_tools_add = 10
+
+			goods_output_oil_add = 120
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1200
+		}
+	}
+}

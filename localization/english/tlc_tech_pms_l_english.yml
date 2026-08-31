@@ -1,0 +1,73 @@
+l_english:
+ # ═══════════════════════════════════════════════════════════════
+ # TREKKER'S VICTORIA: LONG CENTURY — TECHNOLOGIES & PMS (ENGLISH)
+ # ═══════════════════════════════════════════════════════════════
+
+ # Technologies - Production
+ synthetic_polymers_tech:0 "Synthetic Polymers & Industrial Rubber"
+ synthetic_polymers_tech_desc:0 "Advances in chemical synthesis allow the development of artificial rubber and polymer compounds, reducing dependence on tropical plantations."
+ conveyor_belt_automation:0 "Conveyor Belt Assembly Lines"
+ conveyor_belt_automation_desc:0 "Continuous assembly line processes revolutionize mass manufacturing, dramatically accelerating industrial throughput and workforce productivity."
+ mechanized_agro_tech:0 "Mechanized Agriculture & Tractors"
+ mechanized_agro_tech_desc:0 "Internal combustion engines replace draught animals and manual field hands, freeing millions of agricultural laborers for urban factory work."
+ synthetic_fertilizers_tech:0 "Haber-Bosch Nitrogen Synthesis"
+ synthetic_fertilizers_tech_desc:0 "Direct chemical fixation of atmospheric nitrogen enables massive production of industrial fertilizers and high explosives."
+ continuous_steel_casting:0 "Continuous Steel Casting"
+ continuous_steel_casting_desc:0 "Modern metallurgical foundries convert molten steel directly into standardized slabs, minimizing energy loss and physical labor."
+ modern_petrochemical_complexes:0 "Modern Petrochemical Complexes"
+ modern_petrochemical_complexes_desc:0 "Integrated refineries and catalytic cracking units extract high-octane fuels, lubricants, and essential industrial derivatives."
+ interwar_aviation_industry:0 "Interbellum Aviation Industry"
+ interwar_aviation_industry_desc:0 "Industrial assembly techniques applied to all-metal monoplanes, creating powerful commercial and military aviation fleets."
+ synthetic_fuel_synthesis:0 "Synthetic Fuel Liquefaction"
+ synthetic_fuel_synthesis_desc:0 "Fischer-Tropsch chemical synthesis converts domestic coal reserves into liquid fuel for motorized transport and wartime operations."
+
+ # Technologies - Military
+ mechanized_warfare:0 "Mechanized Warfare & Armored Formations"
+ mechanized_warfare_desc:0 "Integrating armored fighting vehicles with motorized infantry into self-contained operational strike groups."
+ combined_arms_doctrine:0 "Combined Arms Doctrine"
+ combined_arms_doctrine_desc:0 "Coordinating infantry, armor, artillery, and tactical air support to exploit breakthroughs and encircle adversary forces."
+ interwar_air_doctrine:0 "Strategic Air Doctrine"
+ interwar_air_doctrine_desc:0 "Deep-penetration bomber wings capable of crippling industrial infrastructure and logistics behind the frontline."
+ radar_detection_tech:0 "Radio Detection & Ranging (Radar)"
+ radar_detection_tech_desc:0 "Electromagnetic pulse detection provides early warning of aerial raids and superior maritime fleet tracking."
+ total_war_logistics:0 "Total War Logistics"
+ total_war_logistics_desc:0 "Comprehensive national mobilization combining centralized supply distribution, rapid troop rail movements, and motor pools."
+ fast_carrier_task_force:0 "Fast Carrier Task Force"
+ fast_carrier_task_force_desc:0 "Fleet carriers operating as the core offensive striking arm of modern naval warfare."
+
+ # Technologies - Society
+ scientific_management:0 "Taylorism & Scientific Management"
+ scientific_management_desc:0 "Systematic workflow optimization and industrial engineering maximize factory efficiency and administrative oversight."
+ mass_media_telecom:0 "Mass Media & Telecommunications"
+ mass_media_telecom_desc:0 "Radio broadcast networks and telephone systems unify national public opinion and enable swift governmental directives."
+ modern_macroeconomics:0 "Keynesian Macroeconomics"
+ modern_macroeconomics_desc:0 "State counter-cyclical investment and credit regulation counteract industrial downturns and sustain aggregate demand."
+ advanced_civil_rights:0 "Universal Civil Rights"
+ advanced_civil_rights_desc:0 "Legal protection for individual personal liberties, workplace rights, and social equality regardless of identity."
+ welfare_state_mechanics:0 "Universal Social Security"
+ welfare_state_mechanics_desc:0 "Institutional safety nets, pensions, and unemployment insurance stabilize standard of living across the populace."
+
+ # Production Methods
+ pm_tlc_intensive_tapping:0 "Intensive Plantation Tapping"
+ pm_tlc_synthetic_buna_rubber:0 "Synthetic Buna-S Rubber Plants"
+ pm_tlc_rubber_vulcanized_goods:0 "Vulcanized Rubber Products"
+ pm_tlc_conveyor_assembly_tools:0 "Assembly Line Tooling"
+ pm_tlc_conveyor_assembly_motors:0 "Assembly Line Motor Fabrication"
+ pm_tlc_tractor_mechanization:0 "Tractor Mechanization"
+ pm_tlc_haber_bosch_fertilizer:0 "Haber-Bosch Nitrogen Synthesis"
+ pm_tlc_continuous_casting_steel:0 "Continuous Oxygen Casting"
+ pm_tlc_synthetic_fuel_liquefaction:0 "Coal-to-Oil Liquefaction"
+ pm_tlc_motorized_infantry:0 "Motorized Infantry Divisions"
+ pm_tlc_mechanized_division:0 "Mechanized Armored Divisions"
+ pm_tlc_strategic_aviation:0 "Strategic Bomber Wings"
+
+ # PM Groups
+ pmg_tlc_rubber_intensive:0 "Rubber Extraction Method"
+ pmg_tlc_synthetic_buna:0 "Synthetic Rubber Synthesis"
+ pmg_tlc_conveyor_automation:0 "Assembly Line Automation"
+ pmg_tlc_agro_mechanization:0 "Agricultural Mechanization"
+ pmg_tlc_haber_bosch:0 "Industrial Chemical Synthesis"
+ pmg_tlc_continuous_casting:0 "Foundry Casting Method"
+ pmg_tlc_synthetic_fuel:0 "Synthetic Fuel Method"
+ pmg_tlc_motorized_division:0 "Mechanized Division Structure"
+ pmg_tlc_strategic_air:0 "Aviation Wing Structure"

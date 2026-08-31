@@ -1,0 +1,23 @@
+era_1 = {
+	technology_cost = 5000
+}
+
+era_2 = {
+	technology_cost = 8250
+}
+
+era_3 = {
+	technology_cost = 12000
+}
+
+era_4 = {
+	technology_cost = 16250
+}
+
+era_5 = {
+	technology_cost = 21000
+}
+
+era_6 = {
+	technology_cost = 28000
+}

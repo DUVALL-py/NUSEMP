@@ -1,0 +1,72 @@
+# Trekker's Victoria: Long Century — Rubber Production Methods
+
+pm_tlc_intensive_tapping = {
+	texture = "gfx/interface/icons/production_method_icons/rubber_plantation.dds"
+
+	unlocking_technologies = {
+		vulcanization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 10
+			goods_input_fertilizer_add = 10
+			goods_output_rubber_add = 80
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2500
+			building_employment_farmers_add = 500
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_tlc_synthetic_buna_rubber = {
+	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
+
+	unlocking_technologies = {
+		synthetic_polymers_tech
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 30
+			goods_input_sulfur_add = 15
+			goods_input_electricity_add = 25
+			goods_input_tools_add = 10
+
+			goods_output_rubber_add = 120
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_tlc_rubber_vulcanized_goods = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
+	unlocking_technologies = {
+		vulcanization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_rubber_add = 15
+			goods_input_fabric_add = 10
+			goods_input_tools_add = 5
+
+			goods_output_luxury_clothes_add = 40
+			goods_output_services_add = 20
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 400
+			building_employment_machinists_add = 600
+		}
+	}
+}

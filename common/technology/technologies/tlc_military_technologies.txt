@@ -1,0 +1,119 @@
+# Trekker's Victoria: Long Century — Military Technologies (1836–1945)
+
+mechanized_warfare = {
+	era = era_5
+	category = military
+	texture = "gfx/interface/icons/invention_icons/tanks.dds"
+	ai_weight = {
+		value = 1.5
+	}
+	
+	unlocking_technologies = {
+		tanks
+		conveyor_belt_automation
+	}
+	
+	modifier = {
+		unit_offense_mult = 0.15
+		unit_defense_mult = 0.10
+		unit_morale_damage_mult = 0.15
+	}
+}
+
+combined_arms_doctrine = {
+	era = era_5
+	category = military
+	texture = "gfx/interface/icons/invention_icons/modern_divisional_structure.dds"
+	ai_weight = {
+		value = 1.4
+	}
+	
+	unlocking_technologies = {
+		mechanized_warfare
+		general_staff
+	}
+	
+	modifier = {
+		unit_offense_mult = 0.10
+		unit_recovery_rate_add = 0.10
+		military_formation_movement_speed_mult = 0.15
+	}
+}
+
+interwar_air_doctrine = {
+	era = era_5
+	category = military
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	ai_weight = {
+		value = 1.3
+	}
+	
+	unlocking_technologies = {
+		military_aviation
+		interwar_aviation_industry
+	}
+	
+	modifier = {
+		unit_kill_rate_mult = 0.15
+		unit_devastation_mult = 0.20
+	}
+}
+
+radar_detection_tech = {
+	era = era_5
+	category = military
+	texture = "gfx/interface/icons/invention_icons/radio.dds"
+	ai_weight = {
+		value = 1.2
+	}
+	
+	unlocking_technologies = {
+		radio
+		electrical_generation
+	}
+	
+	modifier = {
+		unit_defense_mult = 0.15
+		navy_intercept_rate_mult = 0.25
+	}
+}
+
+total_war_logistics = {
+	era = era_5
+	category = military
+	texture = "gfx/interface/icons/invention_icons/army_reserves.dds"
+	ai_weight = {
+		value = 1.5
+	}
+	
+	unlocking_technologies = {
+		combined_arms_doctrine
+		modern_petrochemical_complexes
+	}
+	
+	modifier = {
+		unit_supply_consumption_mult = -0.15
+		mobilization_speed_mult = 0.25
+		army_power_projection_mult = 0.15
+	}
+}
+
+fast_carrier_task_force = {
+	era = era_5
+	category = military
+	texture = "gfx/interface/icons/invention_icons/carrier_tech.dds"
+	ai_weight = {
+		value = 1.3
+	}
+	
+	unlocking_technologies = {
+		carrier_tech
+		interwar_air_doctrine
+	}
+	
+	modifier = {
+		navy_offense_mult = 0.20
+		navy_defense_mult = 0.10
+		navy_morale_damage_mult = 0.15
+	}
+}

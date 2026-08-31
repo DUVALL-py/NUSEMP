@@ -1,0 +1,73 @@
+l_braz_por:
+ # ═══════════════════════════════════════════════════════════════
+ # TREKKER'S VICTORIA: LONG CENTURY — TECNOLOGIAS & PMS (PORTUGUÊS)
+ # ═══════════════════════════════════════════════════════════════
+
+ # Tecnologias - Produção
+ synthetic_polymers_tech:0 "Polímeros Sintéticos e Borracha Industrial"
+ synthetic_polymers_tech_desc:0 "Avanços na síntese química permitem a criação de borracha artificial e compostos poliméricos, reduzindo a dependência de plantações tropicais."
+ conveyor_belt_automation:0 "Linhas de Montagem Contínua"
+ conveyor_belt_automation_desc:0 "Processos de montagem em esteira revolucionam a manufatura em massa, acelerando drasticamente o rendimento industrial e a produtividade da mão de obra."
+ mechanized_agro_tech:0 "Mecanização Agrícola e Tratores"
+ mechanized_agro_tech_desc:0 "Motores a combustão interna substituem animais de tração e trabalho braçal nos campos, liberando milhões de trabalhadores rurais para a indústria urbana."
+ synthetic_fertilizers_tech:0 "Síntese de Nitrogênio Haber-Bosch"
+ synthetic_fertilizers_tech_desc:0 "A fixação química direta do nitrogênio atmosférico possibilita a produção em larga escala de fertilizantes industriais e altos explosivos."
+ continuous_steel_casting:0 "Lingotamento Contínuo de Aço"
+ continuous_steel_casting_desc:0 "Fundições metalúrgicas modernas convertem aço líquido diretamente em placas padronizadas, minimizando perdas de energia e esforço físico."
+ modern_petrochemical_complexes:0 "Complexos Petroquímicos Modernos"
+ modern_petrochemical_complexes_desc:0 "Refinarias integradas e unidades de craqueamento catalítico extraem combustíveis de alta octanagem, lubrificantes e derivados industriais vitais."
+ interwar_aviation_industry:0 "Indústria Aeronáutica Interbellum"
+ interwar_aviation_industry_desc:0 "Técnicas de montagem industrial aplicadas a monoplanos metálicos criam frotas comerciais e militares formidáveis."
+ synthetic_fuel_synthesis:0 "Liquefação de Combustível Sintético"
+ synthetic_fuel_synthesis_desc:0 "A síntese química Fischer-Tropsch converte reservas nacionais de carvão em combustível líquido para transporte motorizado e operações de guerra."
+
+ # Tecnologias - Militar
+ mechanized_warfare:0 "Guerra Mecanizada e Blindados"
+ mechanized_warfare_desc:0 "Integração de veículos blindados de combate com infantaria motorizada em grupos operacionais autônomos de choque."
+ combined_arms_doctrine:0 "Doutrina de Armas Combinadas"
+ combined_arms_doctrine_desc:0 "Coordenação de infantaria, blindados, artilharia e apoio aéreo tático para romper linhas e cercar forças adversárias."
+ interwar_air_doctrine:0 "Doutrina Aérea Estratégica"
+ interwar_air_doctrine_desc:0 "Alas de bombardeiros de penetração profunda capazes de paralisar a infraestrutura industrial e a logística inimiga."
+ radar_detection_tech:0 "Detecção e Rastreamento por Radar"
+ radar_detection_tech_desc:0 "A detecção por pulsos eletromagnéticos fornece alerta antecipado contra ataques aéreos e rastreamento superior de esquadras navais."
+ total_war_logistics:0 "Logística de Guerra Total"
+ total_war_logistics_desc:0 "Mobilização nacional abrangente combinando distribuição centralizada de suprimentos, ferrovias e comboios motorizados."
+ fast_carrier_task_force:0 "Força-Tarefa de Porta-Aviões Rápidos"
+ fast_carrier_task_force_desc:0 "Porta-aviões operando como o braço ofensivo central do poder naval moderno."
+
+ # Tecnologias - Sociedade
+ scientific_management:0 "Taylorismo e Gestão Científica"
+ scientific_management_desc:0 "Otimização sistemática de fluxos de trabalho e engenharia industrial maximizam o rendimento fabril e o controle administrativo."
+ mass_media_telecom:0 "Mídia de Massa e Telecomunicações"
+ mass_media_telecom_desc:0 "Redes de radiodifusão e sistemas telefônicos unificam a opinião pública nacional e aceleram diretrizes governamentais."
+ modern_macroeconomics:0 "Macroeconomia Keynesiana"
+ modern_macroeconomics_desc:0 "Investimento contracíclico estatal e regulação de crédito neutralizam crises industriais e sustentam a demanda agregada."
+ advanced_civil_rights:0 "Direitos Civis Universais"
+ advanced_civil_rights_desc:0 "Proteção legal para liberdades individuais, direitos trabalhistas e igualdade social sem distinção de identidade."
+ welfare_state_mechanics:0 "Seguridade Social Universal"
+ welfare_state_mechanics_desc:0 "Redes de proteção institucional, aposentadorias e seguro-desemprego estabilizam o padrão de vida de toda a população."
+
+ # Métodos de Produção
+ pm_tlc_intensive_tapping:0 "Sangria Intensiva de Seringais"
+ pm_tlc_synthetic_buna_rubber:0 "Usinas de Borracha Sintética Buna-S"
+ pm_tlc_rubber_vulcanized_goods:0 "Artefatos de Borracha Vulcanizada"
+ pm_tlc_conveyor_assembly_tools:0 "Ferramentaria em Linha de Montagem"
+ pm_tlc_conveyor_assembly_motors:0 "Fabricação de Motores em Esteira"
+ pm_tlc_tractor_mechanization:0 "Mecanização por Tratores"
+ pm_tlc_haber_bosch_fertilizer:0 "Síntese de Nitrogênio Haber-Bosch"
+ pm_tlc_continuous_casting_steel:0 "Lingotamento Contínuo com Oxigênio"
+ pm_tlc_synthetic_fuel_liquefaction:0 "Liquefação de Carvão em Petróleo"
+ pm_tlc_motorized_infantry:0 "Divisões de Infantaria Motorizada"
+ pm_tlc_mechanized_division:0 "Divisões Blindadas Mecanizadas"
+ pm_tlc_strategic_aviation:0 "Alas de Bombardeiros Estratégicos"
+
+ # Grupos de PM
+ pmg_tlc_rubber_intensive:0 "Método de Extração de Borracha"
+ pmg_tlc_synthetic_buna:0 "Síntese de Borracha Sintética"
+ pmg_tlc_conveyor_automation:0 "Automação por Linha de Montagem"
+ pmg_tlc_agro_mechanization:0 "Mecanização Agrícola"
+ pmg_tlc_haber_bosch:0 "Síntese Química Industrial"
+ pmg_tlc_continuous_casting:0 "Método de Fundição Metalúrgica"
+ pmg_tlc_synthetic_fuel:0 "Método de Combustível Sintético"
+ pmg_tlc_motorized_division:0 "Estrutura de Divisão Mecanizada"
+ pmg_tlc_strategic_air:0 "Estrutura de Ala Aérea"

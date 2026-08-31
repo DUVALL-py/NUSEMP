@@ -1,0 +1,149 @@
+# Trekker's Victoria: Long Century — Production Technologies (1836–1945)
+
+synthetic_polymers_tech = {
+	era = era_4
+	category = production
+	texture = "gfx/interface/icons/invention_icons/plastics.dds"
+	ai_weight = {
+		value = 1.2
+	}
+	
+	unlocking_technologies = {
+		pasteurization
+		vulcanization
+	}
+	
+	modifier = {
+		building_chemical_plants_throughput_mult = 0.15
+	}
+}
+
+conveyor_belt_automation = {
+	era = era_4
+	category = production
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	ai_weight = {
+		value = 1.3
+	}
+	
+	unlocking_technologies = {
+		combustion_engine
+		electrical_generation
+	}
+	
+	modifier = {
+		building_economy_of_scale_level_cap_add = 10
+		state_production_mult = 0.05
+	}
+}
+
+mechanized_agro_tech = {
+	era = era_4
+	category = production
+	texture = "gfx/interface/icons/invention_icons/threshing_machine.dds"
+	ai_weight = {
+		value = 1.1
+	}
+	
+	unlocking_technologies = {
+		combustion_engine
+		chemical_fertilizers
+	}
+	
+	modifier = {
+		building_agriculture_throughput_mult = 0.15
+	}
+}
+
+synthetic_fertilizers_tech = {
+	era = era_4
+	category = production
+	texture = "gfx/interface/icons/invention_icons/ammonium_nitrate_explosive.dds"
+	ai_weight = {
+		value = 1.2
+	}
+	
+	unlocking_technologies = {
+		synthetic_polymers_tech
+	}
+	
+	modifier = {
+		building_chemical_plants_throughput_mult = 0.10
+		building_plantations_throughput_mult = 0.10
+	}
+}
+
+continuous_steel_casting = {
+	era = era_5
+	category = production
+	texture = "gfx/interface/icons/invention_icons/open_hearth_process.dds"
+	ai_weight = {
+		value = 1.4
+	}
+	
+	unlocking_technologies = {
+		bessemer_process
+		electrical_generation
+		conveyor_belt_automation
+	}
+	
+	modifier = {
+		building_steel_mills_throughput_mult = 0.20
+		building_economy_of_scale_level_cap_add = 15
+	}
+}
+
+modern_petrochemical_complexes = {
+	era = era_5
+	category = production
+	texture = "gfx/interface/icons/invention_icons/combustion_engine.dds"
+	ai_weight = {
+		value = 1.5
+	}
+	
+	unlocking_technologies = {
+		synthetic_polymers_tech
+		conveyor_belt_automation
+	}
+	
+	modifier = {
+		building_oil_rigs_throughput_mult = 0.20
+		state_infrastructure_from_population_max_mult = 0.10
+	}
+}
+
+interwar_aviation_industry = {
+	era = era_5
+	category = production
+	texture = "gfx/interface/icons/invention_icons/military_aviation.dds"
+	ai_weight = {
+		value = 1.2
+	}
+	
+	unlocking_technologies = {
+		military_aviation
+		conveyor_belt_automation
+	}
+	
+	modifier = {
+		building_arms_industries_throughput_mult = 0.15
+	}
+}
+
+synthetic_fuel_synthesis = {
+	era = era_5
+	category = production
+	texture = "gfx/interface/icons/invention_icons/aniline.dds"
+	ai_weight = {
+		value = 1.3
+	}
+	
+	unlocking_technologies = {
+		modern_petrochemical_complexes
+		synthetic_fertilizers_tech
+	}
+	
+	modifier = {
+		building_chemical_plants_throughput_mult = 0.20
+	}
+}

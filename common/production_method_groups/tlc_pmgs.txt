@@ -1,0 +1,66 @@
+# Trekker's Victoria: Long Century — Production Method Groups
+
+pmg_tlc_rubber_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/rubber_plantation.dds"
+	production_methods = {
+		pm_tlc_intensive_tapping
+	}
+}
+
+pmg_tlc_synthetic_buna = {
+	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
+	production_methods = {
+		pm_tlc_synthetic_buna_rubber
+	}
+}
+
+pmg_tlc_conveyor_automation = {
+	texture = "gfx/interface/icons/production_method_icons/shift_work.dds"
+	production_methods = {
+		pm_tlc_conveyor_assembly_tools
+		pm_tlc_conveyor_assembly_motors
+	}
+}
+
+pmg_tlc_agro_mechanization = {
+	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+	production_methods = {
+		pm_tlc_tractor_mechanization
+	}
+}
+
+pmg_tlc_haber_bosch = {
+	texture = "gfx/interface/icons/production_method_icons/ammonium_nitrate_explosive.dds"
+	production_methods = {
+		pm_tlc_haber_bosch_fertilizer
+	}
+}
+
+pmg_tlc_continuous_casting = {
+	texture = "gfx/interface/icons/production_method_icons/open_hearth_process.dds"
+	production_methods = {
+		pm_tlc_continuous_casting_steel
+	}
+}
+
+pmg_tlc_synthetic_fuel = {
+	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+	production_methods = {
+		pm_tlc_synthetic_fuel_liquefaction
+	}
+}
+
+pmg_tlc_motorized_division = {
+	texture = "gfx/interface/icons/production_method_icons/squad_infantry.dds"
+	production_methods = {
+		pm_tlc_motorized_infantry
+		pm_tlc_mechanized_division
+	}
+}
+
+pmg_tlc_strategic_air = {
+	texture = "gfx/interface/icons/production_method_icons/military_aviation.dds"
+	production_methods = {
+		pm_tlc_strategic_aviation
+	}
+}

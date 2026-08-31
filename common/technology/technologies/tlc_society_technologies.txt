@@ -1,0 +1,101 @@
+# Trekker's Victoria: Long Century — Society Technologies (1836–1945)
+
+scientific_management = {
+	era = era_4
+	category = society
+	texture = "gfx/interface/icons/invention_icons/labor_movement.dds"
+	ai_weight = {
+		value = 1.3
+	}
+	
+	unlocking_technologies = {
+		bureaucracy
+		conveyor_belt_automation
+	}
+	
+	modifier = {
+		state_bureaucracy_cost_mult = -0.10
+		state_production_mult = 0.05
+		country_private_investment_allocation_mult = 0.05
+	}
+}
+
+mass_media_telecom = {
+	era = era_5
+	category = society
+	texture = "gfx/interface/icons/invention_icons/telephones.dds"
+	ai_weight = {
+		value = 1.4
+	}
+	
+	unlocking_technologies = {
+		radio
+		scientific_management
+	}
+	
+	modifier = {
+		country_authority_add = 100
+		country_institution_bureaucracy_investment_cost_mult = -0.10
+		country_legitimacy_base_add = 10
+	}
+}
+
+modern_macroeconomics = {
+	era = era_5
+	category = society
+	texture = "gfx/interface/icons/invention_icons/central_banking.dds"
+	ai_weight = {
+		value = 1.5
+	}
+	
+	unlocking_technologies = {
+		central_banking
+		scientific_management
+	}
+	
+	modifier = {
+		country_loan_interest_rate_mult = -0.20
+		country_minting_mult = 0.15
+		state_tax_capacity_add = 20
+	}
+}
+
+advanced_civil_rights = {
+	era = era_5
+	category = society
+	texture = "gfx/interface/icons/invention_icons/feminism.dds"
+	ai_weight = {
+		value = 1.1
+	}
+	
+	unlocking_technologies = {
+		human_rights
+		mass_media_telecom
+	}
+	
+	modifier = {
+		country_pop_radicalization_mult = -0.10
+		interest_group_intelligentsia_political_strength_mult = 0.15
+		interest_group_trade_unions_political_strength_mult = 0.15
+	}
+}
+
+welfare_state_mechanics = {
+	era = era_5
+	category = society
+	texture = "gfx/interface/icons/invention_icons/anarchism.dds"
+	ai_weight = {
+		value = 1.2
+	}
+	
+	unlocking_technologies = {
+		socialism
+		modern_macroeconomics
+	}
+	
+	modifier = {
+		country_subsidies_max_mult = 0.25
+		interest_group_trade_unions_pol_str_mult = 0.10
+		country_infamy_decay_mult = 0.10
+	}
+}
