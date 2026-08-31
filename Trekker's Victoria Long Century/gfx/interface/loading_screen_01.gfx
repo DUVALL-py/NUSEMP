@@ -1,6 +1,0 @@
-spriteType = {
-	name = "GFX_loading_screen_01"
-	texturefile = "mod/Trekker's Victoria Long Century/gfx/interface/pics/loading_01.dds"
-	noOfFrames = 1
-	mesh = "loading_screen"
-}
